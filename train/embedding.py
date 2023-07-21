@@ -1,23 +1,10 @@
 import json
-
-import json
 from pathlib import Path
-from pprint import pprint
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib
-import random
-import torch.cuda
+
 import torch.backends
-import os
-
-from langchain.document_loaders import JSONLoader
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
-from sklearn.metrics.pairwise import cosine_similarity
 from langchain.schema import Document
-
-from readjson.jsonclass import Handed
+from langchain.vectorstores import Chroma
 
 # 使用 https://github.com/JovenChu/embedding_model_test 的经验
 
@@ -37,8 +24,8 @@ with open(file='./../resource/output_chs.json', mode='r', encoding="utf-8") as f
 embeddings = HuggingFaceEmbeddings(model_name=embedding_model_dict['text2vec-base'],
                                    model_kwargs={'device': EMBEDDING_DEVICE})
 
-file_path = './../resource/output_chs.json'
-data = json.loads(Path(file_path).read_text(encoding="utf-8"))
+# file_path = './../resource/output_chs.json'
+# data = json.loads(Path(file_path).read_text(encoding="utf-8"))
 
 # jq 包在windows 的不支持
 # loader = JSONLoader(file_path='./../resource/output_chs.json',jq_schema='.text')
@@ -46,10 +33,13 @@ data = json.loads(Path(file_path).read_text(encoding="utf-8"))
 # 制作嵌入式向量
 docs = []
 for each in json_data:
-    doc = Document(page_content=each.get('text', ''),
+    doc = Document(page_content=each.get('npcName', '') + ":\"" + each.get('text', '')+"\"",
                    metadata={"language": each.get('language', ''), "npcName": each.get('npcName', ''),
                              "type": each.get('type', '')})
     docs.append(doc)
+print("start")
 
 # pprint(data)
-vectorstore = Chroma.from_documents(docs, embeddings, persist_directory="./../resource/dict")
+vectorstore = Chroma.from_documents(docs, embeddings, persist_directory="./../resource/dict/v4")
+
+print("exit")
