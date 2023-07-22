@@ -72,3 +72,7 @@ picture/
 config1.ini
 
 *.sqlite3
+
+*.bin
+
+*.pickle
