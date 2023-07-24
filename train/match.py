@@ -44,7 +44,7 @@ embeddings = HuggingFaceEmbeddings(model_name=embedding_model_dict['text2vec-bas
                                    model_kwargs={'device': EMBEDDING_DEVICE})
 
 # 加载VectorDB =============================================================
-vectordb = Chroma(persist_directory="./../resource/dict/v4", embedding_function=embeddings)
+vectordb = Chroma(persist_directory="./resource/dict/v4", embedding_function=embeddings)
 
 # 加载检索器 ================================================================
 retriever = SelfQueryRetriever.from_llm(
@@ -63,11 +63,26 @@ class MatchAnswer:
             # Add other key-value pairs as needed
         }
         query = f"""npc who 's name is ```{self.role_name}``` 's speak about ```{raw_answer}```"""
-
-        documents = retriever.get_relevant_documents(query=query)
+        # 组合 多查询检索器 和 自我检索器
+        template = f"""You are an AI language model assistant. Your task is to generate five 
+            different versions of the given user question to retrieve relevant documents from a vector 
+            database. By generating multiple perspectives on the user question, your goal is to help
+            the user overcome some of the limitations of the distance-based similarity search. 
+            Provide these alternative questions seperated by newlines.
+            Original question: {raw_answer}"""
+        llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY)
+        questions = llm.predict(template)
+        output_list = questions.split("\n")
         contents = []
-        for doc in documents:
-            contents.append(doc.page_content + "\n")
+        for i in range(len(output_list)):
+            print(output_list[i])
+            # 本人看法
+            query = f"""whose npcName is {self.role_name} said :```{output_list[i]}```"""
+            documents = retriever.get_relevant_documents(query)
+            for doc in documents:
+                # 去重
+                if doc.page_content not in contents:
+                    contents.append(doc.page_content)
         return contents
 
 

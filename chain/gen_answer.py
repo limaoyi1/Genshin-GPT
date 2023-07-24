@@ -28,9 +28,11 @@ class GenAnswerOfRole(Gen):
     material: str = None
     query: str = None
     match_answers: [] = None
+    match_query: [] = None
 
     def __init__(self, session_id, role_name):
         super().__init__(session_id)
+        self.match_query = None
         self.role_name = role_name
 
     def query_to_role(self, query):
@@ -40,33 +42,40 @@ class GenAnswerOfRole(Gen):
         return self.get_role_answer()
 
     def predict_answer_init(self):
-        text = f"""请你作为{self.role_name}(游戏角色) 简要的回答以下问题:
-        Question: {self.query}
-        """
-        llm1 = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY)
-        self.material =llm1.predict(text)
+        # 真的有必要在问一遍LLM吗？
+        # text = f"""请你作为{self.role_name}(游戏角色) 简要的回答以下问题:
+        # Question: {self.query}
+        # """
+        # llm1 = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY)
+        # self.material =llm1.predict(text)
+        pass
 
     def get_match_answer(self):
         answer = MatchAnswer(self.role_name)
-        self.match_answers = answer.match(self.material)
+        # self.match_answers = answer.match(self.material)
+        self.match_answers = answer.match(self.query)
         print(self.match_answers)
 
     def get_role_answer(self):
-        template = f"""Refer to the speech of this character below, I hope you answer my question using Simplified Chinese as the speaking style of this character.
-        Relevant information:
-        {self.match_answers}
+        text = ""
+        for answer1 in self.match_answers:
+            text = text + answer1 + "\n"+"        "
+        template = f"""Please refer to records, Answer my questions in the first person as {self.role_name}.
+        Try to mimic the character's language style.Don't repeat your answer to the record I gave you.Please answer briefly
+        These are some historical records retrieved in the database via vectors:
+        {text}
         Question: {self.query}
-        Helpful Answer:"""
-        llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY)
+        {self.role_name}:"""
+        llm = ChatOpenAI(temperature=0.4, openai_api_key=config.OPENAI_API_KEY)
         return self.GptChain.predict(template)
 
 
 if __name__ == '__main__':
     # session_id = str(uuid.uuid4())
-    session_id ="12345789"
+    session_id ="1234578913161"
     print(session_id)
-    query = "下班吃什么"
-    role = "雷电将军"
+    query = "如何看待剑术"
+    role = "神里绫华"
     title = GenAnswerOfRole(session_id, role)
     answer = title.query_to_role(query)
     print("\n\n\n")
