@@ -10,15 +10,17 @@ class GptChain:
     Human: {human_input}
     Chatbot:"""
     openai_api_key: str = None
+    openai_base_url: str = None
     session_id: str = None
     redis_url: str = None
     llm_chain: LLMChain = None
     message_history: RedisChatMessageHistory = None
 
-    def __init__(self, openai_api_key, session_id, redis_url):
+    def __init__(self, openai_api_key, session_id, redis_url, openai_base_url="https://api.openai.com/v1"):
         self.openai_api_key = openai_api_key
         self.session_id = session_id
         self.redis_url = redis_url
+        self.openai_base_url = openai_base_url
         self.redis_llm_chain_factory()
 
     def redis_llm_chain_factory(self):
@@ -36,7 +38,9 @@ class GptChain:
         prompt = PromptTemplate(
             input_variables=["chat_history", "human_input"], template=self.template)
         llm_chain = LLMChain(
-            llm=OpenAI(model_name="gpt-3.5-turbo", openai_api_key=self.openai_api_key,streaming =True, callbacks=[StreamingStdOutCallbackHandler()]),
+            llm=OpenAI(model_name="gpt-3.5-turbo", openai_api_key=self.openai_api_key,
+                       openai_api_base=self.openai_base_url, streaming=True,
+                       callbacks=[StreamingStdOutCallbackHandler()]),
             prompt=prompt,
             verbose=True,
             memory=memory,

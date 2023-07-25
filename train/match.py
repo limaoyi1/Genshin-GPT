@@ -28,7 +28,7 @@ metadata_field_info = [
     )
 ]
 
-llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY)
+llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY,openai_api_base= config.OPENAI_BASE_URL)
 
 document_content_description = "All dialogues of game characters"
 
@@ -70,7 +70,7 @@ class MatchAnswer:
             the user overcome some of the limitations of the distance-based similarity search. 
             Provide these alternative questions seperated by newlines.
             Original question: {raw_answer}"""
-        llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY)
+        llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY, openai_api_base= config.OPENAI_BASE_URL)
         questions = llm.predict(template)
         output_list = questions.split("\n")
         contents = []
