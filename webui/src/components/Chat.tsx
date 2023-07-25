@@ -118,7 +118,7 @@ export const Chat = ({user}: { user: User }) => {
             };
 
             // 发送POST请求到服务器
-            fetch("http://127.0.0.1:5000/generate_answer", { //http://www.limaoyi.top:4396/generate_answer
+            fetch("http://www.limaoyi.top:4396/generate_answer", { //http://www.limaoyi.top:4396/generate_answer //http://127.0.0.1:5000/generate_answer
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
