@@ -21,7 +21,7 @@ import {ExampleChatService} from "@chatscope/use-chat/dist/examples";
 import {Chat} from "./components/Chat";
 import {nanoid} from "nanoid";
 import {Col, Container, Row} from "react-bootstrap";
-import {akaneModel, eliotModel, emilyModel, joeModel, users} from "./data/data";
+import {akaneModel, users} from "./data/data";
 import {AutoDraft} from "@chatscope/use-chat/dist/enums/AutoDraft";
 import {Footer} from "./components/Footer";
 
@@ -33,9 +33,9 @@ const messageIdGenerator = (message: ChatMessage<MessageContentType>) => nanoid(
 const groupIdGenerator = () => nanoid();
 
 const akaneStorage = new BasicStorage({groupIdGenerator, messageIdGenerator});
-const eliotStorage = new BasicStorage({groupIdGenerator, messageIdGenerator});
-const emilyStorage = new BasicStorage({groupIdGenerator, messageIdGenerator});
-const joeStorage = new BasicStorage({groupIdGenerator, messageIdGenerator});
+// const eliotStorage = new BasicStorage({groupIdGenerator, messageIdGenerator});
+// const emilyStorage = new BasicStorage({groupIdGenerator, messageIdGenerator});
+// const joeStorage = new BasicStorage({groupIdGenerator, messageIdGenerator});
 
 // Create serviceFactory
 const serviceFactory = (storage: IStorage, updateState: UpdateState) => {
@@ -53,44 +53,8 @@ const akane = new User({
     bio: ""
 });
 
-const emily = new User({
-    id: emilyModel.name,
-    presence: new Presence({status: UserStatus.Available, description: ""}),
-    firstName: "",
-    lastName: "",
-    username: emilyModel.name,
-    email: "",
-    avatar: emilyModel.avatar,
-    bio: ""
-});
-
-const eliot = new User({
-    id: eliotModel.name,
-    presence: new Presence({status: UserStatus.Available, description: ""}),
-    firstName: "",
-    lastName: "",
-    username: eliotModel.name,
-    email: "",
-    avatar: eliotModel.avatar,
-    bio: ""
-});
-
-const joe = new User({
-    id: joeModel.name,
-    presence: new Presence({status: UserStatus.Available, description: ""}),
-    firstName: "",
-    lastName: "",
-    username: joeModel.name,
-    email: "",
-    avatar: joeModel.avatar,
-    bio: ""
-});
-
 const chats = [
-    {name: "Akane", storage: akaneStorage},
-    {name: "Eliot", storage: eliotStorage},
-    {name: "Emily", storage: emilyStorage},
-    {name: "Joe", storage: joeStorage}
+    {name: "Genshin-GPT", storage: akaneStorage},
 ];
 
 function createConversation(id: ConversationId, name: string): Conversation {

@@ -9,13 +9,13 @@ export const Footer = () => {
                     <Col>
                         <Nav>
                             <NavItem>
-                                <NavLink as="span">This demo is Powered by <a href="https://chatscope.io">chatscope</a>:</NavLink>
+                                <NavLink as="span">GITHUB : <a href="https://github.com/limaoyi1">limaoyi1</a></NavLink>
                                 <Nav as="ul" className="d-flex flex-column">
                                     <NavItem as="li" className="pl-0">
-                                        <NavLink as="span">UI components: <a href="https://github.com/chatscope/chat-ui-kit-react">@chatscope/chat-ui-kit-react</a></NavLink>
+                                        <NavLink as="span">商业合作 : <a href="https://img1.imgtp.com/2023/07/25/FHQCWt6H.png">微信</a></NavLink>
                                     </NavItem>
                                     <NavItem as="li" className="pl-0">
-                                        <NavLink as="span">Headless chat: <a href="https://github.com/chatscope/use-chat">@chatscope/use-chat</a></NavLink>
+                                        <NavLink as="span">交流吹水 : <a href="https://img1.imgtp.com/2023/07/25/FHQCWt6H.png">微信群</a></NavLink>
                                     </NavItem>
                                 </Nav>
                             </NavItem>
@@ -24,17 +24,17 @@ export const Footer = () => {
                     <Col>
                         <Nav>
                             <NavItem>
-                                <NavLink as="span">Other demos</NavLink>
+                                <NavLink as="span">其他产品</NavLink>
                                 <Nav as="ul" className="d-flex flex-column">
                                     <NavItem as="li" className="pl-0">
-                                        <NavLink href="https://demo.chatscope.io">Full featured demo app</NavLink>
+                                        <NavLink href="http://www.limaoyi.top:4399/#">自动生成PPT</NavLink>
                                     </NavItem>
-                                    <NavItem as="li" className="pl-0">
-                                        <NavLink href="https://chatscope.io/demo/chat-friends/">Chat friends</NavLink>
-                                    </NavItem>
-                                    <NavItem as="li" className="pl-0">
-                                        <NavLink href="https://mars.chatscope.io/">Mars chat</NavLink>
-                                    </NavItem>
+                                    {/*<NavItem as="li" className="pl-0">*/}
+                                    {/*    <NavLink href="https://chatscope.io/demo/chat-friends/">Chat friends</NavLink>*/}
+                                    {/*</NavItem>*/}
+                                    {/*<NavItem as="li" className="pl-0">*/}
+                                    {/*    <NavLink href="https://mars.chatscope.io/">Mars chat</NavLink>*/}
+                                    {/*</NavItem>*/}
                                 </Nav>
                             </NavItem>
                         </Nav>
@@ -43,13 +43,19 @@ export const Footer = () => {
                     <Col>
                         <Nav>
                             <NavItem>
-                                <NavLink as="span">Source code</NavLink>
+                                <NavLink as="span">鸣谢</NavLink>
                                 <Nav as="ul" className="d-flex flex-column">
                                     <NavItem as="li" className="pl-0">
-                                        <NavLink href="https://github.com/chatscope/use-chat-example">@chatscope/use-chat-example</NavLink>
+                                        <NavLink href="https://github.com/langchain-ai/langchain">langchain</NavLink>
+                                    </NavItem>
+                                    <NavItem as="li" className="pl-0">
+                                        <NavLink href="https://github.com/chatscope/chat-ui-kit-react">chatscope</NavLink>
+                                    </NavItem>
+                                    <NavItem as="li" className="pl-0">
+                                        <NavLink href="https://github.com/w4123/GenshinVoice">GenshinVoice</NavLink>
                                     </NavItem>
                                     <NavItem as="li" className="text-right mt-4">
-                                        <strong>Happy coding!</strong>
+                                        <strong>异界相遇!</strong>
                                     </NavItem>
                                 </Nav>
                             </NavItem>
@@ -58,7 +64,7 @@ export const Footer = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p className="px-3 mt-4 mb-0">Note that for simplicity, this example is not responsive (desktop only).</p>
+                        <p className="px-3 mt-4 mb-0">Genshin-GPT 基于原神对话知识库和OPENAI API生成,仅作为学习使用,未经许可,禁止转载和搬运.</p>
                     </Col>
                 </Row>
             </footer>
