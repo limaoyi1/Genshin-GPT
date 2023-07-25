@@ -1,4 +1,4 @@
-import akaneAvatar from "../assets/akane.svg";
+import akaneAvatar from "../assets/yi.png";
 import AAvatar from "../assets/10001.webp";
 import BAvatar from "../assets/10002.webp";
 import CAvatar from "../assets/10003.webp";
