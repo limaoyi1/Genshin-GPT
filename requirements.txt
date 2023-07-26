@@ -7,8 +7,8 @@ backoff==2.2.1
 blinker==1.6.2
 certifi==2023.5.7
 charset-normalizer==3.2.0
-chroma-hnswlib==0.7.1
-chromadb==0.4.2
+chroma-hnswlib==0.7.0
+chromadb==0.3.26
 click==8.1.6
 colorama==0.4.6
 coloredlogs==15.0.1
@@ -55,7 +55,7 @@ Pillow==10.0.0
 posthog==3.0.1
 protobuf==4.23.4
 pulsar-client==3.2.0
-pydantic==1.10.11
+pydantic==1.10.8
 PyPika==0.48.9
 pyreadline3==3.4.1
 python-dateutil==2.8.2
