@@ -46,6 +46,8 @@ embeddings = HuggingFaceEmbeddings(model_name=embedding_model_dict['text2vec-bas
 # 加载VectorDB =============================================================
 vectordb = Chroma(persist_directory="./resource/dict/v4", embedding_function=embeddings)
 
+print("初始化了vectordb")
+
 # 加载检索器 ================================================================
 retriever = SelfQueryRetriever.from_llm(
     llm, vectordb, document_content_description, metadata_field_info, verbose=True, enable_limit=True
@@ -64,7 +66,8 @@ class MatchAnswer:
         }
         query = f"""npc who 's name is ```{self.role_name}``` 's speak about ```{raw_answer}```"""
         # 组合 多查询检索器 和 自我检索器
-        template = f"""You are an AI language model assistant. Your task is to generate five 
+        # 减少数量优化内存
+        template = f"""You are an AI language model assistant. Your task is to generate three 
             different versions of the given user question to retrieve relevant documents from a vector 
             database. By generating multiple perspectives on the user question, your goal is to help
             the user overcome some of the limitations of the distance-based similarity search. 

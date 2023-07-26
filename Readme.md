@@ -38,3 +38,7 @@ gunicorn -b 0.0.0.0:5000 --log-level=debug --threads 4 app:application > gunicor
 ```
 
 > 7. 访问 http://127.0.0.1:5000
+
+
+# 运行gunicorn
+gunicorn -b 0.0.0.0:4397 --log-level=info --threads 1 wsgi:application > gunicorn.log 2>&1 &

@@ -8,6 +8,9 @@ from flask_cors import CORS
 
 from chain.gen_answer import GenAnswerOfRole
 
+global vectordb
+print("第一步")
+
 app = Flask(__name__)
 # 设置日志级别
 app.logger.setLevel(logging.INFO)
@@ -54,4 +57,4 @@ def stream1():
         return Response(title.query_to_role(query), mimetype='application/octet-stream')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
