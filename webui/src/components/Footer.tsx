@@ -29,6 +29,9 @@ export const Footer = () => {
                                     <NavItem as="li" className="pl-0">
                                         <NavLink href="http://www.limaoyi.top:4399/#">自动生成PPT</NavLink>
                                     </NavItem>
+                                    <NavItem as="li" className="pl-0">
+                                        <NavLink href="http://www.limaoyi.top/">个人博客</NavLink>
+                                    </NavItem>
                                     {/*<NavItem as="li" className="pl-0">*/}
                                     {/*    <NavLink href="https://chatscope.io/demo/chat-friends/">Chat friends</NavLink>*/}
                                     {/*</NavItem>*/}
