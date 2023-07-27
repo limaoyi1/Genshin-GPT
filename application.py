@@ -57,4 +57,4 @@ def stream1():
         return Response(title.query_to_role(query), mimetype='application/octet-stream')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(host='0.0.0.0', port=16000, debug=True)
