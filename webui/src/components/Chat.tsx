@@ -186,7 +186,7 @@ export const Chat = ({user}: { user: User }) => {
     );
 
     return (<MainContainer responsive>
-        <Sidebar position="left" scrollable>
+        <Sidebar position="left" scrollable style={{display: "block"}}>
             <ConversationHeader style={{backgroundColor: "#fff"}}>
                 <Avatar src={user.avatar}/>
                 <ConversationHeader.Content>

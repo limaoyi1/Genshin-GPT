@@ -64,7 +64,7 @@ export const Footer = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p className="px-3 mt-4 mb-0">Genshin-GPT 基于原神对话知识库和OPENAI API生成,仅作为学习使用,未经许可,禁止转载和搬运.</p>
+                        <p className="px-3 mt-4 mb-0">Genshin-GPT 基于原神对话知识库和OPENAI API生成,仅作为学习使用,未经许可,禁止转载和搬运.推荐在PC或者平板使用.</p>
                     </Col>
                 </Row>
             </footer>
