@@ -35,14 +35,14 @@ CORS(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
-
+    # return render_template('index.html')
+    return "<h1>人类这不是你该来的地方</h1>"
 
 # @app.route('/auto-ppt/gen-uuid', methods=['GET'])
 # def get_uuid():
 #     random_uuid = str(uuid.uuid4())
 #     # todo 将ip地址和uuid 在redis缓存 对话历史记录
-#     return random_uuid
+    return "<h1>人类这不是你该来的地方</h1>"
 
 
 @app.route('/generate_answer', methods=("GET", "POST"))
@@ -57,4 +57,4 @@ def stream1():
         return Response(title.query_to_role(query), mimetype='application/octet-stream')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=16000, debug=True)
+    app.run(host='0.0.0.0', port=16000, debug=False, threaded=True)

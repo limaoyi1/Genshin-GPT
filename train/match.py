@@ -1,5 +1,6 @@
 # init 初始化一些常数
 import torch
+from langchain import OpenAI
 from langchain.chains.query_constructor.schema import AttributeInfo
 from langchain.chat_models import ChatOpenAI
 from langchain.embeddings import HuggingFaceEmbeddings
@@ -28,7 +29,7 @@ metadata_field_info = [
     )
 ]
 
-llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY,openai_api_base= config.OPENAI_BASE_URL)
+# llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY,openai_api_base= config.OPENAI_BASE_URL)
 
 document_content_description = "All dialogues of game characters"
 
@@ -43,15 +44,6 @@ EMBEDDING_DEVICE = "cuda" if torch.cuda.is_available() else "mps" if torch.backe
 embeddings = HuggingFaceEmbeddings(model_name=embedding_model_dict['text2vec-base'],
                                    model_kwargs={'device': EMBEDDING_DEVICE})
 
-# 加载VectorDB =============================================================
-vectordb = Chroma(persist_directory="./resource/dict/v4", embedding_function=embeddings)
-
-print("初始化了vectordb")
-
-# 加载检索器 ================================================================
-retriever = SelfQueryRetriever.from_llm(
-    llm, vectordb, document_content_description, metadata_field_info, verbose=True, enable_limit=True
-)
 
 class MatchAnswer:
     role_name: str = None
@@ -60,6 +52,17 @@ class MatchAnswer:
         self.role_name = role_name
 
     def match(self, raw_answer):
+        # 加载VectorDB =============================================================
+        vectordb = Chroma(persist_directory="./resource/dict/v4", embedding_function=embeddings)
+
+        print("初始化了vectordb")
+        # llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY, openai_api_base=config.OPENAI_BASE_URL)
+        llm = OpenAI(model_name="gpt-3.5-turbo", openai_api_key=config.OPENAI_API_KEY,
+                     openai_api_base=config.OPENAI_BASE_URL)
+        # 加载检索器 ================================================================
+        retriever = SelfQueryRetriever.from_llm(
+            llm, vectordb, document_content_description, metadata_field_info, verbose=True, enable_limit=True
+        )
         metadata = {
             "npcName": {self.role_name},
             # Add other key-value pairs as needed
@@ -73,7 +76,6 @@ class MatchAnswer:
             the user overcome some of the limitations of the distance-based similarity search. 
             Provide these alternative questions seperated by newlines.
             Original question: {raw_answer}"""
-        llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY, openai_api_base= config.OPENAI_BASE_URL)
         questions = llm.predict(template)
         output_list = questions.split("\n")
         contents = []
