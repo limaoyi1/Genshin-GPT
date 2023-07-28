@@ -118,8 +118,6 @@ function App() {
     return (
         <div className="h-100 d-flex flex-column overflow-hidden">
             <Container fluid className="p-4 flex-grow-1 position-relative overflow-hidden">
-                <Row className="h-100 pb-2 flex-nowrap">
-                    <Col>
                         <ChatProvider serviceFactory={serviceFactory} storage={akaneStorage} config={{
                             typingThrottleTime: 250,
                             typingDebounceTime: 900,
@@ -128,11 +126,10 @@ function App() {
                         }}>
                             <Chat user={akane}/>
                         </ChatProvider>
-                    </Col>
-                </Row>
             </Container>
             <Footer/>
         </div>
+
     );
 }
 
