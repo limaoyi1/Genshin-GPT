@@ -57,7 +57,7 @@ export const Footer = () => {
                                     <NavItem as="li" className="pl-0">
                                         <NavLink href="https://github.com/w4123/GenshinVoice">GenshinVoice</NavLink>
                                     </NavItem>
-                                    <NavItem as="li" className="text-right mt-4">
+                                    <NavItem as="li" className="pl-0">
                                         <strong>异界相遇!</strong>
                                     </NavItem>
                                 </Nav>
