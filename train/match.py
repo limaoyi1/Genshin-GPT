@@ -88,6 +88,8 @@ class MatchAnswer:
                 # 去重
                 if doc.page_content not in contents:
                     contents.append(doc.page_content)
+        # 删除联接
+        vectordb.delete_collection()
         return contents
 
 
