@@ -4,11 +4,10 @@ from langchain.memory import RedisChatMessageHistory, ConversationBufferMemory
 
 
 class GptChain:
-    template: str = """You are a chatbot having a conversation with a human.
+    template: str = """You play a role-playing game with a person named Traveler.
     
     {chat_history}
-    Human: {human_input}
-    Chatbot:"""
+    {human_input}"""
     openai_api_key: str = None
     openai_base_url: str = None
     session_id: str = None
@@ -49,6 +48,9 @@ class GptChain:
 
     def predict(self, question):
         return self.llm_chain.predict(human_input=question)
+
+    # def clean(self):
+    #     self.llm_chain.
 
     def clear_redis(self):
         self.message_history.clear()

@@ -41,7 +41,12 @@ for each in json_data:
     docs.append(doc)
 print("start")
 
-# pprint(data)
+# # pprint(data)
 vectorstore = Chroma.from_documents(docs, embeddings, persist_directory="./../resource/dict/v4")
+
+# # 异步数据库
+# from langchain.vectorstores import Qdrant
+# db = Qdrant.afrom_documents(docs, embeddings, "http://localhost:6333")
+
 
 print("exit")

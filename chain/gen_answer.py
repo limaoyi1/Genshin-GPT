@@ -60,9 +60,9 @@ class GenAnswerOfRole(Gen):
         text = ""
         for answer1 in self.match_answers:
             text = text + answer1 + "\n"+"        "
-        template = f"""Please refer to records, Answer my questions in the first person as {self.role_name}.
-        Try to imitate the style of the history record, and use the information in it to answer.
-        These are some historical records retrieved in the database via vectors:
+        template = f"""Please refer to records, Answer my question in Simplified Chinese in the first person of {self. role_name}.
+        Try to imitate the style of the  records, and use the information in it to answer.
+        These are some records retrieved in the database via vectors:
         {text}
         Question: {self.query}
         {self.role_name}:"""

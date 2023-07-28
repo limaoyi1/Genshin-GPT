@@ -67,7 +67,6 @@ class MatchAnswer:
             "npcName": {self.role_name},
             # Add other key-value pairs as needed
         }
-        query = f"""npc who 's name is ```{self.role_name}``` 's speak about ```{raw_answer}```"""
         # 组合 多查询检索器 和 自我检索器
         # 减少数量优化内存
         template = f"""You are an AI language model assistant. Your task is to generate three 
@@ -88,8 +87,6 @@ class MatchAnswer:
                 # 去重
                 if doc.page_content not in contents:
                     contents.append(doc.page_content)
-        # 删除联接
-        vectordb.delete_collection()
         return contents
 
 
