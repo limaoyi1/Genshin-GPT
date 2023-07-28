@@ -71,7 +71,8 @@ class GenAnswerOfRole(Gen):
 
 
 if __name__ == '__main__':
-    # session_id = str(uuid.uuid4())
+    # session_id = 0011225
+
     session_id ="1234578913161"
     print(session_id)
     query = "如何看待剑术"
