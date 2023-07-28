@@ -15,7 +15,7 @@ export const Footer = () => {
                                         <NavLink as="span">商业合作 : <a href="https://img1.imgtp.com/2023/07/25/FHQCWt6H.png">微信</a></NavLink>
                                     </NavItem>
                                     <NavItem as="li" className="pl-0">
-                                        <NavLink as="span">交流吹水 : <a href="https://img1.imgtp.com/2023/07/25/FHQCWt6H.png">微信群</a></NavLink>
+                                        <NavLink as="span">交流Q群 : <a href="https://img1.imgtp.com/2023/07/28/U7apDXdR.jpg">138094432</a></NavLink>
                                     </NavItem>
                                 </Nav>
                             </NavItem>
