@@ -52,9 +52,11 @@ def stream1():
         uuid = request.json["uuid"]
         query = request.json["query"]
         ip_address = request.remote_addr
-        app.logger.info(f'ip地址为 {ip_address}\tuuid为 {uuid}\t作为 {role}\t回答了 {query}')
         title = GenAnswerOfRole(uuid, role)
-        return Response(title.query_to_role(query), mimetype='application/octet-stream')
+        answer = title.query_to_role(query)
+        app.logger.info(f'ip地址为 {ip_address}\tuuid为 {uuid}\t作为 {role}\t回答了 {query} 回答是：{answer} ')
+        return Response(answer, mimetype='application/octet-stream')
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=16000, debug=False, threaded=True)

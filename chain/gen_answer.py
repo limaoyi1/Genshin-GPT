@@ -14,11 +14,11 @@ class Gen:
     config: MyConfig = None
     GptChain: GptChain = None
 
-    def __init__(self, session_id):
+    def __init__(self, session_id, npc_name):
         self.config = MyConfig()
         print(f"open ai key:{self.config.OPENAI_API_KEY}")
         self.GptChain = GptChain(openai_api_key=self.config.OPENAI_API_KEY, openai_base_url= self.config.OPENAI_BASE_URL,session_id=session_id,
-                                 redis_url=self.config.REDIS_URL)
+                                 redis_url=self.config.REDIS_URL,npc_name=npc_name)
 
 
 # ----------------------------------------------------------------
@@ -31,7 +31,7 @@ class GenAnswerOfRole(Gen):
     match_query: [] = None
 
     def __init__(self, session_id, role_name):
-        super().__init__(session_id)
+        super().__init__(session_id, role_name)
         self.match_query = None
         self.role_name = role_name
 
@@ -60,12 +60,12 @@ class GenAnswerOfRole(Gen):
         text = ""
         for answer1 in self.match_answers:
             text = text + answer1 + "\n"+"        "
-        template = f"""Please refer to records, Answer my question in Simplified Chinese in the first person of {self. role_name}.
-        Try to imitate the style of the  records, and use the information in it to answer.
-        These are some records retrieved in the database via vectors:
-        {text}
-        Question: {self.query}
-        {self.role_name}:"""
+        template = f"""Please answer my question in Simplified Chinese in the first person of {self. role_name}.
+Try to imitate the style of the  records.Refer to every records to generate appropriate logical answers.
+No sequence of retrieved records:
+    {text}
+Traveler: {self.query}
+{self.role_name}:"""
         llm = ChatOpenAI(temperature=0.4, openai_api_key=config.OPENAI_API_KEY,openai_api_base= config.OPENAI_BASE_URL)
         return self.GptChain.predict(template)
 
