@@ -6,8 +6,8 @@ from chain.custom_redis_messagehistory import MyRedisChatMessageHistory
 
 
 class GptChain:
-    template: str = """You play a role-playing game with a person named Traveler.
-This is your Conversation with Traveler:
+    template: str = """You play a role-playing game with a person named '旅行者'.
+This is your Conversation with '旅行者':
 {chat_history}
 
 {human_input}"""
@@ -19,7 +19,8 @@ This is your Conversation with Traveler:
     message_history: RedisChatMessageHistory = None
     npcName: str = None
 
-    def __init__(self, openai_api_key, session_id, redis_url, openai_base_url="https://api.openai.com/v1", npc_name ="AI"):
+    def __init__(self, openai_api_key, session_id, redis_url, openai_base_url="https://api.openai.com/v1",
+                 npc_name="AI"):
         self.openai_api_key = openai_api_key
         self.session_id = session_id
         self.redis_url = redis_url
@@ -37,7 +38,7 @@ This is your Conversation with Traveler:
         )
         self.message_history = message_history
         memory = ConversationBufferMemory(
-            memory_key="chat_history", chat_memory=message_history, ai_prefix=self.npcName, human_prefix="Traveler"
+            memory_key="chat_history", chat_memory=message_history, ai_prefix=self.npcName, human_prefix="旅行者"
         )
         prompt = PromptTemplate(
             input_variables=["chat_history", "human_input"], template=self.template)

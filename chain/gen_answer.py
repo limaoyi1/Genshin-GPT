@@ -61,10 +61,10 @@ class GenAnswerOfRole(Gen):
         for answer1 in self.match_answers:
             text = text + answer1 + "\n"+"        "
         template = f"""Please answer my question in Simplified Chinese in the first person of {self. role_name}.
-Try to imitate the style of the  records.Refer to every records to generate appropriate logical answers.
-No sequence of retrieved records:
-    {text}
-Traveler: {self.query}
+Provide you with possible relevant words that this character has said from the vector database:
+        {text}
+Try to imitate the style of the records.
+旅行者: {self.query}
 {self.role_name}:"""
         llm = ChatOpenAI(temperature=0.4, openai_api_key=config.OPENAI_API_KEY,openai_api_base= config.OPENAI_BASE_URL)
         return self.GptChain.predict(template)

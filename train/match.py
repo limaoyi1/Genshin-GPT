@@ -122,11 +122,11 @@ class MatchAnswer:
                 # 去重
                 if doc.page_content not in contents:
                     contents.append(doc.page_content)
-            if i == len(output_list) - 1:
-                row_docs = retriever.get_relevant_documents(raw_answer)
-                for row_doc in row_docs:
-                    if row_doc.page_content not in contents:
-                        contents.append(row_doc.page_content)
+            # if i == len(output_list) - 1:
+            #     row_docs = retriever.get_relevant_documents(raw_answer)
+            #     for row_doc in row_docs:
+            #         if row_doc.page_content not in contents:
+            #             contents.append(row_doc.page_content)
         return contents
 
 
