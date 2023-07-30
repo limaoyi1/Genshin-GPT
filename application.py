@@ -5,6 +5,7 @@ from flask import Flask, request, make_response, render_template, Response
 
 import logging
 from flask_cors import CORS
+from gevent import pywsgi
 
 from chain.gen_answer import GenAnswerOfRole
 
@@ -47,6 +48,7 @@ def index():
 
 @app.route('/generate_answer', methods=("GET", "POST"))
 def stream1():
+    # return "30刀用完了qaq =-="
     if request.method == "POST":
         role = request.json["role"]
         uuid = request.json["uuid"]
@@ -59,4 +61,6 @@ def stream1():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=16000, debug=False, threaded=True)
+    # app.run(host='0.0.0.0', port=16000, debug=False, threaded=True)
+    server = pywsgi.WSGIServer(('127.0.0.1', 16000), app)
+    server.serve_forever()

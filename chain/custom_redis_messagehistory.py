@@ -7,7 +7,7 @@ from langchain.schema.messages import BaseMessage, _message_to_dict, messages_fr
 def extract_first_and_last_two_lines(input_string):
     lines = input_string.strip().split('\n')
     first_line = lines[0] if lines else ''
-    last_two_lines = lines[-2] if len(lines) >= 2 else ''
+    last_two_lines = lines[1] if len(lines) >= 2 else ''
     return first_line, last_two_lines
 
 
@@ -28,7 +28,7 @@ class MyRedisChatMessageHistory(RedisChatMessageHistory):
         #  对message 进行处理 删除多余的信息
         if starts_with_please(message.content):
             first_line, last_two_lines = extract_first_and_last_two_lines(message.content)
-            content1 = last_two_lines.replace("Question: ", "")
+            content1 = last_two_lines.replace("this is my (旅行者的) question :", "")
             message.content = content1
         self.redis_client.lpush(self.key, json.dumps(_message_to_dict(message)))
         if self.ttl:

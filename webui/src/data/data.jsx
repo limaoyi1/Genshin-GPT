@@ -140,7 +140,7 @@ export const LModel = {
 };
 
 export const MModel = {
-    name: "荧",
+    name: "空",
     avatar: MAvatar
 };
 

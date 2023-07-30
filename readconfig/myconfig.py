@@ -1,6 +1,5 @@
 import codecs
 import configparser
-config = configparser.ConfigParser()
 # 指定编码为 UTF-8
 
 
@@ -14,6 +13,7 @@ class MyConfig:
     REDIS_URL: str = None
 
     def __init__(self):
+        config = configparser.ConfigParser()
         config.read_file(codecs.open('./config.ini', 'r', 'utf-8-sig'))
         self.Real_File = config.get('Credentials', 'Real_File')
         if self.Real_File == "Config.ini":
