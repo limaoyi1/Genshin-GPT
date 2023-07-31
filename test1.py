@@ -1,9 +1,48 @@
-from train.match import MatchAnswer
+import os
+from urllib.parse import quote
 
+# from train.match import MatchAnswer
+
+
+def change_txt_to_md_in_folder(folder_path):
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith(".txt"):
+                old_file_path = os.path.join(root, file)
+                new_file_path = os.path.join(root, file[:-4] + ".md")
+                os.rename(old_file_path, new_file_path)
+                print(f"文件已成功重命名：{old_file_path} -> {new_file_path}")
+
+# 测试
 if __name__ == "__main__":
-    answer = MatchAnswer("钟离")
-    matchs = answer.match("早安")
-    print(matchs)
+    folder_path_to_change = "./resource/wiki"  # 替换为实际的文件夹路径
+    change_txt_to_md_in_folder(folder_path_to_change)
+
+# def get_py_files_in_path(path):
+#     py_files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f)) and f.endswith('.pdf')]
+#     return py_files
+#
+#
+# if __name__ == "__main__":
+#     # 获取路径中的所有文件
+#     # 示例用法
+#     path = './resource/pdf_files'  # 替换为你想要查找的目录的路径
+#     py_files_list = get_py_files_in_path(path)
+#     link =[]
+#     for file in py_files_list:
+#         file = "https://zh.wikipedia.org/wiki/"+file.replace(".pdf", "")
+#         file = quote(file, safe='').replace("%3A",":").replace("%2F","/")
+#         link.append(file)
+#         print(file)
+#     print(link)
+#     print(len(link))
+
+# if __name__ == "__main__":
+#     answer = MatchAnswer("钟离")
+#     matchs = answer.match("早安")
+#     print(matchs)
+
+
 # def number_to_letter(number):
 #     if not 1 <= number <= 100:
 #         raise ValueError("Number must be between 1 and 100")
