@@ -2,21 +2,34 @@ import os
 from urllib.parse import quote
 
 # from train.match import MatchAnswer
-
-
-def change_txt_to_md_in_folder(folder_path):
-    for root, dirs, files in os.walk(folder_path):
-        for file in files:
-            if file.endswith(".txt"):
-                old_file_path = os.path.join(root, file)
-                new_file_path = os.path.join(root, file[:-4] + ".md")
-                os.rename(old_file_path, new_file_path)
-                print(f"文件已成功重命名：{old_file_path} -> {new_file_path}")
-
-# 测试
 if __name__ == "__main__":
-    folder_path_to_change = "./resource/wiki"  # 替换为实际的文件夹路径
-    change_txt_to_md_in_folder(folder_path_to_change)
+    names = ['纳西妲', '绮良良', '卡维', '白术', '卡米', '迪希雅', '瑶瑶', '散兵', '艾尔海森', '空', '荧', '温迪', '安柏',
+             '凯亚', '迪卢克', '丽莎', '琴', '莫娜', '芭芭拉', '班尼特', '迪奥娜', '诺艾尔', '菲谢尔', '砂糖', '罗莎莉亚',
+             '优菈', '雷泽', '可莉', '阿贝多', '钟离', '魈', '甘雨', '胡桃', '七七', '刻晴', '刻晴2', '香菱', '行秋',
+             '重云', '凝光', '凝光', '北斗', '申鹤', '云堇', '辛焱', '夜兰', '埃洛伊', '达达利亚', '雷电将军', '枫原万叶',
+             '神里绫华', '宵宫', '神里绫人', '珊瑚宫心海', '五郎', '八重神子', '九条裟罗', '托马', '荒泷一斗', '久岐忍',
+             '早柚', '鹿野院平藏', '提纳里', '柯莱', '赛诺', '坎蒂丝', '多莉', '妮露', '莱依拉', '珐露珊']
+    links = []
+    for name in names:
+        link = "https://wiki.biligame.com/ys/"+quote(name, safe='')
+        links.append(link)
+    print(links)
+
+
+
+# def change_txt_to_md_in_folder(folder_path):
+#     for root, dirs, files in os.walk(folder_path):
+#         for file in files:
+#             if file.endswith(".txt"):
+#                 old_file_path = os.path.join(root, file)
+#                 new_file_path = os.path.join(root, file[:-4] + ".md")
+#                 os.rename(old_file_path, new_file_path)
+#                 print(f"文件已成功重命名：{old_file_path} -> {new_file_path}")
+
+# # 测试
+# if __name__ == "__main__":
+#     folder_path_to_change = "./resource/wiki"  # 替换为实际的文件夹路径
+#     change_txt_to_md_in_folder(folder_path_to_change)
 
 # def get_py_files_in_path(path):
 #     py_files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f)) and f.endswith('.pdf')]
