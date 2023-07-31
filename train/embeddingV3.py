@@ -2,7 +2,8 @@ import json
 from pathlib import Path
 
 import torch.backends
-from langchain.document_loaders import DirectoryLoader, PyPDFLoader
+from langchain.document_loaders import DirectoryLoader, PyPDFLoader, PyPDFDirectoryLoader, PyMuPDFLoader, \
+    PDFMinerPDFasHTMLLoader
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 from langchain.schema import Document
 from langchain.vectorstores import Chroma
@@ -18,17 +19,24 @@ embedding_model_dict = {
 
 EMBEDDING_DEVICE = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
 
-# 加载JSON文件并解析为Python对象
-with open(file='./../resource/output_chs.json', mode='r', encoding="utf-8") as file:
-    json_data = json.load(file)
 
 embeddings = HuggingFaceEmbeddings(model_name=embedding_model_dict['text2vec-base'],
                                    model_kwargs={'device': EMBEDDING_DEVICE})
 
-loader = DirectoryLoader('../resource/pdf_files', glob="**/*.pdf", loader_cls=PyPDFLoader , show_progress=True)
+text_loader_kwargs={'autodetect_encoding': True}
+
+loader1 = PyMuPDFLoader("../resource/pdf_files/八重神子.pdf")
+docs1 = loader1.load()
+print(docs1)
+loader = PyPDFDirectoryLoader('../resource/pdf_files')
+loader3 = PDFMinerPDFasHTMLLoader("../resource/pdf_files/八重神子.pdf")
+docs3 = loader3.load()
+print(docs3)
+# loader = DirectoryLoader('../resource/pdf_files', glob="**/*.pdf", loader_cls=PyPDFLoader, show_progress=True, loader_kwargs=text_loader_kwargs)
 docs = loader.load()
 print(len(docs))
-print(docs[0])
+for doc in docs:
+    print(doc)
 
 # for each in json_data:
 #     if each.get('text', '') == '' or each.get('text', '') == '...':
