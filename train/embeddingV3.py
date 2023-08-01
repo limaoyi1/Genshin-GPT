@@ -55,7 +55,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 # 拆分文本
 texts = text_splitter.split_documents(docs)
 for doc in texts:
-    doc.page_content = traditional_to_simplified(doc.page_content)
+    doc.page_content = traditional_to_simplified(doc.page_content.replace("\n"," "))
     simplified = traditional_to_simplified(doc.metadata.get('source'))
     doc.metadata.__setitem__('source',simplified)
     doc.metadata.__setitem__('theme', simplified.replace("..\\resource\\wiki\\","").replace("..\\resource\\bilibili\\","").replace(".md",""))
