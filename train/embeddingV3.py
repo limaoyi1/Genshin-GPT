@@ -70,7 +70,7 @@ current_time = datetime.datetime.now().time()
 print("开始时间：", current_time)
 
 
-vectorstore_wiki = Chroma.from_documents(docs, embeddings, persist_directory="./../resource/dict/v1")
+vectorstore_wiki = Chroma.from_documents(texts, embeddings, persist_directory="./../resource/dict/v1")
 
 
 current_time = datetime.datetime.now().time()

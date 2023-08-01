@@ -11,7 +11,7 @@ from pympler import tracker
 
 config = MyConfig()
 
-tr = tracker.SummaryTracker()
+# tr = tracker.SummaryTracker()
 metadata_field_info = [
     AttributeInfo(
         name="language",
@@ -49,20 +49,20 @@ embeddings = HuggingFaceEmbeddings(model_name=embedding_model_dict['hinese-macbe
 # 加载VectorDB =============================================================
 vectordb = Chroma(persist_directory="./resource/dict/v4", embedding_function=embeddings)
 
+# 加载VectorDB =============================================================
+vectordb_wiki = Chroma(persist_directory="./resource/dict/v1", embedding_function=embeddings)
+
 
 class MatchAnswer:
-
-
     role_name: str = None
 
     def __init__(self, role_name):
         self.role_name = role_name
 
     def match(self, raw_answer):
-        # 查看内存学习
-        print("查看内存信息")
-        print(tr.print_diff())
-
+        # # 查看内存学习
+        # print("查看内存信息")
+        # print(tr.print_diff())
 
         print("初始化了vectordb")
         # llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY, openai_api_base=config.OPENAI_BASE_URL)
@@ -72,10 +72,6 @@ class MatchAnswer:
         retriever = SelfQueryRetriever.from_llm(
             llm, vectordb, document_content_description, metadata_field_info, verbose=False, enable_limit=True
         )
-        metadata = {
-            "npcName": {self.role_name},
-            # Add other key-value pairs as needed
-        }
         # 组合 多查询检索器 和 自我检索器
         # 减少数量优化内存
         template = f"""You are an AI language model assistant. Your task is to generate three 
@@ -109,10 +105,45 @@ class MatchAnswer:
         # 在wikipedia 中检索
         return contents
 
+    metadata_wiki_info = [
+        AttributeInfo(
+            name="theme",
+            description="theme of Wiki",
+            type="string",
+        ),
+        AttributeInfo(
+            name="source",
+            description="Source of Wiki Information",
+            type="string",
+        ),
+        AttributeInfo(
+            name="type",
+            description="data type",
+            type="string",
+        )
+    ]
+
+    def matchWiki(self, raw_answer):
+        llm = OpenAI(model_name="gpt-3.5-turbo", openai_api_key=config.OPENAI_API_KEY,
+                     openai_api_base=config.OPENAI_BASE_URL)
+        # 加载检索器 ================================================================
+        retriever = SelfQueryRetriever.from_llm(
+            llm, vectordb_wiki, "Some wiki data", self.metadata_wiki_info, verbose=True, enable_limit=True
+        )
+        querys = [f"""The theme is {self.role_name}  ,{raw_answer}""",
+                  f"""{raw_answer}""",
+                  f"""{self.role_name},{raw_answer}"""]
+        contents = []
+        for q in querys:
+            documents = retriever.get_relevant_documents(q)
+            for doc in documents:
+                # 去重
+                if doc.page_content not in contents:
+                    contents.append(doc.page_content)
+        return contents
 
 
 if __name__ == "__main__":
     answer = MatchAnswer("钟离")
     matchs = answer.match("早安")
     print(matchs)
-
