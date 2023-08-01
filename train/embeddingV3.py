@@ -36,11 +36,15 @@ def traditional_to_simplified(traditional_text):
 
     return simplified_text
 text_loader_kwargs={'autodetect_encoding': True}
-loader = DirectoryLoader('../resource/wiki', glob="**/*.md", loader_cls=TextLoader,loader_kwargs=text_loader_kwargs)
-docs = loader.load()
-print(len(docs))
-for doc in docs:
+loader2 = DirectoryLoader('../resource/wiki', glob="**/*.md", loader_cls=TextLoader,loader_kwargs=text_loader_kwargs)
+loader1 = DirectoryLoader('../resource/bilibili', glob="**/*.md", loader_cls=TextLoader,loader_kwargs=text_loader_kwargs)
+docs1 = loader1.load()
+docs2 = loader2.load()
+print(len(docs1))
+for doc in docs1:
     print(doc)
+docs = docs1 + docs2
+
 
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -56,7 +60,7 @@ for doc in texts:
     doc.page_content = traditional_to_simplified(doc.page_content)
     simplified = traditional_to_simplified(doc.metadata.get('source'))
     doc.metadata.__setitem__('source',simplified)
-    doc.metadata.__setitem__('theme', simplified.replace("..\\resource\\wiki\\","").replace(".md",""))
+    doc.metadata.__setitem__('theme', simplified.replace("..\\resource\\wiki\\","").replace("..\\resource\\bilibili\\","").replace(".md",""))
     doc.metadata.__setitem__('type', 'wiki')
     print(doc)
 print(len(texts))
