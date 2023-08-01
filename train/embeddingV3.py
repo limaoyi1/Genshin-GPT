@@ -40,9 +40,6 @@ loader2 = DirectoryLoader('../resource/wiki', glob="**/*.md", loader_cls=TextLoa
 loader1 = DirectoryLoader('../resource/bilibili', glob="**/*.md", loader_cls=TextLoader,loader_kwargs=text_loader_kwargs)
 docs1 = loader1.load()
 docs2 = loader2.load()
-print(len(docs1))
-for doc in docs1:
-    print(doc)
 docs = docs1 + docs2
 
 
@@ -50,8 +47,8 @@ docs = docs1 + docs2
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 text_splitter = RecursiveCharacterTextSplitter(
     # Set a really small chunk size, just to show.
-    chunk_size =750,
-    chunk_overlap = 60,
+    chunk_size =300,
+    chunk_overlap = 100,
     length_function = len,
 )
 # 拆分文本
@@ -66,15 +63,15 @@ for doc in texts:
 print(len(texts))
 
 # 开炉炼丹 =============================================================================================================
-current_time = datetime.datetime.now().time()
-print("开始时间：", current_time)
-
-
-vectorstore_wiki = Chroma.from_documents(texts, embeddings, persist_directory="./../resource/dict/v1")
-
-
-current_time = datetime.datetime.now().time()
-print("结束时间：", current_time)
+# current_time = datetime.datetime.now().time()
+# print("开始时间：", current_time)
+#
+#
+# vectorstore_wiki = Chroma.from_documents(texts, embeddings, persist_directory="./../resource/dict/v1")
+#
+#
+# current_time = datetime.datetime.now().time()
+# print("结束时间：", current_time)
 
 
 

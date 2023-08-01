@@ -130,9 +130,9 @@ class MatchAnswer:
         retriever = SelfQueryRetriever.from_llm(
             llm, vectordb_wiki, "Some wiki data", self.metadata_wiki_info, verbose=True, enable_limit=True
         )
-        querys = [f"""The theme is {self.role_name}  ,{raw_answer}""",
-                  f"""{raw_answer}""",
-                  f"""{self.role_name},{raw_answer}"""]
+        querys = [f"""{raw_answer} about {self.role_name} """,]
+                  # f"""{raw_answer}""",
+                  # f"""{self.role_name},{raw_answer}"""]
         contents = []
         for q in querys:
             documents = retriever.get_relevant_documents(q)
