@@ -128,7 +128,7 @@ class MatchAnswer:
                      openai_api_base=config.OPENAI_BASE_URL)
         # 加载检索器 ================================================================
         retriever = SelfQueryRetriever.from_llm(
-            llm, vectordb_wiki, "Some wiki data", self.metadata_wiki_info, verbose=True, enable_limit=True
+            llm, vectordb_wiki, document_contents= "Some wiki data", metadata_field_info =self.metadata_wiki_info, verbose=True, enable_limit=True
         )
         querys = [f"""{raw_answer} about {self.role_name} """,]
                   # f"""{raw_answer}""",
