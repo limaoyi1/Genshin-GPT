@@ -29,6 +29,7 @@ class GenAnswerOfRole(Gen):
     query: str = None
     match_answers: [] = None
     match_query: [] = None
+    match_wiki: [] = None
 
     def __init__(self, session_id, role_name):
         super().__init__(session_id, role_name)
@@ -55,15 +56,22 @@ class GenAnswerOfRole(Gen):
         # self.match_answers = answer.match(self.material)
         self.match_answers = answer.match(self.query)
         print(self.match_answers)
+        self.match_wiki = answer.matchWiki(self.query)
+        print(self.match_wiki)
 
     def get_role_answer(self):
         text = ""
         for answer1 in self.match_answers:
             text = text + answer1 + "\n"+"        "
+        wiki = ""
+        for wiki_text in self.match_wiki:
+            wiki += wiki_text + "\n"+"        "
         template = f"""Please answer my question in Simplified Chinese in the first person of {self. role_name}.
 this is my (旅行者的) question :{self.query}
 Provide you with possible relevant words that {self. role_name} has said from the vector database:
         {text}
+Provide you with possible relevant wiki text from the vector database:
+        {wiki}
 Imitate the sentence structure and vocabulary of words.Keep the answers at an appropriate length.
 Maintain a coherent flow of conversation.Do not attempt to fabricate answers.
 {self.role_name}:"""
