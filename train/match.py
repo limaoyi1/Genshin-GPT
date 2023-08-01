@@ -55,6 +55,7 @@ vectordb_wiki = Chroma(persist_directory="./resource/dict/v1", embedding_functio
 
 class MatchAnswer:
     role_name: str = None
+    llm_questions: [] = []
 
     def __init__(self, role_name):
         self.role_name = role_name
@@ -83,6 +84,7 @@ class MatchAnswer:
         questions = llm.predict(template)
         output_list = questions.split("\n")
         contents = []
+        self.llm_questions = output_list
         for i in range(len(output_list)):
             print(output_list[i])
             # 本人看法
@@ -128,14 +130,15 @@ class MatchAnswer:
                      openai_api_base=config.OPENAI_BASE_URL)
         # 加载检索器 ================================================================
         retriever = SelfQueryRetriever.from_llm(
-            llm, vectordb_wiki, document_contents= "Some wiki data", metadata_field_info =self.metadata_wiki_info, verbose=True, enable_limit=True
+            llm, vectordb_wiki, document_contents="Some wiki data", metadata_field_info=self.metadata_wiki_info,
+            verbose=True, enable_limit=True
         )
-        querys = [f"""{raw_answer} about {self.role_name} """,]
-                  # f"""{raw_answer}""",
-                  # f"""{self.role_name},{raw_answer}"""]
+        querys1 = [f"""{raw_answer} which theme is {self.role_name}""", ]
+        querys2 = self.llm_questions
+        querys = querys1 + querys2
         contents = []
         for q in querys:
-            documents = retriever.get_relevant_documents(q)
+            documents = retriever.get_relevant_documents(q + f"""which theme is {self.role_name}""")
             for doc in documents:
                 # 去重
                 if doc.page_content not in contents:

@@ -5,8 +5,8 @@ from train.match import MatchAnswer
 
 
 if __name__ == "__main__":
-    answer = MatchAnswer("钟离")
-    matchs = answer.matchWiki("圣遗物推荐")
+    answer = MatchAnswer("优菈")
+    matchs = answer.matchWiki("故事")
     print(matchs)
 
 # if __name__ == "__main__":
