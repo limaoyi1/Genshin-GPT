@@ -9,6 +9,7 @@ blinker==1.6.2
 cachetools==5.3.1
 certifi==2023.5.7
 cffi==1.15.1
+chardet==5.1.0
 charset-normalizer==3.2.0
 chroma-hnswlib==0.7.0
 chromadb==0.3.26
@@ -64,6 +65,7 @@ numpy==1.25.1
 onnxruntime==1.15.1
 openai==0.27.8
 openapi-schema-pydantic==1.2.4
+opencc-python-reimplemented==0.1.7
 overrides==7.3.1
 packaging==23.1
 pandas==2.0.3
