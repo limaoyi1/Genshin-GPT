@@ -36,11 +36,12 @@ def traditional_to_simplified(traditional_text):
 
     return simplified_text
 text_loader_kwargs={'autodetect_encoding': True}
-loader2 = DirectoryLoader('../resource/wiki', glob="**/*.md", loader_cls=TextLoader,loader_kwargs=text_loader_kwargs)
+# 放弃维基百科的数据
+# loader2 = DirectoryLoader('../resource/wiki', glob="**/*.md", loader_cls=TextLoader,loader_kwargs=text_loader_kwargs)
 loader1 = DirectoryLoader('../resource/bilibili', glob="**/*.md", loader_cls=TextLoader,loader_kwargs=text_loader_kwargs)
 docs1 = loader1.load()
-docs2 = loader2.load()
-docs = docs1 + docs2
+# docs2 = loader2.load()
+docs = docs1
 
 
 
@@ -63,15 +64,15 @@ for doc in texts:
 print(len(texts))
 
 # 开炉炼丹 =============================================================================================================
-# current_time = datetime.datetime.now().time()
-# print("开始时间：", current_time)
-#
-#
-# vectorstore_wiki = Chroma.from_documents(texts, embeddings, persist_directory="./../resource/dict/v1")
-#
-#
-# current_time = datetime.datetime.now().time()
-# print("结束时间：", current_time)
+current_time = datetime.datetime.now().time()
+print("开始时间：", current_time)
+
+
+vectorstore_wiki = Chroma.from_documents(texts, embeddings, persist_directory="./../resource/dict/v1")
+
+
+current_time = datetime.datetime.now().time()
+print("结束时间：", current_time)
 
 
 
