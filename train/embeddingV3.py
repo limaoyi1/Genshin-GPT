@@ -50,7 +50,7 @@ docs = docs1 + docs2
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 text_splitter = RecursiveCharacterTextSplitter(
     # Set a really small chunk size, just to show.
-    chunk_size =700,
+    chunk_size =750,
     chunk_overlap = 60,
     length_function = len,
 )
@@ -70,7 +70,7 @@ current_time = datetime.datetime.now().time()
 print("开始时间：", current_time)
 
 
-vectorstore_wiki = Chroma.from_documents(docs, embeddings, persist_directory="./../resources/dict/v1")
+vectorstore_wiki = Chroma.from_documents(docs, embeddings, persist_directory="./../resource/dict/v1")
 
 
 current_time = datetime.datetime.now().time()
