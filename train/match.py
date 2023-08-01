@@ -133,9 +133,7 @@ class MatchAnswer:
             llm, vectordb_wiki, document_contents="Some wiki data", metadata_field_info=self.metadata_wiki_info,
             verbose=True, enable_limit=True
         )
-        querys1 = [f"""{raw_answer} which theme is {self.role_name}""", ]
-        querys2 = self.llm_questions
-        querys = querys1 + querys2
+        querys = self.llm_questions
         contents = []
         for q in querys:
             documents = retriever.get_relevant_documents(q + f"""which theme is {self.role_name}""")

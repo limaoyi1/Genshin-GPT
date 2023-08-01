@@ -54,7 +54,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 # 拆分文本
 texts = text_splitter.split_documents(docs)
 for doc in texts:
-    doc.page_content = traditional_to_simplified(doc.page_content)
+    doc.page_content = traditional_to_simplified(doc.page_content.replace("\n"," "))
     simplified = traditional_to_simplified(doc.metadata.get('source'))
     doc.metadata.__setitem__('source',simplified)
     doc.metadata.__setitem__('theme', simplified.replace("..\\resource\\wiki\\","").replace("..\\resource\\bilibili\\","").replace(".md",""))
@@ -63,15 +63,15 @@ for doc in texts:
 print(len(texts))
 
 # 开炉炼丹 =============================================================================================================
-# current_time = datetime.datetime.now().time()
-# print("开始时间：", current_time)
-#
-#
-# vectorstore_wiki = Chroma.from_documents(texts, embeddings, persist_directory="./../resource/dict/v1")
-#
-#
-# current_time = datetime.datetime.now().time()
-# print("结束时间：", current_time)
+current_time = datetime.datetime.now().time()
+print("开始时间：", current_time)
+
+
+vectorstore_wiki = Chroma.from_documents(texts, embeddings, persist_directory="./../resource/dict/v1")
+
+
+current_time = datetime.datetime.now().time()
+print("结束时间：", current_time)
 
 
 
