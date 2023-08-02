@@ -115,7 +115,7 @@ export const GModel = {
 };
 
 export const HModel = {
-    name: "卡米",
+    name: "米卡",
     avatar: HAvatar
 };
 
