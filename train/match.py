@@ -64,8 +64,6 @@ class MatchAnswer:
         # # 查看内存学习
         # print("查看内存信息")
         # print(tr.print_diff())
-
-        print("初始化了vectordb")
         # llm = ChatOpenAI(temperature=0, openai_api_key=config.OPENAI_API_KEY, openai_api_base=config.OPENAI_BASE_URL)
         llm = OpenAI(model_name="gpt-3.5-turbo", openai_api_key=config.OPENAI_API_KEY,
                      openai_api_base=config.OPENAI_BASE_URL)
@@ -130,13 +128,13 @@ class MatchAnswer:
                      openai_api_base=config.OPENAI_BASE_URL)
         # 加载检索器 ================================================================
         retriever = SelfQueryRetriever.from_llm(
-            llm, vectordb_wiki, document_contents="Some wiki data", metadata_field_info=self.metadata_wiki_info,
+            llm, vectordb_wiki, document_contents="Some wiki text", metadata_field_info=self.metadata_wiki_info,
             verbose=True, enable_limit=True
         )
-        querys = self.llm_questions
+        querys =["two wiki about"+ raw_answer + f""" which theme is {self.role_name}""","two wiki about"+ raw_answer ,"two wiki about temperament of" + self.role_name ]
         contents = []
         for q in querys:
-            documents = retriever.get_relevant_documents(q + f"""which theme is {self.role_name}""")
+            documents = retriever.get_relevant_documents("two wiki about"+ q + f""" which theme is {self.role_name}""")
             for doc in documents:
                 # 去重
                 if doc.page_content not in contents:

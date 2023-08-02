@@ -48,8 +48,8 @@ docs = docs1
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 text_splitter = RecursiveCharacterTextSplitter(
     # Set a really small chunk size, just to show.
-    chunk_size =1000,
-    chunk_overlap = 100,
+    chunk_size =200,
+    chunk_overlap = 50,
     length_function = len,
 )
 # 拆分文本

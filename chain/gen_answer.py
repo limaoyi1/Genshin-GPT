@@ -69,11 +69,16 @@ class GenAnswerOfRole(Gen):
         template = f"""Please answer my question in Simplified Chinese in the first person of {self. role_name}.
 this is my (旅行者的) question :{self.query}
 Provide you with possible relevant words that {self. role_name} has said from the vector database:
+====
         {text}
-Provide you with possible relevant wiki text from the vector database:
+====        
+Provide you with possible relevant wiki text from the vector database:\
+====
         {wiki}
+====
 Imitate the sentence structure and vocabulary of words.Keep the answers at an appropriate length.
 Maintain a coherent flow of conversation.Do not attempt to fabricate answers.
+question :{self.query}
 {self.role_name}:"""
         return self.GptChain.predict(template)
 

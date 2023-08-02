@@ -48,7 +48,6 @@ def index():
 
 @app.route('/generate_answer', methods=("GET", "POST"))
 def stream1():
-    # return "30刀用完了qaq =-="
     if request.method == "POST":
         role = request.json["role"]
         uuid = request.json["uuid"]
