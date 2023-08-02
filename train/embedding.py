@@ -1,3 +1,4 @@
+import datetime
 import json
 from pathlib import Path
 
@@ -40,6 +41,8 @@ for each in json_data:
                              "type": each.get('type', '')})
     docs.append(doc)
 print("start")
+current_time = datetime.datetime.now().time()
+print("开始时间：", current_time)
 
 # # pprint(data)
 vectorstore = Chroma.from_documents(docs, embeddings, persist_directory="./../resource/dict/v4")
@@ -48,5 +51,6 @@ vectorstore = Chroma.from_documents(docs, embeddings, persist_directory="./../re
 # from langchain.vectorstores import Qdrant
 # db = Qdrant.afrom_documents(docs, embeddings, "http://localhost:6333")
 
-
+current_time = datetime.datetime.now().time()
+print("结束时间：", current_time)
 print("exit")

@@ -61,5 +61,5 @@ def stream1():
 
 if __name__ == '__main__':
     # app.run(host='0.0.0.0', port=16000, debug=False, threaded=True)
-    server = pywsgi.WSGIServer(('127.0.0.1', 16000), app)
+    server = pywsgi.WSGIServer(('0.0.0.0', 16000), app)
     server.serve_forever()
