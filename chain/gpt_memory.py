@@ -22,7 +22,6 @@ class GptChain:
         self.redis_url = redis_url
         self.openai_base_url = openai_base_url
         self.npcName = npc_name
-        self.redis_llm_chain_factory()
         self.template: str = f"""You are playing a character({self.npcName}) in Genshin Impact and chatting with me ('旅行者').
 Don't forget your mission and role.You may need to gather the character's personality, speaking style, and relevant information from the chat history, character dialogues, and wiki resources provided.
 Answer my questions using the character's first-person perspective.Maintain more imagination and creativity.
@@ -33,6 +32,7 @@ This is your Conversation with '旅行者':
 ====
     
 {{human_input}}"""
+        self.redis_llm_chain_factory()
 
     def redis_llm_chain_factory(self):
         """
