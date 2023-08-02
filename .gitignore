@@ -76,3 +76,7 @@ config1.ini
 *.bin
 
 *.pickle
+
+*.parquet
+
+*.pkl
