@@ -6,11 +6,7 @@ from chain.custom_redis_messagehistory import MyRedisChatMessageHistory
 
 
 class GptChain:
-    template: str = """You play a role-playing game with a person named '旅行者'.Maintain more imagination and creativity.
-This is your Conversation with '旅行者':
-{chat_history}
-
-{human_input}"""
+    template: str = None
     openai_api_key: str = None
     openai_base_url: str = None
     session_id: str = None
@@ -27,6 +23,16 @@ This is your Conversation with '旅行者':
         self.openai_base_url = openai_base_url
         self.npcName = npc_name
         self.redis_llm_chain_factory()
+        self.template: str = f"""You are playing a character({self.npcName}) in Genshin Impact and chatting with me ('旅行者').
+Don't forget your mission and role.You may need to gather the character's personality, speaking style, and relevant information from the chat history, character dialogues, and wiki resources provided.
+Answer my questions using the character's first-person perspective.Maintain more imagination and creativity.
+
+This is your Conversation with '旅行者':
+====
+{{chat_history}}
+====
+    
+{{human_input}}"""
 
     def redis_llm_chain_factory(self):
         """
