@@ -78,7 +78,7 @@ Provide you with possible relevant words that {self. role_name} has said from th
         {text}
 ====
 
-Keep the answers at an appropriate length.
+Imitate works or cite Wikipedia, and answer the questions briefly.
 question :{self.query}
 {self.role_name}:"""
         return self.GptChain.predict(template)
