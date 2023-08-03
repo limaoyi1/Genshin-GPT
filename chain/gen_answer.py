@@ -78,7 +78,7 @@ Provide you with possible relevant words that {self. role_name} has said from th
         {text}
 ====
 
-Keep the answers at an appropriate length.Maintain a coherent flow of conversation.Do not attempt to fabricate answers.
+Keep the answers at an appropriate length.
 question :{self.query}
 {self.role_name}:"""
         return self.GptChain.predict(template)
