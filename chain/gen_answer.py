@@ -67,15 +67,15 @@ class GenAnswerOfRole(Gen):
         for wiki_text in self.match_wiki:
             wiki += wiki_text + "\n"+"        "
         template = f"""this is my (旅行者的) new question :{self.query}
-        
-Provide you with possible relevant words that {self. role_name} has said from the vector database:
-====
-        {text}
-==== 
 
 Provide you with possible relevant wiki text from the vector database:
 ====
         {wiki}
+====
+
+Provide you with possible relevant words that {self. role_name} has said from the vector database:
+====
+        {text}
 ====
 
 Keep the answers at an appropriate length.Maintain a coherent flow of conversation.Do not attempt to fabricate answers.
