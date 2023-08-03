@@ -1,0 +1,1855 @@
+[
+  {
+    "name": "1",
+    "exp": 375,
+    "unlockdescription": "",
+    "reward": [],
+    "version": ""
+  },
+  {
+    "name": "2",
+    "exp": 500,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 10000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "流浪者的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "3",
+    "exp": 625,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 10000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "流浪者的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "4",
+    "exp": 725,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 50,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "甜甜花酿鸡",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "流浪者的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "5",
+    "exp": 850,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 10000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "流浪者的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "6",
+    "exp": 950,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 10000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "甜甜花酿鸡",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "流浪者的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "7",
+    "exp": 1075,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 10000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家尾羽",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "流浪者的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "8",
+    "exp": 1200,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 10000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家头带",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "流浪者的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "9",
+    "exp": 1300,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 10000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家之花",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "流浪者的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "10",
+    "exp": 1425,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 10000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "试作斩岩",
+        "count": 1,
+        "type": "WEAPON"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "流浪者的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "11",
+    "exp": 1525,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 15000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家金杯",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "12",
+    "exp": 1650,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 50,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "13",
+    "exp": 1775,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 15000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "14",
+    "exp": 1875,
+    "unlockdescription": "委托与派遣系统解锁",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 15000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "15",
+    "exp": 2000,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 15000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻碎屑",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "16",
+    "exp": 2375,
+    "unlockdescription": "多人联机系统解锁",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 15000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "17",
+    "exp": 2500,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 20000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "异国之盏",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "18",
+    "exp": 2625,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 20000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "19",
+    "exp": 2775,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 20000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "归乡之羽",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "20",
+    "exp": 2825,
+    "unlockdescription": "世界等级提升至1级;怪物与首领等级提升;掉落奖励提升\n冒险等阶上限提升至25级",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 75,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用良矿",
+        "count": 5,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 5,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "21",
+    "exp": 3425,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 25000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "感别之冠",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 4,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 10,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "22",
+    "exp": 3725,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 25000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "故人之心",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 4,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 10,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "23",
+    "exp": 4000,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 25000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "逐光之石",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "燃愿玛瑙断片",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "自在松石断片",
+        "count": 1,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "24",
+    "exp": 4300,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 25000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "涤净青金断片",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "最胜紫晶断片",
+        "count": 1,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "25",
+    "exp": 4575,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 25000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻断片",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "哀叙冰玉断片",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "坚牢黄玉断片",
+        "count": 1,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "26",
+    "exp": 4875,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 30000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻断片",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 4,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 10,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "27",
+    "exp": 5150,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 30000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "四方之风的记忆",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 4,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "冒险家的经验",
+        "count": 10,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "28",
+    "exp": 5450,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 75,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻断片",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "燃愿玛瑙断片",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "自在松石断片",
+        "count": 2,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "29",
+    "exp": 5725,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 30000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "学士的墨杯",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "涤净青金断片",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "最胜紫晶断片",
+        "count": 2,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "30",
+    "exp": 6025,
+    "unlockdescription": "世界等级提升至3级;怪物与首领等级提升;掉落奖励提升\n冒险等阶上限提升至35级",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 30000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻断片",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "哀叙冰玉断片",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "坚牢黄玉断片",
+        "count": 2,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "31",
+    "exp": 6300,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 40000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "学士的羽笔",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 8,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 6,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "32",
+    "exp": 6600,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 100,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "学士的镜片",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 8,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 6,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "33",
+    "exp": 6900,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 40000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 8,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 6,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "34",
+    "exp": 7175,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 40000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "学士的书签",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 8,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 6,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "35",
+    "exp": 7475,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 40000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻块",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 8,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 6,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "36",
+    "exp": 7750,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 100,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "学士的时钟",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 12,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 9,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "37",
+    "exp": 8050,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "四方之风的记忆",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 12,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 9,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "38",
+    "exp": 8325,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻块",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 12,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 9,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "39",
+    "exp": 8625,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 12,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 9,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "40",
+    "exp": 10550,
+    "unlockdescription": "世界等级提升至5级;怪物与首领等级提升;掉落奖励提升\n冒险等阶上限提升至45级",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 100,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻块",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 12,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 9,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "41",
+    "exp": 11525,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 16,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 12,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "42",
+    "exp": 12475,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 16,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 12,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "43",
+    "exp": 13450,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "宗室银瓮",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 16,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 12,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "44",
+    "exp": 14400,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 16,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 12,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "45",
+    "exp": 15350,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 125,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "璀璨原钻",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 16,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 12,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "46",
+    "exp": 16325,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "四方之风的记忆",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 20,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 15,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "47",
+    "exp": 17275,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "宗室之翎",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 20,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 15,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "48",
+    "exp": 18250,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "宗室面具",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 20,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 15,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "49",
+    "exp": 19200,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "宗室之花",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 20,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 15,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "50",
+    "exp": 26400,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 125,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 20,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 15,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "51",
+    "exp": 28800,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "宗室时计",
+        "count": 1,
+        "type": "ARTIFACT"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 25,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 18,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "52",
+    "exp": 31200,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 25,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 18,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "53",
+    "exp": 33600,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 25,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 18,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "54",
+    "exp": 36000,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 25,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 18,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "55",
+    "exp": 232350,
+    "unlockdescription": "世界等级提升;怪物与首领等级提升;掉落奖励提升\n冒险等阶上限提升至60级",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 150,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 25,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 18,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "56",
+    "exp": 258950,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 30,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 21,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "57",
+    "exp": 285750,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 30,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 21,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "58",
+    "exp": 312825,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 30,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 21,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "59",
+    "exp": 340125,
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "摩拉",
+        "count": 50000,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 1,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 30,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 21,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  },
+  {
+    "name": "60",
+    "unlockdescription": "",
+    "reward": [
+      {
+        "name": "原石",
+        "count": 150,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "相遇之缘",
+        "count": 3,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "脆弱树脂",
+        "count": 2,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "精锻用魔矿",
+        "count": 30,
+        "type": "MATERIAL"
+      },
+      {
+        "name": "大英雄的经验",
+        "count": 21,
+        "type": "MATERIAL"
+      }
+    ],
+    "version": ""
+  }
+]

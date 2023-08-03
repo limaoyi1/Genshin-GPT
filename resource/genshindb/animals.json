@@ -1,0 +1,1311 @@
+[
+  {
+    "name": "长生仙",
+    "description": "生活在璃月的珍稀蝶鱼，如今只在仙家之所附近的水域中出没，体表的妃白色纹路轻逸出尘，相较于其他同类而言，寿命也更为悠长，因此又被认为是受仙人恩赐的祥瑞之鱼。\n出于敬仙的朴素观念，多数璃月人拒绝食用这种蝶鱼，但也有不信邪的少数派坚信吃了它们可以延年益寿。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12217,
+    "images": {
+      "nameicon": "UI_ItemIcon_131016"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "藤纹陆鳗鳗",
+    "description": "体型修长的两栖鱼类，有着在浅滩、沙洲的陆地上获取热量的特殊习性。\n陆鳗鳗肉质鲜美，烤制后味道独特。在稻妻，是人人偏爱的美味食材。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13028,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Eel_01"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "蓝染花鳉",
+    "description": "活泼好动的小型鳉鱼，以优美的花瓣型鱼尾闻名。\n早先有种趣闻——将普通花鳉投入蓝色染缸，就能得到更贵的蓝染花鳉。这类说法大约是从孩童的天真玩笑里流传开的，但却意外点拨了不少无良鱼贩。于是每隔段时间，坊间就会出现「你买的花鳉怎么还掉色？」之类的对话。对此，总务司市坊署特地张贴过告示——「市场纷乱繁杂，警惕蓝鱼充数。」",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12204,
+    "images": {
+      "nameicon": "UI_ItemIcon_131003"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "赤魔王",
+    "description": "外表凶恶、表里如一的凶猛棘鱼，为了争抢食物它们不忌讳攻击任何水下生物，是令人生畏的赤色悍匪。与生俱来的火红表皮似乎与火元素有着千丝万缕的联系，虽然没能让它们直接变成烈焰发生器，却仍然赋予了掌控高温的能力。它们能够转化食物中的能量，并将其集中在危险的尖吻上，这让它们成为不折不扣的水底混蛋。\n「钻木取火好帮手。」——《野钓手册·赤魔王篇》",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12210,
+    "images": {
+      "nameicon": "UI_ItemIcon_131009"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "新手盗宝鼬",
+    "description": "神出鬼没的怪盗，盗窃宝物仅仅出于纯粹的天性。\n没有人知道究竟怎样异想天开的家伙训练出了这群盗窃成癖的小动物。盗宝鼬会四处偷窃收集摩拉——无论是远来旅客随身的零钱、冒险家的盘缠，还是遗迹内散落的财宝，都逃不过它们的眼睛。\n虽然从现实中缴获的新手盗宝鼬钱袋的情况而言，恐怕只能收集到旅人落下的零钱吧…",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11028,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Thoarder_Weasel_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "风晶蝶",
+    "description": "空气中飘荡不定的风元素微粒聚合而成的纯粹元素生命，同蛱蝶一般悠游。\n闪光的风元素生物，是元素上升凝合而成的产物，以无处不在的风元素维生。\n传说蝴蝶的振翅有着掀起风暴的力量。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13003,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Wisp_Wind_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "蓝翎鹭",
+    "description": "高贵优雅的鸟类，生着宽阔的双翼与修长的腿。\n长腿的鹭在提瓦特大陆的各国文化中有着不同的美好寓意。吉祥、雅致，或君子的翩翩风度，皆在这种优雅的鸟类身上有所体现。\n在璃月人的诗歌中，也会将「君子」形容为这种修长高挑、举止清新的鸟类。",
+    "category": "禽鸟",
+    "counttype": "NONE",
+    "sortorder": 10017,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Crane_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "妖狸",
+    "description": "生性乐天、神出鬼没的狸，懂得只在一族中流传的法术。有着变化成其他物体，乃至于人类的能力。\n尽管经常会和某个隶属于幕府的神秘组织扯上关系，但狸子可没有那么多的坏心眼，捉弄人类也只是喜欢玩闹罢了。\n例外在记载中只有一次。很多年前，以妖狸五百藏为首，镇守之森的妖狸发起了一场「狸合战」，似乎是因为其首领与一位妖狐的纠葛。但这件事的结果就是大部分的妖狸都被封印在石像中。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11031,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Inu_Tanuki_01"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "斗棘鱼",
+    "description": "长满刺状鳍的迅猛鱼类，全速游动时矛般尖吻甚至能劈开水流。因此又得名「劈水刺」、「箭难追」等。\n有着棘鱼中数一数二的自尊心。尤其在求偶期间，任何一点风吹水皱能有可能激怒它们。曾有爱好者观察到一条斗棘鱼正向着摇曳的水草发起冲锋，显然它认为如此放荡形骸的舞姿是对棘鱼王者的严重挑衅。\n「若在水下相遇，请勿与它们对视。」——《野钓手册·斗棘鱼篇》",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12208,
+    "images": {
+      "nameicon": "UI_ItemIcon_131007"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "苦炮鲀",
+    "description": "稀有的炮鲀品种，鱼如其名，是在水底世界传播苦涩的家伙。与普通炮鲀相较，它们射出的水炮速度更慢、体积更小，但却因为附着了极具刺激性的苦味信息素而让威力不退反进。在求偶期间，还经常能够见到雄性和雌性之间互相喷射苦味水炮的奇景，或许向彼此传递生命中的苦涩，也是一种爱意的体现吧。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12221,
+    "images": {
+      "nameicon": "UI_ItemIcon_131020"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "黑背鲈鱼",
+    "description": "各处的水域中都十分常见的鱼类。肉质肥美，是提瓦特各种美食中的鱼肉的主要来源。\n黑背鲈鱼是提瓦特大陆各水系最常见的鱼类之一，据说背鳞的颜色越深，其年龄便越大，有经验的渔夫总能通过鱼鳞的色泽分辨出最优质的渔获。",
+    "category": "游鱼",
+    "counttype": "NONE",
+    "sortorder": 12001,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Fish_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "黑背猎犬",
+    "description": "人类最好的朋友！\n传说是古代蒙德贵族精心配种培育的昂贵猎犬之后代，如今在提瓦特大陆七国皆有分布。虽然拥有高贵的祖先，但如今的黑背猎犬以忠诚可靠和平易近人闻名。旧时代高傲跋扈的骑士如今被谦逊热心的西风骑士取代，或许也是同样的道理吧。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11015,
+    "images": {
+      "nameicon": "UI_AnimalIcon_DogPrick_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "黑猫",
+    "description": "灵巧而富有智慧的生灵，抱持着与生俱来的优雅与骄傲。\n纯黑毛色的神秘过客，时常隐身于一片黑暗中发出呼噜呼噜的声音，或者令黑色的地毯凭空生出两只金色的大眼睛。对于某些学者来说，纯黑色的猫咪象征着神秘学、魔法与深远的预兆，因此格外招人喜爱。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11022,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Cat_07"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "黑王鸽",
+    "description": "提瓦特常见的鸟类，肉质肥美，训练后也能远程传信。\n较为常见的鸽子，以黑色的头部闻名。比其他种类的鸽子更加勇敢好斗，因而更容易捕获。肉质紧实美味，适宜烤制。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10009,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Pigeon_05"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "蓝鳍鲈鱼",
+    "description": "各处的水域中都十分常见的鱼类。肉质肥美，是提瓦特各种美食中的鱼肉的主要来源。\n蓝鳍鲈鱼的肉质相比黑背鲈鱼而言更加绵软，更受追求细腻口感的食客欢迎。",
+    "category": "游鱼",
+    "counttype": "NONE",
+    "sortorder": 12002,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Fish_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "蓝蛙",
+    "description": "常在湿地出没的小小青蛙。\n潮湿地带十分常见的小动物，身上会分泌奇特的粘液，拥有多种药用用途。蓝蛙更适应水质纯净的水域。\n根据观察，各种蛙类在体表的粘液干涸后，皮肤往往会变成青绿色。目前推断是为了节约体内的水分，外皮发生了某种变化导致的。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13016,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Frog_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "蓝角蜥",
+    "description": "头上生有尖角的小蜥蜴，时常出没在阴影遮盖的草丛中。\n拥有漂亮蓝色鳞片的角蜥，在被捉住时会断尾逃生。\n蜥蜴尾巴在风干磨成粉后有特殊的药用功效，一些疯狂的炼金术士甚至开发出了将之加工成爆炸物催化剂的技术。\n脱离了身体后的尾巴会在一段时间后失去生命力，蜷曲起来，并且出于不明原因，变成明亮的绿色。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13023,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Lizard_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "青雷鼬",
+    "description": "出没在层岩巨渊的矿道、洞窟深处，生活在地下的机智鼬类，皮毛泛着特异的青色光泽。\n适应了长期光线黯淡的生活，拥有非常优秀的听力与嗅觉。\n因为玉色的眼瞳与异色的毛皮，所以这种鼬的出没也被矿工们视为开采出宝石的征兆。实际上这两者之间毫无关系。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11027,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Marten_05"
+    },
+    "version": "2.6"
+  },
+  {
+    "name": "靴子鼬",
+    "description": "身材细长灵巧、钟爱恶作剧的捣蛋鬼。\n因为四肢的深色毛发看似长靴而得名。靴子鼬性情较其他同类更加胆小谨慎，其蹑手蹑脚的动作反过来正加深了「穿靴子的鼬」的印象。因此，提瓦特大陆的居民们多有关于这些贼头贼脑的小动物的奇妙传说。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11025,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Marten_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "璃冠鸽",
+    "description": "提瓦特常见的鸟类，肉质肥美，训练后也能远程传信。\n普通的鸽子，因琉璃光泽的头颈而得名。由于过于常见，许多人已经不再对这种鸽子美丽的毛色多加注意。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10006,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Pigeon_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "流纹褐蝶鱼",
+    "description": "性情温和，姿态优雅的蝶鱼，拥有流线型的美丽背鳍，又有「水中王后」的美誉。\n体表环绕着大地色的纹路，脾气也如同岩石般沉稳，缺点是沉稳过头了，有时会像岩石一样沉在水底不动，以致常让买家怀疑买到了已经无力回天的老头鱼。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12214,
+    "images": {
+      "nameicon": "UI_ItemIcon_131013"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "茶羽鹰",
+    "description": "目光锐利的高傲鹰隼。\n总是在清冷的高空盘旋，伺机寻找着隐身于草木间的小小松鼠与鸟雀。据老练的猎人说，这种猛禽稍加训练，便会是优秀的猎鹰。",
+    "category": "禽鸟",
+    "counttype": "NONE",
+    "sortorder": 10001,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Falcon_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "珊瑚蝶",
+    "description": "珊瑚王虫的迁徙形态，看起来像是蝴蝶。\n在接近完全转化一片区域的荒蛮元素时，下一代珊瑚王虫的骨骼就会凝聚为翅膀一般的形态。它们会在渊下宫中飞舞，寻找下一片繁衍生息之地。\n它们是旧秩序的破坏者，原本只能在暗海偷生。但是蛇神给了它们新的机会。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13009,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Wisp_Tokoyo_01"
+    },
+    "version": "2.5"
+  },
+  {
+    "name": "赤团雀",
+    "description": "聒噪的小小鸟类，遍布提瓦特大陆的各个角落。\n这种鸟雀生着鲜艳的赤色羽毛，以便求偶时用来大肆炫耀。不幸的是，这样鲜艳的羽毛也很容易吸引捕猎者的目光，娇小可爱的赤团雀可以说是提瓦特大陆食肉动物主要的食物来源之一。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10010,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Tit_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "赤胁鸽",
+    "description": "提瓦特常见的鸟类，肉质肥美，训练后也能远程传信。\n多在山区活跃的鸽子，羽毛上沾染了山岩与红土的颜色，因此更显得优雅贵气。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10008,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Pigeon_04"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "红狐",
+    "description": "精灵般隐匿的狡黠生灵，在民话传说中拥有奇特的智慧与悠远的记忆。\n藏身于林木间、草丛中的小小狐狸，谨慎地躲避着猎人的弓箭与目光。\n在各地的民话中，都有生存了足够久、积累了足够智慧的狐，掌握超脱凡骨的力量的故事，其中甚至有狐狸能化成人类的说法。在流行的童话故事《蒲公英海的狐狸》中，就有这样的描述。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11002,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Fox_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "鸦",
+    "description": "漆黑的鸟类。\n黑色的羽毛深过提瓦特的长夜，数量多时盘旋在空中甚至会产生遮天蔽日的效果。\n在部分民话中被视为厄运的征兆，而在另一些传说中却被当做带来吉祥的预言之鸟，「所谓民俗便是这样的东西。」\n各地冒险家当中有一则传闻，说蒙德有一位调查员小姐养了一只巨大的会说话的乌鸦…？",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10020,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Crow_01"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "冰晶蝶",
+    "description": "空气中飘荡不定的冰元素微粒聚合而成的纯粹元素生命，同蛱蝶一般悠游。\n闪光的冰元素生物，是元素上升凝合而成的产物，以飞散在霜雾中的冰元素维生。\n尽管无比脆弱，却能在风雪的簇拥下起舞。尽管本身完全无害，却昭示着霜雪降临，万物沉寂。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13006,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Wisp_Ice_01"
+    },
+    "version": "1.2"
+  },
+  {
+    "name": "水晶宴",
+    "description": "如水晶般闪耀的珍稀鳉鱼，花纹繁复，堪称鳉鱼中的美术家。\n有商贩宣称，这种鳉鱼在极端条件中会产下一种水晶珍珠，十分名贵，是上流的象征。这让它们受到各路人士的追捧，市面上的价格也一路水涨船高。但这在了解内情的渔师眼里却颇为滑稽：那珍珠明明只是被误食的鳅鳅宝玉而已，打腌臜鱼肠滚进去，再从有心商贩嘴里吐出来，怎就摇身一变、价值连城了？",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12206,
+    "images": {
+      "nameicon": "UI_ItemIcon_131005"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "擒霞客",
+    "description": "体表浮现着斑斓霞光的珍稀鳉鱼，看似普通花鳉的变种，但无论是习性还是外观都有不小区别。\n在民间传闻中，这种鱼儿还有预测天气的神异能力。每个晨光刺破天际的时刻，若能见到它们跃出水面、将小小身躯撞入第一缕朝霞，那意味着接下来，人们将会享受到一整日的好晴天。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12205,
+    "images": {
+      "nameicon": "UI_ItemIcon_131004"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "深海鳗鳗",
+    "description": "体型修长的两栖鱼类，通常出没于深海中。生物学而言是陆鳗鳗的异种，会通过共生的方式，随其他相比之下更加庞大的生物行动。\n之所以出现在渊下宫，或许是因为深海龙蜥、鳐，抑或是古代的大蛇将它们带到了这片陌生的土地上吧。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13029,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Eel_02"
+    },
+    "version": "2.4"
+  },
+  {
+    "name": "草晶蝶",
+    "description": "空气中飘荡不定的草元素微粒聚合而成的纯粹元素生命，同蛱蝶一般悠游。\n闪光的草元素生物，是元素上升凝合而成的产物，以无处不在的草元素维生。\n传说草晶蝶是生命的种子。无论经历过多少次的枯荣，只要种子不死，大地就一定会重新绽放生机。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13005,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Wisp_Grass_01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "沙狐",
+    "description": "精灵般隐匿的狡黠生灵，在民话传说中拥有奇特的智慧与悠远的记忆。\n生活在广阔的沙漠之中，或许是因为与同类相比体型更小的缘故而躲过了古时的灾厄。长长的耳朵是为了适应适应酷热干燥的沙漠环境而演化出来的。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11003,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Fox_03"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "骆骆驮兽",
+    "description": "驮兽是人类的朋友。它们性格温顺，是重要的生产运输工具。\n驮兽能够适应各种不同的自然环境。早在雨林中的商贾注意到它们之前，这些勤劳的生灵便已是沙漠部族赖以生存的家畜。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11036,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Megamoth_Desert"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "迪芙妲鳐",
+    "description": "曾经一度被认为是幻想生物的奇异鳐鱼，只被记录在一些海祇岛的古老画卷中。如今随着尘封的海渊被打开，它们的真实样貌才展现在人们眼前。\n据传这种奇异生物的体色会随着时间的变化而变化，幼年时通常呈现出皦日一般的浅金色。在古画卷的记录中，这个时期的它们被冠以「迪芙妲」之名，其意为「纯真之尾」。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12222,
+    "images": {
+      "nameicon": "UI_ItemIcon_131021"
+    },
+    "version": "2.4"
+  },
+  {
+    "name": "暝彩鸟",
+    "description": "生活在须弥的森林中的鸟类，因为绚丽的色彩颇受喜爱。在驯化之后，能够传递信件。\n据说暝彩鸟在过去有着相当的智慧，能够学会人的话语，甚至连文字也能理解。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10021,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Pigeon_Beak"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "雷晶蝶",
+    "description": "空气中飘荡不定的雷元素微粒聚合而成的纯粹元素生命，同蛱蝶一般悠游。\n闪光的雷元素生物，是元素上升凝合而成的产物，以无处不在的雷元素维生。\n在黑夜中跃动的电光，不知道是否寄托了谁的信仰…",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13004,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Wisp_Electric_01"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "翠冠鸭",
+    "description": "呱呱叫的水禽，生活在提瓦特大陆的河湖与湿地之中。\n头颈生着美丽绿色羽毛的野鸭，对于风势的转变格外敏感，喜爱在温暖的水域嬉戏。",
+    "category": "禽鸟",
+    "counttype": "NONE",
+    "sortorder": 10015,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Wigeon_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "碧团雀",
+    "description": "聒噪的小小鸟类，遍布提瓦特大陆的各个角落。\n羽毛如同翠玉宝石般碧蓝的团雀，古代矿工记事中常提到的「笼中雀」最初指的便是它们，因为碧团雀的健康状态很容易从羽毛色泽分辨出来。顺带一提，虽说今日的矿工依然在带团雀下矿，但已经不再讲究其羽毛的颜色了。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10013,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Tit_04"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "幽浮鳐",
+    "description": "极为罕见的空游生物。\n传说中，这种鳐最初是在漆黑的外海海底，通过荧光与元素的微粒，魅惑着渴求光芒者的掠食生物。\n传说还说道，之所以幽浮鳐会出现在渊下宫，起初是误以为身披珊瑚的大蛇是它们所栖息的海床…",
+    "category": "游鱼",
+    "counttype": "NONE",
+    "sortorder": 12004,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Fishable_Ray_Stellamarisidae_01"
+    },
+    "version": "2.4"
+  },
+  {
+    "name": "飞蛇",
+    "description": "一定程度上能够悬浮的爬行动物。\n飞蛇并不具备「飞行」的能力，悬浮的能力似乎是借助了与鸟类相同的中空骨骼，与其中风元素的残渣。沙漠不是风元素的国度，但其中常年呼啸着侵蚀一切的风。无论是城池或是历史，都会被沙海的风慢慢磨成细沙。只有能与这种风共生的动物，才能在一切都回归尘土后依然生存在沙海中。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11035,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Chrysopelea"
+    },
+    "version": "3.4"
+  },
+  {
+    "name": "野林猪",
+    "description": "提瓦特大陆上最活跃的住民之一，广泛活跃于各地的郊野。\n繁殖能力强、性情倔强的野生动物。由于生存能力极为顽强，在各种林地与荒野都能见到它们的身影。林猪的肉质鲜美而有韧性，是许多佳肴的食材。此外，以林猪为主角的传说故事也在提瓦特大陆流传广远。\n根据马斯克家族的观察，似乎有一些丘丘人部族试图圈养野林猪，推测是希望训练后作为坐骑使用。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11006,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Boar_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "巡林犬",
+    "description": "人类最好的朋友！\n起初是作为山林猎人的搭档而被人类驯养的，但在平淡而忙碌的城市生活中，也能够称职地完成看家护院的工作。是温顺而敏锐的犬类，对小孩子十分友好。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11013,
+    "images": {
+      "nameicon": "UI_AnimalIcon_DogPrick_04"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "丛林树蛙",
+    "description": "常在湿地出没的小小青蛙。\n潮湿地带十分常见的小动物，身上会分泌奇特的粘液，具有多种药用用途。树蛙适应丛林中的生活。\n据说有些树蛙可以在丛林间滑翔。根据研究，其原理与风之翼有不少相似之处。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13017,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Frog_04"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "佛玛洛鳐",
+    "description": "曾经一度被认为是幻想生物的奇异鳐鱼，只被记录在一些海祇岛的古老画卷中。如今随着尘封的海渊被打开，它们的真实样貌才展现在人们眼前。\n据传这种奇异生物的体色会随着时间的变化而变化，幼年时通常呈现出如同皦日一般的浅金色，成年后体色会变深，双翼也被如同夜幕一般的暗紫色覆盖。在古画卷的记录中，这个时期的它们被冠以「佛玛洛」之名，其意为「贪婪之口」。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12223,
+    "images": {
+      "nameicon": "UI_ItemIcon_131022"
+    },
+    "version": "2.4"
+  },
+  {
+    "name": "青蛙",
+    "description": "常在湿地出没的小小青蛙。\n潮湿地带十分常见的小动物，身上会分泌奇特的粘液，具有多种药用用途。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13014,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Frog_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "将军蟹",
+    "description": "张牙舞爪的蟹类，遍布提瓦特各水系。\n有着像幕府的旗印一样紫色的外壳，走起路来也如同大将一般横行无忌，属实僭越至极，真是大胆！",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13021,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Crab_04"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "岩晶蝶",
+    "description": "空气中飘荡不定的岩元素微粒聚合而成的纯粹元素生命，同蛱蝶一般悠游。\n闪光的岩元素生物，是元素上升凝合而成的产物，以无处不在的岩元素维生。\n在难以尽览的万古中，即使是磐岩也会做梦。据说岩晶凝成的飞蝶正是嵯峨山石之梦。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13007,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Wisp_Rock_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "琉璃花鳉",
+    "description": "活泼好动的小型鳉鱼，以优美的花瓣型鱼尾闻名。\n有着难以捉摸的行为方式，常能见到它们毫无征兆地挣扎起来，似乎正忍受着某种看不见的痛苦，但在其落单的情况下，便不会发生这种事情。有学者猜测，这可能与它们天生的表演欲有关。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12202,
+    "images": {
+      "nameicon": "UI_ItemIcon_131001"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "黄金鲈鱼",
+    "description": "各处的水域中都十分常见的鱼类。肉质肥美，是提瓦特各种美食中的鱼肉的主要来源。\n黄金色鱼鳞的鲈鱼相对黑背鲈鱼、蓝鳍鲈鱼少见得多，据说能够为渔夫带来好运。\n在璃月港的街市中，曾有人兜售黄金鲈鱼纹样的祈福卡片与护身符。过去，在稻妻也有人将海平线上波光粼粼的夕照形容为黄金鲈鱼在空中遨游的模样。",
+    "category": "游鱼",
+    "counttype": "NONE",
+    "sortorder": 12003,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Fish_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "黄金蟹",
+    "description": "张牙舞爪的蟹类，遍布提瓦特各水系。\n外壳呈黄金色的螃蟹尤其美味，是璃月名菜「黄金蟹」的首选食材。\n有的人会将横行无忌的人形容为「螃蟹」，但事实上螃蟹的行动方式是基于它的生理结构，而不是出于性格。这种形容对螃蟹而言十分不公平。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13018,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Crab_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "金团雀",
+    "description": "聒噪的小小鸟类，遍布提瓦特大陆的各个角落。\n拥有闪亮金色绒毛的小小鸟雀，在阳光下十分好看。有时小孩子会捕捉这种金团雀回去饲养，但它们很难适应人类吵闹的生活环境，往往很快便会趁机飞走。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10011,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Tit_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "金赤假龙",
+    "description": "被传为龙之后裔的大型鱼类。\n额上长角，体表无鳞，有金赤战袍加身，有水中王者风姿。实际就血统与习性而论，它们与龙之间的距离差之千里——既无呼风唤雨之能，又无雄踞一方之技，甚至由于性格过于软弱，还常被其他掠食性鱼类抢夺食物，实在愧对这一副威风凛凛的好相貌。因此只能摘下「龙裔」之称，屈居「假龙」之号。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12212,
+    "images": {
+      "nameicon": "UI_ItemIcon_131011"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "金鳅鳅",
+    "description": "传说中能够吐出宝玉的淡水两栖动物，多分布在水源清澈、苇草高耸的地方，譬如璃月的荻花洲。\n传说金色鳅鳅是河流的宠儿。或许也正是因为受着河流温柔的爱抚摇荡，它们才总是保持着天真的笑容吧。\n会将无法吸收、消化的元素、砂砾、矿物质在体内凝结成闪闪发亮的珠子，并在遇到天敌时吐出，以迷惑掠食者。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13012,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Salamander_02"
+    },
+    "version": "1.1"
+  },
+  {
+    "name": "大黄金盗宝鼬",
+    "description": "神出鬼没的怪盗，盗窃宝物仅仅出于纯粹的天性。\n「大黄金盗宝鼬」是盗宝鼬中，技艺最为精湛、数量最为稀少的「神偷」。\n据说盗宝鼬是盗宝团当中的某人突发奇想，将野生的鼬鼠训练成的「盗宝团正式成员」。\n因为没有实际的记录，所以上述传说是否属实也未可知。不过，从缴获的钱袋来看，即使传说属实，盗宝团也不可能通过盗宝鼬积累多少财富吧…",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11030,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Thoarder_Weasel_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "灰雪猫",
+    "description": "灵巧而富有智慧的生灵，抱持着与生俱来的优雅与骄傲。\n「妈妈快看，那个咪咪好像一坨脏脏雪！」这种调皮猫咪的名字正是来自一个顽童的言语冒犯。灰雪猫是一种非常活泼的猫咪，各种场地都能成为它们嬉戏打闹的战场，倒是苦了那些总要给它们洗澡的主人。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11018,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Cat_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "灰羽鸽",
+    "description": "提瓦特常见的鸟类，肉质肥美，训练后也能远程传信。\n普通的鸽子，因灰白的羽毛而得名。这种鸽子颈部的羽毛呈现渐变的翠绿色，但可惜因为过于常见，许多人已经不再对这种美丽的毛色多加注意。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10007,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Pigeon_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "「大雪猪王」",
+    "description": "生活在冰雪之中，等待着被冰封的同族们复苏的「王者」。\n在无比遥远的过去，荒野的猎人中间流传着这样的传说：当人迹尽没的冰封之境恢复生机，当不速之客搅扰冰穴的安宁，带领雪猪的族群走向壮大的传奇「君王」便会从沉睡中苏醒，抖掉身上积压的冰雪，将那不懂礼数的客人好生教训一顿。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11009,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Boar_03"
+    },
+    "version": "1.2"
+  },
+  {
+    "name": "绿角蜥",
+    "description": "头上生有尖角的小蜥蜴，时常出没在阴影遮盖的草丛中。\n拥有漂亮绿色鳞片的角蜥，在被捉住时会断尾逃生。\n蜥蜴尾巴在风干磨成粉后有特殊的药用功效，一些疯狂的炼金术士甚至开发出了将之加工成爆炸物催化剂的技术。\n脱离了身体后的尾巴会在一段时间后失去生命力，蜷曲起来。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13025,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Lizard_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "翡玉斧枪鱼",
+    "description": "形貌独特的鱼类，是蝶鱼的须弥远亲。这种鱼类的骨架宽大，身形曲线独具一格。相传最早钓上这种鱼的鱼师将钓竿斜放在尾鳍末端，发现两者结合后形如某种长柄武器，为其取名「斧枪鱼」。相比它的学名「锚钩蝶」，这个名字更为形象，因而在民间广为流传。\n色泽如翡玉的斧枪鱼喜欢在水生植物茂盛的区域活动，身形极易与背景相融，若隐若现。穿行在水草间的小鱼常常撞上它们屏障般的身体，晕头转向，不过翡玉斧枪鱼也不会被激怒，反而会适时为这些邻居提供庇护。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12229,
+    "images": {
+      "nameicon": "UI_ItemIcon_131028"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "藏金盗宝鼬",
+    "description": "神出鬼没的怪盗，盗窃宝物仅仅出于纯粹的天性。\n身上背负着华丽钱袋的盗宝鼬，作为盗宝鼬种群中的长者，它们寻找财宝与躲避追猎的本领更加精湛。甚至还会在游戏中将技巧「教授」给群落内的晚辈们。身为更有经验的「盗贼」，它们收集到的摩拉也更加丰厚。\n虽然从缴获的藏金盗宝鼬钱袋的情况而言，恐怕也没有丰厚到哪里去吧…",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11029,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Thoarder_Weasel_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "翠目猫",
+    "description": "灵巧而富有智慧的生灵，抱持着与生俱来的优雅与骄傲。\n拥有翠绿双目的灰色猫咪，夜晚在房梁上行走的样子十分优雅。但还请不要被它们贵族般的举止欺骗了，这些小贼最擅长从商铺和后厨偷窃鲜鱼。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11017,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Cat_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "狐",
+    "description": "狡黠而高傲的生灵，在民话传说中拥有奇特的智慧与悠远的记忆。\n即便有生人靠近也不屑一顾的样子，似乎是已经习惯了与人类相处。\n在稻妻文化中有着悠久的历史渊源。有传说说它们是过去的「狐斋宫大人」的亲眷中的一支。在她消失后，力量更强的「天狐」与「地狐」都化作石像等待她的回归，而这些狐狸则随着一族的灵脉变得稀薄，而不再开口，也失去了法力。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11004,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Vulpes_01"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "石鸢",
+    "description": "目光锐利的高傲鹰隼。\n在山岩林立的绝峰之间筑巢的猛禽，人们传说这种禽鸟永远在云间放浪，无足无巢。但那只是鄙陋的无知与浪漫的想象结合之产物，石鸢也是要为腹中餐食、巢中幼鸟而奔忙的生灵。",
+    "category": "禽鸟",
+    "counttype": "NONE",
+    "sortorder": 10003,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Falcon_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "青金斧枪鱼",
+    "description": "形貌独特的鱼类，是蝶鱼的须弥远亲。这种鱼类的骨架宽大，身形曲线独具一格。相传最早钓上这种鱼的鱼师将钓竿斜放在尾鳍末端，发现两者结合后形如某种长柄武器，为其取名「斧枪鱼」。相比它的学名「锚钩蝶」，这个名字更为形象，因而在民间广为流传。\n虽说名字来源于武器，体内蕴含的力量在鱼类之中也位居前列，但斧枪鱼大多有着温厚的性格，体表生有着青金色纹路的斧枪鱼尤其如此。得益于坚硬的鳞片和力量的优势，斧枪鱼能从容应对其他水生生物的攻击，等到对方精疲力竭后悠然离去。\n它们的力气对于鱼师而言也是一种挑战，唯有做好对抗大型猛兽的准备，在它们咬钩时就全力以赴，才能有效消耗它们的体能，将它们钓获。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12228,
+    "images": {
+      "nameicon": "UI_ItemIcon_131027"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "吉光虫",
+    "description": "会摄取层岩巨渊地下奇石中的能量，发出微光的无害生物。其发光的特性备受矿工宠爱，被视为吉兆，得名「吉光」。\n因为黑暗当中的细小光明总是受到珍惜的。\n在层岩巨渊意外掘出「怪东西」之后，它们的种群也繁茂起来。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13032,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Boltbug_Lightbug_01"
+    },
+    "version": "2.6"
+  },
+  {
+    "name": "肺棘鱼",
+    "description": "长满刺状鳍的迅猛鱼类，全速游动时矛般尖吻甚至能劈开水流。因此又得名「劈水刺」、「箭难追」等。\n与诸多同类相异，肺棘鱼可以在干涸的泥塘中存活很久，除了鳃部，它们还能用退化了鳞片的皮肤来呼吸，这更符合两栖类的性状，因此除了不请自来的渔师，它们还面临着被棘鱼学科除名的存在性危机。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12207,
+    "images": {
+      "nameicon": "UI_ItemIcon_131006"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "嗜髓蜥",
+    "description": "头上生有尖角的小蜥蜴，时常出没在阴影遮盖的草丛中。\n有着渐变的蓝色鳞片和漂亮纹理的蜥蜴，似乎以晶化骨髓为食。\n蜥蜴尾巴在风干磨成粉后有特殊的药用功效，一些疯狂的炼金术士甚至开发出了将之加工成爆炸物催化剂的技术。\n脱离了身体后的尾巴会在一段时间后失去生命力，蜷曲起来。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13026,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Lizard_04"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "面具鼬",
+    "description": "身材细长灵巧、钟爱恶作剧的捣蛋鬼。\n黑色的面部给人一种戴着大盗面具的印象，但其实却是温顺友好的品种，也很少会进入人类的领地偷窃食物。尽管如此，面具鼬温顺友好的天性有时也会被不怀好意之徒盯上，利用来满足自己不劳而获的私欲。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11026,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Marten_04"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "花鳉",
+    "description": "活泼好动的小型鳉鱼，以优美的花瓣型鱼尾闻名。\n大多时候都以观赏鱼的身份幸福生活着。但在人们发现了它肉质醇香、少刺多脂的特点后，被精心料理、呈上餐盘的情况也便不罕见了。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12201,
+    "images": {
+      "nameicon": "UI_ItemIcon_131000"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "月光鳍",
+    "description": "在漆黑大海中散发光芒的的珍稀蝶鱼，喜好群居，汇聚在一起时如同一轮落入海中的明月，是「海中月」传说的源头。这种特性一度吸引了很多趋光的海洋生物，在某种意义上，也指引了那些陷入黑暗的人们。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12219,
+    "images": {
+      "nameicon": "UI_ItemIcon_131018"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "泥蛙",
+    "description": "常在湿地出没的小小青蛙。\n潮湿地带十分常见的小动物，身上会分泌奇特的粘液，拥有多种药用用途。相比青蛙，黄色的泥蛙更容易在潮湿的岸边隐藏自己。\n据说枫丹人会形容难以捉拿的贼匪，或者逃过审判的恶人为「黄油里的泥蛙」。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13015,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Frog_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "北地猫",
+    "description": "灵巧而富有智慧的生灵，抱持着与生俱来的优雅与骄傲。\n全身皮毛以灰白为底色、黑色条纹为辅的优雅猫咪。生自遥远的北地，以性情温顺、亲近人类闻名。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11019,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Cat_04"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "北地犬",
+    "description": "人类最好的朋友！\n原产于遥远北地的犬类，生着灰白色的厚实皮毛。十分耐寒、性情活泼憨厚。强烈不建议把它们与松鼠单独关在同一个房间。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11012,
+    "images": {
+      "nameicon": "UI_AnimalIcon_DogPrick_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "海蓝蟹",
+    "description": "张牙舞爪的蟹类，遍布提瓦特各水系。\n其外壳呈蓝灰色的蟹类。性情比色彩鲜艳的同族更温顺，更不易被激怒。但其钳足也更加有力，被夹到的话会很痛。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13020,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Crab_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "薄红蟹",
+    "description": "张牙舞爪的蟹类，遍布提瓦特各水系。\n外壳是漂亮的薄红色，性格也很温顺，因此与其他同类相比更适合作为观赏蟹来饲养。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13022,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Crab_05"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "沉波蜜桃",
+    "description": "体型圆润的中型鱼类，生有犄角般的软骨结构，据说它们会用这一结构开凿水下洞穴，建造栖身之所，或是驱赶试图伤害自己的生物。\n通体粉红，尾鳍嫩绿的角豚，常让人联想到的墩墩桃。鱼如其名，它们的口感确实相当甜美，以至于被鱼师们认定「用来做甜品都不为过」。\n当然，在种种因素的影响下，鱼师们期待的鱼肉甜品并未获得成功。加上这种角鲀较为少见，价格高昂，难以作为食材，人们通常将它作为观赏鱼养殖。\n由于不想花费大笔钱财购买这种角鲀，但又喜爱其明艳色彩的客户基数较大，甚至有商人反其道而行之，当真用墩墩桃制作了这种角鲀的模型，销量还相当不错。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12225,
+    "images": {
+      "nameicon": "UI_ItemIcon_131024"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炮鲀",
+    "description": "圆润短小的腹鳍、肥硕敦厚的身躯和老实巴交的脑袋构成了人们对炮鲀的第一印象。这准确地反应了它的大部分个性——呆板、迟钝、缓慢。但少有人知的是，这样的傻瓜外表下却隐藏了一项绝杀秘技——将水流快速吸入身体，然后像炮弹一样从嘴里射出去，精准，强力，即使是渔夫挨上这么一下也免不了七晕八素，是一等一的水中杀手。\n「前有炮鲀出没，小心躲避口水。」——《野钓手册·炮鲀篇》",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12220,
+    "images": {
+      "nameicon": "UI_ItemIcon_131019"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "流纹京紫蝶鱼",
+    "description": "性情温和，姿态优雅的蝶鱼，拥有流线型的美丽背鳍，又有「水中王后」的美誉。体表环绕着京紫色纹路，喜好群居，以此来抵抗环境和天敌的危险。但这种习性被老道的渔师摸透后，便成了反过来捕捉它们的良方——只要想办法将头鱼引进陷阱，剩下的家伙就坐看它们自投罗网就好。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12215,
+    "images": {
+      "nameicon": "UI_ItemIcon_131014"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "流沙鳗鳗",
+    "description": "体型修长的两栖鱼类，通常生活于沙海之中。为了适应高温缺水的沙漠环境，不仅身体演化成了特殊的形态，就连繁殖方式也发生了变化。\n虽然被教令院的学者们所否定，但沙漠的居民似乎认为，存在于沙海之下的巨型生物才是它们蛹化成熟之后的完整形态。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13031,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Eel_04"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "雷鸣仙",
+    "description": "生活在稻妻的珍稀蝶鱼，喜好雷元素聚集的水域，似乎能从电流中攫取欢愉。\n相传原本与生活在璃月的「长生仙」源出一脉，直到被旅行商人引入稻妻后，生态上发生了意想不到的变化。就目前而言，已经有学者利用它们与雷史莱姆进行通电研究了。\n「麻...麻...舌陀...麻噜...」——某位贪食了「雷鸣仙」料理的老饕。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12218,
+    "images": {
+      "nameicon": "UI_ItemIcon_131017"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "赤鳍陆鳗鳗",
+    "description": "体型修长的两栖鱼类，有着在浅滩、沙洲的陆地上获取热量的特殊习性。\n陆鳗鳗的幼鱼通体透明，长成之后才会慢慢显现出漂亮的朱色耳鳍与赤黄斑纹。除了用作高级食材外，也经常被当作观赏性的鱼类。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13030,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Eel_03"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "红角蜥",
+    "description": "头上生有尖角的小蜥蜴，时常出没在阴影遮盖的草丛中。\n拥有漂亮红色鳞片的角蜥，在被捉住时会断尾逃生。\n蜥蜴尾巴在风干磨成粉后有特殊的药用功效，一些疯狂的炼金术士甚至开发出了将之加工成爆炸物催化剂的技术。\n脱离了身体后的尾巴会在一段时间后失去生命力，蜷曲起来，并且出于不明原因，变成明亮的绿色。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13024,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Lizard_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "赤尾蜥",
+    "description": "头上生有尖角的小蜥蜴，时常出没在阴影遮盖的草丛中。\n有着适应环境的条纹和红色尾巴的蜥蜴，遇到危险的时候会舍弃尾巴以迷惑敌人。\n蜥蜴尾巴在风干磨成粉后有特殊的药用功效，一些疯狂的炼金术士甚至开发出了将之加工成爆炸物催化剂的技术。\n脱离了身体后的尾巴会在一段时间后失去生命力，蜷曲起来。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13027,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Lizard_05"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "红尾鼬",
+    "description": "身材细长灵巧、钟爱恶作剧的捣蛋鬼。\n通体赤红的鼬鼠，擅长捕食昆虫与蜥蜴。身上赤红的颜色十分显眼，由于红尾鼬的和火元素色彩相称，许多惧怕烧灼的捕食者会敬而远之。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11024,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Marten_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "赤鹫",
+    "description": "以残骸为食的大型鸟类，赤红色的羽毛在阳光下显得有些稀疏。\n这些鹫鸟并非原生于荒漠中的物种，而是在猩红之王统治的古老文明消亡后才出现在沙漠之中的。同时由于其特殊的生活习性，在某些沙漠遗民看来，它们乃是带来死亡与灾厄的生物。",
+    "category": "禽鸟",
+    "counttype": "NONE",
+    "sortorder": 10022,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Vulture_01"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "长鬓虎",
+    "description": "栖息在山林之间的猛兽，是森林中的王者。\n将丛林视为自己的领地，平时会像国王一样巡视自己的疆域。如果遇到入侵者，它们会毫不留情的发起进攻。\n鬓角上长着夸张的绒毛，根据学者的研究，似乎有着测量距离的功能。\n传说在丛林中曾经有一匹真正的「虎」，是保卫丛林的灵兽。在它死后，这种形态与猫更加接近的猛兽继承了「虎」的威名。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11033,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Panther_01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "锖假龙",
+    "description": "被传为龙之后裔的大型鱼类。\n是假龙族群的旁支，也可以说是假龙族群中的觉醒者。跟它不成器的表亲相比， 锖假龙褪下了原先银样蜡枪头般的金赤战袍，取而代之的是其貌不扬却硬如精铁的锖色铠甲，意志坚定，为了食物和领地敢于向任何进犯者发起反击。就战斗力而言，它们已经能够与小型海兽一较高下，堪称振兴族群的骨干力量，又有「铁骨海龙」的尊称。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12213,
+    "images": {
+      "nameicon": "UI_ItemIcon_131012"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "圣鹮",
+    "description": "高贵优雅的鸟类，生着宽阔的双翼与修长的腿。\n栖息在沙漠绿洲附近，在过去曾被视为神明的象征而受到广泛的崇拜。在沙海遗民的古老传说中，这些生灵乃是失落灵庙的守护者，拥有着可以消弭灾厄的神圣力量。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10019,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Crane_Lbis_01"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "吹沙角鲀",
+    "description": "体型圆润的中型鱼类，生有犄角般的软骨结构，据说它们会用这一结构开凿水下洞穴，建造栖身之所，或是驱赶试图伤害自己的生物。\n这种角鲀有着黄沙般的色泽，其貌不扬，却是相当重要的品种。学者们根据这种角鲀的生理结构，推断出了整个角鲀谱系的生态特点——这种角鲀有着同族中最强的力量和最坚硬的犄角，扮演着「水下工人」的角色。由于长期在河床与湖底活动，与弥漫的河沙与湖沙为伴，它们也进化出了相应的保护色。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12226,
+    "images": {
+      "nameicon": "UI_ItemIcon_131025"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "蓝宝石",
+    "description": "灵巧而富有智慧的生灵，抱持着与生俱来的优雅与骄傲。\n这种通体纯白的猫咪因蓝宝石般闪亮的眼睛而闻名。但值得一提的是，尽管蓝宝石生得贵雅可爱，脾气却很差。与它们相处的话一定要注意随时备好小鱼干与外伤敷药。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11016,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Cat_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "圣金虫",
+    "description": "栖息在浩瀚沙海之中的顽强甲虫。甲壳上有着与沙漠中的古老遗迹相类似的花纹。\n传说在黄沙之王统治大地的年代里，在千柱之城的凯旋式上，善使魔法的司祭会将那些战败者的灵魂封印在这些昆虫之内，命它们永远守护圣者的神庙与宫殿。后来，神庙崩塌，宫殿倾覆，唯有这些金色的虫类依旧延续着已被遗忘的旧日誓约。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13033,
+    "images": {
+      "nameicon": "UI_AnimalIcon_BoltBug_Scarab_01"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "赤喙鸭",
+    "description": "呱呱叫的水禽，生活在提瓦特大陆的河湖与湿地之中。\n拥有白色羽毛和赤色喙的鸭子尤其常见，也尤其美味。",
+    "category": "禽鸟",
+    "counttype": "NONE",
+    "sortorder": 10014,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Wigeon_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "毒蝎",
+    "description": "生活在砂岩之下的大型节肢动物，擅长利用毒液捕猎。\n因为在受到攻击时会分泌出含有剧毒的液体，因此在很久之前就被诸多阴谋家和炼金术士们盯上，成为了各类毒药的常用原料。果然比起毒蝎，还是人心要更加可怕。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11034,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Scorpion_01"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "牦牦驮兽",
+    "description": "驮兽是人类的朋友。它们性格温顺，是重要的生产运输工具。\n在须弥，拥有驮兽的数量是财富的象征。大型的商队和镀金旅团往往拥有一支庞大的驮兽队伍，这使他们得以装载足够的补给与货物以跨越沙漠与丛林。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11037,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Megamoth_Jungle"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "警长猫",
+    "description": "灵巧而富有智慧的生灵，抱持着与生俱来的优雅与骄傲。\n谨慎而机警的猫咪，是猫咪中天生的精湛猎手。由于经常被人类赋予看守仓库防备鼠辈的重任，因而被称为「警长」。尽管猫咪是本性自由自在的动物，但这些「警长」对于捕鼠的职责似乎更加上心。顺带一提，璃月人会亲切地称之为「猫咪捕头」，以之为主题的童书与玩具也颇受璃月的孩子们欢迎。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11021,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Cat_06"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "柴犬",
+    "description": "人类最好的朋友！\n传说是稻妻的将军曾经宠爱的犬类，随着一度兴盛的商业航道而走遍提瓦特七国，成为了提瓦特大陆上最受欢迎的宠物犬之一。脾气温柔忠厚，头脑聪明，尤其擅长看家护院与陪伴家人。传说在稻妻依然生活着将这种犬类训练成「忍犬」的神秘忍者。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11014,
+    "images": {
+      "nameicon": "UI_AnimalIcon_DogPrick_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "蕈猪",
+    "description": "生活在雨林之中的野林猪，在演化过程中与蕈类形成了奇妙的共生关系。\n根据学者的研究，蕈猪依靠寄生其上的蕈类作为天然的迷彩，可以有效地躲避捕食者，更容易在丛林中存活下来。不过同时也因此被当作了天然的预制食材而在餐桌上广受欢迎。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11011,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Boar_Grass"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "白练鹰",
+    "description": "目光锐利的高傲鹰隼。\n以脆弱之躯挑战无边风雪的勇敢猛禽，覆霜凝雪的羽毛泛着冰川的光泽。在悠远的传说中，冰雪故国的子民死后便会化作羽毛如白练般的鹰，守护曾经苍翠的家园。由于冰封雪藏之地罕有天敌和猎人，这些古老的魂灵过得还挺滋润的。",
+    "category": "禽鸟",
+    "counttype": "NONE",
+    "sortorder": 10004,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Falcon_04"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "雪猪",
+    "description": "寒冷地带生活的野林猪，比温暖地带的同类拥有更厚实的皮毛。\n根据记载，这种猪倔强地生存在风霜中，在缺少天敌的环境中茁壮发展着自身的族群。传说这种雪猪可以非常长寿，而活得足够长的雪猪会在漫长的生存斗争中生长得格外巨大。\n但这一物种已经在数百年前灭绝了——人们原本是这么认为的，但随着对龙脊雪山探索的深入，冒险家似乎发现了新的生态样本…",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11008,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Boar_04"
+    },
+    "version": "1.2"
+  },
+  {
+    "name": "雪团雀",
+    "description": "聒噪的小小鸟类，遍布提瓦特大陆的各个角落。\n通体雪白的小小生灵，在冰天雪地中自得其乐。雪团雀天生适应寒冷气候，对温度的变化十分敏感，在温暖的地域会变得有些缺乏精神，因而比较容易捕获。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10012,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Tit_03"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "雪狐",
+    "description": "精灵般隐匿的狡黠生灵，在民话传说中拥有奇特的智慧与悠远的记忆。\n为了隐身在风雪之中，而长出了厚厚的白色皮毛。尽管生活在更加艰难的环境中，却因此变得更加机敏、嗅觉也更为敏锐。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11001,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Fox_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "雪中君",
+    "description": "祖祖辈辈都生活在雪山地区的珍稀棘鱼，或许正因如此。其性格意外的冷静，远不如同类那样凶狠暴躁。这种棘鱼对寒冷有着非同寻常的依恋，像父母之于孩子。虽然它们的确能在温暖水域存活，但远离寒冷似乎会让它们遭受某种心理上的重创，进而郁郁寡欢，停止繁衍。\n「不建议捕捉它们。」——《野钓手册·雪中君篇》",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12211,
+    "images": {
+      "nameicon": "UI_ItemIcon_131010"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "雪隐鼬",
+    "description": "身材细长灵巧、钟爱恶作剧的捣蛋鬼。\n隐藏在雪原洞穴中，来去如风的鼬鼠，擅长捕食昆虫与蜥蜴，面对个头比自己稍大的动物也不会畏惧。由于可爱的外貌，时常有人试图捕捉它们作为宠物饲养，但它们天生热爱自由，很难乖乖地接受被拘束在人类温暖家门内的命运。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11023,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Marten_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "棘冠鳄",
+    "description": "栖息于湖泊沼泽的古老生灵。性情凶猛，会从水下发起攻击。\n在须弥这片土地繁衍的历史要比雨林的存在更加悠久。在兽面的神祇仍旧斜倚王座之时，它们就被人们当作神明的使者来供奉。直到今天，沙漠的居民仍然将它们头上赤色的棘冠视为旧日神明的遗物。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11032,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Gator_01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "松鼠",
+    "description": "大尾巴的松鼠，荒野中常见的小动物。\n最善于囤积食粮的小小鼠类，尤其偏好松树的种实。",
+    "category": "走兽",
+    "counttype": "CAPTURE",
+    "sortorder": 11005,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Squirrel_01"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "太阳蟹",
+    "description": "张牙舞爪的蟹类，遍布提瓦特各水系。\n此种螃蟹的外壳呈现着漂亮的红色调渐变色，完美地映出了太阳光照的层次，煮熟后尤其好看。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13019,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Crab_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "晴天鳅鳅",
+    "description": "传说中能够吐出宝玉的淡水两栖动物，多分布在水源清澈、苇草高耸的地方。\n有着像晴朗的天空一样的美好颜色，遇见它或许能像遇到晴天一样收获好运吧。\n会将无法吸收、消化的元素、砂砾、矿物质在体内凝结成闪闪发亮的珠子，并在遇到天敌时吐出，以迷惑掠食者。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13013,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Salamander_03"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "暮云角鲀",
+    "description": "体型圆润的中型鱼类，生有犄角般的软骨结构，据说它们会用这一结构开凿水下洞穴，建造栖身之所，或是驱赶试图伤害自己的生物。\n作为角鲀中最为长寿的品种，它们有着淡暮云灰的体色，易于辨识。这种体色来源于它们独特的生存之道——它们的皮质中含有和胆汁相似的成分，酸涩程度远超其他角鲀，许多水下生物对其敬而远之。\n不过用特殊的手法烹饪后，这种酸味反倒能为鱼肉的鲜美增色，导致这种角鲀的销路极佳。在须弥的鱼市经常能看见「请勿将暮云角鲀与其他食用鱼类饲养在同一水池中」的告示牌。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12227,
+    "images": {
+      "nameicon": "UI_ItemIcon_131026"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "落日鳅鳅",
+    "description": "传说中能够吐出宝玉的淡水两栖动物，多分布在水源清澈、苇草高耸的地方。\n美丽的颜色像是晚霞散落在在水面上的余晖，或许落日时分的静谧也与它一同留下来了吧。\n会将无法吸收、消化的元素、砂砾、矿物质在体内凝结成闪闪发亮的珠子，并在遇到天敌时吐出，以迷惑掠食者。",
+    "category": "其他",
+    "counttype": "CAPTURE",
+    "sortorder": 13010,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Salamander_01"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "甜甜花鳉",
+    "description": "活泼好动的小型鳉鱼，以优美的花瓣型鱼尾闻名。\n可能是最爱甜食的一种鳉鱼，身体的每个部份都是一种甜味搜索器，循着甜蜜主义的指引，它们巡游到了提瓦特每条溪流，恪守绝对公正的教旨，对所有甜食一视同仁，绝不因为某些甜味饵料裹挟着鱼钩就将其拒之门外。你肯下饵，它们就肯上钩。\n钓鱼新手友好。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12203,
+    "images": {
+      "nameicon": "UI_ItemIcon_131002"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "流纹茶蝶鱼",
+    "description": "性情温和，姿态优雅的蝶鱼，拥有流线型的美丽背鳍，又有「水中王后」的美誉。\n体表环绕着茶色的纹路，好奇心旺盛，对一切活动物体都抱有强烈的兴趣，而它们表达兴趣的方式就是用嘴试试能不能吃，虽然不是什么带有恶意的攻击，但却因此常常招来灭顶之灾。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12216,
+    "images": {
+      "nameicon": "UI_ItemIcon_131015"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "玳龟",
+    "description": "拥有厚实甲壳的爬行动物。\n性情温和，行动迟缓。因为能够拥有悠长的年寿，而被一些人视为吉祥与智慧的象征；又因为性情太过温和、行动太过迟缓，而被人用做侮辱的喻依。但玳龟只是温和安宁地行走在大地上。人类的语言于它并不具有意义。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11038,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Tortoise_01"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "虎纹猫",
+    "description": "灵巧而富有智慧的生灵，抱持着与生俱来的优雅与骄傲。\n生得虎虎威风，是十分聪明且好斗的猫咪。擅长向人类撒娇、与同类争斗的它们总能得到更多的食物，因此可以胖得很快。但与人类不同的是，它们即使身材胖大，也依旧很能讨人喜欢。",
+    "category": "走兽",
+    "counttype": "NONE",
+    "sortorder": 11020,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Cat_05"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "真果角鲀",
+    "description": "体型圆润的中型鱼类，生有犄角般的软骨结构，据说它们会用这一结构开凿水下洞穴，建造栖身之所，或是驱赶试图伤害自己的生物。\n体表呈现出青绿色彩的角鲀是这一谱系中最常见的品种，状如枝头尚未成熟的果实，因而得名「真果」。\n虽说这种角鲀鱼刺极少，肉质肥美，但要是处理的方式不当，或是摘除胆囊的时间较晚，鱼肉就会像未熟果实般的酸涩。因此，「能否制作鲜美的角鲀料理」也成了衡量须弥厨师技艺的标准之一。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12224,
+    "images": {
+      "nameicon": "UI_ItemIcon_131023"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "棕翎鹰",
+    "description": "目光锐利的高傲鹰隼。\n翱翔在山林上空，巡查着广袤领地。 假如射手像凯茨莱茵家族的猎人那样拥有锐目和耐心，将之射落也并非难事。",
+    "category": "禽鸟",
+    "counttype": "NONE",
+    "sortorder": 10002,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Falcon_02"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "鸩棘鱼",
+    "description": "长满刺状鳍的迅猛鱼类，迅捷灵敏，全速游动时矛般尖吻甚至能劈开水流。因此又得名「劈水刺」、「箭难追」等。\n鸩棘鱼最为人熟知的是其带毒的棘刺，这种神经毒素对小型猎物足够致命，但对大型生物则显得力不从心，多数情况下只有致惑、致幻等不良症状。\n「满上！岩王老弟！给哥哥满上！」——某位不慎被刺伤的璃月渔师。",
+    "category": "游鱼",
+    "counttype": "FISH",
+    "sortorder": 12209,
+    "images": {
+      "nameicon": "UI_ItemIcon_131008"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "菫鹮",
+    "description": "高贵优雅的鸟类，生着宽阔的双翼与修长的腿。\n长着堇色的美丽羽毛，喜欢沉静地漫步在溪流或稻田之中。在稻妻的古歌中称之为「里梅鸟」，曾经有着非常广泛的分布，但近来似乎越来越少见了。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10018,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Crane_02"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "白鸽",
+    "description": "提瓦特常见的鸟类，肉质肥美，也可用来远程传信。\n洁白可爱的白鸽，对人类非常友好，但同时也对人类的恶意有着敏锐的预感。顺带一提，坊间有传言说，蒙德名菜「甜甜花酿鸡」最正宗的做法应当用鸽肉制成，但这也只是传说而已。",
+    "category": "禽鸟",
+    "counttype": "CAPTURE",
+    "sortorder": 10005,
+    "images": {
+      "nameicon": "UI_AnimalIcon_Pigeon_01"
+    },
+    "version": "1.0"
+  }
+]

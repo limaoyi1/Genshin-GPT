@@ -1,0 +1,8643 @@
+[
+  {
+    "name": "祝圣秘境：椛狩 I",
+    "region": "稻妻",
+    "domainentrance": "椛染之庭",
+    "domaintype": "圣遗物",
+    "description": "在红叶飘扬的祭场之中，如同夏秋之分，存在着增强「冰元素」与「火元素」的领域。\n能利用各种奥妙，成功克服其中试炼者，或许就能获得珍贵的圣遗物，获得追寻本应切断的因缘的助力。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "追忆之注连",
+        "rarity": "4"
+      },
+      {
+        "name": "绝缘之旗印",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "挑战平台的地面会间歇性地变为「炎祝」与「霜祝」状态。依据状态的不同，处在对应平台上的角色会获得不同的效果。",
+      "「炎祝」：其中的当前场上角色获得60%火元素伤害加成。",
+      "「霜祝」：其中的当前场上角色获得60%冰元素伤害加成。"
+    ],
+    "monsterlist": [
+      "冲锋丘丘人",
+      "雷弹丘丘人",
+      "雷箭丘丘人",
+      "雷史莱姆",
+      "雷斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_ThunderCave_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：椛狩 II",
+    "region": "稻妻",
+    "domainentrance": "椛染之庭",
+    "domaintype": "圣遗物",
+    "description": "在红叶飘扬的祭场之中，如同夏秋之分，存在着增强「冰元素」与「火元素」的领域。\n能利用各种奥妙，成功克服其中试炼者，或许就能获得珍贵的圣遗物，获得追寻本应切断的因缘的助力。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "追忆之注连",
+        "rarity": "4"
+      },
+      {
+        "name": "绝缘之旗印",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "挑战平台的地面会间歇性地变为「炎祝」与「霜祝」状态。依据状态的不同，处在对应平台上的角色会获得不同的效果。",
+      "「炎祝」：其中的当前场上角色获得60%火元素伤害加成。",
+      "「霜祝」：其中的当前场上角色获得60%冰元素伤害加成。"
+    ],
+    "monsterlist": [
+      "雷弹丘丘人",
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "雷斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_ThunderCave_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：椛狩 III",
+    "region": "稻妻",
+    "domainentrance": "椛染之庭",
+    "domaintype": "圣遗物",
+    "description": "在红叶飘扬的祭场之中，如同夏秋之分，存在着增强「冰元素」与「火元素」的领域。\n能利用各种奥妙，成功克服其中试炼者，或许就能获得珍贵的圣遗物，获得追寻本应切断的因缘的助力。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "追忆之注连",
+        "rarity": "4"
+      },
+      {
+        "name": "绝缘之旗印",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      },
+      {
+        "name": "追忆之注连",
+        "rarity": "5"
+      },
+      {
+        "name": "绝缘之旗印",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "挑战平台的地面会间歇性地变为「炎祝」与「霜祝」状态。依据状态的不同，处在对应平台上的角色会获得不同的效果。",
+      "「炎祝」：其中的当前场上角色获得60%火元素伤害加成。",
+      "「霜祝」：其中的当前场上角色获得60%冰元素伤害加成。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "雷深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_ThunderCave_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：椛狩 IV",
+    "region": "稻妻",
+    "domainentrance": "椛染之庭",
+    "domaintype": "圣遗物",
+    "description": "在红叶飘扬的祭场之中，如同夏秋之分，存在着增强「冰元素」与「火元素」的领域。\n能利用各种奥妙，成功克服其中试炼者，或许就能获得珍贵的圣遗物，获得追寻本应切断的因缘的助力。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "追忆之注连",
+        "rarity": "4"
+      },
+      {
+        "name": "绝缘之旗印",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      },
+      {
+        "name": "追忆之注连",
+        "rarity": "5"
+      },
+      {
+        "name": "绝缘之旗印",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "挑战平台的地面会间歇性地变为「炎祝」与「霜祝」状态。依据状态的不同，处在对应平台上的角色会获得不同的效果。",
+      "「炎祝」：其中的当前场上角色获得60%火元素伤害加成。",
+      "「霜祝」：其中的当前场上角色获得60%冰元素伤害加成。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "雷深渊法师",
+      "丘丘雷兜王"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_ThunderCave_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：钢铁之舞 I",
+    "region": "蒙德",
+    "domainentrance": "铭记之谷",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着畏惧纯粹武力的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 47,
+    "recommendedelements": [],
+    "unlockrank": 25,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1700
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "游医",
+        "rarity": "2"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "游医",
+        "rarity": "3"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色造成的物理伤害提高75%。"
+    ],
+    "monsterlist": [
+      "盗宝团·冰之药剂师",
+      "盗宝团·杂工",
+      "盗宝团·掘墓者",
+      "盗宝团·海上男儿",
+      "盗宝团·拳术家"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_3"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：钢铁之舞 II",
+    "region": "蒙德",
+    "domainentrance": "铭记之谷",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着畏惧纯粹武力的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 59,
+    "recommendedelements": [],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "游医",
+        "rarity": "3"
+      },
+      {
+        "name": "翠绿之影",
+        "rarity": "4"
+      },
+      {
+        "name": "被怜爱的少女",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色造成的物理伤害提高75%。"
+    ],
+    "monsterlist": [
+      "愚人众·火之债务处理人",
+      "盗宝团·斥候",
+      "盗宝团·火之药剂师",
+      "盗宝团·水之药剂师",
+      "盗宝团·杂工",
+      "盗宝团·拳术家",
+      "盗宝团·粉碎者"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_4"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：钢铁之舞 III",
+    "region": "蒙德",
+    "domainentrance": "铭记之谷",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着畏惧纯粹武力的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 69,
+    "recommendedelements": [],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "游医",
+        "rarity": "3"
+      },
+      {
+        "name": "翠绿之影",
+        "rarity": "4"
+      },
+      {
+        "name": "被怜爱的少女",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色造成的物理伤害提高75%。"
+    ],
+    "monsterlist": [
+      "愚人众·火之债务处理人",
+      "愚人众·雷萤术士",
+      "盗宝团·斥候",
+      "盗宝团·火之药剂师",
+      "盗宝团·雷之药剂师",
+      "盗宝团·杂工",
+      "盗宝团·掘墓者",
+      "盗宝团·拳术家",
+      "盗宝团·粉碎者"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：钢铁之舞 IV",
+    "region": "蒙德",
+    "domainentrance": "铭记之谷",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着畏惧纯粹武力的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 80,
+    "recommendedelements": [],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "游医",
+        "rarity": "3"
+      },
+      {
+        "name": "翠绿之影",
+        "rarity": "4"
+      },
+      {
+        "name": "被怜爱的少女",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      },
+      {
+        "name": "翠绿之影",
+        "rarity": "5"
+      },
+      {
+        "name": "被怜爱的少女",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色造成的物理伤害提高75%。"
+    ],
+    "monsterlist": [
+      "愚人众·火之债务处理人",
+      "愚人众·雷萤术士",
+      "盗宝团·火之药剂师",
+      "盗宝团·水之药剂师",
+      "盗宝团·雷之药剂师",
+      "盗宝团·冰之药剂师",
+      "盗宝团·海上男儿"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_3"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：钢铁之舞 V",
+    "region": "蒙德",
+    "domainentrance": "铭记之谷",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着畏惧纯粹武力的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 90,
+    "recommendedelements": [],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "游医",
+        "rarity": "3"
+      },
+      {
+        "name": "翠绿之影",
+        "rarity": "4"
+      },
+      {
+        "name": "被怜爱的少女",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      },
+      {
+        "name": "翠绿之影",
+        "rarity": "5"
+      },
+      {
+        "name": "被怜爱的少女",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色造成的物理伤害提高75%。"
+    ],
+    "monsterlist": [
+      "愚人众·火之债务处理人",
+      "愚人众·雷萤术士",
+      "盗宝团·冰之药剂师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_4"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：沙中孤城 I",
+    "region": "须弥",
+    "domainentrance": "赤金的城墟",
+    "domaintype": "圣遗物",
+    "description": "被遗忘、被废弃数多世代的城墟已经成为了渺小异物的栖身处。\n如沙漠之风一般席卷其中的魔物，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "风元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "沙上楼阁史话",
+        "rarity": "4"
+      },
+      {
+        "name": "乐园遗落之花",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "角色对敌人触发扩散反应后，队伍中所有角色获得50%风元素伤害加成，持续10秒。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "火史莱姆",
+      "伸缩火蕈兽",
+      "冰史莱姆",
+      "大型雷史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic02"
+    },
+    "version": "3.3"
+  },
+  {
+    "name": "祝圣秘境：沙中孤城 II",
+    "region": "须弥",
+    "domainentrance": "赤金的城墟",
+    "domaintype": "圣遗物",
+    "description": "被遗忘、被废弃数多世代的城墟已经成为了渺小异物的栖身处。\n如沙漠之风一般席卷其中的魔物，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "风元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "沙上楼阁史话",
+        "rarity": "4"
+      },
+      {
+        "name": "乐园遗落之花",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "角色对敌人触发扩散反应后，队伍中所有角色获得50%风元素伤害加成，持续10秒。"
+    ],
+    "monsterlist": [
+      "大型火史莱姆",
+      "冰史莱姆",
+      "火史莱姆",
+      "旋转雷蕈兽",
+      "有翼冰本真蕈"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic02"
+    },
+    "version": "3.3"
+  },
+  {
+    "name": "祝圣秘境：沙中孤城 III",
+    "region": "须弥",
+    "domainentrance": "赤金的城墟",
+    "domaintype": "圣遗物",
+    "description": "被遗忘、被废弃数多世代的城墟已经成为了渺小异物的栖身处。\n如沙漠之风一般席卷其中的魔物，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "风元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "沙上楼阁史话",
+        "rarity": "4"
+      },
+      {
+        "name": "乐园遗落之花",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      },
+      {
+        "name": "沙上楼阁史话",
+        "rarity": "5"
+      },
+      {
+        "name": "乐园遗落之花",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "角色对敌人触发扩散反应后，队伍中所有角色获得50%风元素伤害加成，持续10秒。"
+    ],
+    "monsterlist": [
+      "陆行岩本真蕈",
+      "大型火史莱姆",
+      "大型水史莱姆",
+      "陆行水本真蕈"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic02"
+    },
+    "version": "3.3"
+  },
+  {
+    "name": "祝圣秘境：沙中孤城 IV",
+    "region": "须弥",
+    "domainentrance": "赤金的城墟",
+    "domaintype": "圣遗物",
+    "description": "被遗忘、被废弃数多世代的城墟已经成为了渺小异物的栖身处。\n如沙漠之风一般席卷其中的魔物，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "风元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "沙上楼阁史话",
+        "rarity": "4"
+      },
+      {
+        "name": "乐园遗落之花",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      },
+      {
+        "name": "沙上楼阁史话",
+        "rarity": "5"
+      },
+      {
+        "name": "乐园遗落之花",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "角色对敌人触发扩散反应后，队伍中所有角色获得50%风元素伤害加成，持续10秒。"
+    ],
+    "monsterlist": [
+      "大型火史莱姆",
+      "陆行水本真蕈",
+      "大型水史莱姆",
+      "陆行岩本真蕈",
+      "有翼冰本真蕈"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic02"
+    },
+    "version": "3.3"
+  },
+  {
+    "name": "祝圣秘境：告死之霜 I",
+    "region": "蒙德",
+    "domainentrance": "芬德尼尔之顶",
+    "domaintype": "圣遗物",
+    "description": "这里原本是靠近天空的仪式场所，被天降的寒天之钉埋入山体。\n涌入的寒气造就了这里独特的环境。要通过试炼，就必须克服其中的严寒…",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "火元素",
+      "雷元素",
+      "岩元素",
+      "风元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "冰风迷途的勇士",
+        "rarity": "4"
+      },
+      {
+        "name": "沉沦之心",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "挑战平台中的角色会持续积累「严寒」。严寒达到上限时，会损失生命值。",
+      "挑战平台中的地面会间歇性变为「温暖」与「极寒」状态。",
+      "温暖状态的地面可以削减严寒积累，极寒的地面会加速严寒积累。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "冰盾丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Cold_1"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：告死之霜 II",
+    "region": "蒙德",
+    "domainentrance": "芬德尼尔之顶",
+    "domaintype": "圣遗物",
+    "description": "这里原本是靠近天空的仪式场所，被天降的寒天之钉埋入山体。\n涌入的寒气造就了这里独特的环境。要通过试炼，就必须克服其中的严寒…",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "火元素",
+      "雷元素",
+      "岩元素",
+      "风元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "冰风迷途的勇士",
+        "rarity": "4"
+      },
+      {
+        "name": "沉沦之心",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "挑战平台中的角色会持续积累「严寒」。严寒达到上限时，会损失生命值。",
+      "挑战平台中的地面会间歇性变为「温暖」与「极寒」状态。",
+      "温暖状态的地面可以削减严寒积累，极寒的地面会加速严寒积累。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "冰弹丘丘人",
+      "冰盾丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Cold_1"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：告死之霜 III",
+    "region": "蒙德",
+    "domainentrance": "芬德尼尔之顶",
+    "domaintype": "圣遗物",
+    "description": "这里原本是靠近天空的仪式场所，被天降的寒天之钉埋入山体。\n涌入的寒气造就了这里独特的环境。要通过试炼，就必须克服其中的严寒…",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "火元素",
+      "雷元素",
+      "岩元素",
+      "风元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "冰风迷途的勇士",
+        "rarity": "4"
+      },
+      {
+        "name": "沉沦之心",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      },
+      {
+        "name": "冰风迷途的勇士",
+        "rarity": "5"
+      },
+      {
+        "name": "沉沦之心",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "挑战平台中的角色会持续积累「严寒」。严寒达到上限时，会损失生命值。",
+      "挑战平台中的地面会间歇性变为「温暖」与「极寒」状态。",
+      "温暖状态的地面可以削减严寒积累，极寒的地面会加速严寒积累。"
+    ],
+    "monsterlist": [
+      "大型冰史莱姆",
+      "冰弹丘丘人",
+      "冰盾丘丘暴徒",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Cold_1"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：告死之霜 IV",
+    "region": "蒙德",
+    "domainentrance": "芬德尼尔之顶",
+    "domaintype": "圣遗物",
+    "description": "这里原本是靠近天空的仪式场所，被天降的寒天之钉埋入山体。\n涌入的寒气造就了这里独特的环境。要通过试炼，就必须克服其中的严寒…",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "火元素",
+      "雷元素",
+      "岩元素",
+      "风元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "冰风迷途的勇士",
+        "rarity": "4"
+      },
+      {
+        "name": "沉沦之心",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      },
+      {
+        "name": "冰风迷途的勇士",
+        "rarity": "5"
+      },
+      {
+        "name": "沉沦之心",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "挑战平台中的角色会持续积累「严寒」。严寒达到上限时，会损失生命值。",
+      "挑战平台中的地面会间歇性变为「温暖」与「极寒」状态。",
+      "温暖状态的地面可以削减严寒积累，极寒的地面会加速严寒积累。"
+    ],
+    "monsterlist": [
+      "丘丘霜铠王",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Cold_1"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：净化之炎 I",
+    "region": "蒙德",
+    "domainentrance": "仲夏庭园",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕火元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 34,
+    "recommendedelements": [
+      "火元素"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1525
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "冒险家",
+        "rarity": "2"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "冒险家",
+        "rarity": "3"
+      }
+    ],
+    "disorder": [
+      "引发融化反应时，会释放能量冲击，对周围的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "大型水史莱姆",
+      "木盾丘丘人",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_1"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：净化之炎 II",
+    "region": "蒙德",
+    "domainentrance": "仲夏庭园",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕火元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 47,
+    "recommendedelements": [
+      "火元素"
+    ],
+    "unlockrank": 25,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1700
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "冒险家",
+        "rarity": "2"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "冒险家",
+        "rarity": "3"
+      }
+    ],
+    "disorder": [
+      "引发超载反应时，会释放能量冲击，对周围的敌人造成伤害。",
+      "引发超导反应时，会受到高能打击，承受伤害。"
+    ],
+    "monsterlist": [
+      "雷史莱姆",
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "愚人众·雷萤术士"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_2"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：净化之炎 III",
+    "region": "蒙德",
+    "domainentrance": "仲夏庭园",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕火元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "火元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "冒险家",
+        "rarity": "3"
+      },
+      {
+        "name": "如雷的盛怒",
+        "rarity": "4"
+      },
+      {
+        "name": "平息鸣雷的尊者",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "引发融化反应时，会释放能量冲击，对周围的敌人造成伤害。",
+      "引发超导反应时，会受到高能打击，承受伤害。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_3"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：净化之炎 IV",
+    "region": "蒙德",
+    "domainentrance": "仲夏庭园",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕火元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "火元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "冒险家",
+        "rarity": "3"
+      },
+      {
+        "name": "如雷的盛怒",
+        "rarity": "4"
+      },
+      {
+        "name": "平息鸣雷的尊者",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "引发蒸发反应时，会释放能量冲击，对周围的敌人造成伤害。",
+      "引发感电反应时，会受到高能打击，承受伤害。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "水丘丘萨满",
+      "水深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_4"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：净化之炎 V",
+    "region": "蒙德",
+    "domainentrance": "仲夏庭园",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕火元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "火元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "冒险家",
+        "rarity": "3"
+      },
+      {
+        "name": "如雷的盛怒",
+        "rarity": "4"
+      },
+      {
+        "name": "平息鸣雷的尊者",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      },
+      {
+        "name": "如雷的盛怒",
+        "rarity": "5"
+      },
+      {
+        "name": "平息鸣雷的尊者",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "引发融化反应时，会释放能量冲击，对周围的敌人造成伤害。",
+      "引发超导反应时，会受到高能打击，承受伤害。"
+    ],
+    "monsterlist": [
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：净化之炎 VI",
+    "region": "蒙德",
+    "domainentrance": "仲夏庭园",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕火元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "火元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "行者之心",
+        "rarity": "3"
+      },
+      {
+        "name": "冒险家",
+        "rarity": "3"
+      },
+      {
+        "name": "如雷的盛怒",
+        "rarity": "4"
+      },
+      {
+        "name": "平息鸣雷的尊者",
+        "rarity": "4"
+      },
+      {
+        "name": "行者之心",
+        "rarity": "4"
+      },
+      {
+        "name": "如雷的盛怒",
+        "rarity": "5"
+      },
+      {
+        "name": "平息鸣雷的尊者",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "引发超载反应时，会释放能量冲击，对周围的敌人造成伤害。",
+      "引发超导反应时，会受到高能打击，承受伤害。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "愚人众·雷萤术士"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_1"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：遗世边垒 I",
+    "region": "须弥",
+    "domainentrance": "熔铁的孤塞",
+    "domaintype": "圣遗物",
+    "description": "曾经庇护为躲避大疫而流亡至此的沙民们的边城，如今则居住着另外一群无乡的住民。\n在草与树的护佑之下，驱逐盘踞其间的魔物，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "草元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "学士",
+        "rarity": "3"
+      },
+      {
+        "name": "水仙之梦",
+        "rarity": "4"
+      },
+      {
+        "name": "花海甘露之光",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "学士",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "队伍中触发草元素相关反应时，队伍中所有角色元素精通提升150点。该效果持续8秒，每1秒至多触发一次。"
+    ],
+    "monsterlist": [
+      "丘丘人",
+      "打手丘丘人",
+      "水丘丘萨满",
+      "火斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic02"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "祝圣秘境：遗世边垒 II",
+    "region": "须弥",
+    "domainentrance": "熔铁的孤塞",
+    "domaintype": "圣遗物",
+    "description": "曾经庇护为躲避大疫而流亡至此的沙民们的边城，如今则居住着另外一群无乡的住民。\n在草与树的护佑之下，驱逐盘踞其间的魔物，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "草元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "学士",
+        "rarity": "3"
+      },
+      {
+        "name": "水仙之梦",
+        "rarity": "4"
+      },
+      {
+        "name": "花海甘露之光",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "学士",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "队伍中触发草元素相关反应时，队伍中所有角色元素精通提升150点。该效果持续8秒，每1秒至多触发一次。"
+    ],
+    "monsterlist": [
+      "丘丘人",
+      "打手丘丘人",
+      "爆弹丘丘人",
+      "水丘丘萨满",
+      "丘丘风行游侠"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic02"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "祝圣秘境：遗世边垒 III",
+    "region": "须弥",
+    "domainentrance": "熔铁的孤塞",
+    "domaintype": "圣遗物",
+    "description": "曾经庇护为躲避大疫而流亡至此的沙民们的边城，如今则居住着另外一群无乡的住民。\n在草与树的护佑之下，驱逐盘踞其间的魔物，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "草元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "学士",
+        "rarity": "3"
+      },
+      {
+        "name": "水仙之梦",
+        "rarity": "4"
+      },
+      {
+        "name": "花海甘露之光",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "学士",
+        "rarity": "4"
+      },
+      {
+        "name": "水仙之梦",
+        "rarity": "5"
+      },
+      {
+        "name": "花海甘露之光",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "队伍中触发草元素相关反应时，队伍中所有角色元素精通提升150点。该效果持续8秒，每1秒至多触发一次。"
+    ],
+    "monsterlist": [
+      "打手丘丘人",
+      "火斧丘丘暴徒",
+      "丘丘水行游侠"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic02"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "祝圣秘境：遗世边垒 IV",
+    "region": "须弥",
+    "domainentrance": "熔铁的孤塞",
+    "domaintype": "圣遗物",
+    "description": "曾经庇护为躲避大疫而流亡至此的沙民们的边城，如今则居住着另外一群无乡的住民。\n在草与树的护佑之下，驱逐盘踞其间的魔物，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "草元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "学士",
+        "rarity": "3"
+      },
+      {
+        "name": "水仙之梦",
+        "rarity": "4"
+      },
+      {
+        "name": "花海甘露之光",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "学士",
+        "rarity": "4"
+      },
+      {
+        "name": "水仙之梦",
+        "rarity": "5"
+      },
+      {
+        "name": "花海甘露之光",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "队伍中触发草元素相关反应时，队伍中所有角色元素精通提升150点。该效果持续8秒，每1秒至多触发一次。"
+    ],
+    "monsterlist": [
+      "火斧丘丘暴徒",
+      "丘丘风行游侠",
+      "丘丘水行游侠"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic02"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "祝圣秘境：寒霜 I",
+    "region": "璃月",
+    "domainentrance": "无妄引咎密宫",
+    "domaintype": "圣遗物",
+    "description": "这座远古地脉祭坛中，聚集着觊觎着其中地脉镇石的魔物。\n若能驱使冰元素的力量粉碎魔物，保护镇石不被破坏，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "冰元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "炽烈的炎之魔女",
+        "rarity": "4"
+      },
+      {
+        "name": "渡过烈火的贤人",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "冰冻反应的持续时间大幅提升。",
+      "引发超导反应时，会释放能量冲击，对周围的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "水史莱姆",
+      "大型水史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_1"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：寒霜 II",
+    "region": "璃月",
+    "domainentrance": "无妄引咎密宫",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕冰元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "冰元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "炽烈的炎之魔女",
+        "rarity": "4"
+      },
+      {
+        "name": "渡过烈火的贤人",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "引发融化反应时，会释放能量冲击，对周围的敌人造成伤害。",
+      "引发超载反应时，会受到高能打击，承受伤害。"
+    ],
+    "monsterlist": [
+      "大型火史莱姆",
+      "火斧丘丘暴徒",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_2"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：寒霜 III",
+    "region": "璃月",
+    "domainentrance": "无妄引咎密宫",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕冰元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "冰元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "炽烈的炎之魔女",
+        "rarity": "4"
+      },
+      {
+        "name": "渡过烈火的贤人",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "炽烈的炎之魔女",
+        "rarity": "5"
+      },
+      {
+        "name": "渡过烈火的贤人",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "引发超导反应时，会释放能量冲击，对周围的敌人造成伤害。",
+      "引发超载反应时，会受到高能打击，承受伤害。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "打手丘丘人",
+      "愚人众·雷萤术士"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_2"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：寒霜 IV",
+    "region": "璃月",
+    "domainentrance": "无妄引咎密宫",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕冰元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "冰元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "炽烈的炎之魔女",
+        "rarity": "4"
+      },
+      {
+        "name": "渡过烈火的贤人",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "炽烈的炎之魔女",
+        "rarity": "5"
+      },
+      {
+        "name": "渡过烈火的贤人",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "引发融化反应时，会释放能量冲击，对周围的敌人造成伤害。",
+      "引发超载反应时，会受到高能打击，承受伤害。"
+    ],
+    "monsterlist": [
+      "大型火史莱姆",
+      "火斧丘丘暴徒",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_3"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：机巢 I",
+    "region": "璃月",
+    "domainentrance": "岩中幽谷",
+    "domaintype": "圣遗物",
+    "description": "原本似乎是古代的祭场，如今已经被外来的遗迹机关占据了。\n能够战胜踞身其中的机关入侵者的话，或许就能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "火元素",
+      "雷元素",
+      "岩元素",
+      "风元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "辰砂往生录",
+        "rarity": "4"
+      },
+      {
+        "name": "来歆余响",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "角色施放元素战技时，将释放冲击波，造成真实伤害。"
+    ],
+    "monsterlist": [
+      "遗迹守卫",
+      "遗迹歼击者"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_CycleDungeonChasm"
+    },
+    "version": "2.6"
+  },
+  {
+    "name": "祝圣秘境：机巢 II",
+    "region": "璃月",
+    "domainentrance": "岩中幽谷",
+    "domaintype": "圣遗物",
+    "description": "原本似乎是古代的祭场，如今已经被外来的遗迹机关占据了。\n能够战胜踞身其中的机关入侵者的话，或许就能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "火元素",
+      "雷元素",
+      "岩元素",
+      "风元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "辰砂往生录",
+        "rarity": "4"
+      },
+      {
+        "name": "来歆余响",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "角色施放元素战技时，将释放冲击波，造成真实伤害。"
+    ],
+    "monsterlist": [
+      "遗迹守卫",
+      "遗迹侦察者",
+      "遗迹巡弋者",
+      "遗迹歼击者"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_CycleDungeonChasm"
+    },
+    "version": "2.6"
+  },
+  {
+    "name": "祝圣秘境：机巢 III",
+    "region": "璃月",
+    "domainentrance": "岩中幽谷",
+    "domaintype": "圣遗物",
+    "description": "原本似乎是古代的祭场，如今已经被外来的遗迹机关占据了。\n能够战胜踞身其中的机关入侵者的话，或许就能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "火元素",
+      "雷元素",
+      "岩元素",
+      "风元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "辰砂往生录",
+        "rarity": "4"
+      },
+      {
+        "name": "来歆余响",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      },
+      {
+        "name": "辰砂往生录",
+        "rarity": "5"
+      },
+      {
+        "name": "来歆余响",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "角色施放元素战技时，将释放冲击波，造成真实伤害。"
+    ],
+    "monsterlist": [
+      "遗迹侦察者",
+      "遗迹巡弋者",
+      "遗迹歼击者"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_CycleDungeonChasm"
+    },
+    "version": "2.6"
+  },
+  {
+    "name": "祝圣秘境：机巢 IV",
+    "region": "璃月",
+    "domainentrance": "岩中幽谷",
+    "domaintype": "圣遗物",
+    "description": "原本似乎是古代的祭场，如今已经被外来的遗迹机关占据了。\n能够战胜踞身其中的机关入侵者的话，或许就能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "火元素",
+      "雷元素",
+      "岩元素",
+      "风元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "辰砂往生录",
+        "rarity": "4"
+      },
+      {
+        "name": "来歆余响",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      },
+      {
+        "name": "辰砂往生录",
+        "rarity": "5"
+      },
+      {
+        "name": "来歆余响",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "角色施放元素战技时，将释放冲击波，造成真实伤害。"
+    ],
+    "monsterlist": [
+      "遗迹重机",
+      "遗迹巡弋者",
+      "遗迹歼击者"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_CycleDungeonChasm"
+    },
+    "version": "2.6"
+  },
+  {
+    "name": "祝圣秘境：骸馆 I",
+    "region": "稻妻",
+    "domainentrance": "沉眠之庭",
+    "domaintype": "圣遗物",
+    "description": "无主的宅邸如今成为了兽境魔物的栖身之所。\n能利用永恒之雷，成功克服其中试炼者，或许就能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "华馆梦醒形骸记",
+        "rarity": "4"
+      },
+      {
+        "name": "海染砗磲",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得40%雷元素伤害加成。",
+      "当前场上角色使敌人触发感电反应时，会释放冲击波，对敌人造成真实伤害。每3秒至多通过这种方式释放一次冲击波。"
+    ],
+    "monsterlist": [
+      "雷斧丘丘暴徒",
+      "大型水史莱姆",
+      "水史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_ThunderCave_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：骸馆 II",
+    "region": "稻妻",
+    "domainentrance": "沉眠之庭",
+    "domaintype": "圣遗物",
+    "description": "无主的宅邸如今成为了兽境魔物的栖身之所。\n能利用永恒之雷，成功克服其中试炼者，或许就能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "华馆梦醒形骸记",
+        "rarity": "4"
+      },
+      {
+        "name": "海染砗磲",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得40%雷元素伤害加成。",
+      "当前场上角色使敌人触发感电反应时，会释放冲击波，对敌人造成真实伤害。每3秒至多通过这种方式释放一次冲击波。"
+    ],
+    "monsterlist": [
+      "雷斧丘丘暴徒",
+      "大型水史莱姆",
+      "水史莱姆",
+      "雷箭丘丘人",
+      "冲锋丘丘人"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_ThunderCave_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：骸馆 III",
+    "region": "稻妻",
+    "domainentrance": "沉眠之庭",
+    "domaintype": "圣遗物",
+    "description": "无主的宅邸如今成为了兽境魔物的栖身之所。\n能利用永恒之雷，成功克服其中试炼者，或许就能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "雷元素",
+      "水元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "华馆梦醒形骸记",
+        "rarity": "4"
+      },
+      {
+        "name": "海染砗磲",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      },
+      {
+        "name": "华馆梦醒形骸记",
+        "rarity": "5"
+      },
+      {
+        "name": "海染砗磲",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得40%雷元素伤害加成。",
+      "当前场上角色使敌人触发感电反应时，会释放冲击波，对敌人造成真实伤害。每3秒至多通过这种方式释放一次冲击波。"
+    ],
+    "monsterlist": [
+      "嗜雷·兽境猎犬",
+      "嗜雷·兽境幼兽",
+      "雷箭丘丘人"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_ThunderCave_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：骸馆 IV",
+    "region": "稻妻",
+    "domainentrance": "沉眠之庭",
+    "domaintype": "圣遗物",
+    "description": "无主的宅邸如今成为了兽境魔物的栖身之所。\n能利用永恒之雷，成功克服其中试炼者，或许就能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "雷元素",
+      "水元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "守护之心",
+        "rarity": "3"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "华馆梦醒形骸记",
+        "rarity": "4"
+      },
+      {
+        "name": "海染砗磲",
+        "rarity": "4"
+      },
+      {
+        "name": "守护之心",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      },
+      {
+        "name": "华馆梦醒形骸记",
+        "rarity": "5"
+      },
+      {
+        "name": "海染砗磲",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得40%雷元素伤害加成。",
+      "当前场上角色使敌人触发感电反应时，会释放冲击波，对敌人造成真实伤害。每3秒至多通过这种方式释放一次冲击波。"
+    ],
+    "monsterlist": [
+      "嗜雷·兽境猎犬",
+      "嗜雷·兽境幼兽",
+      "雷斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_ThunderCave_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：七识 I",
+    "region": "须弥",
+    "domainentrance": "缘觉塔",
+    "domaintype": "圣遗物",
+    "description": "来自沙海的贼匪盘踞在此间秘境深处。\n利用对元素之奥秘的理解，战胜踞身其中者，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "冰元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "深林的记忆",
+        "rarity": "4"
+      },
+      {
+        "name": "饰金之梦",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的元素精通提高，提高值相当于队伍中所有角色的元素精通总和的10%。每20秒，会移除通过这种方式提高的元素精通，并重新计算。",
+      "队伍中所有角色的元素精通提高，提高值相当于队伍中所有角色的元素精通总和的10%。每20秒，会移除通过这种方式提高的元素精通，并重新计算。"
+    ],
+    "monsterlist": [
+      "镀金旅团·炽阳凝冰",
+      "镀金旅团·机弩兵",
+      "镀金旅团·刀舞者",
+      "镀金旅团·鸦喙戟手"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "祝圣秘境：七识 II",
+    "region": "须弥",
+    "domainentrance": "缘觉塔",
+    "domaintype": "圣遗物",
+    "description": "来自沙海的贼匪盘踞在此间秘境深处。\n利用对元素之奥秘的理解，战胜踞身其中者，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "雷元素",
+      "冰元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "深林的记忆",
+        "rarity": "4"
+      },
+      {
+        "name": "饰金之梦",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的元素精通提高，提高值相当于队伍中所有角色的元素精通总和的10%。每20秒，会移除通过这种方式提高的元素精通，并重新计算。",
+      "队伍中所有角色的元素精通提高，提高值相当于队伍中所有角色的元素精通总和的10%。每20秒，会移除通过这种方式提高的元素精通，并重新计算。"
+    ],
+    "monsterlist": [
+      "镀金旅团·白日鸣雷",
+      "镀金旅团·沙中净水",
+      "镀金旅团·机弩兵",
+      "镀金旅团·刀舞者",
+      "镀金旅团·阵前斧手"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "祝圣秘境：七识 III",
+    "region": "须弥",
+    "domainentrance": "缘觉塔",
+    "domaintype": "圣遗物",
+    "description": "来自沙海的贼匪盘踞在此间秘境深处。\n利用对元素之奥秘的理解，战胜踞身其中者，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "雷元素",
+      "冰元素",
+      "水元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "深林的记忆",
+        "rarity": "4"
+      },
+      {
+        "name": "饰金之梦",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      },
+      {
+        "name": "深林的记忆",
+        "rarity": "5"
+      },
+      {
+        "name": "饰金之梦",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的元素精通提高，提高值相当于队伍中所有角色的元素精通总和的10%。每20秒，会移除通过这种方式提高的元素精通，并重新计算。",
+      "队伍中所有角色的元素精通提高，提高值相当于队伍中所有角色的元素精通总和的10%。每20秒，会移除通过这种方式提高的元素精通，并重新计算。"
+    ],
+    "monsterlist": [
+      "镀金旅团·白日鸣雷",
+      "镀金旅团·沙中净水",
+      "镀金旅团·炽阳凝冰",
+      "镀金旅团·机弩兵",
+      "镀金旅团·破阵者",
+      "镀金旅团·鸦喙戟手"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "祝圣秘境：七识 IV",
+    "region": "须弥",
+    "domainentrance": "缘觉塔",
+    "domaintype": "圣遗物",
+    "description": "来自沙海的贼匪盘踞在此间秘境深处。\n利用对元素之奥秘的理解，战胜踞身其中者，或许能获得珍贵的圣遗物吧。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "雷元素",
+      "冰元素",
+      "水元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "奇迹",
+        "rarity": "3"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "深林的记忆",
+        "rarity": "4"
+      },
+      {
+        "name": "饰金之梦",
+        "rarity": "4"
+      },
+      {
+        "name": "奇迹",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      },
+      {
+        "name": "深林的记忆",
+        "rarity": "5"
+      },
+      {
+        "name": "饰金之梦",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的元素精通提高，提高值相当于队伍中所有角色的元素精通总和的10%。每20秒，会移除通过这种方式提高的元素精通，并重新计算。",
+      "队伍中所有角色的元素精通提高，提高值相当于队伍中所有角色的元素精通总和的10%。每20秒，会移除通过这种方式提高的元素精通，并重新计算。"
+    ],
+    "monsterlist": [
+      "镀金旅团·白日鸣雷",
+      "镀金旅团·沙中净水",
+      "镀金旅团·炽阳凝冰"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMRelic01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "祝圣秘境：惊蛰 I",
+    "region": "璃月",
+    "domainentrance": "孤云凌霄之处",
+    "domaintype": "圣遗物",
+    "description": "这座远古地脉祭坛中，聚集着觊觎着其中地脉镇石的魔物。\n若能驱使雷元素的力量粉碎魔物，保护镇石不被破坏，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 34,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1525
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "幸运儿",
+        "rarity": "2"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "幸运儿",
+        "rarity": "3"
+      }
+    ],
+    "disorder": [
+      "感电反应造成的伤害提高150%，影响范围扩大100%。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "水深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_1"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：惊蛰 II",
+    "region": "璃月",
+    "domainentrance": "孤云凌霄之处",
+    "domaintype": "圣遗物",
+    "description": "这座远古地脉祭坛中，聚集着觊觎着其中地脉镇石的魔物。\n若能驱使雷元素的力量粉碎魔物，保护镇石不被破坏，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 47,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "unlockrank": 25,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1700
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "幸运儿",
+        "rarity": "2"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "幸运儿",
+        "rarity": "3"
+      }
+    ],
+    "disorder": [
+      "引发超载反应时，会释放能量冲击，对周围的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "火史莱姆",
+      "大型火史莱姆",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_2"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：惊蛰 III",
+    "region": "璃月",
+    "domainentrance": "孤云凌霄之处",
+    "domaintype": "圣遗物",
+    "description": "这座远古地脉祭坛中，聚集着觊觎着其中地脉镇石的魔物。\n若能驱使雷元素的力量粉碎魔物，保护镇石不被破坏，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "幸运儿",
+        "rarity": "3"
+      },
+      {
+        "name": "悠古的磐岩",
+        "rarity": "4"
+      },
+      {
+        "name": "逆飞的流星",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "引发超导反应时，会释放能量冲击，对周围的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_3"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：惊蛰 IV",
+    "region": "璃月",
+    "domainentrance": "孤云凌霄之处",
+    "domaintype": "圣遗物",
+    "description": "这座远古地脉祭坛中，聚集着觊觎着其中地脉镇石的魔物。\n若能驱使雷元素的力量粉碎魔物，保护镇石不被破坏，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "幸运儿",
+        "rarity": "3"
+      },
+      {
+        "name": "悠古的磐岩",
+        "rarity": "4"
+      },
+      {
+        "name": "逆飞的流星",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "感电反应造成的伤害提高150%，影响范围扩大100%。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "打手丘丘人",
+      "水丘丘萨满",
+      "水深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_2"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：惊蛰 V",
+    "region": "璃月",
+    "domainentrance": "孤云凌霄之处",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕雷元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "幸运儿",
+        "rarity": "3"
+      },
+      {
+        "name": "悠古的磐岩",
+        "rarity": "4"
+      },
+      {
+        "name": "逆飞的流星",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      },
+      {
+        "name": "悠古的磐岩",
+        "rarity": "5"
+      },
+      {
+        "name": "逆飞的流星",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "引发超载反应时，会释放能量冲击，对周围的敌人造成伤害。",
+      "引发融化反应时，会受到高能打击，承受伤害。",
+      "引发蒸发反应时，会受到高能打击，承受伤害。"
+    ],
+    "monsterlist": [
+      "火深渊法师",
+      "遗迹守卫"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_4"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：惊蛰 VI",
+    "region": "璃月",
+    "domainentrance": "孤云凌霄之处",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕雷元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "幸运儿",
+        "rarity": "3"
+      },
+      {
+        "name": "悠古的磐岩",
+        "rarity": "4"
+      },
+      {
+        "name": "逆飞的流星",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      },
+      {
+        "name": "悠古的磐岩",
+        "rarity": "5"
+      },
+      {
+        "name": "逆飞的流星",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "引发超导反应时，会释放能量冲击，对周围的敌人造成伤害。",
+      "引发融化反应时，会受到高能打击，承受伤害。",
+      "引发蒸发反应时，会受到高能打击，承受伤害。"
+    ],
+    "monsterlist": [
+      "打手丘丘人",
+      "冰深渊法师",
+      "遗迹猎者"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_3"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：岩牢 I",
+    "region": "璃月",
+    "domainentrance": "华池岩岫",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕岩元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "岩元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "学士",
+        "rarity": "3"
+      },
+      {
+        "name": "染血的骑士道",
+        "rarity": "4"
+      },
+      {
+        "name": "昔日宗室之仪",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      },
+      {
+        "name": "学士",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色造成的岩元素伤害提高75%。"
+    ],
+    "monsterlist": [
+      "火深渊法师",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_4"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：岩牢 II",
+    "region": "璃月",
+    "domainentrance": "华池岩岫",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕岩元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "岩元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "学士",
+        "rarity": "3"
+      },
+      {
+        "name": "染血的骑士道",
+        "rarity": "4"
+      },
+      {
+        "name": "昔日宗室之仪",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      },
+      {
+        "name": "学士",
+        "rarity": "4"
+      },
+      {
+        "name": "染血的骑士道",
+        "rarity": "5"
+      },
+      {
+        "name": "昔日宗室之仪",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色造成的岩元素伤害提高75%。"
+    ],
+    "monsterlist": [
+      "火深渊法师",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：岩牢 III",
+    "region": "璃月",
+    "domainentrance": "华池岩岫",
+    "domaintype": "圣遗物",
+    "description": "这座远古祝圣祭坛中，聚集着惧怕岩元素的魔物。\n若能通过其中的试炼，或许能获得珍贵的圣遗物。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "岩元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "赌徒",
+        "rarity": "3"
+      },
+      {
+        "name": "学士",
+        "rarity": "3"
+      },
+      {
+        "name": "染血的骑士道",
+        "rarity": "4"
+      },
+      {
+        "name": "昔日宗室之仪",
+        "rarity": "4"
+      },
+      {
+        "name": "赌徒",
+        "rarity": "4"
+      },
+      {
+        "name": "学士",
+        "rarity": "4"
+      },
+      {
+        "name": "染血的骑士道",
+        "rarity": "5"
+      },
+      {
+        "name": "昔日宗室之仪",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色造成的岩元素伤害提高75%。"
+    ],
+    "monsterlist": [
+      "火深渊法师",
+      "冰深渊法师",
+      "水深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_1"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：不移 I",
+    "region": "蒙德",
+    "domainentrance": "山脊守望",
+    "domaintype": "圣遗物",
+    "description": "精神与躯体足够强韧、面临伤害而不屈服的人，在这间祭场中就能获得护佑。\n能成功克服其中试炼者，或许就能获得珍贵的圣遗物，获得实现遥不可及的梦想的助力。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "岩元素"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "千岩牢固",
+        "rarity": "4"
+      },
+      {
+        "name": "苍白之火",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "敌人的攻击命中处于护盾庇护下的角色时，会进行反噬：在攻击的敌人位置处释放冲击波，造成范围伤害。该效果每2秒只能触发一次。"
+    ],
+    "monsterlist": [
+      "火史莱姆",
+      "大型火史莱姆",
+      "冲锋丘丘人"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_4"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：不移 II",
+    "region": "蒙德",
+    "domainentrance": "山脊守望",
+    "domaintype": "圣遗物",
+    "description": "精神与躯体足够强韧、面临伤害而不屈服的人，在这间祭场中就能获得护佑。\n能成功克服其中试炼者，或许就能获得珍贵的圣遗物，获得实现遥不可及的梦想的助力。",
+    "recommendedlevel": 69,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "岩元素"
+    ],
+    "unlockrank": 35,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2025
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "千岩牢固",
+        "rarity": "4"
+      },
+      {
+        "name": "苍白之火",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      }
+    ],
+    "disorder": [
+      "敌人的攻击命中处于护盾庇护下的角色时，会进行反噬：在攻击的敌人位置处释放冲击波，造成范围伤害。该效果每2秒只能触发一次。"
+    ],
+    "monsterlist": [
+      "大型火史莱姆",
+      "冲锋丘丘人",
+      "火斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：不移 III",
+    "region": "蒙德",
+    "domainentrance": "山脊守望",
+    "domaintype": "圣遗物",
+    "description": "精神与躯体足够强韧、面临伤害而不屈服的人，在这间祭场中就能获得护佑。\n能成功克服其中试炼者，或许就能获得珍贵的圣遗物，获得实现遥不可及的梦想的助力。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "岩元素"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "千岩牢固",
+        "rarity": "4"
+      },
+      {
+        "name": "苍白之火",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "千岩牢固",
+        "rarity": "5"
+      },
+      {
+        "name": "苍白之火",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "敌人的攻击命中处于护盾庇护下的角色时，会进行反噬：在攻击的敌人位置处释放冲击波，造成范围伤害。该效果每2秒只能触发一次。",
+      "（test)血量+20%"
+    ],
+    "monsterlist": [
+      "大型火史莱姆",
+      "火斧丘丘暴徒",
+      "岩盾丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_3"
+    },
+    "version": ""
+  },
+  {
+    "name": "祝圣秘境：不移 IV",
+    "region": "蒙德",
+    "domainentrance": "山脊守望",
+    "domaintype": "圣遗物",
+    "description": "精神与躯体足够强韧、面临伤害而不屈服的人，在这间祭场中就能获得护佑。\n能成功克服其中试炼者，或许就能获得珍贵的圣遗物，获得实现遥不可及的梦想的助力。",
+    "recommendedlevel": 90,
+    "recommendedelements": [
+      "岩元素"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2525
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "3"
+      },
+      {
+        "name": "武人",
+        "rarity": "3"
+      },
+      {
+        "name": "千岩牢固",
+        "rarity": "4"
+      },
+      {
+        "name": "苍白之火",
+        "rarity": "4"
+      },
+      {
+        "name": "勇士之心",
+        "rarity": "4"
+      },
+      {
+        "name": "武人",
+        "rarity": "4"
+      },
+      {
+        "name": "千岩牢固",
+        "rarity": "5"
+      },
+      {
+        "name": "苍白之火",
+        "rarity": "5"
+      }
+    ],
+    "disorder": [
+      "敌人的攻击命中处于护盾庇护下的角色时，会进行反噬：在攻击的敌人位置处释放冲击波，造成范围伤害。该效果每2秒只能触发一次。",
+      "（test)血量+50%"
+    ],
+    "monsterlist": [
+      "岩龙蜥"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Cubic_Normal_4"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：砂之祭场 I",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "鸣神御灵的明惠"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "火史莱姆",
+      "大型火史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：砂之祭场 II",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "鸣神御灵的明惠"
+      },
+      {
+        "name": "鸣神御灵的欢喜"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "大型水史莱姆",
+      "大型火史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：砂之祭场 III",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "鸣神御灵的明惠"
+      },
+      {
+        "name": "鸣神御灵的欢喜"
+      },
+      {
+        "name": "鸣神御灵的亲爱"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "大型水史莱姆",
+      "大型火史莱姆",
+      "水深渊法师",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：砂之祭场 IV",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "鸣神御灵的明惠"
+      },
+      {
+        "name": "鸣神御灵的欢喜"
+      },
+      {
+        "name": "鸣神御灵的亲爱"
+      },
+      {
+        "name": "鸣神御灵的勇武"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "雷弹丘丘人",
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "雷斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：水光之城 I",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "高塔孤王的破瓦"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：水光之城 II",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "高塔孤王的破瓦"
+      },
+      {
+        "name": "高塔孤王的残垣"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "木盾丘丘人"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：水光之城 III",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "高塔孤王的破瓦"
+      },
+      {
+        "name": "高塔孤王的残垣"
+      },
+      {
+        "name": "高塔孤王的断片"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "水丘丘萨满",
+      "水深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：水光之城 IV",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "高塔孤王的破瓦"
+      },
+      {
+        "name": "高塔孤王的残垣"
+      },
+      {
+        "name": "高塔孤王的断片"
+      },
+      {
+        "name": "高塔孤王的碎梦"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "大型水史莱姆",
+      "水深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：引业 I",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "烈日威权的残响"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "伸缩火蕈兽",
+      "浮游草蕈兽",
+      "浮游水蕈兽",
+      "旋转雷蕈兽"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：引业 II",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "烈日威权的残响"
+      },
+      {
+        "name": "烈日威权的余光"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "旋转冰蕈兽",
+      "伸缩火蕈兽",
+      "伸缩岩蕈兽",
+      "浮游草蕈兽",
+      "旋转雷蕈兽"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：引业 III",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "烈日威权的残响"
+      },
+      {
+        "name": "烈日威权的余光"
+      },
+      {
+        "name": "烈日威权的梦想"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "伸缩火蕈兽",
+      "旋转冰蕈兽",
+      "伸缩岩蕈兽",
+      "旋转雷蕈兽",
+      "浮游草蕈兽",
+      "陆行水本真蕈",
+      "有翼草本真蕈"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：引业 IV",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "烈日威权的残响"
+      },
+      {
+        "name": "烈日威权的余光"
+      },
+      {
+        "name": "烈日威权的梦想"
+      },
+      {
+        "name": "烈日威权的旧日"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "浮游水蕈兽",
+      "浮游草蕈兽",
+      "陆行水本真蕈",
+      "有翼草本真蕈"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：思惑 I",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "绿洲花园的追忆"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "伸缩火蕈兽",
+      "浮游草蕈兽",
+      "浮游水蕈兽",
+      "旋转雷蕈兽"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：思惑 II",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "绿洲花园的追忆"
+      },
+      {
+        "name": "绿洲花园的恩惠"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "旋转冰蕈兽",
+      "伸缩火蕈兽",
+      "伸缩岩蕈兽",
+      "浮游草蕈兽",
+      "旋转雷蕈兽"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：思惑 III",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "绿洲花园的追忆"
+      },
+      {
+        "name": "绿洲花园的恩惠"
+      },
+      {
+        "name": "绿洲花园的哀思"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "伸缩火蕈兽",
+      "旋转冰蕈兽",
+      "伸缩岩蕈兽",
+      "旋转雷蕈兽",
+      "浮游草蕈兽",
+      "陆行水本真蕈",
+      "有翼草本真蕈"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：思惑 IV",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "绿洲花园的追忆"
+      },
+      {
+        "name": "绿洲花园的恩惠"
+      },
+      {
+        "name": "绿洲花园的哀思"
+      },
+      {
+        "name": "绿洲花园的真谛"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "浮游水蕈兽",
+      "浮游草蕈兽",
+      "陆行水本真蕈",
+      "有翼草本真蕈"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：渴水的废都 I",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "狮牙斗士的枷锁"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：渴水的废都 II",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "狮牙斗士的枷锁"
+      },
+      {
+        "name": "狮牙斗士的铁链"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "木盾丘丘人"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：渴水的废都 III",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "狮牙斗士的枷锁"
+      },
+      {
+        "name": "狮牙斗士的铁链"
+      },
+      {
+        "name": "狮牙斗士的镣铐"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "水丘丘萨满",
+      "水深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：渴水的废都 IV",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "狮牙斗士的枷锁"
+      },
+      {
+        "name": "狮牙斗士的铁链"
+      },
+      {
+        "name": "狮牙斗士的镣铐"
+      },
+      {
+        "name": "狮牙斗士的理想"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "大型水史莱姆",
+      "水深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：流沙之葬 I",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "今昔剧画之恶尉"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "火史莱姆",
+      "大型火史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：流沙之葬 II",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "今昔剧画之恶尉"
+      },
+      {
+        "name": "今昔剧画之虎啮"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "大型水史莱姆",
+      "大型火史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：流沙之葬 III",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "今昔剧画之恶尉"
+      },
+      {
+        "name": "今昔剧画之虎啮"
+      },
+      {
+        "name": "今昔剧画之一角"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "大型水史莱姆",
+      "大型火史莱姆",
+      "水深渊法师",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：流沙之葬 IV",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "今昔剧画之恶尉"
+      },
+      {
+        "name": "今昔剧画之虎啮"
+      },
+      {
+        "name": "今昔剧画之一角"
+      },
+      {
+        "name": "今昔剧画之鬼人"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "雷弹丘丘人",
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "雷斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：深没之谷 I",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "凛风奔狼的始龀"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：深没之谷 II",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "凛风奔狼的始龀"
+      },
+      {
+        "name": "凛风奔狼的裂齿"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "木盾丘丘人"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：深没之谷 III",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "凛风奔狼的始龀"
+      },
+      {
+        "name": "凛风奔狼的裂齿"
+      },
+      {
+        "name": "凛风奔狼的断牙"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "水丘丘萨满",
+      "水深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：深没之谷 IV",
+    "region": "蒙德",
+    "domainentrance": "塞西莉亚苗圃",
+    "domaintype": "武器突破素材",
+    "description": "这座潮湿的古代祭祀场中，聚积了大量的水元素之力。\n其中浓厚的潮气会令技能冷却时间延长。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "冰元素",
+      "火元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "凛风奔狼的始龀"
+      },
+      {
+        "name": "凛风奔狼的裂齿"
+      },
+      {
+        "name": "凛风奔狼的断牙"
+      },
+      {
+        "name": "凛风奔狼的怀乡"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「迟滞之水」：在附着的水元素消除之前，技能冷却时间大幅延长。"
+    ],
+    "monsterlist": [
+      "大型水史莱姆",
+      "水深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Water"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：沉沙之渊 I",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "远海夷地的瑚枝"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "水史莱姆",
+      "大型水史莱姆",
+      "火史莱姆",
+      "大型火史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：沉沙之渊 II",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "远海夷地的瑚枝"
+      },
+      {
+        "name": "远海夷地的玉枝"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "大型水史莱姆",
+      "大型火史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：沉沙之渊 III",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "远海夷地的瑚枝"
+      },
+      {
+        "name": "远海夷地的玉枝"
+      },
+      {
+        "name": "远海夷地的琼枝"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "大型水史莱姆",
+      "大型火史莱姆",
+      "水深渊法师",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：沉沙之渊 IV",
+    "region": "稻妻",
+    "domainentrance": "砂流之庭",
+    "domaintype": "武器突破素材",
+    "description": "在砂金永远流淌散落的祭场中，潜伏着难以抵御岩元素攻击的敌人。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "岩元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "远海夷地的瑚枝"
+      },
+      {
+        "name": "远海夷地的玉枝"
+      },
+      {
+        "name": "远海夷地的琼枝"
+      },
+      {
+        "name": "远海夷地的金枝"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色的护盾强效提升40%。",
+      "角色获取岩元素反应产生的晶片时，会释放冲击波，对附近的敌人造成伤害。"
+    ],
+    "monsterlist": [
+      "雷弹丘丘人",
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "雷斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Rock"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：云垢 I",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "谧林涓露的铜符"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "伸缩火蕈兽",
+      "浮游草蕈兽",
+      "浮游水蕈兽",
+      "旋转雷蕈兽"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：云垢 II",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "谧林涓露的铜符"
+      },
+      {
+        "name": "谧林涓露的铁符"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "旋转冰蕈兽",
+      "伸缩火蕈兽",
+      "伸缩岩蕈兽",
+      "浮游草蕈兽",
+      "旋转雷蕈兽"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：云垢 III",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "谧林涓露的铜符"
+      },
+      {
+        "name": "谧林涓露的铁符"
+      },
+      {
+        "name": "谧林涓露的银符"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "伸缩火蕈兽",
+      "旋转冰蕈兽",
+      "伸缩岩蕈兽",
+      "旋转雷蕈兽",
+      "浮游草蕈兽",
+      "陆行水本真蕈",
+      "有翼草本真蕈"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：云垢 IV",
+    "region": "须弥",
+    "domainentrance": "有顶塔",
+    "domaintype": "武器突破素材",
+    "description": "外界蕈兽大量增殖，原本平静的古遗迹中也成为了孢子的沃土。\n消灭其中的魔物，或许能获得强化装备的物质吧。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "草元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "谧林涓露的铜符"
+      },
+      {
+        "name": "谧林涓露的铁符"
+      },
+      {
+        "name": "谧林涓露的银符"
+      },
+      {
+        "name": "谧林涓露的金符"
+      }
+    ],
+    "disorder": [
+      "敌人处于原激化状态下时，所有元素抗性降低20%。脱离原激化状态后，该效果会在5秒内消失。"
+    ],
+    "monsterlist": [
+      "浮游水蕈兽",
+      "浮游草蕈兽",
+      "陆行水本真蕈",
+      "有翼草本真蕈"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMWeapon01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "炼武秘境：雷云祭坛 I",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "孤云寒林的光砂"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量。"
+    ],
+    "monsterlist": [
+      "雷史莱姆",
+      "大型雷史莱姆",
+      "变异雷史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：雷云祭坛 II",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "孤云寒林的光砂"
+      },
+      {
+        "name": "孤云寒林的辉岩"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量。"
+    ],
+    "monsterlist": [
+      "雷史莱姆",
+      "大型雷史莱姆",
+      "变异雷史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：雷云祭坛 III",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "孤云寒林的光砂"
+      },
+      {
+        "name": "孤云寒林的辉岩"
+      },
+      {
+        "name": "孤云寒林的圣骸"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量；场景中会随机降下落雷，造成雷元素伤害，并耗尽角色的元素能量。落雷可能会产生雷光球。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "愚人众·雷萤术士"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：雷云祭坛 IV",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "孤云寒林的光砂"
+      },
+      {
+        "name": "孤云寒林的辉岩"
+      },
+      {
+        "name": "孤云寒林的圣骸"
+      },
+      {
+        "name": "孤云寒林的神体"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量；场景中会随机降下落雷，造成雷元素伤害，并耗尽角色的元素能量。落雷可能会产生雷光球。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "愚人众·雷萤术士"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：鸣雷城墟 I",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "雾海云间的铅丹"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量。"
+    ],
+    "monsterlist": [
+      "雷史莱姆",
+      "大型雷史莱姆",
+      "变异雷史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：鸣雷城墟 II",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "雾海云间的铅丹"
+      },
+      {
+        "name": "雾海云间的汞丹"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量。"
+    ],
+    "monsterlist": [
+      "雷史莱姆",
+      "大型雷史莱姆",
+      "变异雷史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：鸣雷城墟 III",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "雾海云间的铅丹"
+      },
+      {
+        "name": "雾海云间的汞丹"
+      },
+      {
+        "name": "雾海云间的金丹"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量；场景中会随机降下落雷，造成雷元素伤害，并耗尽角色的元素能量。落雷可能会产生雷光球。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "愚人众·雷萤术士"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：鸣雷城墟 IV",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "雾海云间的铅丹"
+      },
+      {
+        "name": "雾海云间的汞丹"
+      },
+      {
+        "name": "雾海云间的金丹"
+      },
+      {
+        "name": "雾海云间的转还"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量；场景中会随机降下落雷，造成雷元素伤害，并耗尽角色的元素能量。落雷可能会产生雷光球。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "愚人众·雷萤术士"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：古雷试炼场 I",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 15,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1125
+      },
+      {
+        "name": "好感经验",
+        "count": 10
+      },
+      {
+        "name": "漆黑陨铁的一粒"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量。"
+    ],
+    "monsterlist": [
+      "雷史莱姆",
+      "大型雷史莱姆",
+      "变异雷史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：古雷试炼场 II",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 36,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 21,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1550
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "漆黑陨铁的一粒"
+      },
+      {
+        "name": "漆黑陨铁的一片"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量。"
+    ],
+    "monsterlist": [
+      "雷史莱姆",
+      "大型雷史莱姆",
+      "变异雷史莱姆"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：古雷试炼场 III",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 59,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 30,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1850
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "漆黑陨铁的一粒"
+      },
+      {
+        "name": "漆黑陨铁的一片"
+      },
+      {
+        "name": "漆黑陨铁的一角"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量；场景中会随机降下落雷，造成雷元素伤害，并耗尽角色的元素能量。落雷可能会产生雷光球。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "愚人众·雷萤术士"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "炼武秘境：古雷试炼场 IV",
+    "region": "璃月",
+    "domainentrance": "震雷连山密宫",
+    "domaintype": "武器突破素材",
+    "description": "这座雷鸣不止的古代祭祀场中，聚积了大量的雷元素之力。\n弥漫的电气会持续消解元素能量。\n若能通过其中的试炼，或许能获得强化装备的物质。",
+    "recommendedlevel": 80,
+    "recommendedelements": [
+      "火元素",
+      "冰元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 40,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2200
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "漆黑陨铁的一粒"
+      },
+      {
+        "name": "漆黑陨铁的一片"
+      },
+      {
+        "name": "漆黑陨铁的一角"
+      },
+      {
+        "name": "漆黑陨铁的一块"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「嗜能之雷」：在附着的雷元素消除之前，持续流失元素能量；场景中会随机降下落雷，造成雷元素伤害，并耗尽角色的元素能量。落雷可能会产生雷光球。"
+    ],
+    "monsterlist": [
+      "大型雷史莱姆",
+      "变异雷史莱姆",
+      "愚人众·雷萤术士"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：炽炎祭场 I",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「繁荣」的教导"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "火史莱姆",
+      "大型火史莱姆",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：炽炎祭场 II",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「繁荣」的教导"
+      },
+      {
+        "name": "「繁荣」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "火史莱姆",
+      "大型火史莱姆",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：炽炎祭场 III",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「繁荣」的教导"
+      },
+      {
+        "name": "「繁荣」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "大型火史莱姆",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：炽炎祭场 IV",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「繁荣」的教导"
+      },
+      {
+        "name": "「繁荣」的指引"
+      },
+      {
+        "name": "「繁荣」的哲学"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "火斧丘丘暴徒",
+      "愚人众·火之债务处理人"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：律藏 I",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「笃行」的教导"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹守卫",
+      "遗迹龙兽·地巡"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：律藏 II",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「笃行」的教导"
+      },
+      {
+        "name": "「笃行」的指引"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹龙兽·地巡",
+      "遗迹歼击者",
+      "遗迹侦察者"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：律藏 III",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「笃行」的教导"
+      },
+      {
+        "name": "「笃行」的指引"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹龙兽·地巡",
+      "遗迹龙兽·空巡"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：律藏 IV",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「笃行」的教导"
+      },
+      {
+        "name": "「笃行」的指引"
+      },
+      {
+        "name": "「笃行」的哲学"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹龙兽·地巡",
+      "遗迹龙兽·空巡"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：焚尽之环 I",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「黄金」的教导"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "火史莱姆",
+      "大型火史莱姆",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：焚尽之环 II",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「黄金」的教导"
+      },
+      {
+        "name": "「黄金」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "火史莱姆",
+      "大型火史莱姆",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：焚尽之环 III",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「黄金」的教导"
+      },
+      {
+        "name": "「黄金」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "大型火史莱姆",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：焚尽之环 IV",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「黄金」的教导"
+      },
+      {
+        "name": "「黄金」的指引"
+      },
+      {
+        "name": "「黄金」的哲学"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "火斧丘丘暴徒",
+      "愚人众·火之债务处理人"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：霜凝祭坛 I",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「自由」的教导"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：霜凝祭坛 II",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「自由」的教导"
+      },
+      {
+        "name": "「自由」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "打手丘丘人",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：霜凝祭坛 III",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「自由」的教导"
+      },
+      {
+        "name": "「自由」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加；场景中会随机落下冰柱，造成冰元素伤害。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：霜凝祭坛 IV",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「自由」的教导"
+      },
+      {
+        "name": "「自由」的指引"
+      },
+      {
+        "name": "「自由」的哲学"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加；场景中会随机落下冰柱，造成冰元素伤害。"
+    ],
+    "monsterlist": [
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：冰封废渊 I",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「抗争」的教导"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：冰封废渊 II",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「抗争」的教导"
+      },
+      {
+        "name": "「抗争」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "打手丘丘人",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：冰封废渊 III",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「抗争」的教导"
+      },
+      {
+        "name": "「抗争」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加；场景中会随机落下冰柱，造成冰元素伤害。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：冰封废渊 IV",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「抗争」的教导"
+      },
+      {
+        "name": "「抗争」的指引"
+      },
+      {
+        "name": "「抗争」的哲学"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加；场景中会随机落下冰柱，造成冰元素伤害。"
+    ],
+    "monsterlist": [
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：圆镜 I",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「诤言」的教导"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹守卫",
+      "遗迹龙兽·地巡"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：圆镜 II",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「诤言」的教导"
+      },
+      {
+        "name": "「诤言」的指引"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹龙兽·地巡",
+      "遗迹歼击者",
+      "遗迹侦察者"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：圆镜 III",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「诤言」的教导"
+      },
+      {
+        "name": "「诤言」的指引"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹龙兽·地巡",
+      "遗迹龙兽·空巡"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：圆镜 IV",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「诤言」的教导"
+      },
+      {
+        "name": "「诤言」的指引"
+      },
+      {
+        "name": "「诤言」的哲学"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹龙兽·地巡",
+      "遗迹龙兽·空巡"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：深炎之底 I",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「勤劳」的教导"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "火史莱姆",
+      "大型火史莱姆",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：深炎之底 II",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「勤劳」的教导"
+      },
+      {
+        "name": "「勤劳」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "火史莱姆",
+      "大型火史莱姆",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：深炎之底 III",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「勤劳」的教导"
+      },
+      {
+        "name": "「勤劳」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "大型火史莱姆",
+      "火深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：深炎之底 IV",
+    "region": "璃月",
+    "domainentrance": "太山府",
+    "domaintype": "天赋培养素材",
+    "description": "这座炽热的古代祭祀场中，聚积了大量的火元素之力。\n置身其中会受到持续的高热灼烧。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "水元素",
+      "冰元素",
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「勤劳」的教导"
+      },
+      {
+        "name": "「勤劳」的指引"
+      },
+      {
+        "name": "「勤劳」的哲学"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「阴燃之火」：在附着的火元素消除之前，持续受到火元素伤害。"
+    ],
+    "monsterlist": [
+      "火斧丘丘暴徒",
+      "愚人众·火之债务处理人"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Fire"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：沉睡之国 I",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「诗文」的教导"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：沉睡之国 II",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「诗文」的教导"
+      },
+      {
+        "name": "「诗文」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "打手丘丘人",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：沉睡之国 III",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「诗文」的教导"
+      },
+      {
+        "name": "「诗文」的指引"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加；场景中会随机落下冰柱，造成冰元素伤害。"
+    ],
+    "monsterlist": [
+      "冰史莱姆",
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：沉睡之国 IV",
+    "region": "蒙德",
+    "domainentrance": "忘却之峡",
+    "domaintype": "天赋培养素材",
+    "description": "这座寒冷的古代祭祀场中，聚积了大量的冰元素之力。\n其中刺骨的霜寒使人举步维艰。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "雷元素",
+      "火元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「诗文」的教导"
+      },
+      {
+        "name": "「诗文」的指引"
+      },
+      {
+        "name": "「诗文」的哲学"
+      }
+    ],
+    "disorder": [
+      "周期性为角色施加「凝结之冰」：在附着的冰元素消除之前，体力消耗大幅增加；场景中会随机落下冰柱，造成冰元素伤害。"
+    ],
+    "monsterlist": [
+      "大型冰史莱姆",
+      "冰深渊法师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Ice"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：菫染之国 I",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「浮世」的教导"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "丘丘人",
+      "雷弹丘丘人",
+      "雷箭丘丘人",
+      "雷斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：菫染之国 II",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「浮世」的教导"
+      },
+      {
+        "name": "「浮世」的指引"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "野伏·阵刀番",
+      "野伏·火付番",
+      "野伏·机巧番",
+      "盗宝团·火之药剂师",
+      "盗宝团·雷之药剂师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：菫染之国 III",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「浮世」的教导"
+      },
+      {
+        "name": "「浮世」的指引"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "野伏·火付番",
+      "野伏·机巧番",
+      "盗宝团·火之药剂师",
+      "盗宝团·雷之药剂师",
+      "海乱鬼·炎威"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：菫染之国 IV",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周一",
+      "周四",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「浮世」的教导"
+      },
+      {
+        "name": "「浮世」的指引"
+      },
+      {
+        "name": "「浮世」的哲学"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "盗宝团·冰之药剂师",
+      "海乱鬼·雷腾",
+      "海乱鬼·炎威"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：初雷幽谷 I",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「风雅」的教导"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "丘丘人",
+      "雷弹丘丘人",
+      "雷箭丘丘人",
+      "雷斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：初雷幽谷 II",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「风雅」的教导"
+      },
+      {
+        "name": "「风雅」的指引"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "野伏·阵刀番",
+      "野伏·火付番",
+      "野伏·机巧番",
+      "盗宝团·火之药剂师",
+      "盗宝团·雷之药剂师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：初雷幽谷 III",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「风雅」的教导"
+      },
+      {
+        "name": "「风雅」的指引"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "野伏·火付番",
+      "野伏·机巧番",
+      "盗宝团·火之药剂师",
+      "盗宝团·雷之药剂师",
+      "海乱鬼·炎威"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：初雷幽谷 IV",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「风雅」的教导"
+      },
+      {
+        "name": "「风雅」的指引"
+      },
+      {
+        "name": "「风雅」的哲学"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "盗宝团·冰之药剂师",
+      "海乱鬼·雷腾",
+      "海乱鬼·炎威"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：真葛废都 I",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「天光」的教导"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "丘丘人",
+      "雷弹丘丘人",
+      "雷箭丘丘人",
+      "雷斧丘丘暴徒"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：真葛废都 II",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「天光」的教导"
+      },
+      {
+        "name": "「天光」的指引"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "野伏·阵刀番",
+      "野伏·火付番",
+      "野伏·机巧番",
+      "盗宝团·火之药剂师",
+      "盗宝团·雷之药剂师"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：真葛废都 III",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「天光」的教导"
+      },
+      {
+        "name": "「天光」的指引"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "野伏·火付番",
+      "野伏·机巧番",
+      "盗宝团·火之药剂师",
+      "盗宝团·雷之药剂师",
+      "海乱鬼·炎威"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：真葛废都 IV",
+    "region": "稻妻",
+    "domainentrance": "菫色之庭",
+    "domaintype": "天赋培养素材",
+    "description": "在紫樱永远盛放的祭场中，潜伏着擅闯其中的魔物。\n若能通过其中的试炼，或许能获得令人天赋成长的物质。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "雷元素"
+    ],
+    "daysofweek": [
+      "周三",
+      "周六",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「天光」的教导"
+      },
+      {
+        "name": "「天光」的指引"
+      },
+      {
+        "name": "「天光」的哲学"
+      }
+    ],
+    "disorder": [
+      "队伍中所有角色获得25%雷元素伤害加成。",
+      "挑战中存在雷晶实，其中会间歇性涌现「稚雷珠」。角色获取稚雷珠后，普通攻击、重击、下落攻击、元素战技与元素爆发在命中敌人时，会释放落雷，造成雷元素伤害。"
+    ],
+    "monsterlist": [
+      "盗宝团·冰之药剂师",
+      "海乱鬼·雷腾",
+      "海乱鬼·炎威"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_Thunder_Dq"
+    },
+    "version": ""
+  },
+  {
+    "name": "精通秘境：妙语 I",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 38,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 1,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1575
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「巧思」的教导"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹守卫",
+      "遗迹龙兽·地巡"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：妙语 II",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 54,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 28,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 1800
+      },
+      {
+        "name": "好感经验",
+        "count": 15
+      },
+      {
+        "name": "「巧思」的教导"
+      },
+      {
+        "name": "「巧思」的指引"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹龙兽·地巡",
+      "遗迹歼击者",
+      "遗迹侦察者"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：妙语 III",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 71,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 36,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2050
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「巧思」的教导"
+      },
+      {
+        "name": "「巧思」的指引"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹龙兽·地巡",
+      "遗迹龙兽·空巡"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "精通秘境：妙语 IV",
+    "region": "须弥",
+    "domainentrance": "昏识塔",
+    "domaintype": "天赋培养素材",
+    "description": "数百年前曾经点燃森林，最终又被击败的古代机械静静沉睡在地下的废都中。\n能够粉碎其中的机关魔物的话，或许能获得令人参悟天赋成长的物资吧。",
+    "recommendedlevel": 88,
+    "recommendedelements": [
+      "草元素",
+      "雷元素",
+      "火元素",
+      "水元素"
+    ],
+    "daysofweek": [
+      "周二",
+      "周五",
+      "周日"
+    ],
+    "unlockrank": 45,
+    "rewardpreview": [
+      {
+        "name": "冒险阅历",
+        "count": 100
+      },
+      {
+        "name": "摩拉",
+        "count": 2375
+      },
+      {
+        "name": "好感经验",
+        "count": 20
+      },
+      {
+        "name": "「巧思」的教导"
+      },
+      {
+        "name": "「巧思」的指引"
+      },
+      {
+        "name": "「巧思」的哲学"
+      }
+    ],
+    "disorder": [
+      "造成元素伤害后的10秒内，队伍中所有角色造成的伤害提高10%。不同类型的元素伤害分别触发的该效果独立计时。至多叠加4次这种伤害提高效果。"
+    ],
+    "monsterlist": [
+      "遗迹龙兽·地巡",
+      "遗迹龙兽·空巡"
+    ],
+    "images": {
+      "namepic": "UI_DungeonPic_XMCharacter01"
+    },
+    "version": "3.0"
+  }
+]
