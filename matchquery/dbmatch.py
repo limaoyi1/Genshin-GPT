@@ -7,7 +7,7 @@ from download.dbclass import Character, Achievementgroups, Achievements, Adventu
 class CharacterWrapper:
     characters: list[Character] = []
 
-    def __init__(self, path="../resource/genshindb/characters.json"):
+    def __init__(self, path="./resource/genshindb/characters.json"):
         # 将json实例化为list
         with open(path, 'r', encoding='utf-8') as file:
             character_data = json.load(file)
@@ -56,7 +56,7 @@ class CharacterWrapper:
 class AchievementgroupsWrapper:
     groups: list[Achievementgroups] = []
 
-    def __init__(self, path="../resource/genshindb/achievementgroups.json"):
+    def __init__(self, path="./resource/genshindb/achievementgroups.json"):
         with open(path, 'r', encoding='utf-8') as file:
             groups_data = json.load(file)
 
@@ -84,7 +84,7 @@ class AchievementgroupsWrapper:
 class AchievementsWrapper:
     achievements: list[Achievements] = []
 
-    def __init__(self, path="../resource/genshindb/achievements.json"):
+    def __init__(self, path="./resource/genshindb/achievements.json"):
         with open(path, 'r', encoding='utf-8') as file:
             achievements_data = json.load(file)
 
@@ -115,7 +115,7 @@ class AchievementsWrapper:
 class AdventurerRankWrapper:
     adventurer_ranks: list[AdventurerRank] = []
 
-    def __init__(self, path="../resource/genshindb/adventureranks.json"):
+    def __init__(self, path="./resource/genshindb/adventureranks.json"):
         with open(path, 'r', encoding='utf-8') as file:
             adventurer_ranks_data = json.load(file)
 
@@ -144,7 +144,7 @@ class AdventurerRankWrapper:
 class AnimalsWrapper:
     animals: list[Animal] = []
 
-    def __init__(self, path="../resource/genshindb/animals.json"):
+    def __init__(self, path="./resource/genshindb/animals.json"):
         with open(path, 'r', encoding='utf-8') as file:
             animals_data = json.load(file)
 
@@ -175,7 +175,7 @@ class AnimalsWrapper:
 class ArtifactsWrapper:
     artifacts: list[Artifact] = []
 
-    def __init__(self, path="../resource/genshindb/artifacts.json"):
+    def __init__(self, path="./resource/genshindb/artifacts.json"):
         with open(path, 'r', encoding='utf-8') as file:
             artifacts_data = json.load(file)
 
@@ -203,7 +203,7 @@ class ArtifactsWrapper:
 class ConstellationsWrapper:
     constellations: list[Constellation] = []
 
-    def __init__(self, path="../resource/genshindb/constellations.json"):
+    def __init__(self, path="./resource/genshindb/constellations.json"):
         with open(path, 'r', encoding='utf-8') as file:
             constellations_data = json.load(file)
 
@@ -236,7 +236,7 @@ class ConstellationsWrapper:
 class DomainsWrapper:
     domains: list[Domain] = []
 
-    def __init__(self, path="../resource/genshindb/domains.json"):
+    def __init__(self, path="./resource/genshindb/domains.json"):
         with open(path, 'r', encoding='utf-8') as file:
             domains_data = json.load(file)
 
@@ -267,7 +267,7 @@ class DomainsWrapper:
 
 
 class EnemiesWrapper:
-    def __init__(self, path="../resource/genshindb/enemies.json"):
+    def __init__(self, path="./resource/genshindb/enemies.json"):
         self.enemies = []
         self.load_data(path)
 
@@ -286,7 +286,7 @@ class EnemiesWrapper:
 
 
 class FoodWrapper:
-    def __init__(self, path="../resource/genshindb/foods.json"):
+    def __init__(self, path="./resource/genshindb/foods.json"):
         with open(path, 'r', encoding='utf-8') as file:
             data = json.load(file)
         self.foods = [Food(item) for item in data]
@@ -300,7 +300,7 @@ class FoodWrapper:
 
 class GeographiesWrapper:
 
-    def __init__(self, path="../resource/genshindb/geographies.json"):
+    def __init__(self, path="./resource/genshindb/geographies.json"):
         # 将json实例化为list
         with open(path, 'r', encoding='utf-8') as file:
             data = json.load(file)
@@ -315,7 +315,7 @@ class GeographiesWrapper:
 
 
 class MaterialsWrapper:
-    def __init__(self, path="../resource/genshindb/materials.json"):
+    def __init__(self, path="./resource/genshindb/materials.json"):
         with open(path, 'r', encoding='utf-8') as file:
             data = json.load(file)
         self.materials = [Material(material_data) for material_data in data]
@@ -328,7 +328,7 @@ class MaterialsWrapper:
 
 
 class NameCardsWrapper:
-    def __init__(self, path="../resource/genshindb/namecards.json"):
+    def __init__(self, path="./resource/genshindb/namecards.json"):
         self.namecards = []
         self.load_data(path)
 
@@ -345,7 +345,7 @@ class NameCardsWrapper:
 
 
 class OutfitsWrapper:
-    def __init__(self, path="../resource/genshindb/outfits.json"):
+    def __init__(self, path="./resource/genshindb/outfits.json"):
         self.path = path
         self.outfits = self.load_outfits()
 
@@ -370,7 +370,7 @@ class OutfitsWrapper:
 
 
 class TalentsWrapper:
-    def __init__(self, path="../resource/genshindb/talents.json"):
+    def __init__(self, path="./resource/genshindb/talents.json"):
         self.talents = []
         self.load_data(path)
 
@@ -391,7 +391,7 @@ class TalentsWrapper:
 class WeaponWrapper:
     weapons: list[Weapon] = []
 
-    def __init__(self, path="../resource/genshindb/weapons.json"):
+    def __init__(self, path="./resource/genshindb/weapons.json"):
         # 将json实例化为list
         with open(path, 'r', encoding='utf-8') as file:
             weapon_data = json.load(file)
@@ -432,7 +432,7 @@ class WeaponWrapper:
 class WindgliderWrapper:
     windgliders: list[Windglider] = []
 
-    def __init__(self, path="../resource/genshindb/windgliders.json"):
+    def __init__(self, path="./resource/genshindb/windgliders.json"):
         # 将json实例化为list
         with open(path, 'r', encoding='utf-8') as file:
             windglider_data = json.load(file)
@@ -466,7 +466,7 @@ class WindgliderWrapper:
 
 if __name__ == "__main__":
     # 示例使用
-    character_match = CharacterWrapper()
+    character_match = CharacterWrapper("../resource/genshindb/characters.json")
     for character in character_match.characters:
         print(character.name, character.rarity, character.element, character.cv["english"])
     s = "钟离"
@@ -501,24 +501,24 @@ if __name__ == "__main__":
     achievement_info = wrapper.get_achievement_info("「…将一切希望弃扬。」")
     print(achievement_info)
 
-    wrapper = AdventurerRankWrapper()
+    wrapper = AdventurerRankWrapper("../resource/genshindb")
     adventurer_rank_info = wrapper.run("59")
     print(adventurer_rank_info)
 
-    wrapper = AnimalsWrapper()
+    wrapper = AnimalsWrapper("../resource/genshindb")
     animal_info = wrapper.run("长生仙")
     print(animal_info)
 
-    wrapper = ArtifactsWrapper()
+    wrapper = ArtifactsWrapper("../resource/genshindb")
     artifact_info = wrapper.run("冒险家")
     print(artifact_info)
 
-    wrapper = ConstellationsWrapper()
+    wrapper = ConstellationsWrapper("../resource/genshindb")
     constellation_info = wrapper.run("阿贝多")
     print(constellation_info)
 
     # 创建DomainsWrapper实例
-    wrapper = DomainsWrapper()
+    wrapper = DomainsWrapper("../resource/genshindb")
 
     # 查询副本信息
     domain_info = wrapper.run("祝圣秘境：椛狩 I")
@@ -529,42 +529,42 @@ if __name__ == "__main__":
     print(non_existent_domain_info)
 
     # 查询敌人
-    wrapper = EnemiesWrapper()
+    wrapper = EnemiesWrapper("../resource/genshindb")
     enemy_info = wrapper.run("深渊使徒·霜落")
     print(enemy_info)
 
-    wrapper = FoodWrapper()
+    wrapper = FoodWrapper("../resource/genshindb")
     food_info = wrapper.run("阿如拌饭")
     print(food_info)
 
     # 初始化wrapper并查找特定地理信息
-    wrapper = GeographiesWrapper()
+    wrapper = GeographiesWrapper("../resource/genshindb")
     geography_info = wrapper.run("赤王陵")
     print(geography_info)
 
     # Test the MaterialsWrapper
-    wrapper = MaterialsWrapper()
+    wrapper = MaterialsWrapper("../resource/genshindb")
     material_info = wrapper.run("长生仙")
     print(material_info)
 
     # 示例测试
-    wrapper = NameCardsWrapper()
+    wrapper = NameCardsWrapper("../resource/genshindb")
     namecard_info = wrapper.run("成就·强弓")
     print(namecard_info)
 
-    wrapper = OutfitsWrapper()
+    wrapper = OutfitsWrapper("../resource/genshindb")
     outfit_info = wrapper.run("100%侦察骑士")
     print(outfit_info)
 
     # Example usage
-    wrapper = TalentsWrapper()
+    wrapper = TalentsWrapper("../resource/genshindb")
     talent_info = wrapper.run("阿贝多")
     print(talent_info)
 
-    weapon_wrapper = WeaponWrapper()
+    weapon_wrapper = WeaponWrapper("../resource/genshindb")
     description = weapon_wrapper.run("恶王丸")
     print(description)
 
-    windglider_wrapper = WindgliderWrapper()
+    windglider_wrapper = WindgliderWrapper("../resource/genshindb")
     description = windglider_wrapper.run("苍天清风之翼")
     print(description)

@@ -1,11 +1,17 @@
 # init 初始化一些常数
+import re
+
 import torch
-from langchain import OpenAI
+from langchain import OpenAI, LLMChain
+from langchain.agents import LLMSingleActionAgent, AgentOutputParser, AgentExecutor, initialize_agent, AgentType
 from langchain.chains.query_constructor.schema import AttributeInfo
 from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.prompts import StringPromptTemplate
 from langchain.retrievers import SelfQueryRetriever
+from langchain.schema import Document, AgentAction, AgentFinish
 from langchain.vectorstores import Chroma
 
+from matchquery.dbtools import tools
 from readconfig.myconfig import MyConfig
 from pympler import tracker
 
@@ -51,6 +57,8 @@ vectordb = Chroma(persist_directory="./resource/dict/v4", embedding_function=emb
 
 # 加载VectorDB =============================================================
 vectordb_wiki = Chroma(persist_directory="./resource/dict/v1", embedding_function=embeddings)
+
+vectordb_tools = Chroma(persist_directory="./resource/dict/tools", embedding_function=embeddings)
 
 
 class MatchAnswer:
@@ -135,20 +143,146 @@ class MatchAnswer:
         # querys =["two wiki about"+ raw_answer + f""" which theme is {self.role_name}""","two wiki about"+ raw_answer ,"two wiki about temperament of" + self.role_name ]
         contents = []
         for q in querys:
-            documents = retriever.get_relevant_documents("two wiki about"+ q + f""" which theme is {self.role_name}""")
+            documents = retriever.get_relevant_documents("two wiki about" + q + f""" which theme is {self.role_name}""")
             for doc in documents:
                 # 去重
                 if doc.page_content not in contents:
                     contents.append(doc.page_content)
         return contents
 
+    def matchTools(self, raw_answer):
+            llm = OpenAI(model_name="gpt-3.5-turbo", openai_api_key=config.OPENAI_API_KEY,
+                         openai_api_base=config.OPENAI_BASE_URL)
+            query = f"荧对{self.role_name}说:{raw_answer}"
+            template = f"""You are an artificial intelligence language model assistant. Your task is to generate 3
+            different perspectives of questions in Simplified Chinese based on the information contained in the
+            questions, in order to retrieve relevant background information and answer materials from vectors. Your goal
+            is to help users obtain the background of the chat, the identity and personality of the characters,
+            and the ideas for answering. Provide these alternative questions separated by line breaks.
+            My question: {query}"""
+            questions = llm.predict(template)
+            output_list = questions.split("\n")
+            contents = []
+            ALL_TOOLS = tools
+            retriever = vectordb_tools.as_retriever()
+
+            def get_tools(raw_answer1):
+                docs = retriever.get_relevant_documents(raw_answer1)
+                return [ALL_TOOLS[d.metadata["index"]] for d in docs]
+
+            agent = initialize_agent(
+                tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True
+            )
+            for i in range(len(output_list)):
+                run = agent.run(output_list[i])
+                contents.append(run)
+            return contents
+
+            # prompt = CustomPromptTemplate(
+            #     template=template,
+            #     tools_getter=get_tools,
+            #     # This omits the `agent_scratchpad`, `tools`, and `tool_names` variables because those are generated dynamically
+            #     # This includes the `intermediate_steps` variable because that is needed
+            #     input_variables=["input", "intermediate_steps"],
+            # )
+            # llm = OpenAI(temperature=0,openai_api_key=config.OPENAI_API_KEY,
+            #              openai_api_base=config.OPENAI_BASE_URL)
+            # output_parser = CustomOutputParser()
+            # # LLM chain consisting of the LLM and a prompt
+            # llm_chain = LLMChain(llm=llm, prompt=prompt)
+            # tool_names = [tool.name for tool in tools]
+            # agent = LLMSingleActionAgent(
+            #     llm_chain=llm_chain,
+            #     # output_parser=output_parser,
+            #     stop=["\nObservation:"],
+            #     allowed_tools=tool_names,
+            # )
+            # agent_executor = AgentExecutor.from_agent_and_tools(
+            #     agent=agent, tools=tools, verbose=True
+            # )
+            # run = agent_executor.run(query)
+            # return run
+
+
+# Set up the base template
+template = """Answer the following questions as best you can, but speaking as a pirate might speak. You have access to the following tools:
+
+{tools}
+
+Use the following format:
+
+Question: the input question you must answer
+Thought: you should always think about what to do
+Action: the action to take, should be one of [{tool_names}]
+Action Input: the input to the action
+Observation: the result of the action
+... (this Thought/Action/Action Input/Observation can repeat N times)
+Thought: I now know the final answer
+Final Answer: the final answer to the original input question
+
+Begin! Remember to speak as a pirate when giving your final answer. Use lots of "Arg"s
+
+Question: {input}
+{agent_scratchpad}"""
+
+from typing import Callable, Union
+
+
+# Set up a prompt template
+class CustomPromptTemplate(StringPromptTemplate):
+    # The template to use
+    template: str
+    ############## NEW ######################
+    # The list of tools available
+    tools_getter: Callable
+
+    def format(self, **kwargs) -> str:
+        # Get the intermediate steps (AgentAction, Observation tuples)
+        # Format them in a particular way
+        intermediate_steps = kwargs.pop("intermediate_steps")
+        thoughts = ""
+        for action, observation in intermediate_steps:
+            thoughts += action.log
+            thoughts += f"\nObservation: {observation}\nThought: "
+        # Set the agent_scratchpad variable to that value
+        kwargs["agent_scratchpad"] = thoughts
+        ############## NEW ######################
+        tools = self.tools_getter(kwargs["input"])
+        # Create a tools variable from the list of tools provided
+        kwargs["tools"] = "\n".join(
+            [f"{tool.name}: {tool.description}" for tool in tools]
+        )
+        # Create a list of tool names for the tools provided
+        kwargs["tool_names"] = ", ".join([tool.name for tool in tools])
+        return self.template.format(**kwargs)
+
+class CustomOutputParser(AgentOutputParser):
+    def parse(self, llm_output: str) -> Union[AgentAction, AgentFinish]:
+        # Check if agent should finish
+        if "Final Answer:" in llm_output:
+            return AgentFinish(
+                # Return values is generally always a dictionary with a single `output` key
+                # It is not recommended to try anything else at the moment :)
+                return_values={"output": llm_output.split("Final Answer:")[-1].strip()},
+                log=llm_output,
+            )
+        # Parse out the action and action input
+        regex = r"Action\s*\d*\s*:(.*?)\nAction\s*\d*\s*Input\s*\d*\s*:[\s]*(.*)"
+        match = re.search(regex, llm_output, re.DOTALL)
+        if not match:
+            raise ValueError(f"Could not parse LLM output: `{llm_output}`")
+        action = match.group(1).strip()
+        action_input = match.group(2)
+        # Return the action and action input
+        return AgentAction(
+            tool=action, tool_input=action_input.strip(" ").strip('"'), log=llm_output
+        )
+
 
 if __name__ == "__main__":
     answer = MatchAnswer("钟离")
     matchs = answer.match("早安")
     print(matchs)
-
-
 
 # 你是一个人工智能语言模型助理。你的任务是用简体中文针对提问中包含出的信息生成5个不同角度的提问，以从向量中检索相关背景信息和回答素材，您的目标是帮助用户获取聊天的背景,角色的身份和性格,回答的思路。提供这些用换行符分隔的备选问题。
 # 我的问题：

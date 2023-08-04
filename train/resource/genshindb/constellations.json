@@ -1,0 +1,2633 @@
+[
+  {
+    "name": "阿贝多",
+    "c1": {
+      "name": "伊甸之花",
+      "effect": "阿贝多的**创生法·拟造阳华**生成的刹那之花绽放时，为阿贝多自己回复1.2点元素能量。"
+    },
+    "c2": {
+      "name": "显生之宙",
+      "effect": "**创生法·拟造阳华**的刹那之花绽放时，会为阿贝多赋予生灭计数效果，持续30秒：\n·施放**诞生式·大地之潮**时，清除所有生灭计数效果，并根据清除的层数，提高诞生式·大地之潮的爆发伤害与生灭之花造成的伤害；\n·每层生灭计数，会提高等同于阿贝多防御力的30%的伤害；\n·该效果至多叠加4次。"
+    },
+    "c3": {
+      "name": "太阳之华",
+      "effect": "**创生法·拟造阳华**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "神性之陨",
+      "effect": "处于阳华的领域中的队伍中当前场上角色，造成的下落攻击伤害提高30%。"
+    },
+    "c5": {
+      "name": "冥古之潮",
+      "effect": "**诞生式·大地之潮**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "无垢之土",
+      "effect": "处在阳华的领域中的队伍中当前场上角色，若处于结晶反应产生的护盾庇护下，造成的伤害提高17%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Albedo_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Albedo_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Albedo_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Albedo_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Albedo_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Albedo_04.png",
+      "constellation": "Eff_UI_Talent_Albedo"
+    },
+    "version": "1.2"
+  },
+  {
+    "name": "艾尔海森",
+    "c1": {
+      "name": "直观",
+      "effect": "光幕攻击命中敌人时，将使**共相·理式摹写**的冷却时间减少1.2秒。该效果每1秒至多触发一次。"
+    },
+    "c2": {
+      "name": "辩章",
+      "effect": "艾尔海森产生琢光镜时，每1枚产生的琢光镜将使元素精通提升50点，持续8秒。该效果最多叠加4层，每层独立计算持续时间。琢光镜数量达到上限时依然能触发该效果。"
+    },
+    "c3": {
+      "name": "遮诠",
+      "effect": "**共相·理式摹写**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "义贯",
+      "effect": "施放**殊境·显象缚结**时，会依据通过本次施放消耗与产生的琢光镜数量，产生如下效果：\n·每消耗1枚琢光镜，使队伍中附近的其他角色元素精通提升30点，持续15秒；\n·每产生1枚琢光镜，使艾尔海森获得10%草元素伤害加成，持续15秒。\n\n上述效果的持续期间内重复施放殊境·显象缚结时，将先移除原有的效果。"
+    },
+    "c5": {
+      "name": "智度",
+      "effect": "**殊境·显象缚结**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "正理",
+      "effect": "艾尔海森获得如下效果：\n·**殊境·显象缚结**施放完成2秒后，将无视消耗琢光镜的个数，固定产生3枚琢光镜；\n·艾尔海森产生琢光镜时，若琢光镜数量已达到上限，艾尔海森的暴击率提升10%，暴击伤害提升70%，持续6秒。该效果在持续期间重复触发时，剩余持续时间将增加6秒。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Alhatham_02.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Alhatham_01.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Alhatham_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Alhatham_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Alhatham_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Alhatham_04.png",
+      "constellation": "Eff_UI_Talent_Alhatham"
+    },
+    "version": "3.4"
+  },
+  {
+    "name": "埃洛伊",
+    "c1": {
+      "name": "异界之星",
+      "effect": "点亮此人一方星空之刻尚未到来。"
+    },
+    "c2": {
+      "name": "异界之星",
+      "effect": "点亮此人一方星空之刻尚未到来。"
+    },
+    "c3": {
+      "name": "异界之星",
+      "effect": "点亮此人一方星空之刻尚未到来。"
+    },
+    "c4": {
+      "name": "异界之星",
+      "effect": "点亮此人一方星空之刻尚未到来。"
+    },
+    "c5": {
+      "name": "异界之星",
+      "effect": "点亮此人一方星空之刻尚未到来。"
+    },
+    "c6": {
+      "name": "异界之星",
+      "effect": "点亮此人一方星空之刻尚未到来。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+      "constellation": "Eff_UI_Talent_Aloy"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "安柏",
+    "c1": {
+      "name": "一箭双丘丘！",
+      "effect": "**瞄准射击**时，会连续射出2支箭。第二支箭能造成原本20%的伤害。"
+    },
+    "c2": {
+      "name": "一触即发",
+      "effect": "兔兔伯爵进行了全新改良！蓄力完成的瞄准射击命中兔兔伯爵脚部时，能直接引爆兔兔伯爵…\n通过这种方式主动引爆兔兔伯爵时，会额外造成200%伤害。"
+    },
+    "c3": {
+      "name": "烧起来啦！",
+      "effect": "**箭雨**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "才不是普通的布偶",
+      "effect": "**爆弹玩偶**的冷却时间减少20%，并增加1次可使用次数。"
+    },
+    "c5": {
+      "name": "是兔兔伯爵！",
+      "effect": "**爆弹玩偶**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "疾如野火",
+      "effect": "使用**箭雨**后的10秒内，队伍中所有角色的移动速度提升15%，攻击力提升15%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ambor_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ambor_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ambor_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ambor_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ambor_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ambor_04.png",
+      "constellation": "Eff_UI_Talent_Ambor"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "荒泷一斗",
+    "c1": {
+      "name": "倘若不知，我讲你听",
+      "effect": "施放**最恶鬼王·一斗轰临！！**后，荒泷一斗获得2层「乱神之怪力」效果。1秒后，荒泷一斗每0.5秒再获得1层「乱神之怪力」效果，持续1.5秒。"
+    },
+    "c2": {
+      "name": "纠集众人，斗倒御岳",
+      "effect": "施放**最恶鬼王·一斗轰临！！**后，队伍中每个元素类型为岩元素的角色，都将使其冷却时间减少1.5秒，使荒泷一斗的元素能量恢复6点。\n通过这种方式，至多减少4.5秒冷却时间，恢复18点元素能量。"
+    },
+    "c3": {
+      "name": "水陆自在，牛王同行",
+      "effect": "**魔杀绝技·赤牛发破！**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "奉行牢狱，茶饭之所",
+      "effect": "**最恶鬼王·一斗轰临！！**施加的「怒目鬼王」状态结束后，附近的队伍中所有角色的防御力提升20%，攻击力提升20%，持续10秒。"
+    },
+    "c5": {
+      "name": "十年花坂，皆知我名",
+      "effect": "**最恶鬼王·一斗轰临！！**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "在下荒泷一斗是也",
+      "effect": "荒泷一斗的重击的暴击伤害提高70%；此外，施展「荒泷逆袈裟」时，有50%的几率不消耗「乱神之怪力」。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Itto_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Itto_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_04.png",
+      "constellation": "Eff_UI_Talent_Itto"
+    },
+    "version": "2.3"
+  },
+  {
+    "name": "白术",
+    "c1": {
+      "name": "呿吟至微",
+      "effect": "**太素诊要**的可使用次数增加1次。"
+    },
+    "c2": {
+      "name": "动静精明",
+      "effect": "队伍中自己的当前场上角色在攻击命中附近的敌人时，白术将释放游丝徵灵·切。\n游丝徵灵·切将在进行至多1次攻击后返回，造成白术攻击力250%的草元素伤害与**太素诊要**游丝徵灵的20%回复量。\n通过这种方式造成的伤害视为元素战技伤害。\n每5秒至多触发一次。"
+    },
+    "c3": {
+      "name": "八正定气",
+      "effect": "**愈气全形论**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "法古观冥",
+      "effect": "施放**愈气全形论**之后的15秒内，队伍中附近的所有角色元素精通提升80点。"
+    },
+    "c5": {
+      "name": "盈虚藏象",
+      "effect": "**太素诊要**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "真邪合离",
+      "effect": "**愈气全形论**的灵气脉造成的伤害提高，提升值相当于白术生命值上限的8%。\n此外，**游丝徵灵**或游丝徵灵·切在命中敌人时，有100%概率产生**愈气全形论**的无郤气护盾，该效果每个游丝徵灵或游丝徵灵·切只能触发一次。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Baizhuer_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Baizhuer_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Baizhuer_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Baizhuer_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Baizhuer_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Baizhuer_04.png",
+      "constellation": "Eff_UI_Talent_Baizhuer"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "芭芭拉",
+    "c1": {
+      "name": "彩色歌谣",
+      "effect": "芭芭拉每10秒恢复1点元素能量。"
+    },
+    "c2": {
+      "name": "元气迸发",
+      "effect": "**演唱，开始♪**的冷却时间降低15%；\n技能持续期间，当前场上自己的角色获得15%水元素伤害加成。"
+    },
+    "c3": {
+      "name": "明日之星",
+      "effect": "**闪耀奇迹♪**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "努力即魔法",
+      "effect": "芭芭拉使用重击时，每命中一个敌人，就恢复1点元素能量。\n通过这种方式，一次至多回复5点元素能量。"
+    },
+    "c5": {
+      "name": "纯真的羁绊",
+      "effect": "**演唱，开始♪**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "将一切美好献给你",
+      "effect": "芭芭拉处于队伍后台时，队伍中自己的角色倒下时，则立即：\n·复苏该角色；\n·将该角色生命值恢复至100%。\n该效果每15分钟只能触发一次。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Barbara_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Barbara_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Barbara_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Barbara_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Barbara_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Barbara_04.png",
+      "constellation": "Eff_UI_Talent_Barbara"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "北斗",
+    "c1": {
+      "name": "鱼龙沉四方",
+      "effect": "施放**斫雷**时：\n生成一个伤害吸收量等于生命值上限16%的护盾，持续15秒。\n该护盾对雷元素伤害有250%的吸收效果。"
+    },
+    "c2": {
+      "name": "赫赫雷涌起",
+      "effect": "**斫雷**的闪雷能额外弹跳2个敌人。"
+    },
+    "c3": {
+      "name": "潮奔蓦引电",
+      "effect": "**捉浪**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "牵星觅乡岸",
+      "effect": "受到攻击后的10秒内，北斗的普通攻击附带20%额外雷元素伤害。"
+    },
+    "c5": {
+      "name": "踏浪霞连阶",
+      "effect": "**斫雷**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "北斗祓幽孽",
+      "effect": "**斫雷**持续期间，周围敌人的雷元素抗性降低15%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Beidou_02.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Beidou_01.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Beidou_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Beidou_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Beidou_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Beidou_04.png",
+      "constellation": "Eff_UI_Talent_Beidou"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "班尼特",
+    "c1": {
+      "name": "冒险憧憬",
+      "effect": "**美妙旅程**的攻击力提升效果不再有生命值限制，数值上追加班尼特基础攻击力的20%。"
+    },
+    "c2": {
+      "name": "踏破绝境",
+      "effect": "班尼特的生命值低于70%时，元素充能效率提高30%。"
+    },
+    "c3": {
+      "name": "火热激情",
+      "effect": "**热情过载**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "热情不灭",
+      "effect": "施放一段蓄力的**热情过载**时，在技能第二段攻击中进行普通攻击，可以施放额外的追击。\n追击的伤害等同于第二段攻击的135%。"
+    },
+    "c5": {
+      "name": "开拓的心魂",
+      "effect": "**美妙旅程**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "烈火与勇气",
+      "effect": "处在**美妙旅程**领域内的队伍中当前场上单手剑、双手剑、长柄武器角色获得15%火元素伤害加成，并获得火元素附魔。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Bennett_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Bennett_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Bennett_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Bennett_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Bennett_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Bennett_04.png",
+      "constellation": "Eff_UI_Talent_Bennett"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "坎蒂丝",
+    "c1": {
+      "name": "赤沙的归嗣",
+      "effect": "**圣仪·灰鸰衒潮**的赤冕祝祷状态持续时间延长3秒。"
+    },
+    "c2": {
+      "name": "贯月的耀锋",
+      "effect": "**圣仪·苍鹭庇卫**命中敌人时，坎蒂丝的生命值上限提升20%，持续15秒。"
+    },
+    "c3": {
+      "name": "织狩的奉祀",
+      "effect": "**圣仪·灰鸰衒潮**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "守戍的誓命",
+      "effect": "缩短**圣仪·苍鹭庇卫**长按的冷却时间，使其降低至与点按的冷却时间相同。"
+    },
+    "c5": {
+      "name": "萦金的苍瞳",
+      "effect": "**圣仪·苍鹭庇卫**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "衍溢的汐潮",
+      "effect": "处于**圣仪·灰鸰衒潮**的赤冕祝祷状态下的当前场上角色（不包括坎蒂丝自己），在普通攻击对敌人造成元素伤害时，将释放衍潮冲击，造成相当于坎蒂丝生命值上限15%水元素范围伤害。\n该效果每2.3秒至多触发一次，造成的伤害视为元素爆发伤害。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Candace_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Candace_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Candace_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Candace_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Candace_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Candace_04.png",
+      "constellation": "Eff_UI_Talent_Candace"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "重云",
+    "c1": {
+      "name": "释凌咏冰",
+      "effect": "普通攻击的最后一击会向前方释放三道冰之刃，每道冰之刃对沿途的敌人造成重云50%攻击力的冰元素伤害。"
+    },
+    "c2": {
+      "name": "周天运转",
+      "effect": "在**灵刃·重华叠霜**领域内施放的元素战技与元素爆发的冷却时间减少15%。"
+    },
+    "c3": {
+      "name": "云尽光生",
+      "effect": "**灵刃·云开星落**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "浮云霜天",
+      "effect": "重云的所有攻击命中受到冰元素影响的敌人时，自身将恢复1点元素能量。\n该效果每2秒最多触发一次。"
+    },
+    "c5": {
+      "name": "真道正理",
+      "effect": "**灵刃·重华叠霜**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "四灵捧圣",
+      "effect": "**灵刃·云开星落**对生命值百分比低于重云的敌人造成伤害时，伤害提升15%；\n此外，施放时，会召唤一柄额外的灵刃。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Chongyun_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Chongyun_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Chongyun_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Chongyun_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Chongyun_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Chongyun_04.png",
+      "constellation": "Eff_UI_Talent_Chongyun"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "柯莱",
+    "c1": {
+      "name": "巡护深林",
+      "effect": "柯莱处于队伍后台时，元素充能效率提升20%。"
+    },
+    "c2": {
+      "name": "漫行山薮",
+      "effect": "固有天赋「飞叶迴斜」转变为：\n**飞叶轮**返回时，将为角色赋予固有天赋「飞叶迴斜」的「新叶」状态，持续对身边的敌人造成相当于柯莱攻击力40%的草元素伤害，持续3秒。\n从施放**拂花偈叶**开始，到此次新叶状态消失前，如果队伍中自己的角色触发了燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放反应，则使此次新叶效果的持续时间延长3秒。\n新叶效果至多通过这种方式延长一次持续时间；在持续期间再次产生新叶效果时，将移除原有的效果。新叶效果造成的伤害视为元素战技伤害。\n需要解锁固有天赋「飞叶迴斜」。"
+    },
+    "c3": {
+      "name": "夏堇芳菲",
+      "effect": "**拂花偈叶**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "骞林馈遗",
+      "effect": "施放**猫猫秘宝**时，将使队伍中附近的所有角色（不包括柯莱自己）的元素精通提升60点，持续12秒。"
+    },
+    "c5": {
+      "name": "俱象残火",
+      "effect": "**猫猫秘宝**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "坠镞为林",
+      "effect": "**飞叶轮**命中时，会产生一个迷你柯里安巴，造成相当于柯莱攻击力200%的草元素伤害。\n每次施放**拂花偈叶**至多产生1次迷你柯里安巴。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Collei_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Collei_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Collei_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Collei_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Collei_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Collei_04.png",
+      "constellation": "Eff_UI_Talent_Collei"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "赛诺",
+    "c1": {
+      "name": "立仪·俯览昼冥",
+      "effect": "施放**圣仪·煟煌随狼行**后，赛诺普通攻击的攻击速度提升20%，持续10秒。若施放**秘仪·律渊渡魂**时触发了固有天赋「落羽的裁择」的「裁定」效果，将刷新该效果的持续时间。\n需要解锁固有天赋「落羽的裁择」。"
+    },
+    "c2": {
+      "name": "令仪·引谒归灵",
+      "effect": "赛诺的普通攻击命中敌人后，雷元素伤害加成提升10%，持续4秒。该效果每0.1秒至多触发一次，至多叠加5层。"
+    },
+    "c3": {
+      "name": "律仪·行度誓惩",
+      "effect": "**圣仪·煟煌随狼行**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "巡仪·蒇护禁罔",
+      "effect": "赛诺处于**圣仪·煟煌随狼行**的启途誓使状态下时，触发感电、超导、超载、原激化、超激化、超绽放、雷元素扩散反应后，将为队伍中附近的所有角色（除了赛诺自己）恢复3点元素能量。\n该效果在一次**圣仪·煟煌随狼行**中，至多触发5次。"
+    },
+    "c5": {
+      "name": "幽仪·逝往星芒",
+      "effect": "**秘仪·律渊渡魂**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "羽仪·裁落钧衡",
+      "effect": "施放**圣仪·煟煌随狼行**或触发固有天赋「落羽的裁择」的「裁定」后，赛诺将获得4层「豺祭」效果。赛诺的普通攻击命中敌人时，将消耗一层「豺祭」效果，并发射一道渡荒之雷。\n「豺祭」持续8秒，至多叠加8层，并将在圣仪·煟煌随狼行的启途誓使状态结束后移除。\n每0.4秒至多通过这种方式发射一道渡荒之雷。\n需要解锁固有天赋「落羽的裁择」。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Cyno_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Cyno_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Cyno_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Cyno_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Cyno_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Cyno_04.png",
+      "constellation": "Eff_UI_Talent_Cyno"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "迪希雅",
+    "c1": {
+      "name": "皎洁之火铓辉灿漫",
+      "effect": "迪希雅的生命值上限提升20%；此外，基于生命值上限，迪希雅的以下攻击造成的伤害提高：\n·**熔铁流狱**伤害提高值：生命值上限的3.6%；\n·**炎啸狮子咬**伤害提高值：生命值上限的6%。"
+    },
+    "c2": {
+      "name": "净沙利刃明映万乘",
+      "effect": "施放**熔铁流狱·剑域炽焰**时，重新产生的净焰剑狱领域持续时间将延长6秒。\n此外，场上存在净焰剑狱领域时，领域内的当前场上角色受到攻击时，将使净焰剑狱下次协同攻击造成的伤害提升50%。"
+    },
+    "c3": {
+      "name": "怒势疾迅如焚掠地",
+      "effect": "**炎啸狮子咬**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "服膺誓禁恪守无失",
+      "effect": "**炎啸狮子咬**的炽鬃拳与焚落踢命中敌人时，将为迪希雅恢复1.5点元素能量，并基于生命值上限的2.5%，为迪希雅恢复生命值。该效果每0.2秒至多触发一次。"
+    },
+    "c5": {
+      "name": "猎兽魁首卓荦不羁",
+      "effect": "**熔铁流狱**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "燎燃利爪裂帛斫金",
+      "effect": "**炎啸狮子咬**的暴击率提升10%。\n此外，在一次炽炎狮子的持续期间，炽鬃拳命中敌人并造成暴击后，将使持续期间内炎啸狮子咬的暴击伤害提升15%，炽炎狮子的持续时间延长0.5秒。该效果每0.2秒至多触发一次，至多通过这种方式使持续时间延长2秒，暴击伤害提升60%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Dehya_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Dehya_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Dehya_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Dehya_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Dehya_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Dehya_04.png",
+      "constellation": "Eff_UI_Talent_Dehya"
+    },
+    "version": "3.5"
+  },
+  {
+    "name": "迪卢克",
+    "c1": {
+      "name": "罪罚裁断",
+      "effect": "对生命值高于50%的敌人，迪卢克造成的伤害提高15%。"
+    },
+    "c2": {
+      "name": "炙热余烬",
+      "effect": "迪卢克受到伤害时，攻击力提高10%，攻击速度提高5%，持续10秒。\n该效果至多叠加3次，每1.5秒只能触发一次。"
+    },
+    "c3": {
+      "name": "钢铁炽焰",
+      "effect": "**逆焰之刃**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "流火焦灼",
+      "effect": "有节奏地释放**逆焰之刃**可以大幅提升造成的伤害。\n施放**逆焰之刃**的2秒后，使下一段逆焰之刃的伤害提高40%，持续2秒。"
+    },
+    "c5": {
+      "name": "昭告黎明的火之鸟",
+      "effect": "**黎明**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "清算黑暗的炎之剑",
+      "effect": "施放**逆焰之刃**后，接下来6秒内的2次普通攻击速度提升30%，造成的伤害提高30%。\n此外，逆焰之刃不再重置普通攻击连击段数。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diluc_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diluc_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Diluc_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diluc_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Diluc_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diluc_04.png",
+      "constellation": "Eff_UI_Talent_Diluc"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "迪奥娜",
+    "c1": {
+      "name": "特调的余韵",
+      "effect": "**最烈特调**的效果结束时，为迪奥娜恢复15点元素能量。"
+    },
+    "c2": {
+      "name": "猫爪冰摇",
+      "effect": "**猫爪冻冻**造成的伤害提高15%，护盾的伤害吸收量提高15%；\n此外，命中时，将为附近的当前其他场上角色生成一个伤害吸收量为**猫爪冻冻**50%的护盾，持续5秒。"
+    },
+    "c3": {
+      "name": "还、还要续杯？",
+      "effect": "**最烈特调**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "「酒业杀手」",
+      "effect": "在**最烈特调**的领域内，迪奥娜的瞄准射击的所需的蓄力时间减少60%。"
+    },
+    "c5": {
+      "name": "双份加冰",
+      "effect": "**猫爪冻冻**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "猫尾打烊之时",
+      "effect": "处在**最烈特调**领域内的角色，依据生命值获得如下效果：\n·生命值低于或等于50%时，受治疗加成提升30%；\n·生命值高于50%时，元素精通提升200。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diona_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diona_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Diona_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diona_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Diona_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diona_04.png",
+      "constellation": "Eff_UI_Talent_Diona"
+    },
+    "version": "1.1"
+  },
+  {
+    "name": "多莉",
+    "c1": {
+      "name": "追加投资",
+      "effect": "**断除烦恼炮**命中后产生的售后服务弹增加1枚。"
+    },
+    "c2": {
+      "name": "特许经营",
+      "effect": "在战斗状态中，当**灯中幽精**为相连的角色进行治疗时，将从该角色处发射一枚镇灵炮，造成相当于多莉攻击力50%的伤害。"
+    },
+    "c3": {
+      "name": "百巧千奇",
+      "effect": "**卡萨扎莱宫的无微不至**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "酌盈剂虚",
+      "effect": "与**灯中幽精**相连的角色，依据当前的生命值与元素能量，获得以下提升：\n·生命值低于50%时，提升50%受治疗加成；\n·元素能量低于50%时，提升30%元素充能效率。"
+    },
+    "c5": {
+      "name": "物超所值",
+      "effect": "**镇灵之灯·烦恼解决炮**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "漫掷万镒",
+      "effect": "多莉施放**镇灵之灯·烦恼解决炮**后的3秒内，将获得以下效果：\n·雷元素附魔；\n·普通攻击命中敌人时，为队伍中附近的所有角色恢复相当于多莉生命值上限4%的生命值，每0.1秒至多通过这种方式恢复一次生命值。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Dori_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Dori_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Dori_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Dori_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Dori_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Dori_04.png",
+      "constellation": "Eff_UI_Talent_Dori"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "优菈",
+    "c1": {
+      "name": "光潮的幻象",
+      "effect": "消耗**冰潮的涡旋**的冷酷之心效果后，优菈的物理伤害加成提高30%，持续6秒，\n每消耗一层冷酷之心，都会使这个效果的持续时间延长6秒，最多不会超过18秒。"
+    },
+    "c2": {
+      "name": "海沫的少女",
+      "effect": "缩短**冰潮的涡旋**长按的冷却时间，使其降低至与点按的冷却时间相同。"
+    },
+    "c3": {
+      "name": "劳伦斯的血脉",
+      "effect": "**凝浪之光剑**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "自卑者的逞强",
+      "effect": "对生命值低于50%的敌人，光降之剑造成的伤害提高25%。"
+    },
+    "c5": {
+      "name": "骑士的素质",
+      "effect": "**冰潮的涡旋**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "高贵者的义务",
+      "effect": "**凝浪之光剑**创造的光降之剑立即获得5层能量。普通攻击、元素战技或元素爆发造成伤害使其积蓄能量层数时，有50%的概率额外获得一层。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_02.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_01.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Eula_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Eula_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_04.png",
+      "constellation": "Eff_UI_Talent_Eula"
+    },
+    "version": "1.5"
+  },
+  {
+    "name": "珐露珊",
+    "c1": {
+      "name": "舍径求真",
+      "effect": "处于一次**非想风天**的「疾风示现」效果下时，珐露珊至多可以通过蓄力完毕的瞄准射击释放2枚「飓烈箭」。"
+    },
+    "c2": {
+      "name": "忘形炼智",
+      "effect": "**抟风秘道**的「赫耀多方面体」的存在时间延长6秒。"
+    },
+    "c3": {
+      "name": "漫行灵圃",
+      "effect": "**非想风天**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "神机明悟",
+      "effect": "依据命中敌人的数量，**风压坍陷**产生的风涡可以为珐露珊恢复元素能量：命中一名敌人时，将为珐露珊恢复2点元素能量；每额外命中一名敌人，都将进一步为珐露珊恢复0.5点元素能量。\n一次风涡，至多通过这种方式为珐露珊恢复4点元素能量。"
+    },
+    "c5": {
+      "name": "繁想奇境",
+      "effect": "**抟风秘道**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "妙道合真",
+      "effect": "处于**抟风秘道**的「祈风之赐」效果影响下的角色，造成风元素伤害时的暴击伤害提升40%；处于「祈风之赐」效果影响下的当前场上角色造成伤害时，将为该敌人施加「风压坍陷」。此效果3秒至多触发一次，队伍中所有角色共享冷却时间。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Faruzan_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Faruzan_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Faruzan_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Faruzan_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Faruzan_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Faruzan_04.png",
+      "constellation": "Eff_UI_Talent_Faruzan"
+    },
+    "version": "3.3"
+  },
+  {
+    "name": "菲谢尔",
+    "c1": {
+      "name": "幽邃鸦眼",
+      "effect": "奥兹不在战场上时，也会透过鸦眼守望菲谢尔。在菲谢尔对敌人进行普通攻击时，奥兹会通过鸦眼协同攻击，造成22%攻击力的伤害。"
+    },
+    "c2": {
+      "name": "圣裁影羽",
+      "effect": "施放**夜巡影翼**时，能额外造成200%攻击力的伤害，并使影响范围扩大50%。"
+    },
+    "c3": {
+      "name": "渊色黑翼",
+      "effect": "**夜巡影翼**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "皇女幻绮谭",
+      "effect": "施放**至夜幻现**时，会对周围的敌人造成222%攻击力的雷元素伤害；\n技能效果结束时，会为菲谢尔恢复20%生命值。"
+    },
+    "c5": {
+      "name": "至夜默示录",
+      "effect": "**至夜幻现**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "永夜之禽",
+      "effect": "奥兹的存在时间延长2秒。此外，奥兹会协同当前场上自己的角色一起攻击，造成菲谢尔30%攻击力的雷元素伤害。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Fischl_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Fischl_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Fischl_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Fischl_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Fischl_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Fischl_04.png",
+      "constellation": "Eff_UI_Talent_Fischl"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "甘雨",
+    "c1": {
+      "name": "饮露",
+      "effect": "二段蓄力重击的霜华矢或霜华绽发命中敌人时，会使敌人的冰元素抗性降低15%，持续6秒；\n此外，命中时会为甘雨恢复2点元素能量。每次二段蓄力重击只能触发一次元素能量恢复效果，无论霜华矢或霜华绽发是否都命中目标。"
+    },
+    "c2": {
+      "name": "获麟",
+      "effect": "**山泽麟迹**的可使用次数增加1次。"
+    },
+    "c3": {
+      "name": "云行",
+      "effect": "**降众天华**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "西狩",
+      "effect": "在**降众天华**的领域内，敌人受到的伤害会增加，这个效果会随时间逐步加强。\n受伤害加成初始为5%，每3秒提升5%，至多提升至25%。\n离开领域后，效果至多持续3秒。"
+    },
+    "c5": {
+      "name": "折草",
+      "effect": "**山泽麟迹**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "履虫",
+      "effect": "施放**山泽麟迹**后30秒内的第一次霜华矢，无需蓄力即可施放。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ganyu_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ganyu_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ganyu_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ganyu_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ganyu_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ganyu_04.png",
+      "constellation": "Eff_UI_Talent_Ganyu"
+    },
+    "version": "1.2"
+  },
+  {
+    "name": "五郎",
+    "c1": {
+      "name": "犬奔·疾如风",
+      "effect": "处于五郎自己的**大将旗指物**或**大将威仪**领域中的当前场上角色（除了五郎自己）对敌人造成岩元素伤害后，五郎自己的**犬坂吠吠方圆阵**冷却时间减少2秒。\n该效果每10秒至多触发一次。"
+    },
+    "c2": {
+      "name": "犬坐·稳如钟",
+      "effect": "在**大将威仪**的持续期间，附近的当前场上角色获取结晶反应产生的晶片后，五郎自己的大将威仪的持续时间延长1秒。\n该效果每0.1秒至多触发一次，至多通过这种方式延长3秒持续时间。"
+    },
+    "c3": {
+      "name": "犬爪·势如火",
+      "effect": "**犬坂吠吠方圆阵**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "犬舐·温如水",
+      "effect": "**大将威仪**在具有「难破」或「摧碎」的效果时，每1.5秒，为领域内的当前场上角色恢复生命值，回复量相当于五郎自己防御力的50%。"
+    },
+    "c5": {
+      "name": "犬突·动如雷",
+      "effect": "**兽牙逐突形胜战法**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "犬勇·忠如山",
+      "effect": "施放**犬坂吠吠方圆阵**或**兽牙逐突形胜战法**后的12秒内，依据施放时的领域等级，提高附近的队伍中所有角色岩元素伤害的暴击伤害：\n·「坚牢」：提高10%；\n·「难破」：提高20%；\n·「摧碎」：提高40%。\n\n该效果无法叠加，以后生效的为准。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Gorou_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Gorou_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_04.png",
+      "constellation": "Eff_UI_Talent_Gorou"
+    },
+    "version": "2.3"
+  },
+  {
+    "name": "胡桃",
+    "c1": {
+      "name": "赤团开时斜飞去",
+      "effect": "处于**蝶引来生**施加的**彼岸蝶舞**状态下时，胡桃的重击不会消耗体力。"
+    },
+    "c2": {
+      "name": "最不安神晴又复雨",
+      "effect": "**血梅香**造成的伤害提高，提高值相当于效果附加时胡桃生命值上限的10%。\n此外，**安神秘法**会为命中的敌人施加**血梅香**效果。"
+    },
+    "c3": {
+      "name": "逗留采血色",
+      "effect": "**蝶引来生**的技能等级提升3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "伴君眠花房",
+      "effect": "处于胡桃自己施加的**血梅香**状态影响下的敌人被击败时，附近的队伍中所有角色（不包括胡桃自己）的暴击率提高12%，持续15秒。"
+    },
+    "c5": {
+      "name": "无可奈何燃花作香",
+      "effect": "**安神秘法**的技能等级提升3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "幽蝶能留一缕芳",
+      "effect": "胡桃的生命值降至25%以下，或承受足以使她倒下的伤害时触发：\n此次伤害不会使胡桃倒下，并在接下来的10秒内，胡桃的所有元素抗性和物理抗性提高200%，暴击率提高100%，并极大地提高抗打断能力。\n这个效果在胡桃生命值为1时会自动触发。\n该效果每60秒只能触发一次。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Hutao_03.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Hutao_01.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Hutao_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Hutao_02.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Hutao_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Hutao_04.png",
+      "constellation": "Eff_UI_Talent_Hutao"
+    },
+    "version": "1.3"
+  },
+  {
+    "name": "琴",
+    "c1": {
+      "name": "流转剑脊的暴风",
+      "effect": "**风压剑**长按超过1秒后，提升牵引速度，并使造成的伤害提升40%。"
+    },
+    "c2": {
+      "name": "守护众人的坚盾",
+      "effect": "琴获得元素晶球或元素微粒时，队伍中所有角色获得15%攻击速度和15%移动速度提升，持续15秒。"
+    },
+    "c3": {
+      "name": "西风吹拂之时",
+      "effect": "**蒲公英之风**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "蒲公英的国土",
+      "effect": "在**蒲公英之风**的领域内，所有敌人的风元素抗性下降40%。"
+    },
+    "c5": {
+      "name": "须臾一瞬的烈风",
+      "effect": "**风压剑**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "恩眷万民的狮牙",
+      "effect": "在**蒲公英之风**的领域内，角色受到的伤害降低35%。\n离开领域后，这个效果会在承受3次攻击或10秒后消失。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qin_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qin_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Qin_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qin_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Qin_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qin_04.png",
+      "constellation": "Eff_UI_Talent_Qin"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "枫原万叶",
+    "c1": {
+      "name": "千山红遍",
+      "effect": "**千早振**的冷却时间减少10%。\n施放**万叶之一刀**时，重置**千早振**的冷却时间。"
+    },
+    "c2": {
+      "name": "山岚残芯",
+      "effect": "**万叶之一刀**的流风秋野具有以下效果：\n·持续期间内，枫原万叶自己的元素精通提升200点；\n·其中的场上角色的元素精通提升200点。\n\n该命之座提供的元素精通提升效果无法叠加。"
+    },
+    "c3": {
+      "name": "枫袖奇谭",
+      "effect": "**千早振**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "大空幻法",
+      "effect": "当枫原万叶的元素能量低于45点时，具有如下效果：\n·点按、长按施放**千早振**时，将分别为枫原万叶恢复3、4点元素能量；\n·处于滑翔状态下时，每秒为枫原万叶恢复2点元素能量。"
+    },
+    "c5": {
+      "name": "万世之集",
+      "effect": "**万叶之一刀**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "血赤叶红",
+      "effect": "枫原万叶施放**千早振**或**万叶之一刀**后的5秒内，获得风元素附魔，并且枫原万叶的每点元素精通，都会使他的普通攻击、重击、下落攻击造成的伤害提高0.2%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kazuha_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kazuha_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_04.png",
+      "constellation": "Eff_UI_Talent_Kazuha"
+    },
+    "version": "1.6"
+  },
+  {
+    "name": "凯亚",
+    "c1": {
+      "name": "卓越的血脉",
+      "effect": "对受到冰元素影响的敌人，凯亚的普通攻击与重击暴击率提升15%。"
+    },
+    "c2": {
+      "name": "无尽的霜舞",
+      "effect": "在**凛冽轮舞**的持续时间内击败敌人时，持续时间延长2.5秒，最多不会超过15秒。"
+    },
+    "c3": {
+      "name": "凛冽的冰戏",
+      "effect": "**霜袭**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "极寒的轻吻",
+      "effect": "凯亚的生命值低于20%时自动触发：\n生成一个伤害吸收量等于生命值上限30%的护盾，持续20秒。\n该护盾对冰元素伤害有250%的吸收效果。\n该效果每60秒只能触发一次。"
+    },
+    "c5": {
+      "name": "至冷的拥抱",
+      "effect": "**凛冽轮舞**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "轮旋的冰凌",
+      "effect": "**凛冽轮舞**会产生一个额外的寒冰之棱，并在施放时返还15点元素能量。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaeya_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaeya_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kaeya_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaeya_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kaeya_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaeya_04.png",
+      "constellation": "Eff_UI_Talent_Kaeya"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "神里绫华",
+    "c1": {
+      "name": "霜杀墨染樱",
+      "effect": "神里绫华的普通攻击或重击对敌人造成冰元素伤害时，有50%的几率使**神里流·冰华**的冷却时间缩减0.3秒。该效果每0.1秒只能触发一次。"
+    },
+    "c2": {
+      "name": "三重雪关扉",
+      "effect": "施放**神里流·霜灭**时，会额外释放两股规模较小的霜见雪关扉，各自能造成原本20%的伤害。"
+    },
+    "c3": {
+      "name": "花白锦画纸吹雪",
+      "effect": "**神里流·霜灭**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "盈缺流返",
+      "effect": "敌人受到**神里流·霜灭**的霜见雪关扉造成的伤害后，防御力降低30%，持续6秒。"
+    },
+    "c5": {
+      "name": "花云钟入月",
+      "effect": "**神里流·冰华**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "间水月",
+      "effect": "每过10秒，神里绫华会获得「薄冰舞踏」，使重击造成的伤害提高298%。薄冰舞踏效果将在重击命中敌人的0.5秒后清除，并重新开始计算时间。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ayaka_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ayaka_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_04.png",
+      "constellation": "Eff_UI_Talent_Ayaka"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "神里绫人",
+    "c1": {
+      "name": "镜华风姿",
+      "effect": "对于生命值低于或等于50%的敌人，**瞬水剑**造成的伤害提升40%。"
+    },
+    "c2": {
+      "name": "世有源泉",
+      "effect": "**浪闪**叠加上限提升至5层；神里绫人处于至少3层浪闪状态下时，将提升50%生命值上限。"
+    },
+    "c3": {
+      "name": "无意弄花",
+      "effect": "**神里流·镜花**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "不厌细流",
+      "effect": "施放**神里流·水囿**后，队伍中附近的角色普通攻击的攻击速度提升15%，持续15秒。"
+    },
+    "c5": {
+      "name": "万水一露",
+      "effect": "**神里流·水囿**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "滥觞无底",
+      "effect": "施放**神里流·镜花**之后，神里绫人的下一次瞬水剑攻击命中敌人时，将进行2次额外的瞬水剑攻击，各自能造成神里绫人攻击力450%的伤害。\n此两次瞬水剑攻击不会受到浪闪的增益。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayato_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayato_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ayato_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayato_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ayato_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayato_04.png",
+      "constellation": "Eff_UI_Talent_Ayato"
+    },
+    "version": "2.6"
+  },
+  {
+    "name": "卡维",
+    "c1": {
+      "name": "高门的谒礼",
+      "effect": "施放**画则巧施**后的3秒内，卡维的草元素抗性提升50%，受治疗加成提升25%。"
+    },
+    "c2": {
+      "name": "御驿的径迹",
+      "effect": "在**繁绘隅穹**持续期间，卡维普通攻击的攻击速度提升15%。"
+    },
+    "c3": {
+      "name": "金塔的香献",
+      "effect": "**繁绘隅穹**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "百柱的酣宴",
+      "effect": "卡维触发绽放反应产生的草原核在迸发时造成的伤害提升60%。"
+    },
+    "c5": {
+      "name": "圣古的库藏",
+      "effect": "**画则巧施**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "天园的理想",
+      "effect": "在**繁绘隅穹**持续期间，卡维的普通攻击、重击或下落攻击命中敌人时，将在敌人的位置释放天园之光，造成卡维攻击力61.8%的草元素范围伤害，并使影响范围内的所有草原核迸发。该效果每3秒最多触发一次。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaveh_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaveh_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kaveh_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaveh_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kaveh_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaveh_04.png",
+      "constellation": "Eff_UI_Talent_Kaveh"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "刻晴",
+    "c1": {
+      "name": "雷厉",
+      "effect": "雷楔存在期间再次施放**星斗归位**时，在刻晴消失与出现的位置造成50%攻击力的雷元素范围伤害。"
+    },
+    "c2": {
+      "name": "苛捐",
+      "effect": "刻晴普通攻击与重击命中受到雷元素影响的敌人时，有50%几率产生一个元素微粒。\n该效果每5秒只能触发一次。"
+    },
+    "c3": {
+      "name": "登楼",
+      "effect": "**天街巡游**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "调律",
+      "effect": "刻晴触发雷元素相关反应后的10秒内，攻击力提升25%。"
+    },
+    "c5": {
+      "name": "移灯",
+      "effect": "**星斗归位**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "廉贞",
+      "effect": "进行普通攻击、重击、施放元素战技或元素爆发时，刻晴获得6%雷元素伤害加成，持续8秒。\n由普通攻击、重击、元素战技或元素爆发引起的效果分别独立存在。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Keqing_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Keqing_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Keqing_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Keqing_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Keqing_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Keqing_04.png",
+      "constellation": "Eff_UI_Talent_Keqing"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "绮良良",
+    "c1": {
+      "name": "物器流转",
+      "effect": "施放**秘法·惊喜特派**时，绮良良的每8000点生命值上限都将额外生成1枚**猫草豆蔻**，至多通过这种方式额外生成4枚猫草豆蔻。"
+    },
+    "c2": {
+      "name": "八尖裹术",
+      "effect": "绮良良处于**呜喵町飞足**的猫箱急件状态下时，将为冲撞触及的队伍中其他角色施加安全运输护盾·要件。\n安全运输护盾·要件的伤害吸收量相当于**呜喵町飞足**的安全运输护盾的吸收量上限的40%，且对草元素伤害有250%的吸收效果。\n安全运输护盾·要件持续12秒，此效果每10秒对每位角色至多触发一次。"
+    },
+    "c3": {
+      "name": "万户门牌通识",
+      "effect": "**呜喵町飞足**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "韦驮骏足",
+      "effect": "处于**安全运输护盾**或**安全运输护盾·要件**的当前场上角色的普通攻击、重击与下落攻击命中敌人后，绮良良将使用**猫草小豆蔻**进行协同攻击，造成相当于绮良良攻击力200%草元素伤害，通过这种方式造成的伤害视为元素爆发伤害。此效果每3.8秒至多触发一次，队伍中所有角色共享冷却时间。"
+    },
+    "c5": {
+      "name": "千里一日",
+      "effect": "**秘法·惊喜特派**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "沿途百景会心",
+      "effect": "绮良良施放元素战技或元素爆发后的15秒内，附近的队伍中所有角色获得12%所有元素伤害加成。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Momoka_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Momoka_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Momoka_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Momoka_04.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Momoka_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Momoka_03.png",
+      "constellation": "Eff_UI_Talent_Momoka"
+    },
+    "version": "3.7"
+  },
+  {
+    "name": "可莉",
+    "c1": {
+      "name": "连环轰隆",
+      "effect": "攻击与施放技能时，有几率召唤火花轰击敌人，造成相当于**轰轰火花**攻击伤害120%的伤害。"
+    },
+    "c2": {
+      "name": "破破弹片",
+      "effect": "**蹦蹦炸弹**的诡雷会使敌人的防御力降低23%，持续10秒。"
+    },
+    "c3": {
+      "name": "可莉特调",
+      "effect": "**蹦蹦炸弹**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "一触即发",
+      "effect": "如果在**轰轰火花**持续期间内退场，会引发爆炸，造成555%攻击力的火元素范围伤害。"
+    },
+    "c5": {
+      "name": "轰击之星",
+      "effect": "**轰轰火花**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "火力全开",
+      "effect": "在**轰轰火花**的状态下，可莉每3秒会为队伍中所有角色（不包括可莉自己）恢复3点元素能量；\n施放**轰轰火花**后的25秒内，队伍中所有角色获得10%火元素伤害加成。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Klee_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Klee_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Klee_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Klee_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Klee_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Klee_04.png",
+      "constellation": "Eff_UI_Talent_Klee"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "九条裟罗",
+    "c1": {
+      "name": "乌眼",
+      "effect": "天狗咒雷为角色施加攻击力提升效果或命中敌人后，**鸦羽天狗霆雷召咒**的冷却时间减少1秒。\n该效果每3秒至多触发一次。"
+    },
+    "c2": {
+      "name": "鸦羽",
+      "effect": "施放**鸦羽天狗霆雷召咒**时，会在九条裟罗原本的位置留下能引发一次较弱的天狗咒雷·伏的「乌羽」，造成原本30%的伤害。"
+    },
+    "c3": {
+      "name": "心魔",
+      "effect": "**煌煌千道镇式**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "彻证",
+      "effect": "**煌煌千道镇式**释放的天狗咒雷·雷砾增加至6道。"
+    },
+    "c5": {
+      "name": "咒咏",
+      "effect": "**鸦羽天狗霆雷召咒**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "我界",
+      "effect": "处于天狗咒雷带来的攻击力提升效果状态下的角色，其雷元素伤害的暴击伤害提高60%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sara_05.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sara_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sara_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sara_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sara_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sara_04.png",
+      "constellation": "Eff_UI_Talent_Sara"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "久岐忍",
+    "c1": {
+      "name": "割舍怜悯之心",
+      "effect": "**御咏鸣神刈山祭**的影响范围提升50%。"
+    },
+    "c2": {
+      "name": "割舍侥幸之心",
+      "effect": "**越祓草轮**的持续时间延长3秒。"
+    },
+    "c3": {
+      "name": "割舍痛苦之心",
+      "effect": "**越祓雷草之轮**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "割舍封闭之心",
+      "effect": "处于久岐忍自己的**越祓草轮**状态下的角色，在普通攻击、重击或下落攻击命中敌人时，雷草标将落在敌人所在的位置，基于久岐忍生命值上限的9.7%，造成雷元素范围伤害。\n该效果每5秒至多触发一次。"
+    },
+    "c5": {
+      "name": "割舍逢迎之心",
+      "effect": "**御咏鸣神刈山祭**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "割舍软弱之心",
+      "effect": "久岐忍承受足以使她倒下的伤害时，此次伤害不会使她倒下，这个效果在久岐忍生命值为1时会自动触发，该效果每60秒只能触发一次。\n久岐忍生命值降至25%以下时，会提升自身150点精通，持续15秒，该效果每60秒只能触发一次。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shinobu_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shinobu_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shinobu_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shinobu_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shinobu_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shinobu_04.png",
+      "constellation": "Eff_UI_Talent_Shinobu"
+    },
+    "version": "2.7"
+  },
+  {
+    "name": "莱依拉",
+    "c1": {
+      "name": "寐领围垣",
+      "effect": "**垂裳端凝之夜**的安眠帷幕护盾的伤害吸收量提高20%。\n此外，施放垂裳端凝之夜时，将为队伍中附近不处于安眠帷幕护盾庇护下的所有角色生成伤害吸收量为安眠帷幕护盾35%的护盾，该护盾持续12秒，对冰元素伤害有250%的吸收效果。"
+    },
+    "c2": {
+      "name": "归芒携信",
+      "effect": "**垂裳端凝之夜**发射的飞星命中敌人时，为莱依拉恢复1点能量。每枚飞星至多通过这种方式为莱依拉恢复一次能量。"
+    },
+    "c3": {
+      "name": "长宵宣秘",
+      "effect": "**垂裳端凝之夜**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "星示昭明",
+      "effect": "**垂裳端凝之夜**开始发射一轮飞星时，将为附近的队伍中所有角色赋予「启明」效果，使普通攻击与重击造成的伤害提升，提升值相当于莱依拉生命值上限的5%。\n「启明」效果至多持续3秒，将在造成普通攻击或重击伤害后的0.05秒后移除。"
+    },
+    "c5": {
+      "name": "悬神系流",
+      "effect": "**星流摇床之梦**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "曜光灵炬",
+      "effect": "**垂裳端凝之夜**的飞星造成的伤害提升40%，**星流摇床之梦**的星光弹造成的伤害提升40%。\n此外，垂裳端凝之夜产生晚星的间隔时间减少20%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Layla_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Layla_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Layla_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Layla_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Layla_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Layla_04.png",
+      "constellation": "Eff_UI_Talent_Layla"
+    },
+    "version": "3.2"
+  },
+  {
+    "name": "丽莎",
+    "c1": {
+      "name": "无限的电回路",
+      "effect": "**苍雷**长按时，每个命中的敌人都会为丽莎恢复2点元素能量。\n通过这种方式，一次至多回复10点元素能量。"
+    },
+    "c2": {
+      "name": "空间电势结界",
+      "effect": "**苍雷**长按时，具有如下效果：\n·防御力提升25%；\n·提高丽莎的抗打断能力。"
+    },
+    "c3": {
+      "name": "谐振的雷光",
+      "effect": "**蔷薇的雷光**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "如雨的电浆",
+      "effect": "**蔷薇的雷光**攻击时，放出的闪电增加至1~3道。"
+    },
+    "c5": {
+      "name": "等离态的落雷",
+      "effect": "**苍雷**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "脉冲的魔女",
+      "effect": "丽莎登场时，对附近的敌人施加3层**苍雷**的引雷效果。\n该效果每5秒只能触发一次。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Lisa_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Lisa_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Lisa_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Lisa_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Lisa_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Lisa_04.png",
+      "constellation": "Eff_UI_Talent_Lisa"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "米卡",
+    "c1": {
+      "name": "遇合的因缘",
+      "effect": "**星霜的流旋**产生的灵风状态能使**苍翎的颂愿**的鹰翎状态恢复生命值的间隔降低，降低比例等同于灵风状态提供的攻击速度提升比例。"
+    },
+    "c2": {
+      "name": "伴行的旅路",
+      "effect": "**星霜的流旋**的霜流矢首次命中敌人时，或是冰星信标命中敌人时，将产生1层固有天赋「速射牵制」的侦明效果。\n需要解锁固有天赋「速射牵制」。"
+    },
+    "c3": {
+      "name": "游击的心得",
+      "effect": "**苍翎的颂愿**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "晴霜的祝念",
+      "effect": "米卡自己的**苍翎的颂愿**的鹰翎状态为队伍中的角色进行治疗时，将为米卡恢复3点元素能量。通过一次施放苍翎的颂愿产生的鹰翎状态，至多恢复5次元素能量。"
+    },
+    "c5": {
+      "name": "引示的铃箭",
+      "effect": "**星霜的流旋**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "依随的策援",
+      "effect": "**星霜的流旋**灵风状态下的侦明效果叠加层数上限提升1层。需要解锁固有天赋「速射牵制」。\n此外，处于灵风状态下的当前场上角色，其物理伤害的暴击伤害提高60%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mika_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mika_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Mika_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mika_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Mika_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mika_04.png",
+      "constellation": "Eff_UI_Talent_Mika"
+    },
+    "version": "3.5"
+  },
+  {
+    "name": "莫娜",
+    "c1": {
+      "name": "沉没的预言",
+      "effect": "队伍中自己的角色攻击命中处于星异状态下的敌人后的8秒内，水元素相关反应的效果提升：\n·感电反应造成的伤害提升15%，蒸发反应造成的伤害提升15%，水元素扩散反应造成的伤害提升15%；\n·冻结反应的持续时间延长15%。"
+    },
+    "c2": {
+      "name": "星月的连珠",
+      "effect": "普通攻击命中时，有20%的几率自动施放一次重击。\n该效果每5秒只能触发一次。"
+    },
+    "c3": {
+      "name": "不休的天象",
+      "effect": "**星命定轨**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "灭绝的预言",
+      "effect": "队伍中所有角色攻击处于星异状态下的敌人时，暴击率提升15%。"
+    },
+    "c5": {
+      "name": "命运的嘲弄",
+      "effect": "**水中幻愿**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "厄运的修辞",
+      "effect": "进入**虚实流动**状态后，每移动1秒，莫娜的下一次重击伤害就增加60%，\n通过这种方式至多可以获得180%重击伤害加成，该效果至多持续8秒。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mona_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mona_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Mona_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mona_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Mona_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mona_04.png",
+      "constellation": "Eff_UI_Talent_Mona"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "纳西妲",
+    "c1": {
+      "name": "心识蕴藏之种",
+      "effect": "展开**摩耶之殿**计算队伍中特定元素类型的角色数量时，额外计入火元素、雷元素、水元素的角色各1名。"
+    },
+    "c2": {
+      "name": "正等善见之根",
+      "effect": "处于纳西妲自身施加的**蕴种印**状态下的敌人，将受到以下效果影响：\n·受到的燃烧、绽放、超绽放、烈绽放反应伤害能够造成暴击，暴击率固定为20%，暴击伤害固定为100%；\n·受到原激化、超激化、蔓激化反应影响后的8秒内，防御力降低30%。"
+    },
+    "c3": {
+      "name": "熏习成就之芽",
+      "effect": "**所闻遍计**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "比量现行之茎",
+      "effect": "附近处于**所闻遍计**的蕴种印状态下的敌人数量为1/2/3/4或更多时，纳西妲的元素精通提升100/120/140/160点。"
+    },
+    "c5": {
+      "name": "妙谛破愚之叶",
+      "effect": "**心景幻成**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "大辨圆成之实",
+      "effect": "施放**心景幻成**后，纳西妲的普通攻击或重击命中处于**所闻遍计**的蕴种印状态下的敌人时，将对该敌人及其所处连结中的所有敌人释放灭净三业·业障除，基于纳西妲攻击力的200%与元素精通的400%，造成草元素伤害。\n灭净三业·业障除造成的伤害视为元素战技伤害，每0.2秒至多触发一次。\n该效果至多持续10秒，将在纳西妲释放6次灭净三业·业障除后移除。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Nahida_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Nahida_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Nahida_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Nahida_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Nahida_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Nahida_04.png",
+      "constellation": "Eff_UI_Talent_Nahida"
+    },
+    "version": "3.2"
+  },
+  {
+    "name": "妮露",
+    "c1": {
+      "name": "却月的轻舞",
+      "effect": "**七域舞步**获得如下强化：\n·水月造成的伤害提升65%；\n·净天水环的持续时间延长6秒。"
+    },
+    "c2": {
+      "name": "星天的花雨",
+      "effect": "处于「金杯的丰馈」状态下的角色对敌人造成水元素伤害后，该敌人的水元素抗性降低35%，持续10秒；触发绽放反应对敌人造成伤害后，该敌人的草元素抗性降低35%，持续10秒。\n需要解锁固有天赋「折旋落英之庭」。"
+    },
+    "c3": {
+      "name": "倾影的莲步",
+      "effect": "**浮莲舞步·远梦聆泉**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "挽漪的节音",
+      "effect": "**七域舞步**的翩转状态下的第三段舞步命中敌人后，将为妮露恢复15点元素能量，并使妮露的**浮莲舞步·远梦聆泉**造成的伤害提升50%，持续8秒。"
+    },
+    "c5": {
+      "name": "翩旋的流光",
+      "effect": "**七域舞步**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "断霜的弦歌",
+      "effect": "每1000点生命值上限，将使妮露的暴击率提升0.6%，暴击伤害提升1.2%。\n通过这种方式，妮露的暴击率至多提升30%，暴击伤害至多提升60%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Nilou_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Nilou_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Nilou_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Nilou_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Nilou_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Nilou_04.png",
+      "constellation": "Eff_UI_Talent_Nilou"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "凝光",
+    "c1": {
+      "name": "悬星尽散击云碎",
+      "effect": "普通攻击命中时，会造成范围伤害。"
+    },
+    "c2": {
+      "name": "璇玑合璧镇昆仑",
+      "effect": "**璇玑屏**碎裂时，会清除冷却时间。\n该效果每6秒只能触发一次。"
+    },
+    "c3": {
+      "name": "星罗宿列天权临",
+      "effect": "**天权崩玉**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "攻守易形著神机",
+      "effect": "**璇玑屏**会使周围角色的所有元素抗性提升10%。"
+    },
+    "c5": {
+      "name": "琼屏千扇正天衡",
+      "effect": "**璇玑屏**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "七星璨璨凝流光",
+      "effect": "施放**天权崩玉**时，会为凝光生成七枚星璇。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ningguang_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ningguang_05.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ningguang_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ningguang_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ningguang_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ningguang_04.png",
+      "constellation": "Eff_UI_Talent_Ningguang"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "诺艾尔",
+    "c1": {
+      "name": "支援就交给我吧",
+      "effect": "同时处于**大扫除**与**护心铠**状态时，护心铠的生命值回复效果触发几率提升至100%。"
+    },
+    "c2": {
+      "name": "旋风女仆",
+      "effect": "诺艾尔的重击的体力消耗降低20%，伤害提升15%。"
+    },
+    "c3": {
+      "name": "女仆不会受伤",
+      "effect": "**护心铠**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "之后会扫干净的",
+      "effect": "**护心铠**在效果结束时，或因伤害破碎时，会对周围的敌人造成400%攻击力的岩元素伤害。"
+    },
+    "c5": {
+      "name": "骑士团扫除专家",
+      "effect": "**大扫除**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "要一尘不染才行",
+      "effect": "**大扫除**额外提高诺艾尔防御力50%的攻击力；\n此外，在技能持续时间内，每打倒1个敌人，其持续时间将延长1秒，最多不会超过10秒。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Noel_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Noel_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Noel_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Noel_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Noel_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Noel_04.png",
+      "constellation": "Eff_UI_Talent_Noel"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "七七",
+    "c1": {
+      "name": "寒苦回向",
+      "effect": "寒病鬼差命中被度厄真符标记的敌人时，为七七恢复2点元素能量。"
+    },
+    "c2": {
+      "name": "冰寒蚀骨",
+      "effect": "对受到冰元素影响的敌人，七七的普通攻击与重击造成的伤害提升15%。"
+    },
+    "c3": {
+      "name": "升天宝诰",
+      "effect": "**仙法·救苦度厄**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "天威压众",
+      "effect": "被度厄真符标记的目标，攻击力下降20%。"
+    },
+    "c5": {
+      "name": "红莲开绽",
+      "effect": "**仙法·寒病鬼差**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "起死回骸",
+      "effect": "施放**仙法·救苦度厄**时，复苏附近队伍中所有倒下的角色，并将其生命值恢复至50%。\n该效果每15分钟只能触发一次。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qiqi_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qiqi_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Qiqi_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qiqi_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Qiqi_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qiqi_04.png",
+      "constellation": "Eff_UI_Talent_Qiqi"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "雷电将军",
+    "c1": {
+      "name": "恶曜卜词",
+      "effect": "**诸愿百眼之轮**能更加迅速地积攒愿力。元素类型为雷元素的角色施放元素爆发后，积攒的愿力提升80%；其他元素类型的角色施放元素爆发后，积攒的愿力提升20%。"
+    },
+    "c2": {
+      "name": "斩铁断金",
+      "effect": "**奥义·梦想真说**的梦想一刀与梦想一心状态下的雷电将军的攻击将无视敌人60%的防御力。"
+    },
+    "c3": {
+      "name": "真影旧事",
+      "effect": "**奥义·梦想真说**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "誓奉常道",
+      "effect": "**奥义·梦想真说**施加的**梦想一心**状态结束后，附近的队伍中所有角色（不包括雷电将军自己）的攻击力提升30%，持续10秒。"
+    },
+    "c5": {
+      "name": "凶将显形",
+      "effect": "**神变·恶曜开眼**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "负愿前行",
+      "effect": "处于**奥义·梦想真说**施加的**梦想一心**状态下时，雷电将军的元素爆发伤害命中敌人时，使附近的队伍中所有角色（不包括雷电将军自己）元素爆发的冷却时间缩短1秒。\n该效果每1秒至多触发一次，在持续期间内至多触发5次。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shougun_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shougun_03.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shougun_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shougun_02.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shougun_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shougun_04.png",
+      "constellation": "Eff_UI_Talent_Shougun"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "雷泽",
+    "c1": {
+      "name": "狼性",
+      "effect": "雷泽获取元素晶球或元素微粒后的8秒内，造成的伤害提高10%。"
+    },
+    "c2": {
+      "name": "压制",
+      "effect": "雷泽攻击生命值低于30%的敌人时，暴击率提高10%。"
+    },
+    "c3": {
+      "name": "兽魂",
+      "effect": "**雷牙**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "撕咬",
+      "effect": "**利爪与苍雷**点按时，会使命中的敌人防御力降低15%，持续7秒。"
+    },
+    "c5": {
+      "name": "利爪",
+      "effect": "**利爪与苍雷**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "天狼",
+      "effect": "每10秒，雷泽的大剑将自动充能，使下一次普通攻击引发落雷，造成100%攻击力的雷元素伤害。\n不处于**雷牙**状态下时，若落雷击中敌人，会为雷泽积攒一个**利爪与苍雷**的雷之印。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Razor_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Razor_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Razor_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Razor_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Razor_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Razor_04.png",
+      "constellation": "Eff_UI_Talent_Razor"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "罗莎莉亚",
+    "c1": {
+      "name": "罪之导引",
+      "effect": "罗莎莉亚的攻击造成暴击后，自身攻击速度提升10%，普通攻击造成的伤害提升10%，持续4秒。"
+    },
+    "c2": {
+      "name": "无福之地",
+      "effect": "**终命的圣礼**创造的冰枪持续时间延长4秒。"
+    },
+    "c3": {
+      "name": "告解之仪",
+      "effect": "**噬罪的告解**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "苦痛恩典",
+      "effect": "**噬罪的告解**造成暴击时，为罗莎莉亚自己恢复5点元素能量。\n每次噬罪的告解至多触发1次该效果。"
+    },
+    "c5": {
+      "name": "临终祈礼",
+      "effect": "**终命的圣礼**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "代行裁判",
+      "effect": "**终命的圣礼**的攻击会使敌人的物理抗性降低20%，持续10秒。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Rosaria_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Rosaria_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Rosaria_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Rosaria_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Rosaria_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Rosaria_04.png",
+      "constellation": "Eff_UI_Talent_Rosaria"
+    },
+    "version": "1.4"
+  },
+  {
+    "name": "珊瑚宫心海",
+    "c1": {
+      "name": "决水于溪",
+      "effect": "处于**海人化羽**的仪来羽衣状态下时，珊瑚宫心海普通攻击的最后一击会额外释放一只游鱼，造成相当于珊瑚宫心海生命值上限30%的水元素伤害。\n该伤害不被视为普通攻击伤害。"
+    },
+    "c2": {
+      "name": "波起云海",
+      "effect": "基于珊瑚宫心海的生命值上限，珊瑚宫心海对生命值低于或等于50%的角色，通过以下途径进行治疗的回复量获得提升：\n·**海月之誓**的化海月：生命值上限的4.5%\n·**海人化羽**的普通攻击与重击：生命值上限的0.6%。"
+    },
+    "c3": {
+      "name": "海渚月舟",
+      "effect": "**海人化羽**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "月摄千川",
+      "effect": "处于**海人化羽**的仪来羽衣状态下时，珊瑚宫心海普通攻击的攻击速度提升10%，并会在普通攻击命中敌人时，恢复0.8点元素能量。\n该效果每0.2秒至多触发一次。"
+    },
+    "c5": {
+      "name": "百川集海",
+      "effect": "**海月之誓**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "珊瑚一心",
+      "effect": "处于**海人化羽**的仪来羽衣状态下时，珊瑚宫心海的普通攻击和重击对生命值高于或等于80%的角色进行治疗时，将获得40%水元素伤害加成，持续4秒。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kokomi_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kokomi_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kokomi_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kokomi_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kokomi_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kokomi_04.png",
+      "constellation": "Eff_UI_Talent_Kokomi"
+    },
+    "version": "2.1"
+  },
+  {
+    "name": "早柚",
+    "c1": {
+      "name": "一心二用之术",
+      "effect": "**呜呼流·影貉缭乱**的不倒貉貉的行动将忽视生命值限制，能同时攻击附近的敌人并为角色恢复生命值。"
+    },
+    "c2": {
+      "name": "理清逃跑路线",
+      "effect": "**呜呼流·风隐急进**获得如下效果：\n·点按施放时，风风轮舞踢造成的伤害提高3.3%；\n·处于长按施放后的风风轮状态下时，每0.5秒，就会使这次施展的风风轮舞踢造成的伤害提高3.3%。通过这种方式，风风轮舞踢造成的伤害至多可以提高66%。"
+    },
+    "c3": {
+      "name": "都交给分身吧",
+      "effect": "**呜呼流·影貉缭乱**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "偷懒的新方法",
+      "effect": "早柚在场上触发扩散反应时，将恢复1.2点元素能量。\n该效果每2秒只能触发一次。"
+    },
+    "c5": {
+      "name": "快是第一奥义",
+      "effect": "**呜呼流·风隐急进**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "呼呼大睡时间",
+      "effect": "早柚自己通过**呜呼流·影貉缭乱**召唤的不倒貉貉的攻击与回复量，受益于早柚的元素精通。早柚的每点元素精通，能产生如下效果：\n·使不倒貉貉的攻击额外造成0.2%攻击力的伤害。通过这种方式至多额外造成400%攻击力的伤害；\n·使不倒貉貉的回复量提高3点。通过这种方式，至多提高6000点回复量。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sayu_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sayu_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_04.png",
+      "constellation": "Eff_UI_Talent_Sayu"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "申鹤",
+    "c1": {
+      "name": "心斋",
+      "effect": "**仰灵威召将役咒**的可使用次数增加1次。"
+    },
+    "c2": {
+      "name": "定蒙",
+      "effect": "**神女遣灵真诀**的持续时间延长6秒。领域中的当前场上角色，冰元素伤害的暴击伤害提高15%。"
+    },
+    "c3": {
+      "name": "潜虚",
+      "effect": "**仰灵威召将役咒**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "洞观",
+      "effect": "处于申鹤自己施加的**「冰翎」**状态下的角色，触发「冰翎」的伤害增加时，申鹤将获得一层「霜霄诀」：\n·申鹤施放**仰灵威召将役咒**时，将清除所有「霜霄诀」，并根据清除的层数，每层使本次仰灵威召将役咒造成的伤害提高5%；\n·该效果至多叠加50次，持续60秒。"
+    },
+    "c5": {
+      "name": "化神",
+      "effect": "**神女遣灵真诀**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "忘玄",
+      "effect": "角色通过普通攻击伤害与重击伤害触发**「冰翎」**的效果时，将不再会减少「冰翎」的生效次数。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_02.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_01.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shenhe_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shenhe_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_04.png",
+      "constellation": "Eff_UI_Talent_Shenhe"
+    },
+    "version": "2.4"
+  },
+  {
+    "name": "鹿野院平藏",
+    "c1": {
+      "name": "称名少年事件簿",
+      "effect": "鹿野院平藏登场后的5秒内，普通攻击的攻击速度提升15%，并获得1层**勠心拳**的「变格」效果，该效果每10秒最多触发一次。"
+    },
+    "c2": {
+      "name": "殊解诸因探案集",
+      "effect": "**聚风蹴**产生的缉拿风穴的牵引效果获得提升，并将持续时间延长至1秒。"
+    },
+    "c3": {
+      "name": "暗文隐语谜题册",
+      "effect": "**勠心拳**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "虚言假说百物语",
+      "effect": "在一次**聚风蹴**中，「聚风真眼」在第一次爆发后，将为鹿野院平藏恢复9点元素能量，此后每次爆发，都将分别为鹿野院平藏额外恢复1.5点元素能量，\n一次**聚风蹴**，至多通过这种方式为鹿野院平藏恢复13.5点元素能量。"
+    },
+    "c5": {
+      "name": "禁室密所大图鉴",
+      "effect": "**聚风蹴**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "奇想天开捕物帐",
+      "effect": "施放**勠心拳**时，每层「变格」都将为本次勠心拳提升4%暴击率。拥有「正论」时，本次勠心拳的暴击伤害将提升32%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Heizo_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Heizo_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Heizo_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Heizo_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Heizo_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Heizo_04.png",
+      "constellation": "Eff_UI_Talent_Heizo"
+    },
+    "version": "2.8"
+  },
+  {
+    "name": "砂糖",
+    "c1": {
+      "name": "堆叠真空域",
+      "effect": "**风灵作成·陆叁零捌**的可使用次数增加1次。"
+    },
+    "c2": {
+      "name": "不羁型贝特",
+      "effect": "**禁·风灵作成·柒伍同构贰型**的技能持续时间延长2秒。"
+    },
+    "c3": {
+      "name": "零失误少女",
+      "effect": "**风灵作成·陆叁零捌**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "炼金的偏执",
+      "effect": "砂糖的普通攻击或者重击累计命中敌人7次，**风灵作成·陆叁零捌**的冷却时间就会随机减少1-7秒。\n每0.1秒至多计数一次。"
+    },
+    "c5": {
+      "name": "认真普通瓶",
+      "effect": "**禁·风灵作成·柒伍同构贰型**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "混元熵增论",
+      "effect": "**禁·风灵作成·柒伍同构贰型**如果发生了元素转化，则使队伍中所有角色在技能持续时间内获得20%的对应元素伤害加成。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sucrose_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sucrose_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sucrose_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sucrose_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sucrose_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sucrose_04.png",
+      "constellation": "Eff_UI_Talent_Sucrose"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "达达利亚",
+    "c1": {
+      "name": "魔王武装·遏浪",
+      "effect": "**魔王武装·狂澜**的冷却时间降低20%。"
+    },
+    "c2": {
+      "name": "魔王武装·暗流",
+      "effect": "处于断流效果影响下的敌人被击败时，为达达利亚恢复4点元素能量。"
+    },
+    "c3": {
+      "name": "深渊之灾·纷争涡源",
+      "effect": "**魔王武装·狂澜**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "深渊之灾·凝水盛放",
+      "effect": "每4秒，场上存在达达利亚自身施加的断流效果时，若达达利亚当前处于**魔王武装·狂澜**的近战状态，则触发断流·斩；否则，触发断流·闪。\n通过此命之座触发的断流·斩与断流·闪不受这两种断流各自的触发间隔限制，也不会影响其触发间隔。"
+    },
+    "c5": {
+      "name": "极恶技·斩水斩雨",
+      "effect": "**极恶技·尽灭闪**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "极恶技·天使灭尽",
+      "effect": "在近战状态下施放**极恶技·尽灭闪**时，清除**魔王武装·狂澜**的冷却时间。\n该效果会在回到远程状态后触发。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tartaglia_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tartaglia_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tartaglia_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tartaglia_05.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tartaglia_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tartaglia_04.png",
+      "constellation": "Eff_UI_Talent_Tartaglia"
+    },
+    "version": "1.1"
+  },
+  {
+    "name": "托马",
+    "c1": {
+      "name": "同袍的义理",
+      "effect": "处于托马自己的**烈烧佑命护盾**庇护下的角色（除了托马自己）受到攻击时，托马自己的**烈烧佑命之侍护**的冷却时间减少3秒，**真红炽火之大铠**的冷却时间减少3秒。\n该效果每20秒至多触发一次。"
+    },
+    "c2": {
+      "name": "僚佐的才巧",
+      "effect": "**真红炽火之大铠**的持续时间延长3秒。"
+    },
+    "c3": {
+      "name": "御敌的执定",
+      "effect": "**烈烧佑命之侍护**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "用臣的久计",
+      "effect": "施放**真红炽火之大铠**后，为托马恢复15点元素能量。"
+    },
+    "c5": {
+      "name": "野火的豪烈",
+      "effect": "**真红炽火之大铠**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "炽烧的至心",
+      "effect": "获取或刷新**烈烧佑命护盾**时，队伍中所有角色的普通攻击，重击与下落攻击造成的伤害提升15%，持续6秒。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tohma_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tohma_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_04.png",
+      "constellation": "Eff_UI_Talent_Tohma"
+    },
+    "version": "2.2"
+  },
+  {
+    "name": "提纳里",
+    "c1": {
+      "name": "由根须断定肇始",
+      "effect": "提纳里重击的暴击率提高15%。"
+    },
+    "c2": {
+      "name": "由茎干剖析来缘",
+      "effect": "当**识果种雷**的识蕴领域中存在敌人时，提纳里获得20%草元素伤害加成。\n识蕴领域持续时间结束或其中不存在敌人后，该效果至多持续6秒。"
+    },
+    "c3": {
+      "name": "由枝节知晓造化",
+      "effect": "**造生缠藤箭**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "由片叶管窥枯荣",
+      "effect": "施放**造生缠藤箭**时，队伍中附近的所有角色的元素精通提升60点，持续8秒。若造生缠藤箭触发了燃烧、绽放、原激化或蔓激化反应，元素精通将进一步提升60点，并刷新该状态的持续时间。"
+    },
+    "c5": {
+      "name": "由繁花明了悟觉",
+      "effect": "**识果种雷**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "由硕实品论应果",
+      "effect": "**花筥箭**所需的蓄力时间减少0.9秒，并在命中后能产生1枚额外的藏蕴花矢，能造成提纳里攻击力150%的伤害。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tighnari_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tighnari_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tighnari_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tighnari_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tighnari_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tighnari_04.png",
+      "constellation": "Eff_UI_Talent_Tighnari"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "旅行者 (风元素)",
+    "c1": {
+      "name": "回转的怒风",
+      "effect": "**风涡剑**可将周围5米内的敌人与物体缓慢牵引到角色面前。"
+    },
+    "c2": {
+      "name": "革新的旋风",
+      "effect": "元素充能效率提升16%。"
+    },
+    "c3": {
+      "name": "天地的刚风",
+      "effect": "**风息激荡**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "眷护的和风",
+      "effect": "**风涡剑**持续期间，受到的伤害降低10%。"
+    },
+    "c5": {
+      "name": "群星的涡风",
+      "effect": "**风涡剑**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "纠缠的信风",
+      "effect": "受到**风息激荡**伤害的目标，风元素抗性下降20%。\n如果产生了元素转化，那么对应元素抗性也下降20%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerWind_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerWind_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerWind_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerWind_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerWind_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerWind_04.png",
+      "constellation": "Eff_UI_Talent_PlayerBoy_Wind",
+      "constellation2": "Eff_UI_Talent_PlayerGirl_Wind"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "旅行者 (草元素)",
+    "c1": {
+      "name": "寄身的倚草",
+      "effect": "**草缘剑**命中敌人后，将为旅行者恢复3.5点元素能量。"
+    },
+    "c2": {
+      "name": "健韧的劲草",
+      "effect": "**草灯莲**的存在时间延长3秒。"
+    },
+    "c3": {
+      "name": "婆娑的瑶草",
+      "effect": "**草缘剑**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "如饴的蜜草",
+      "effect": "**草灯莲**发生莲光幻变转化后，将获得5层固有天赋「蔓生的埜草」的莲光遍照效果。\n需要解锁固有天赋「蔓生的埜草」。"
+    },
+    "c5": {
+      "name": "迅生的丰草",
+      "effect": "**偃草若化**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "蕴思的霜草",
+      "effect": "处于**草灯莲**的莲光遍照效果影响下的角色获得12%草元素伤害加成；若草灯莲发生过莲光幻变转化，还将获得12%对应元素伤害加成。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerGrass_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerGrass_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerGrass_03.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerGrass_04.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerGrass_05.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerGrass_06.png",
+      "constellation": "Eff_UI_Talent_PlayerBoy_Grass",
+      "constellation2": "Eff_UI_Talent_PlayerGirl_Grass"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "旅行者 (雷元素)",
+    "c1": {
+      "name": "丰穰的春雷",
+      "effect": "施放**雷影剑**能产生的丰穰勾玉数量提升至3枚。"
+    },
+    "c2": {
+      "name": "震怒的苍雷",
+      "effect": "**雷轰电转**的威光落雷命中敌人后，会使敌人的雷元素抗性降低15%，持续8秒。"
+    },
+    "c3": {
+      "name": "连延的远雷",
+      "effect": "**雷轰电转**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "难测的云雷",
+      "effect": "角色获取**雷影剑**产生的丰穰勾玉时，若该角色的当前元素能量低于35%，丰穰勾玉恢复的元素能量提高100%。"
+    },
+    "c5": {
+      "name": "荒野的霆雷",
+      "effect": "**雷影剑**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "撼世的神雷",
+      "effect": "**雷轰电转**每引发2次威光落雷，则大幅增强下一次威光落雷，造成原本200%的伤害，并为当前角色额外恢复1点元素能量。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerElectric_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerElectric_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_04.png",
+      "constellation": "Eff_UI_Talent_PlayerBoy_Electric",
+      "constellation2": "Eff_UI_Talent_PlayerGirl_Electric"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "旅行者 (岩元素)",
+    "c1": {
+      "name": "巍然的青岩",
+      "effect": "队伍中角色处于**岩潮叠嶂**的岩嶂包围中时，暴击率提升10%，并提高抗打断能力。"
+    },
+    "c2": {
+      "name": "不稳的熔岩",
+      "effect": "**星陨剑**的荒星被摧毁时会再度发生爆炸，造成等同于星陨剑伤害的额外岩元素范围伤害。"
+    },
+    "c3": {
+      "name": "八方之岩",
+      "effect": "**岩潮叠嶂**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "险峻的重岩",
+      "effect": "**岩潮叠嶂**引发的震荡波每击中一个敌人，都会恢复5点元素能量。\n通过这种方式，一次至多恢复25点元素能量。"
+    },
+    "c5": {
+      "name": "天坠之岩",
+      "effect": "**星陨剑**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "永世的磐岩",
+      "effect": "**岩潮叠嶂**的岩嶂持续时间延长5秒；\n**星陨剑**的荒星持续时间延长10秒。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerRock_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerRock_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerRock_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerRock_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerRock_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerRock_04.png",
+      "constellation": "Eff_UI_Talent_PlayerBoy_Rock",
+      "constellation2": "Eff_UI_Talent_PlayerGirl_Rock"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "温迪",
+    "c1": {
+      "name": "弦发的苍风",
+      "effect": "**瞄准射击**会额外发射两枚分裂箭，分别造成原本33%的伤害。"
+    },
+    "c2": {
+      "name": "眷恋的泠风",
+      "effect": "**高天之歌**会使敌人的风元素抗性与物理抗性降低12%，持续10秒。\n被**高天之歌**击飞的敌人在落地前，风元素抗性与物理抗性额外降低12%。"
+    },
+    "c3": {
+      "name": "千风的诗篇",
+      "effect": "**风神之诗**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "自由的凛风",
+      "effect": "温迪获取元素晶球或元素微粒后，获得25%风元素伤害加成，持续10秒。"
+    },
+    "c5": {
+      "name": "高天的协奏",
+      "effect": "**高天之歌**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "抗争的暴风",
+      "effect": "受**风神之诗**伤害的敌人，风元素抗性降低20%；\n若产生了元素转化，则使转换的元素抗性也降低20%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Venti_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Venti_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Venti_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Venti_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Venti_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Venti_04.png",
+      "constellation": "Eff_UI_Talent_Venti"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "流浪者",
+    "c1": {
+      "name": "初番·茂风流羽行",
+      "effect": "在**优风倾姿**状态下，流浪者进行空居·不生断与空居·刀风界的攻击速度提升10%。\n此外，固有天赋「梦迹一风」发射的风矢能额外造成25%攻击力的伤害，该效果需要解锁固有天赋「梦迹一风」。"
+    },
+    "c2": {
+      "name": "二番·箙岛廓白浪",
+      "effect": "在**优风倾姿**状态下，**狂言·式乐五番**将依据空居力上限与当前的空居力的差值，每1点使此次狂言·式乐五番造成的伤害提升4%。\n通过这种方式，至多使狂言·式乐五番造成的伤害提升200%。"
+    },
+    "c3": {
+      "name": "三番·久世舞夕颜",
+      "effect": "**狂言·式乐五番**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "四番·花月歌浮舟",
+      "effect": "施放**羽画·风姿华歌**时，若触发了固有天赋「拾玉得花」依据元素类型强化的效果，还将随机获得1种本次施放未触发的强化效果。同时至多获得3种元素对应的强化效果。\n需要解锁固有天赋「拾玉得花」。"
+    },
+    "c5": {
+      "name": "末番·今昔渡来殿",
+      "effect": "**羽画·风姿华歌**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "祝言·霞幕倾松风",
+      "effect": "在**优风倾姿**状态下，流浪者主动施放的空居·不生断命中敌人时，将产生如下效果：\n·在命中的位置额外进行一次空居·不生断，造成原本40%的伤害，该伤害视为普通攻击伤害；\n·当流浪者的空居力低于40点时，为流浪者恢复4点空居力。每0.2秒至多通过这种方式恢复1次空居力，在一次优风倾姿的持续期间，至多触发5次。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Wanderer_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Wanderer_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Wanderer_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Wanderer_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Wanderer_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Wanderer_04.png",
+      "constellation": "Eff_UI_Talent_Wanderer"
+    },
+    "version": "3.3"
+  },
+  {
+    "name": "香菱",
+    "c1": {
+      "name": "外酥里嫩",
+      "effect": "受到锅巴攻击的敌人，火元素抗性降低15%，持续6秒。"
+    },
+    "c2": {
+      "name": "大火宽油",
+      "effect": "普通攻击的最后一击会对敌人施加持续2秒的内爆效果，持续时间结束时会发生爆炸，造成75%攻击力的火元素范围伤害。"
+    },
+    "c3": {
+      "name": "武火急烹",
+      "effect": "**旋火轮**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "文火慢煨",
+      "effect": "**旋火轮**的持续时间延长40%。"
+    },
+    "c5": {
+      "name": "锅巴凶猛",
+      "effect": "**锅巴出击**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "大龙卷旋火轮",
+      "effect": "**旋火轮**持续期间，队伍中所有角色获得15%火元素伤害加成。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiangling_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiangling_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xiangling_02.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiangling_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xiangling_01.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiangling_04.png",
+      "constellation": "Eff_UI_Talent_Xiangling"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "魈",
+    "c1": {
+      "name": "坏劫·毁坏三界",
+      "effect": "**风轮两立**的可使用次数增加1次。"
+    },
+    "c2": {
+      "name": "空劫·虚空华开敷变",
+      "effect": "处于队伍后台时，魈自己的元素充能效率提高25%。"
+    },
+    "c3": {
+      "name": "降魔·忿怒显相",
+      "effect": "**风轮两立**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "神通·诸苦灭尽",
+      "effect": "魈的生命值低于50%时，获得100%防御力提升。"
+    },
+    "c5": {
+      "name": "成劫·无明增长",
+      "effect": "**靖妖傩舞**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "降魔·护法夜叉",
+      "effect": "在**靖妖傩舞**状态下，下落攻击命中至少2个敌人时，**风轮两立**立刻获得1次可使用次数，并且在接下来1秒内，可以无视冷却时间施放风轮两立。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiao_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiao_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xiao_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiao_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xiao_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiao_04.png",
+      "constellation": "Eff_UI_Talent_Xiao"
+    },
+    "version": "1.3"
+  },
+  {
+    "name": "行秋",
+    "c1": {
+      "name": "重帘留香",
+      "effect": "雨帘剑的最大数量增加1柄。"
+    },
+    "c2": {
+      "name": "天青现虹",
+      "effect": "**古华剑·裁雨留虹**的持续时间延长3秒；\n此外，受到剑雨攻击的敌人，水元素抗性降低15%，持续4秒。"
+    },
+    "c3": {
+      "name": "织诗成锦",
+      "effect": "**古华剑·裁雨留虹**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "孤舟斩蛟",
+      "effect": "在**古华剑·裁雨留虹**效果持续期间，**古华剑·画雨笼山**造成的伤害提升50%。"
+    },
+    "c5": {
+      "name": "雨深闭门",
+      "effect": "**古华剑·画雨笼山**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "万文集此",
+      "effect": "**古华剑·裁雨留虹**每发动2次剑雨攻击，就大幅增强下一次剑雨攻击，并在命中敌人时为行秋恢复3点元素能量。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xingqiu_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xingqiu_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xingqiu_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xingqiu_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xingqiu_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xingqiu_04.png",
+      "constellation": "Eff_UI_Talent_Xingqiu"
+    },
+    "version": "1.0"
+  },
+  {
+    "name": "辛焱",
+    "c1": {
+      "name": "绝命的加速",
+      "effect": "辛焱造成暴击后的5秒内，普通攻击和重击的攻击速度提升12%。\n该效果每5秒只能触发一次。"
+    },
+    "c2": {
+      "name": "开场即兴段",
+      "effect": "**叛逆刮弦**造成的物理伤害暴击率提升100%，并会在施放时形成三级护盾·舞遍节拍。"
+    },
+    "c3": {
+      "name": "摭分的指法",
+      "effect": "**热情拂扫**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "节奏的传染",
+      "effect": "**热情拂扫**的挥舞伤害，会使敌人的物理抗性降低15%，持续12秒。"
+    },
+    "c5": {
+      "name": "返场的高呼",
+      "effect": "**叛逆刮弦**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "地狱里摇摆",
+      "effect": "辛焱的重击的体力消耗降低30%；此外，进行重击时，将基于防御力的50%获得攻击力加成。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xinyan_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xinyan_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xinyan_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xinyan_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xinyan_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xinyan_04.png",
+      "constellation": "Eff_UI_Talent_Xinyan"
+    },
+    "version": "1.1"
+  },
+  {
+    "name": "八重神子",
+    "c1": {
+      "name": "野狐供真篇",
+      "effect": "**大密法·天狐显真**每引发一次天狐霆雷，都会为八重神子自己恢复8点元素能量。"
+    },
+    "c2": {
+      "name": "望月吼哕声",
+      "effect": "**杀生樱**创造时的初始位阶提升至贰阶，位阶上限提升至肆阶，攻击范围提升60%。"
+    },
+    "c3": {
+      "name": "七段妙变化",
+      "effect": "**野干役咒·杀生樱**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "绯樱引雷章",
+      "effect": "**杀生樱**的落雷命中敌人后，队伍中附近的所有角色获得20%雷元素伤害加成，持续5秒。"
+    },
+    "c5": {
+      "name": "暴恶嗤笑面",
+      "effect": "**大密法·天狐显真**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "大杀生咒禁",
+      "effect": "**杀生樱**在攻击时无视敌人60%的防御力。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yae_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yae_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yae_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yae_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yae_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yae_04.png",
+      "constellation": "Eff_UI_Talent_Yae"
+    },
+    "version": "2.5"
+  },
+  {
+    "name": "烟绯",
+    "c1": {
+      "name": "占理不饶人",
+      "effect": "烟绯进行重击时，每持有一枚丹火印，都会提高烟绯在咏唱期间的抗打断能力，并额外降低本次重击10%的体力消耗。"
+    },
+    "c2": {
+      "name": "最终解释权",
+      "effect": "烟绯的重击对于生命值低于50%的敌人，暴击率提高20%。"
+    },
+    "c3": {
+      "name": "真火炼宝印",
+      "effect": "**丹书立约**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "丹书金铁券",
+      "effect": "施放**凭此结契**时：\n生成一个伤害吸收量等于生命值上限45%的护盾，持续15秒。\n该护盾对火元素伤害有250%的吸收效果。"
+    },
+    "c5": {
+      "name": "遵法切结书",
+      "effect": "**凭此结契**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "是额外条款",
+      "effect": "烟绯持有的丹火印最大数量增加一枚。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Feiyan_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Feiyan_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_04.png",
+      "constellation": "Eff_UI_Talent_Feiyan"
+    },
+    "version": "1.5"
+  },
+  {
+    "name": "瑶瑶",
+    "c1": {
+      "name": "妙受琼阁",
+      "effect": "**白玉萝卜**炸裂时，处在其影响范围内的当前场上角色获得15%草元素伤害加成，持续8秒，并恢复15点体力。每5秒只能通过这种方式恢复1次体力。"
+    },
+    "c2": {
+      "name": "正思无邪",
+      "effect": "处于**玉颗珊珊月中落**的桂子仙机状态下时，若白玉萝卜的炸裂伤害命中敌人，瑶瑶将恢复3点元素能量。每0.8秒至多通过这种方式恢复一次元素能量。"
+    },
+    "c3": {
+      "name": "墩墩善道",
+      "effect": "**云台团团降芦菔**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "爰爰可亲",
+      "effect": "施放**云台团团降芦菔**或**玉颗珊珊月中落**后，基于瑶瑶生命值上限的0.3%，提升瑶瑶的元素精通，持续8秒。通过这种方式，至多提升120点元素精通。"
+    },
+    "c5": {
+      "name": "恻隐本义",
+      "effect": "**玉颗珊珊月中落**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "慈惠仁心",
+      "effect": "**月桂·抛掷型**每投掷2次白玉萝卜，就会在下次投掷时额外投掷1枚超厉害·大萝卜。相比白玉萝卜，超厉害·大萝卜炸裂时的影响范围更大，炸裂时产生如下效果：\n·基于瑶瑶攻击力的75%，造成草元素范围伤害；\n·基于瑶瑶生命值上限的7.5%，为其中的当前场上角色恢复生命值。\n\n每个月桂·抛掷型至多投掷2次超厉害·大萝卜。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yaoyao_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yaoyao_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yaoyao_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yaoyao_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yaoyao_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yaoyao_04.png",
+      "constellation": "Eff_UI_Talent_Yaoyao"
+    },
+    "version": "3.4"
+  },
+  {
+    "name": "夜兰",
+    "c1": {
+      "name": "与谋者，以局入局",
+      "effect": "**萦络纵命索**的可使用次数增加1次。"
+    },
+    "c2": {
+      "name": "入彀者，多多益善",
+      "effect": "**「玄掷玲珑」**协同攻击时，会发射一枚额外的水箭，造成相当于夜兰生命值上限14%的水元素伤害。\n该效果每1.8秒至多触发一次。"
+    },
+    "c3": {
+      "name": "晃盅者，琼畟药骰",
+      "effect": "**渊图玲珑骰**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "诓惑者，接树移花",
+      "effect": "依照**「络命丝」**标记敌人的数量，每次标记将在爆发时使队伍中所有角色的生命值上限提升10%，持续25秒。通过这种方式，生命值上限至多获得40%提升。"
+    },
+    "c5": {
+      "name": "坐庄者，三仙戏法",
+      "effect": "**萦络纵命索**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "取胜者，大小通吃",
+      "effect": "施放**渊图玲珑骰**后，夜兰将进入「运筹帷幄」状态：\n夜兰的普通攻击将转为发射特殊的「破局矢」。这种箭矢具有与破局矢近似的特性，造成的伤害视为重击伤害，能造成破局矢156%的伤害。\n\n「运筹帷幄」状态至多持续20秒，将在夜兰发射5枚箭矢后移除。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yelan_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yelan_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yelan_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yelan_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yelan_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yelan_04.png",
+      "constellation": "Eff_UI_Talent_Yelan"
+    },
+    "version": "2.7"
+  },
+  {
+    "name": "宵宫",
+    "c1": {
+      "name": "赤玉琉金",
+      "effect": "**琉金云间草**的琉金火光持续时间延长4秒。\n此外，处于宵宫自己的琉金火光影响下的敌人在持续期间内被击败时，宵宫的攻击力提高20%，持续20秒。"
+    },
+    "c2": {
+      "name": "万灯送火",
+      "effect": "宵宫的火元素伤害造成暴击后的6秒内，宵宫获得25%火元素伤害加成。\n宵宫处于队伍后台时，同样能获得该效果。"
+    },
+    "c3": {
+      "name": "鼠火戏法",
+      "effect": "**焰硝庭火舞**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "花火职人心得",
+      "effect": "宵宫自己的琉金火光发生爆炸时，**焰硝庭火舞**的冷却时间减少1.2秒。"
+    },
+    "c5": {
+      "name": "真夏宵祭锦绘",
+      "effect": "**琉金云间草**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "长野原龙势流星群",
+      "effect": "在**焰硝庭火舞**的持续期间内，宵宫主动进行普通攻击时，有50%几率发射一枚额外的炽焰箭，造成原本60%的伤害。该伤害视为普通攻击伤害。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yoimiya_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yoimiya_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_04.png",
+      "constellation": "Eff_UI_Talent_Yoimiya"
+    },
+    "version": "2.0"
+  },
+  {
+    "name": "云堇",
+    "c1": {
+      "name": "飞身趟马",
+      "effect": "**旋云开相**的冷却时间减少18%。"
+    },
+    "c2": {
+      "name": "诸般切末",
+      "effect": "施放**破嶂见旌仪**后，附近队伍中所有角色普通攻击造成的伤害提升15%，持续12秒。"
+    },
+    "c3": {
+      "name": "牙纛探海",
+      "effect": "**破嶂见旌仪**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "昇堂吊云",
+      "effect": "云堇触发结晶反应后，防御力提升20%，持续12秒。"
+    },
+    "c5": {
+      "name": "翘楚名坤",
+      "effect": "**旋云开相**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "庄谐并举",
+      "effect": "处于**「飞云旗阵」**状态下的角色，普通攻击的攻击速度提升12%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yunjin_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yunjin_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_04.png",
+      "constellation": "Eff_UI_Talent_Yunjin"
+    },
+    "version": "2.4"
+  },
+  {
+    "name": "钟离",
+    "c1": {
+      "name": "岩者，六合引之为骨",
+      "effect": "**地心**创造的岩脊至多可以同时存在2个。"
+    },
+    "c2": {
+      "name": "石者，八荒韫玉而明",
+      "effect": "**天星**陨落时，会为附近的当前场上角色赋予玉璋护盾。"
+    },
+    "c3": {
+      "name": "圭璋，暝仍不移其晖",
+      "effect": "**地心**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c4": {
+      "name": "黄琮，破而不夺其坚",
+      "effect": "**天星**的影响范围扩大20%。\n此外，天星的石化效果持续时间延长2秒。"
+    },
+    "c5": {
+      "name": "苍璧，驱之长昭天理",
+      "effect": "**天星**的技能等级提高3级。\n至多提升至15级。"
+    },
+    "c6": {
+      "name": "金玉，礼予天地四方",
+      "effect": "玉璋护盾受到伤害时，将为当前角色恢复生命值，回复量为伤害的40%。\n单次回复量不超过当前角色最大生命值的8%。"
+    },
+    "images": {
+      "c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Zhongli_01.png",
+      "c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Zhongli_02.png",
+      "c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Zhongli_01.png",
+      "c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Zhongli_03.png",
+      "c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Zhongli_02.png",
+      "c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Zhongli_04.png",
+      "constellation": "Eff_UI_Talent_Zhongli"
+    },
+    "version": "1.1"
+  }
+]

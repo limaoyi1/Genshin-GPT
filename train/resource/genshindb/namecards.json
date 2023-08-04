@@ -1,0 +1,2239 @@
+[
+  {
+    "name": "成就·强弓",
+    "description": "名片纹饰。\n挽弓当挽强！",
+    "sortorder": 210027,
+    "source": [
+      "达成「神射手」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Sss",
+      "namebanner": "UI_NameCardPic_Sss_Alpha",
+      "namebackground": "UI_NameCardPic_Sss_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·挑战",
+    "description": "名片纹饰。\n就算你只是想出门采一朵蒲公英，仍然会有阻碍横在你的面前。你当然欣然接受一切挑战，对吧？",
+    "sortorder": 210028,
+    "source": [
+      "达成「挑战者·第一辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Tzz1",
+      "namebanner": "UI_NameCardPic_Tzz1_Alpha",
+      "namebackground": "UI_NameCardPic_Tzz1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·挑战·其二",
+    "description": "名片纹饰。\n挑战的尽头看到的居然是…",
+    "sortorder": 210041,
+    "source": [
+      "达成「挑战者·第二辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Tzz2",
+      "namebanner": "UI_NameCardPic_Tzz2_Alpha",
+      "namebackground": "UI_NameCardPic_Tzz2_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·挑战·其三",
+    "description": "名片纹饰。\n终于有一个值得一战的对手了，这场战斗必定载入史诗。",
+    "sortorder": 210051,
+    "source": [
+      "达成「挑战者·第三辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Tzz3",
+      "namebanner": "UI_NameCardPic_Tzz3_Alpha",
+      "namebackground": "UI_NameCardPic_Tzz3_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·层岩",
+    "description": "名片纹饰。\n矿工曾奔忙穿梭的栈道与矿山，如今被寂静笼罩。仅有千年的琉璃晶砂与玉髓闪烁着幽光。",
+    "sortorder": 210117,
+    "source": [
+      "达成「岩窟流明」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Cenyan1",
+      "namebanner": "UI_NameCardPic_Cenyan1_Alpha",
+      "namebackground": "UI_NameCardPic_Cenyan1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·合扇",
+    "description": "名片纹饰。\n说书人合扇说从头——但是你已经听过所有的故事了。",
+    "sortorder": 210032,
+    "source": [
+      "达成「岩港往事·第一辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Lyws1",
+      "namebanner": "UI_NameCardPic_Lyws1_Alpha",
+      "namebackground": "UI_NameCardPic_Lyws1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·虹色",
+    "description": "名片纹饰。\n其实白昼之光，可以被色散成为无数种颜色。但是人们懒得数了，就简单分了七种。元素，大概也一样吧。",
+    "sortorder": 210026,
+    "source": [
+      "达成「元素专家·第一辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Yszj",
+      "namebanner": "UI_NameCardPic_Yszj_Alpha",
+      "namebackground": "UI_NameCardPic_Yszj_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·深秘",
+    "description": "名片纹饰。\n行向地心越深，所知的秘密就越多。",
+    "sortorder": 210029,
+    "source": [
+      "达成「秘境与深境螺旋·第一辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Sj1",
+      "namebanner": "UI_NameCardPic_Sj1_Alpha",
+      "namebackground": "UI_NameCardPic_Sj1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·游遍",
+    "description": "名片纹饰。\n走遍了大陆所有的地方之后，还要记得最初的心哦。",
+    "sortorder": 210021,
+    "source": [
+      "达成「尘世巡游·第一辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Csxy1",
+      "namebanner": "UI_NameCardPic_Csxy1_Alpha",
+      "namebackground": "UI_NameCardPic_Csxy1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·逢缘",
+    "description": "名片纹饰。\n总有一天，此刻的相逢，将会成为值得眷恋的思念。",
+    "sortorder": 210129,
+    "source": [
+      "达成「异世相逢·第三辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Ysxf3",
+      "namebanner": "UI_NameCardPic_Ysxf3_Alpha",
+      "namebackground": "UI_NameCardPic_Ysxf3_P"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "成就·繁花",
+    "description": "名片纹饰。\n宇宙四方各取土一坯，养育天地万花。",
+    "sortorder": 210089,
+    "source": [
+      "达成「世外洞天·第三辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Homeworld2",
+      "namebanner": "UI_NameCardPic_Homeworld2_Alpha",
+      "namebackground": "UI_NameCardPic_Homeworld2_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·门扉",
+    "description": "名片纹饰。\n在门扉的对面，会有什么样的相遇呢。",
+    "sortorder": 210086,
+    "source": [
+      "达成「异世相逢·第二辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Ysxf2",
+      "namebanner": "UI_NameCardPic_Ysxf2_Alpha",
+      "namebackground": "UI_NameCardPic_Ysxf2_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·侠行",
+    "description": "名片纹饰。\n英雄的旅程在一念之间就开始了。重要的还是旅程中途经历了多少事情。",
+    "sortorder": 210023,
+    "source": [
+      "达成「英雄之旅」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Yxzl",
+      "namebanner": "UI_NameCardPic_Yxzl_Alpha",
+      "namebackground": "UI_NameCardPic_Yxzl_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·山民",
+    "description": "名片纹饰。\n其实一开始丘丘人会被命名为「山丘的鬼怪」。但是有某个马斯克小女孩坚持称他们为山丘的子民。",
+    "sortorder": 210030,
+    "source": [
+      "达成「Olah！第一辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Olah1",
+      "namebanner": "UI_NameCardPic_Olah1_Alpha",
+      "namebackground": "UI_NameCardPic_Olah1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·万种",
+    "description": "名片纹饰。\n「万种的灵光啊，护佑着永劫的大地。世间流转的枯荣，不过是种子现行的幻象。」",
+    "sortorder": 210157,
+    "source": [
+      "达成「佑灵砾漠」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Xm4",
+      "namebanner": "UI_NameCardPic_Xm4_Alpha",
+      "namebackground": "UI_NameCardPic_Xm4_P"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "成就·七圣",
+    "description": "名片纹饰。\n「村子里还没人能胜得了我！」",
+    "sortorder": 210145,
+    "source": [
+      "达成「七圣召唤」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Gcg1",
+      "namebanner": "UI_NameCardPic_Gcg1_Alpha",
+      "namebackground": "UI_NameCardPic_Gcg1_P"
+    },
+    "version": "3.3"
+  },
+  {
+    "name": "成就·镜梦",
+    "description": "名片纹饰。\n「千年的妄执与悲愿，都已经消逝在了灼夜的风沙中。但她梦里那片永恒的绿洲，应当依旧柔茂如初吧…」",
+    "sortorder": 210139,
+    "source": [
+      "达成「挑战者·第六辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Tzz6",
+      "namebanner": "UI_NameCardPic_Tzz6_Alpha",
+      "namebackground": "UI_NameCardPic_Tzz6_P"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "成就·敲针",
+    "description": "名片纹饰。\n「既然这些鱼都不能吃，何苦敲针做钩呢？」「这你就不懂了吧。」",
+    "sortorder": 210098,
+    "source": [
+      "达成「提瓦特钓鱼指南·第一辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Fishing",
+      "namebanner": "UI_NameCardPic_Fishing_Alpha",
+      "namebackground": "UI_NameCardPic_Fishing_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·相逢",
+    "description": "名片纹饰。\n人生何处不相逢。",
+    "sortorder": 210033,
+    "source": [
+      "达成「异世相逢·第一辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Ysxf1",
+      "namebanner": "UI_NameCardPic_Ysxf1_Alpha",
+      "namebackground": "UI_NameCardPic_Ysxf1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·漫行",
+    "description": "名片纹饰。\n每一段旅途、每一段回忆，都是只属于旅人的、独一无二的奇迹。",
+    "sortorder": 210128,
+    "source": [
+      "达成「尘世巡游·第三辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Csxy3",
+      "namebanner": "UI_NameCardPic_Csxy3_Alpha",
+      "namebackground": "UI_NameCardPic_Csxy3_P"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "成就·七芒",
+    "description": "名片纹饰。\n无论是谁，都能奏响属于自己的美妙乐章，正如草上的浅露，也能映出天光的七芒。",
+    "sortorder": 210137,
+    "source": [
+      "达成「元素专家·第二辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Yszj2",
+      "namebanner": "UI_NameCardPic_Yszj2_Alpha",
+      "namebackground": "UI_NameCardPic_Yszj2_P"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "成就·雪乡",
+    "description": "名片纹饰。\n听了很多关于至冬的故事呢。在你想象里它是什么样的地方呢？",
+    "sortorder": 210031,
+    "source": [
+      "达成「至冬国不相信眼泪·第一辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Zdg1",
+      "namebanner": "UI_NameCardPic_Zdg1_Alpha",
+      "namebackground": "UI_NameCardPic_Zdg1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·雪峰",
+    "description": "名片纹饰。\n人问寒山道。",
+    "sortorder": 210052,
+    "source": [
+      "达成「雪山上的来客」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Xssdlk",
+      "namebanner": "UI_NameCardPic_Xssdlk_P_Alpha",
+      "namebackground": "UI_NameCardPic_Xssdlk_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·石龙",
+    "description": "名片纹饰。\n我们曾经同行于巍岩之间。",
+    "sortorder": 210088,
+    "source": [
+      "达成「挑战者·第四辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Tzz4",
+      "namebanner": "UI_NameCardPic_Tzz4_Alpha",
+      "namebackground": "UI_NameCardPic_Tzz4_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·壶歌",
+    "description": "名片纹饰。\n壶里日月长。",
+    "sortorder": 210072,
+    "source": [
+      "达成「世外洞天·第一辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Homeworld",
+      "namebanner": "UI_NameCardPic_Homeworld_Alpha",
+      "namebackground": "UI_NameCardPic_Homeworld_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·雷音",
+    "description": "名片纹饰。\n听啊，丛云间回荡的声响。那是它的嗟怨忿怒，与一个小小的愿望。",
+    "sortorder": 210116,
+    "source": [
+      "达成「挑战者·第五辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Tzz5",
+      "namebanner": "UI_NameCardPic_Tzz5_Alpha",
+      "namebackground": "UI_NameCardPic_Tzz5_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·槿暮",
+    "description": "名片纹饰。\n「我终将遗忘昔时的繁花、昼光和雨露。愿你为我铭记，在新生的世界中，铭记那不复的梦。」",
+    "sortorder": 210158,
+    "source": [
+      "达成「挑战者·第七辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Tzz7",
+      "namebanner": "UI_NameCardPic_Tzz7_Alpha",
+      "namebackground": "UI_NameCardPic_Tzz7_P"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "成就·遍历",
+    "description": "名片纹饰。\n旅人将遍历的一万个故事，都将成为旅人灵魂的一部分。",
+    "sortorder": 210087,
+    "source": [
+      "达成「尘世巡游·第二辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Csxy2",
+      "namebanner": "UI_NameCardPic_Csxy2_Alpha",
+      "namebackground": "UI_NameCardPic_Csxy2_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·旅居",
+    "description": "名片纹饰。\n檐下天地宽。",
+    "sortorder": 210075,
+    "source": [
+      "达成「世外洞天·第二辑」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Homeworld1",
+      "namebanner": "UI_NameCardPic_Homeworld1_Alpha",
+      "namebackground": "UI_NameCardPic_Homeworld1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "成就·殊技",
+    "description": "名片纹饰。\n既然掌握了这些技术，或许不需要战斗也能很好地活下去吧。如果没有使命在身的话。",
+    "sortorder": 210022,
+    "source": [
+      "达成「冒险手艺」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Mxsy",
+      "namebanner": "UI_NameCardPic_Mxsy_Alpha",
+      "namebackground": "UI_NameCardPic_Mxsy_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "阿贝多·阳花",
+    "description": "名片纹饰。\n请让我来当这项奇迹的见证者吧。",
+    "sortorder": 210054,
+    "source": [
+      "阿贝多的好感度达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Albedo",
+      "namebanner": "UI_NameCardPic_Albedo_Alpha",
+      "namebackground": "UI_NameCardPic_Albedo_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "艾尔海森·诲明",
+    "description": "名片纹饰。\n「学者应当遵循之物，唯有知论与证辩。只有时刻保持对一切的质疑，才能避免陷入偏见。」",
+    "sortorder": 210147,
+    "source": [
+      "艾尔海森的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Alhatham",
+      "namebanner": "UI_NameCardPic_Alhatham_Alpha",
+      "namebackground": "UI_NameCardPic_Alhatham_P"
+    },
+    "version": "3.4"
+  },
+  {
+    "name": "埃洛伊·曙光记",
+    "description": "名片纹饰。\n「真想让罗斯特也看看这些。」",
+    "sortorder": 210095,
+    "source": [
+      "埃洛伊的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Aloy",
+      "namebanner": "UI_NameCardPic_Aloy_Alpha",
+      "namebackground": "UI_NameCardPic_Aloy_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "安柏·兔兔",
+    "description": "名片纹饰。\n「是兔兔伯爵哦！」",
+    "sortorder": 210003,
+    "source": [
+      "安柏的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Ambor",
+      "namebanner": "UI_NameCardPic_Ambor_Alpha",
+      "namebackground": "UI_NameCardPic_Ambor_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "白术·祛风",
+    "description": "名片纹饰。\n「谨道成术，长有摄生。」",
+    "sortorder": 210155,
+    "source": [
+      "白术的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Baizhuer",
+      "namebanner": "UI_NameCardPic_Baizhuer_Alpha",
+      "namebackground": "UI_NameCardPic_Baizhuer_P"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "芭芭拉·流淌",
+    "description": "名片纹饰。\n什么东西会流淌？治愈的清泉和芭芭拉的歌声与旋律。",
+    "sortorder": 210009,
+    "source": [
+      "芭芭拉的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Barbara",
+      "namebanner": "UI_NameCardPic_Barbara_Alpha",
+      "namebackground": "UI_NameCardPic_Barbara_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "北斗·拔锚",
+    "description": "名片纹饰。\n 「若拔锚入海，惑而不知东西。则须仰天，识认北辰斗极。」",
+    "sortorder": 210039,
+    "source": [
+      "北斗的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Beidou",
+      "namebanner": "UI_NameCardPic_Beidou_Alpha",
+      "namebackground": "UI_NameCardPic_Beidou_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "班尼特·认可",
+    "description": "名片纹饰。\n班尼冒险团的认可。",
+    "sortorder": 210016,
+    "source": [
+      "班尼特的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bennett",
+      "namebanner": "UI_NameCardPic_Bennett_Alpha",
+      "namebackground": "UI_NameCardPic_Bennett_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "坎蒂丝·苍鹭",
+    "description": "名片纹饰。\n往昔的炽风撩拂着苍鹭的尾羽，那鸟儿却只是望向初晓的晨星。",
+    "sortorder": 210135,
+    "source": [
+      "坎蒂丝的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Candace",
+      "namebanner": "UI_NameCardPic_Candace_Alpha",
+      "namebackground": "UI_NameCardPic_Candace_P"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "庆典·斗剧",
+    "description": "名片纹饰。\n吉兆要出现三次，幸运才会降临；谢幕时应当三次鞠躬；而在风来人的剑斗剧中，胜负的对手也有三名。",
+    "sortorder": 210078,
+    "source": [
+      "「风来人剑斗绮谭」活动获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_EffigyChallenge02",
+      "namebanner": "UI_NameCardPic_EffigyChallenge02_Alpha",
+      "namebackground": "UI_NameCardPic_EffigyChallenge02_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·觥筹",
+    "description": "名片纹饰。\n这里有很多很多的故事，但是没有酒精。派蒙也可以喝。",
+    "sortorder": 210111,
+    "source": [
+      "「曲生酌微梦」活动获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bartender",
+      "namebanner": "UI_NameCardPic_Bartender_Alpha",
+      "namebackground": "UI_NameCardPic_Bartender_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·盛宴",
+    "description": "名片纹饰。\n好极了！",
+    "sortorder": 210065,
+    "source": [
+      "「原神异世相遇礼」活动兑换获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_RedandWhite",
+      "namebanner": "UI_NameCardPic_RedandWhite_Alpha",
+      "namebackground": "UI_NameCardPic_RedandWhite_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·慧果",
+    "description": "名片纹饰。\n智慧的果实要是落在大地之中，它会结出许多智慧来。但如果遇到了迪奥娜，那一定会很好喝就是了。",
+    "sortorder": 210067,
+    "source": [
+      "「导能原盘」活动获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_ChannellerSlab",
+      "namebanner": "UI_NameCardPic_ChannellerSlab_Alpha",
+      "namebackground": "UI_NameCardPic_ChannellerSlab_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·无相",
+    "description": "名片纹饰。\n今天挑战的对手是什么艺术风格吗？",
+    "sortorder": 210057,
+    "source": [
+      "「无相交响诗」活动获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_EffigyChallenge",
+      "namebanner": "UI_NameCardPic_EffigyChallenge_Alpha",
+      "namebackground": "UI_NameCardPic_EffigyChallenge_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·一揆",
+    "description": "名片纹饰。\n「我来问你问题，你只准用剑来回答。」",
+    "sortorder": 210100,
+    "source": [
+      "「百人一揆」活动获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Sumo",
+      "namebanner": "UI_NameCardPic_Sumo_Alpha",
+      "namebackground": "UI_NameCardPic_Sumo_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·魔球",
+    "description": "名片纹饰。\n「在好远好远的地方，有个叫『大联盟』的王国，住在那里的人能丢出变来变去、又快又厉害的『魔球』。」",
+    "sortorder": 210077,
+    "source": [
+      "「砰砰魔球总动员」活动获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_BounceConjuringChallenge",
+      "namebanner": "UI_NameCardPic_BounceConjuringChallenge_Alpha",
+      "namebackground": "UI_NameCardPic_BounceConjuringChallenge_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·灯昼",
+    "description": "名片纹饰。\n年年今日，灯明如昼。愿火不灭，愿人依旧。",
+    "sortorder": 210061,
+    "source": [
+      "海灯节活动商店兑换。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_LanternRite",
+      "namebanner": "UI_NameCardPic_LanternRite_Alpha",
+      "namebackground": "UI_NameCardPic_LanternRite_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·岫云",
+    "description": "名片纹饰。\n浮云晓向千峰散。",
+    "sortorder": 210149,
+    "source": [
+      "活动兑换获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Cadillac",
+      "namebanner": "UI_NameCardPic_Cadillac_Alpha",
+      "namebackground": "UI_NameCardPic_Cadillac_P"
+    },
+    "version": "3.4"
+  },
+  {
+    "name": "庆典·棋谭",
+    "description": "名片纹饰。\n你道你见过机关算尽，可你真算到了自己也要下场当棋子吗？",
+    "sortorder": 210062,
+    "source": [
+      "「机关棋谭」活动获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_TheatreMechanicus",
+      "namebanner": "UI_NameCardPic_TheatreMechanicus_Alpha",
+      "namebackground": "UI_NameCardPic_TheatreMechanicus_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·躲猫",
+    "description": "名片纹饰。\n你看不到我，你看不到我。",
+    "sortorder": 210068,
+    "source": [
+      "「风行迷踪」活动获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_HideandSeek",
+      "namebanner": "UI_NameCardPic_HideandSeek_Alpha",
+      "namebackground": "UI_NameCardPic_HideandSeek_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·光鳞",
+    "description": "名片纹饰。\n宇宙里真的有这样一条蛇，闪烁着这样颜色的光辉鳞片。",
+    "sortorder": 210066,
+    "source": [
+      "活动兑换获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Razer",
+      "namebanner": "UI_NameCardPic_Razer_Alpha",
+      "namebackground": "UI_NameCardPic_Razer_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·倾耳",
+    "description": "名片纹饰。\n星海啊，山岩啊，请你们倾耳听我的曲调吧。",
+    "sortorder": 210099,
+    "source": [],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Concert",
+      "namebanner": "UI_NameCardPic_Concert_Alpha",
+      "namebackground": "UI_NameCardPic_Concert_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·浩瀚",
+    "description": "名片纹饰。\n试着想象星海的浩瀚无垠。试着想象，一的后面写上一百个零。",
+    "sortorder": 210076,
+    "source": [
+      "活动兑换获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Google",
+      "namebanner": "UI_NameCardPic_Google_Alpha",
+      "namebackground": "UI_NameCardPic_Google_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "庆典·妙算",
+    "description": "名片纹饰。\n真正的棋手能算尽千步之后的局面。",
+    "sortorder": 210091,
+    "source": [
+      "「机关棋谭·灵妙之局」活动获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_TheatreMechanicus2",
+      "namebanner": "UI_NameCardPic_TheatreMechanicus2_Alpha",
+      "namebackground": "UI_NameCardPic_TheatreMechanicus2_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "公子·魔装",
+    "description": "名片纹饰。\n借由万般变化的武炼之技，肆意驰骋大地的他的记号。但这名为「魔王」的武艺并非他的独创，而是师承自踞身宇宙至暗之处的那位孤高少女…",
+    "sortorder": 210046,
+    "source": [
+      "达达利亚的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Tartaglia",
+      "namebanner": "UI_NameCardPic_Tartaglia_Alpha",
+      "namebackground": "UI_NameCardPic_Tartaglia_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "重云·灵刃",
+    "description": "名片纹饰。\n 本意只是用冰来制作桃木剑。不过做大了之后比起桃木更好驱魔了。",
+    "sortorder": 210040,
+    "source": [
+      "重云的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Chongyun",
+      "namebanner": "UI_NameCardPic_Chongyun_Alpha",
+      "namebackground": "UI_NameCardPic_Chongyun_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "柯莱·豹蔚",
+    "description": "名片纹饰。\n「是…是柯里安巴哦！…呜…」",
+    "sortorder": 210125,
+    "source": [
+      "柯莱的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Collei",
+      "namebanner": "UI_NameCardPic_Collei_Alpha",
+      "namebackground": "UI_NameCardPic_Collei_P"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "赛诺·幽缄",
+    "description": "名片纹饰。\n赛诺看上去幽沉而肃默的时候，未必总是在想着什么沉肃的审判，也有可能只是在思考幽默的笑点。",
+    "sortorder": 210134,
+    "source": [
+      "赛诺的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Cyno",
+      "namebanner": "UI_NameCardPic_Cyno_Alpha",
+      "namebackground": "UI_NameCardPic_Cyno_P"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "迪希雅·净焰",
+    "description": "名片纹饰。\n那些该被烧却的将化作飞灰，于是所有应被保留的珍贵之物得以显出形廓。",
+    "sortorder": 210152,
+    "source": [
+      "迪希雅的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Dehya",
+      "namebanner": "UI_NameCardPic_Dehya_Alpha",
+      "namebackground": "UI_NameCardPic_Dehya_P"
+    },
+    "version": "3.5"
+  },
+  {
+    "name": "迪卢克·燃烧",
+    "description": "名片纹饰。\n克利普斯老爷生前经常画鹰。但是他未曾预料如此炽烈燃烧的鹰，也出自自己之手。",
+    "sortorder": 210005,
+    "source": [
+      "迪卢克的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Diluc",
+      "namebanner": "UI_NameCardPic_Diluc_Alpha",
+      "namebackground": "UI_NameCardPic_Diluc_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "迪奥娜·呜喵",
+    "description": "名片纹饰。\n凯茨莱茵一家都有这种猫一样的特征。是远古时代里谁人的恶趣味吧。",
+    "sortorder": 210043,
+    "source": [
+      "迪奥娜的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Diona",
+      "namebanner": "UI_NameCardPic_Diona_Alpha",
+      "namebackground": "UI_NameCardPic_Diona_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "多莉·魔灯",
+    "description": "名片纹饰。\n擦一擦递给你的魔灯，再擦一擦递给她的摩拉，无论是什么样的愿望都能实现…大概吧？",
+    "sortorder": 210126,
+    "source": [
+      "多莉的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Dori",
+      "namebanner": "UI_NameCardPic_Dori_Alpha",
+      "namebackground": "UI_NameCardPic_Dori_P"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "优菈·冰印",
+    "description": "名片纹饰。\n冷酷的心只是保护自己的外壳。",
+    "sortorder": 210070,
+    "source": [
+      "优菈的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Eula",
+      "namebanner": "UI_NameCardPic_Eula_Alpha",
+      "namebackground": "UI_NameCardPic_Eula_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "珐露珊·封秘",
+    "description": "名片纹饰。\n「总、总之，下次提问之前，要先叫前辈！真是的…」",
+    "sortorder": 210144,
+    "source": [
+      "珐露珊的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Faruzan",
+      "namebanner": "UI_NameCardPic_Faruzan_Alpha",
+      "namebackground": "UI_NameCardPic_Faruzan_P"
+    },
+    "version": "3.3"
+  },
+  {
+    "name": "菲谢尔·夜鸦",
+    "description": "名片纹饰。\n持有遮日挡月之翼的漆黑夜鸦。「许可你拓画它的纹样！」",
+    "sortorder": 210013,
+    "source": [
+      "菲谢尔的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Fischl",
+      "namebanner": "UI_NameCardPic_Fischl_Alpha",
+      "namebackground": "UI_NameCardPic_Fischl_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "忍冬·古树",
+    "description": "名片纹饰。\n我等必将复起，古木已发新枝。",
+    "sortorder": 210056,
+    "source": [
+      "忍冬之树供奉至9级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_ElderTree",
+      "namebanner": "UI_NameCardPic_ElderTree_Alpha",
+      "namebackground": "UI_NameCardPic_ElderTree_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "甘雨·麟迹",
+    "description": "名片纹饰。\n不折草，不履虫。",
+    "sortorder": 210053,
+    "source": [
+      "甘雨的好感度达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Ganyu",
+      "namebanner": "UI_NameCardPic_Ganyu_Alpha",
+      "namebackground": "UI_NameCardPic_Ganyu_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "原神·印象",
+    "description": "名片纹饰。\n「欢迎来到提瓦特。」",
+    "sortorder": 210001,
+    "source": [
+      "初次登录游戏获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_0",
+      "namebackground": "UI_NameCardPic_0_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "五郎·悠犬",
+    "description": "名片纹饰。\n只要相信自己行走的道路，那么这漫长旅途中遇到的一切都将是令人愉快的。",
+    "sortorder": 210104,
+    "source": [
+      "五郎的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Gorou",
+      "namebanner": "UI_NameCardPic_Gorou_Alpha",
+      "namebackground": "UI_NameCardPic_Gorou_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "胡桃·安神",
+    "description": "名片纹饰。\n胡桃堂主一点都不可怕。大概。",
+    "sortorder": 210059,
+    "source": [
+      "胡桃的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Hutao",
+      "namebanner": "UI_NameCardPic_Hutao_Alpha",
+      "namebackground": "UI_NameCardPic_Hutao_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "稻妻·鹫羽",
+    "description": "名片纹饰。\n啊啊，美丽的鸟，如神的鹫鸟啊。",
+    "sortorder": 210103,
+    "source": [
+      "达成「雾海纪行」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Daoqi3",
+      "namebanner": "UI_NameCardPic_Daoqi3_Alpha",
+      "namebackground": "UI_NameCardPic_Daoqi3_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "稻妻·神里之纹",
+    "description": "名片纹饰。\n三奉行中，社奉行·神里家的椿纹。",
+    "sortorder": 210085,
+    "source": [
+      "稻妻的声望等级达到4级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Dq2",
+      "namebanner": "UI_NameCardPic_Dq2_Alpha",
+      "namebackground": "UI_NameCardPic_Dq2_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "稻妻·九条之纹",
+    "description": "名片纹饰。\n三奉行中，天领奉行·九条家的钴纹。",
+    "sortorder": 210090,
+    "source": [
+      "达成「稻妻·雷与永恒的群岛·其之一」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Daoqi1",
+      "namebanner": "UI_NameCardPic_Daoqi1_Alpha",
+      "namebackground": "UI_NameCardPic_Daoqi1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "稻妻·雷电之纹",
+    "description": "名片纹饰。\n大御所将军的纹样，亦即麾下军势之旗印，「雷之三重巴」。",
+    "sortorder": 210084,
+    "source": [
+      "稻妻的声望等级达到7级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Dq1",
+      "namebanner": "UI_NameCardPic_Dq1_Alpha",
+      "namebackground": "UI_NameCardPic_Dq1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "稻妻·神樱",
+    "description": "名片纹饰。\n绯樱飘落之处，尽在神木的守护之下。",
+    "sortorder": 210079,
+    "source": [
+      "「神樱眷顾」等级达到48级时领取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Oraionokami",
+      "namebanner": "UI_NameCardPic_Oraionokami_Alpha",
+      "namebackground": "UI_NameCardPic_Oraionokami_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "稻妻·珊瑚宫之纹",
+    "description": "名片纹饰。\n海祇民之领袖，珊瑚宫家的家纹。",
+    "sortorder": 210097,
+    "source": [
+      "达成「稻妻·雷与永恒的群岛·其之二」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Daoqi2",
+      "namebanner": "UI_NameCardPic_Daoqi2_Alpha",
+      "namebackground": "UI_NameCardPic_Daoqi2_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "稻妻·常世",
+    "description": "名片纹饰。\n「啊，伟大的太阳啊！假若你不拥有你照耀的一切，你的光热有何意义？」",
+    "sortorder": 210109,
+    "source": [
+      "达成「白昼之光」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Daoqi4",
+      "namebanner": "UI_NameCardPic_Daoqi4_Alpha",
+      "namebackground": "UI_NameCardPic_Daoqi4_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "一斗·鬼颜",
+    "description": "名片纹饰。\n男子汉，就要把痛苦和愤怒藏在背后，然后露出最爽朗的笑容！",
+    "sortorder": 210105,
+    "source": [
+      "一斗的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Itto",
+      "namebanner": "UI_NameCardPic_Itto_Alpha",
+      "namebackground": "UI_NameCardPic_Itto_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "琴·风向",
+    "description": "名片纹饰。\n蒲公英又被叫做「狮子牙」，是对于风的方向感觉最敏锐的花。",
+    "sortorder": 210008,
+    "source": [
+      "琴的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Qin",
+      "namebanner": "UI_NameCardPic_Qin_Alpha",
+      "namebackground": "UI_NameCardPic_Qin_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "枫原万叶·秋山椛狩",
+    "description": "名片纹饰。\n「松籁枯波送红叶。」",
+    "sortorder": 210073,
+    "source": [
+      "枫原万叶的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Kazuha",
+      "namebanner": "UI_NameCardPic_Kazuha_Alpha",
+      "namebackground": "UI_NameCardPic_Kazuha_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "凯亚·孔雀",
+    "description": "名片纹饰。\n孔雀漂亮尾羽上的花纹很像是永不闭上的眼睛。所以凯亚并非少了一只眼睛，而是…",
+    "sortorder": 210010,
+    "source": [
+      "凯亚的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Kaeya",
+      "namebanner": "UI_NameCardPic_Kaeya_Alpha",
+      "namebackground": "UI_NameCardPic_Kaeya_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "神里绫华·扇子",
+    "description": "名片纹饰。\n绫华的配扇当然一直在换。如果想作为赠礼送给她的话，记得不要送成了夏扇或者投扇，舞扇或者茶扇是不错的选择。",
+    "sortorder": 210081,
+    "source": [
+      "神里绫华的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Ayaka",
+      "namebanner": "UI_NameCardPic_Ayaka_Alpha",
+      "namebackground": "UI_NameCardPic_Ayaka_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "神里绫人·涟漪",
+    "description": "名片纹饰。\n椿花浮镜，澄水泛波。",
+    "sortorder": 210114,
+    "source": [
+      "神里绫人的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Ayato",
+      "namebanner": "UI_NameCardPic_Ayato_Alpha",
+      "namebackground": "UI_NameCardPic_Ayato_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "卡维·穹庭",
+    "description": "名片纹饰。\n「构思建筑之时，不妨设想，我们正在建筑的，是逾越穹天与繁星的永恒。」",
+    "sortorder": 210156,
+    "source": [
+      "卡维的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Kaveh",
+      "namebanner": "UI_NameCardPic_Kaveh_Alpha",
+      "namebackground": "UI_NameCardPic_Kaveh_P"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "刻晴·雷楔",
+    "description": "名片纹饰。\n其实一开始这个是为了目测土地使用情况，方便登高而发明的。",
+    "sortorder": 210020,
+    "source": [
+      "刻晴的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Keqing",
+      "namebanner": "UI_NameCardPic_Keqing_Alpha",
+      "namebackground": "UI_NameCardPic_Keqing_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "绮良良·猫箱",
+    "description": "名片纹饰。\n「那些收件人满足的笑容，对绮良良来说就是最好的报酬。」",
+    "sortorder": 210162,
+    "source": [
+      "绮良良的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Kirara",
+      "namebanner": "UI_NameCardPic_Kirara_Alpha",
+      "namebackground": "UI_NameCardPic_Kirara_P"
+    },
+    "version": "3.7"
+  },
+  {
+    "name": "可莉·爆弹",
+    "description": "名片纹饰。\n可莉的幸运爆弹。仔细观察尾巴，告诉大家，这个是蹦蹦还是嘟嘟可？",
+    "sortorder": 210004,
+    "source": [
+      "可莉的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Klee",
+      "namebanner": "UI_NameCardPic_Klee_Alpha",
+      "namebackground": "UI_NameCardPic_Klee_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "九条裟罗·天狗",
+    "description": "名片纹饰。\n裟罗摒弃了天狗一众傲慢的生存方式，但是对于磨炼剑技和神通却并没有怠慢。",
+    "sortorder": 210094,
+    "source": [
+      "九条裟罗的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Sara",
+      "namebanner": "UI_NameCardPic_Sara_Alpha",
+      "namebackground": "UI_NameCardPic_Sara_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "久岐忍·络",
+    "description": "名片纹饰。\n「稻妻不是有那种鸣草轮吗？穿过去可以驱邪落秽那种。小忍就想到既然邪物不愿意主动钻圈，把草轮做成主动卷人的样子就好了。妹妹她做巫女的才能，真是可怕啊。」",
+    "sortorder": 210120,
+    "source": [
+      "久岐忍的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Shinobu",
+      "namebanner": "UI_NameCardPic_Shinobu_Alpha",
+      "namebackground": "UI_NameCardPic_Shinobu_P"
+    },
+    "version": "2.7"
+  },
+  {
+    "name": "莱依拉·昼梦",
+    "description": "名片纹饰。\n「梦中的星空会将你的前路照亮，只是你那颗心中的水晶，也要映出澄净的辉光。」",
+    "sortorder": 210141,
+    "source": [
+      "莱依拉的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Layla",
+      "namebanner": "UI_NameCardPic_Layla_Alpha",
+      "namebackground": "UI_NameCardPic_Layla_P"
+    },
+    "version": "3.2"
+  },
+  {
+    "name": "丽莎·沙漏",
+    "description": "名片纹饰。\n什么东西会流逝？时间，和丽莎计算下班时间的沙漏。",
+    "sortorder": 210011,
+    "source": [
+      "丽莎的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Lisa",
+      "namebanner": "UI_NameCardPic_Lisa_Alpha",
+      "namebackground": "UI_NameCardPic_Lisa_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "璃月·千帆",
+    "description": "名片纹饰。\n坐看日月行，细数千帆过。",
+    "sortorder": 210049,
+    "source": [
+      "璃月的声望等级达到4级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardPic_Ly1",
+      "namebanner": "UI_NameCardPic_Ly1_Alpha",
+      "namebackground": "UI_NameCardPic_Ly1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "璃月·云间",
+    "description": "名片纹饰。\n岩间琉璃云间月。",
+    "sortorder": 210050,
+    "source": [
+      "璃月的声望等级达到7级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardPic_Ly2",
+      "namebanner": "UI_NameCardPic_Ly2_Alpha",
+      "namebackground": "UI_NameCardPic_Ly2_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "璃月·岩寂",
+    "description": "名片纹饰。\n看璃月的云寂岩静。",
+    "sortorder": 210025,
+    "source": [
+      "达成「璃月·岩与契约的海港」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Ly",
+      "namebanner": "UI_NameCardPic_Ly_Alpha",
+      "namebackground": "UI_NameCardPic_Ly_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "流明·辉石",
+    "description": "名片纹饰。\n无名无言的湛蓝晶石，其中流动的是高天的秘辛，或是巨渊的低语…？",
+    "sortorder": 210115,
+    "source": [
+      "流明石触媒强化至10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_LuminanceStone",
+      "namebanner": "UI_NameCardPic_LuminanceStone_Alpha",
+      "namebackground": "UI_NameCardPic_LuminanceStone_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "米卡·索引",
+    "description": "名片纹饰。\n每次将绘制的地图捧在手中，男孩都觉得自己捧起了一小片世界的拓印。",
+    "sortorder": 210153,
+    "source": [
+      "米卡的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Mika",
+      "namebanner": "UI_NameCardPic_Mika_Alpha",
+      "namebackground": "UI_NameCardPic_Mika_P"
+    },
+    "version": "3.5"
+  },
+  {
+    "name": "莫娜·天星",
+    "description": "名片纹饰。\n倒映着漫天的星辰，少女低头看着水中的离合悲欢。",
+    "sortorder": 210015,
+    "source": [
+      "莫娜的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Mona",
+      "namebanner": "UI_NameCardPic_Mona_Alpha",
+      "namebackground": "UI_NameCardPic_Mona_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "蒙德·祝愿",
+    "description": "名片纹饰。\n喜欢帮助他人的仁心，大家都会相应地予之祝福。",
+    "sortorder": 210048,
+    "source": [
+      "蒙德的声望等级达到7级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardPic_Md1",
+      "namebanner": "UI_NameCardPic_Md1_Alpha",
+      "namebackground": "UI_NameCardPic_Md1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "蒙德·英名",
+    "description": "名片纹饰。\n荣誉骑士的好名声早已远扬全城。",
+    "sortorder": 210047,
+    "source": [
+      "蒙德的声望等级达到4级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardPic_Md2",
+      "namebanner": "UI_NameCardPic_Md2_Alpha",
+      "namebackground": "UI_NameCardPic_Md2_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "蒙德·风吟",
+    "description": "名片纹饰。\n听蒙德的鸟吟风唱。",
+    "sortorder": 210024,
+    "source": [
+      "达成「蒙德·风与牧歌的城邦」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Md",
+      "namebanner": "UI_NameCardPic_Md_Alpha",
+      "namebackground": "UI_NameCardPic_Md_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纳西妲·仰月",
+    "description": "名片纹饰。\n初升的新月将日景仰羡，因为她的光芒遍照世间；沉落的暮日却向往月弦，因为她有万千美梦作伴。",
+    "sortorder": 210140,
+    "source": [
+      "纳西妲的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Nahida",
+      "namebanner": "UI_NameCardPic_Nahida_Alpha",
+      "namebackground": "UI_NameCardPic_Nahida_P"
+    },
+    "version": "3.2"
+  },
+  {
+    "name": "妮露·莲舞",
+    "description": "名片纹饰。\n绽于净水的莲华，不过是她足尖下的一刹流光。",
+    "sortorder": 210136,
+    "source": [
+      "妮露的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Nilou",
+      "namebanner": "UI_NameCardPic_Nilou_Alpha",
+      "namebackground": "UI_NameCardPic_Nilou_P"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "凝光·凤仪",
+    "description": "名片纹饰。\n 常说「麟止凤仪，所患在少」。另一位不论，凝光大人这样的人，一个就够了…",
+    "sortorder": 210038,
+    "source": [
+      "凝光的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Ningguang",
+      "namebanner": "UI_NameCardPic_Ningguang_Alpha",
+      "namebackground": "UI_NameCardPic_Ningguang_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "诺艾尔·守护",
+    "description": "名片纹饰。\n诺艾尔比较特殊，诺艾尔不会让你受伤。",
+    "sortorder": 210014,
+    "source": [
+      "诺艾尔的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Noel",
+      "namebanner": "UI_NameCardPic_Noel_Alpha",
+      "namebackground": "UI_NameCardPic_Noel_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "七七·冷藏",
+    "description": "名片纹饰。\n有什么需要冷藏？白先生的药材、椰奶…还有胡桃。",
+    "sortorder": 210019,
+    "source": [
+      "七七的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Qiqi",
+      "namebanner": "UI_NameCardPic_Qiqi_Alpha",
+      "namebackground": "UI_NameCardPic_Qiqi_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "雷电将军·开眼",
+    "description": "名片纹饰。\n不仅是影，也不只是将军。留一只雷曜之眼观照自己，方能得始终。",
+    "sortorder": 210092,
+    "source": [
+      "雷电将军的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Shougun",
+      "namebanner": "UI_NameCardPic_Shougun_Alpha",
+      "namebackground": "UI_NameCardPic_Shougun_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "雷泽·奔狼",
+    "description": "名片纹饰。\n雷泽和群狼一起弄晚饭的姿态十分飒爽。但是不能给可莉和旅行者看到。",
+    "sortorder": 210006,
+    "source": [
+      "雷泽的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Razor",
+      "namebanner": "UI_NameCardPic_Razor_Alpha",
+      "namebackground": "UI_NameCardPic_Razor_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "罗莎莉亚·苦役",
+    "description": "名片纹饰。\n人们无私散出的温暖和善意，在她心里就是必须回报的恩情，因此也是永生伴随她的苦役。",
+    "sortorder": 210063,
+    "source": [
+      "罗莎莉亚的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Rosaria",
+      "namebanner": "UI_NameCardPic_Rosaria_Alpha",
+      "namebackground": "UI_NameCardPic_Rosaria_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "珊瑚宫心海·渊",
+    "description": "名片纹饰。\n这是海祇之民都知晓的传说：在渊下有着曾经的故乡。",
+    "sortorder": 210093,
+    "source": [
+      "珊瑚宫心海的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Kokomi",
+      "namebanner": "UI_NameCardPic_Kokomi_Alpha",
+      "namebackground": "UI_NameCardPic_Kokomi_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "早柚·不倒貉貉",
+    "description": "名片纹饰。\n虽然个子比早柚小，但却能帮早柚做早柚不想做的事情。",
+    "sortorder": 210083,
+    "source": [
+      "早柚的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Sayu",
+      "namebanner": "UI_NameCardPic_Sayu_Alpha",
+      "namebackground": "UI_NameCardPic_Sayu_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "申鹤·栉掠",
+    "description": "名片纹饰。\n早生白发，多缘愁苦。因为「梳」「疏」同音，璃月人认为，以梳栉发，可以疏愁。",
+    "sortorder": 210107,
+    "source": [
+      "申鹤的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Shenhe",
+      "namebanner": "UI_NameCardPic_Shenhe_Alpha",
+      "namebackground": "UI_NameCardPic_Shenhe_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "鹿野院平藏·鞠毬",
+    "description": "名片纹饰。\n本是殚精竭虑用彩线周匝而成，却未料在其手中不过是简单抽出丝缕的游戏。",
+    "sortorder": 210122,
+    "source": [
+      "鹿野院平藏的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Heizo",
+      "namebanner": "UI_NameCardPic_Heizo_Alpha",
+      "namebackground": "UI_NameCardPic_Heizo_P"
+    },
+    "version": "2.8"
+  },
+  {
+    "name": "砂糖·创生",
+    "description": "名片纹饰。\n如果在无相之风消逝前仔细观察的话，会发现它们其实也挺方的。",
+    "sortorder": 210012,
+    "source": [
+      "砂糖的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Sucrose",
+      "namebanner": "UI_NameCardPic_Sucrose_Alpha",
+      "namebackground": "UI_NameCardPic_Sucrose_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "须弥·甘露",
+    "description": "名片纹饰。\n遗世的甘露池水虽盛满了属于过去时代的追忆，但其中或许也蕴藏着将要创造未来的力量。",
+    "sortorder": 210160,
+    "source": [
+      "甘露池供奉6次后领取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_OfferingPari",
+      "namebanner": "UI_NameCardPic_OfferingPari_Alpha",
+      "namebackground": "UI_NameCardPic_OfferingPari_P"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "须弥·照览",
+    "description": "名片纹饰。\n遍览世间相，一念彻天光。",
+    "sortorder": 210131,
+    "source": [
+      "须弥的声望等级达到4级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Xumi1",
+      "namebanner": "UI_NameCardPic_Xumi1_Alpha",
+      "namebackground": "UI_NameCardPic_Xumi1_P"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "须弥·砂岚",
+    "description": "名片纹饰。\n永不停息的沙暴之内，隐匿着古老的梦想…",
+    "sortorder": 210151,
+    "source": [
+      "达成「须弥·饰金砂原·其之二」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Xm3",
+      "namebanner": "UI_NameCardPic_Xm3_Alpha",
+      "namebackground": "UI_NameCardPic_Xm3_P"
+    },
+    "version": "3.4"
+  },
+  {
+    "name": "须弥·踏沙",
+    "description": "名片纹饰。\n砂原埋藏下旅人的足迹，等待来日的尘风卷起饰金的回忆。",
+    "sortorder": 210138,
+    "source": [
+      "达成「须弥·饰金砂原·其之一」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Xm2",
+      "namebanner": "UI_NameCardPic_Xm2_Alpha",
+      "namebackground": "UI_NameCardPic_Xm2_P"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "须弥·瑶林",
+    "description": "名片纹饰。\n那些静静沉睡在林中的故事，又寄托着什么样的美梦呢。",
+    "sortorder": 210130,
+    "source": [
+      "达成「须弥·玄识深藏的雨林」下所有成就时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Xm1",
+      "namebanner": "UI_NameCardPic_Xm1_Alpha",
+      "namebackground": "UI_NameCardPic_Xm1_P"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "须弥·大梦",
+    "description": "名片纹饰。\n「新芽萌发的时节尚未到来，请小心将我藏起，在草木亦流连的梦境。」",
+    "sortorder": 210159,
+    "source": [
+      "梦之树等级达到48级时领取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Vasara",
+      "namebanner": "UI_NameCardPic_Vasara_Alpha",
+      "namebackground": "UI_NameCardPic_Vasara_P"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "须弥·正明",
+    "description": "名片纹饰。\n洞悉真谛的智者不受罪恶沾染，如沐濯雨露却依然清净的月莲。",
+    "sortorder": 210132,
+    "source": [
+      "须弥的声望等级达到7级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Xumi2",
+      "namebanner": "UI_NameCardPic_Xumi2_Alpha",
+      "namebackground": "UI_NameCardPic_Xumi2_P"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "托马·炎袖",
+    "description": "名片纹饰。\n真红炽火铠，炎彩大袖甲。",
+    "sortorder": 210101,
+    "source": [
+      "托马的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Tohma",
+      "namebanner": "UI_NameCardPic_Tohma_Alpha",
+      "namebackground": "UI_NameCardPic_Tohma_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "提纳里·沐露",
+    "description": "名片纹饰。\n提纳里用花露精心调制的精油，用来保养毛茸茸的大尾巴，淡淡的清香有着安神的功效。",
+    "sortorder": 210124,
+    "source": [
+      "提纳里的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Tighnari",
+      "namebanner": "UI_NameCardPic_Tighnari_Alpha",
+      "namebackground": "UI_NameCardPic_Tighnari_P"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "纪行·意巧",
+    "description": "名片纹饰。\n都说真爱如同鬼魅，谈论者众而见者少，但既然在此处鬼魅也偶尔现身，或许真爱也正等在下一个街角。",
+    "sortorder": 210154,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp22",
+      "namebanner": "UI_NameCardPic_Bp22_P_Alpha",
+      "namebackground": "UI_NameCardPic_Bp22_P"
+    },
+    "version": "3.5"
+  },
+  {
+    "name": "纪行·蛰醒",
+    "description": "名片纹饰。\n三界震动，天地醒转。珊瑚王虫也从永眠中恢复了过来。",
+    "sortorder": 210113,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp13",
+      "namebanner": "UI_NameCardPic_Bp13_P_Alpha",
+      "namebackground": "UI_NameCardPic_Bp13_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·海蓝",
+    "description": "名片纹饰。\n就像你多年后，从旧梦中醒来。纪念的螺壳里，仍存在着那年夏天的海。",
+    "sortorder": 210123,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp16",
+      "namebanner": "UI_NameCardPic_Bp16_P_Alpha",
+      "namebackground": "UI_NameCardPic_Bp16_P"
+    },
+    "version": "2.8"
+  },
+  {
+    "name": "纪行·捕风",
+    "description": "名片纹饰。\n完成了游记写作最困难的部分，就是写个开头。",
+    "sortorder": 210002,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp1",
+      "namebanner": "UI_NameCardPic_Bp1_Alpha",
+      "namebackground": "UI_NameCardPic_Bp1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·白垩",
+    "description": "名片纹饰。\n踏足雪山，注意保暖。",
+    "sortorder": 210055,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp3",
+      "namebanner": "UI_NameCardPic_Bp3_P_Alpha",
+      "namebackground": "UI_NameCardPic_Bp3_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·荣冕",
+    "description": "名片纹饰。\n「才识是年岁的冠冕，正如思念是我们共度的时间。」",
+    "sortorder": 210161,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp23",
+      "namebanner": "UI_NameCardPic_Bp23_Alpha",
+      "namebackground": "UI_NameCardPic_Bp23_P"
+    },
+    "version": "3.6"
+  },
+  {
+    "name": "纪行·天命",
+    "description": "名片纹饰。\n「昔有忠魂，似那飞鸿散东西。」「今我引灯，唯愿英灵毋歧迷。」",
+    "sortorder": 210121,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp15",
+      "namebanner": "UI_NameCardPic_Bp15_P_Alpha",
+      "namebackground": "UI_NameCardPic_Bp15_P"
+    },
+    "version": "2.7"
+  },
+  {
+    "name": "纪行·熄星",
+    "description": "名片纹饰。\n只要你的渴望尚未平息，那抬头应该可以看到那无光的闪耀吧。",
+    "sortorder": 210042,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp2",
+      "namebanner": "UI_NameCardPic_Bp2_Alpha",
+      "namebackground": "UI_NameCardPic_Bp2_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·流彩",
+    "description": "名片纹饰。\n华光流彩万象新。",
+    "sortorder": 210110,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp12",
+      "namebanner": "UI_NameCardPic_Bp12_P_Alpha",
+      "namebackground": "UI_NameCardPic_Bp12_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·蕈原",
+    "description": "名片纹饰。\n「…旅人啊，不必哀伤，因为那黎明的风儿，定会将载着美梦的蕈孢，吹向你希冀中的原野…」",
+    "sortorder": 210142,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp19",
+      "namebanner": "UI_NameCardPic_Bp19_Alpha",
+      "namebackground": "UI_NameCardPic_Bp19_P"
+    },
+    "version": "3.2"
+  },
+  {
+    "name": "纪行·鸣神大社",
+    "description": "名片纹饰。\n鸣神大社的纹样，「影向山樱」。",
+    "sortorder": 210080,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp8",
+      "namebanner": "UI_NameCardPic_Bp8_Alpha",
+      "namebackground": "UI_NameCardPic_Bp8_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·神将",
+    "description": "名片纹饰。\n「你的存在意义，可并非恶行罚示哦。至于是什么，小生也不知道。」",
+    "sortorder": 210102,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp10",
+      "namebanner": "UI_NameCardPic_Bp10_Alpha",
+      "namebackground": "UI_NameCardPic_Bp10_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·容彩",
+    "description": "名片纹饰。\n同好之人，谓之「同人」。趁着狐狸总编还没想到版权法，大家好好描绘心中的故事吧。——又或者，她想到了，但并不在乎？",
+    "sortorder": 210118,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp14",
+      "namebanner": "UI_NameCardPic_Bp14_P_Alpha",
+      "namebackground": "UI_NameCardPic_Bp14_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·白英",
+    "description": "名片纹饰。\n高峰之上万树凋零，唯有此花。",
+    "sortorder": 210106,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp11",
+      "namebanner": "UI_NameCardPic_Bp11_Alpha",
+      "namebackground": "UI_NameCardPic_Bp11_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·盛夏",
+    "description": "名片纹饰。\n是大冒险的时间！",
+    "sortorder": 210074,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp7",
+      "namebanner": "UI_NameCardPic_Bp7_Alpha",
+      "namebackground": "UI_NameCardPic_Bp7_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·明霄",
+    "description": "名片纹饰。\n大家的愿望聚在一起，就能变成点亮长夜的光。",
+    "sortorder": 210060,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp4",
+      "namebanner": "UI_NameCardPic_Bp4_Alpha",
+      "namebackground": "UI_NameCardPic_Bp4_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·逐月",
+    "description": "名片纹饰。\n愿逐月华流照君。",
+    "sortorder": 210096,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp9",
+      "namebanner": "UI_NameCardPic_Bp9_Alpha",
+      "namebackground": "UI_NameCardPic_Bp9_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·归风",
+    "description": "名片纹饰。\n岁月流转，唯有思念与归风不变。",
+    "sortorder": 210133,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp18",
+      "namebanner": "UI_NameCardPic_Bp18_P_Alpha",
+      "namebackground": "UI_NameCardPic_Bp18_P"
+    },
+    "version": "3.1"
+  },
+  {
+    "name": "纪行·合韵",
+    "description": "名片纹饰。\n霞明玉映海灯天，今宵共奏华年。金殿珠帘，月彻银栏，虹歌流彩绣筵。花如烟。瑟彼清弦，鸾笙瑶管，和乐且湛。",
+    "sortorder": 210150,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp21",
+      "namebanner": "UI_NameCardPic_Bp21_P_Alpha",
+      "namebackground": "UI_NameCardPic_Bp21_P"
+    },
+    "version": "3.4"
+  },
+  {
+    "name": "纪行·秘典",
+    "description": "名片纹饰。\n勿忘那些与友人相伴游戏的岁月，勿忘那些不必忧虑未来的时光。",
+    "sortorder": 210163,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp24",
+      "namebanner": "UI_NameCardPic_Bp24_Alpha",
+      "namebackground": "UI_NameCardPic_Bp24_P"
+    },
+    "version": "3.7"
+  },
+  {
+    "name": "纪行·灵津",
+    "description": "名片纹饰。\n旧宴何为名，三川流散烟云中，秋津犹尚浮暮景。",
+    "sortorder": 210146,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp20",
+      "namebanner": "UI_NameCardPic_Bp20_Alpha",
+      "namebackground": "UI_NameCardPic_Bp20_P"
+    },
+    "version": "3.3"
+  },
+  {
+    "name": "纪行·绕尘",
+    "description": "名片纹饰。\n前生何年枕石眠。",
+    "sortorder": 210071,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp6",
+      "namebanner": "UI_NameCardPic_Bp6_Alpha",
+      "namebackground": "UI_NameCardPic_Bp6_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·溢彩",
+    "description": "名片纹饰。\n在透明玻璃的另一面才得以存在的幻梦之光，说不定也能稍稍照亮这面的世界。",
+    "sortorder": 210164,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp25",
+      "namebanner": "UI_NameCardPic_Bp25_Alpha",
+      "namebackground": "UI_NameCardPic_Bp25_P"
+    },
+    "version": "3.8"
+  },
+  {
+    "name": "纪行·风花",
+    "description": "名片纹饰。\n谁也没有见过风，更别说我和你了。谁也没有见过爱情，直到有花束抛向自己。",
+    "sortorder": 210064,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp5",
+      "namebanner": "UI_NameCardPic_Bp5_Alpha",
+      "namebackground": "UI_NameCardPic_Bp5_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "纪行·深林",
+    "description": "名片纹饰。\n深林幽谷之间，蔷薇伴月安绽。若得与你相伴，此处便是乐园。",
+    "sortorder": 210127,
+    "source": [
+      "纪行系统奖励获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Bp17",
+      "namebanner": "UI_NameCardPic_Bp17_P_Alpha",
+      "namebackground": "UI_NameCardPic_Bp17_P"
+    },
+    "version": "3.0"
+  },
+  {
+    "name": "温迪·天青",
+    "description": "名片纹饰。\n天空的青色和「斐林」的音色应该很般配吧。",
+    "sortorder": 210007,
+    "source": [
+      "温迪的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Venti",
+      "namebanner": "UI_NameCardPic_Venti_Alpha",
+      "namebackground": "UI_NameCardPic_Venti_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "流浪者·浮歌",
+    "description": "名片纹饰。\n浮世隐昔话，薄雪伴流花。",
+    "sortorder": 210143,
+    "source": [
+      "流浪者的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Wanderer",
+      "namebanner": "UI_NameCardPic_Wanderer_Alpha",
+      "namebackground": "UI_NameCardPic_Wanderer_P"
+    },
+    "version": "3.3"
+  },
+  {
+    "name": "香菱·出锅",
+    "description": "名片纹饰。\n快速而且准确地读出下面的话：「出锅锅巴！」、「锅巴出锅！」、「锅巴出击！」、「出击锅巴！」",
+    "sortorder": 210017,
+    "source": [
+      "香菱的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Xiangling",
+      "namebanner": "UI_NameCardPic_Xiangling_Alpha",
+      "namebackground": "UI_NameCardPic_Xiangling_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "魈·傩面",
+    "description": "名片纹饰。\n他总想着有一天，能戴着这傩面起舞。不为除魔之故，只为伴随那花洲的笛声。",
+    "sortorder": 210058,
+    "source": [
+      "魈的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Xiao",
+      "namebanner": "UI_NameCardPic_Xiao_Alpha",
+      "namebackground": "UI_NameCardPic_Xiao_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "行秋·雨虹",
+    "description": "名片纹饰。\n来看宿雨断虹收。",
+    "sortorder": 210018,
+    "source": [
+      "行秋的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Xingqiu",
+      "namebanner": "UI_NameCardPic_Xingqiu_Alpha",
+      "namebackground": "UI_NameCardPic_Xingqiu_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "辛焱·唱罢",
+    "description": "名片纹饰。\n辛焱唱罢之时才有机会仔细观察她的乐器。其实它静时也是一位美人。",
+    "sortorder": 210045,
+    "source": [
+      "辛焱的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardPic_Xinyan",
+      "namebanner": "UI_NameCardPic_Xinyan_Alpha",
+      "namebackground": "UI_NameCardPic_Xinyan_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "八重神子·梦狐",
+    "description": "名片纹饰。\n八重神子的狐狸形态在哪里能看到呢？在梦里吧。",
+    "sortorder": 210112,
+    "source": [
+      "八重神子的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Yae1",
+      "namebanner": "UI_NameCardPic_Yae1_Alpha",
+      "namebackground": "UI_NameCardPic_Yae1_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "烟绯·公正",
+    "description": "名片纹饰。\n朱漆火印，以证公平。",
+    "sortorder": 210069,
+    "source": [
+      "烟绯的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Feiyan",
+      "namebanner": "UI_NameCardPic_Feiyan_Alpha",
+      "namebackground": "UI_NameCardPic_Feiyan_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "瑶瑶·月桂",
+    "description": "名片纹饰。\n「猜猜看，这里哪一个是月桂？没错，大家都是月桂喔！」",
+    "sortorder": 210148,
+    "source": [
+      "瑶瑶的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Yaoyao",
+      "namebanner": "UI_NameCardPic_Yaoyao_Alpha",
+      "namebackground": "UI_NameCardPic_Yaoyao_P"
+    },
+    "version": "3.4"
+  },
+  {
+    "name": "夜兰·一掷",
+    "description": "名片纹饰。\n「做骰子本来就难得公平。做工糙一点的骰子，不同点数掏空的重量肯定会不一样。」",
+    "sortorder": 210119,
+    "source": [
+      "夜兰的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Yelan",
+      "namebanner": "UI_NameCardPic_Yelan_Alpha",
+      "namebackground": "UI_NameCardPic_Yelan_P"
+    },
+    "version": "2.7"
+  },
+  {
+    "name": "宵宫·琉金火花",
+    "description": "名片纹饰。\n即使只是片刻的火花，也能在仰望黑夜的人心中留下久久不灭的美丽光芒。",
+    "sortorder": 210082,
+    "source": [
+      "宵宫的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Yoimiya",
+      "namebanner": "UI_NameCardPic_Yoimiya_Alpha",
+      "namebackground": "UI_NameCardPic_Yoimiya_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "云堇·对韵",
+    "description": "名片纹饰。\n云先生有师二种。一种在外，戏台之上时「说我孬者，是我师也」；一种在内，创作戏文，需要对照韵书。",
+    "sortorder": 210108,
+    "source": [
+      "云堇的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Yunjin",
+      "namebanner": "UI_NameCardPic_Yunjin_Alpha",
+      "namebackground": "UI_NameCardPic_Yunjin_P"
+    },
+    "version": ""
+  },
+  {
+    "name": "钟离·天星",
+    "description": "名片纹饰。\n天陨岩星，命昭昏暝。",
+    "sortorder": 210044,
+    "source": [
+      "钟离的好感等级达到10级时获取。"
+    ],
+    "images": {
+      "nameicon": "UI_NameCardIcon_Zhongli",
+      "namebanner": "UI_NameCardPic_Zhongli_Alpha",
+      "namebackground": "UI_NameCardPic_Zhongli_P"
+    },
+    "version": ""
+  }
+]

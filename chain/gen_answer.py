@@ -17,8 +17,9 @@ class Gen:
     def __init__(self, session_id, npc_name):
         self.config = MyConfig()
         print(f"open ai key:{self.config.OPENAI_API_KEY}")
-        self.GptChain = GptChain(openai_api_key=self.config.OPENAI_API_KEY, openai_base_url= self.config.OPENAI_BASE_URL,session_id=session_id,
-                                 redis_url=self.config.REDIS_URL,npc_name=npc_name)
+        self.GptChain = GptChain(openai_api_key=self.config.OPENAI_API_KEY, openai_base_url=self.config.OPENAI_BASE_URL,
+                                 session_id=session_id,
+                                 redis_url=self.config.REDIS_URL, npc_name=npc_name)
 
 
 # ----------------------------------------------------------------
@@ -33,6 +34,7 @@ class GenAnswerOfRole(Gen):
 
     def __init__(self, session_id, role_name):
         super().__init__(session_id, role_name)
+        self.match_db = None
         self.match_query = None
         self.role_name = role_name
 
@@ -58,27 +60,34 @@ class GenAnswerOfRole(Gen):
         print(self.match_answers)
         self.match_wiki = answer.matchWiki(self.query)
         print(self.match_wiki)
+        self.match_db = answer.matchTools(self.query)
+        print(self.match_db)
 
     def get_role_answer(self):
         text = ""
         for answer1 in self.match_answers:
-            text = text + answer1 + "\n"+"        "
+            text = text + answer1 + "\n" + "        "
         wiki = ""
         for wiki_text in self.match_wiki:
-            wiki += wiki_text + "\n"+"        "
+            wiki += wiki_text + "\n" + "        "
+        db = self.match_db
+
         template = f"""this is my (旅行者的) new question :{self.query}
 
 Provide you with possible relevant wiki text from the vector database:
 ====
+        db:
+        {db}
+        wiki
         {wiki}
 ====
 
-Provide you with possible relevant words that {self. role_name} has said from the vector database:
+Provide you with possible relevant words that {self.role_name} has said from the vector database:
 ====
         {text}
 ====
 
-Imitate {self. role_name}'s linguistic style and sentence structures.
+Imitate {self.role_name}'s linguistic style and sentence structures.
 question :{self.query}
 {self.role_name}:"""
         return self.GptChain.predict(template)
@@ -87,7 +96,7 @@ question :{self.query}
 if __name__ == '__main__':
     # session_id = 0011225
 
-    session_id ="1234578913161"
+    session_id = "1234578913161"
     print(session_id)
     query = "如何看待剑术"
     role = "神里绫华"
