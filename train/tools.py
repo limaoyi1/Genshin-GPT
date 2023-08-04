@@ -3,7 +3,7 @@ from langchain.retrievers import WikipediaRetriever
 from langchain.tools import WikipediaQueryRun
 from langchain.utilities import WikipediaAPIWrapper
 from langchain.document_loaders import WikipediaLoader
-
+# 维基百科和 谷歌的速度,合法性,价格不能被接受,所以放弃了这种思路
 class SearchWikipedia:
     # 获取角色相关信息
     def query_role(self,role):

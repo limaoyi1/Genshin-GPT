@@ -147,3 +147,10 @@ if __name__ == "__main__":
     answer = MatchAnswer("钟离")
     matchs = answer.match("早安")
     print(matchs)
+
+
+
+# 你是一个人工智能语言模型助理。你的任务是用简体中文针对提问中包含出的信息生成5个不同角度的提问，以从向量中检索相关背景信息和回答素材，您的目标是帮助用户获取聊天的背景,角色的身份和性格,回答的思路。提供这些用换行符分隔的备选问题。
+# 我的问题：
+# You are an artificial intelligence language model assistant. Your task is to generate 5 different perspectives of questions in Simplified Chinese based on the information contained in the questions, in order to retrieve relevant background information and answer materials from vectors. Your goal is to help users obtain the background of the chat, the identity and personality of the characters, and the ideas for answering. Provide these alternative questions separated by line breaks.
+# My question:

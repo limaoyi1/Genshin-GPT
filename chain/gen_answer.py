@@ -4,7 +4,7 @@ from langchain.chat_models import ChatOpenAI
 
 from readconfig.myconfig import MyConfig
 from chain.gpt_memory import GptChain
-from train.match import MatchAnswer
+from matchquery.match import MatchAnswer
 
 config = MyConfig()
 

@@ -1,14 +1,15 @@
 # Import things that are needed generically
-from langchain import LLMMathChain, SerpAPIWrapper
+from langchain import LLMMathChain
 from langchain.agents import AgentType, initialize_agent
 from langchain.chat_models import ChatOpenAI
-from langchain.tools import BaseTool, StructuredTool, Tool, tool
+from langchain.tools import Tool
 
 from matchquery.dbmatch import CharacterWrapper, AchievementsWrapper, AdventurerRankWrapper, AnimalsWrapper, \
     ArtifactsWrapper, ConstellationsWrapper, DomainsWrapper, EnemiesWrapper, FoodWrapper, GeographiesWrapper, \
     MaterialsWrapper, NameCardsWrapper, OutfitsWrapper, TalentsWrapper, WeaponWrapper, WindgliderWrapper, \
     AchievementgroupsWrapper
 from readconfig.myconfig import MyConfig
+
 
 # 根据角色查询
 character_wrapper = CharacterWrapper()
@@ -60,7 +61,6 @@ weapon_wrapper = WeaponWrapper()
 
 # 根据风之翼查询
 windglider_wrapper = WindgliderWrapper()
-
 
 tools = [
     Tool.from_function(
@@ -176,9 +176,9 @@ if __name__ == '__main__':
     llm_math_chain = LLMMathChain(llm=llm, verbose=True)
 
     agent = initialize_agent(
-        tools = tools, llm= llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True  # 自我询问模式似乎更好用
+        tools=tools, llm=llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True  # 自我询问模式似乎更好用
     )
 
     agent.run(
-        "甘雨和班尼特的关系"
+        "甘雨的饮食习惯和文化背景是什么样的？"
     )
