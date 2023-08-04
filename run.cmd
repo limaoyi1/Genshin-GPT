@@ -10,4 +10,4 @@ REM Change directory back two levels (to the parent directory)
 cd ../../
 
 REM Run the Python application
-python application.py
+nohup python application.py > output.log 2>&1 &

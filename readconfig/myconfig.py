@@ -12,11 +12,12 @@ class MyConfig:
     REDIS_ENABLE: str = None
     REDIS_URL: str = None
 
-    def __init__(self):
+    def __init__(self, addpath = ""):
+        self.addpath = addpath
         config = configparser.ConfigParser()
-        config.read_file(codecs.open('./config.ini', 'r', 'utf-8-sig'))
+        config.read_file(codecs.open(addpath+'./config.ini', 'r', 'utf-8-sig'))
         self.Real_File = config.get('Credentials', 'Real_File')
-        if self.Real_File == "Config.ini":
+        if self.Real_File == addpath+"Config.ini":
             self.OPENAI_BASE_URL = config.get('Credentials', 'OPENAI_BASE_URL')
             self.OPENAI_API_KEY = config.get('Credentials', 'OPENAI_API_KEY')
             self.UNSPLASH_API_KEYS = config.get('Credentials', 'UNSPLASH_API_KEYS').split(',')
@@ -24,7 +25,7 @@ class MyConfig:
             self.REDIS_ENABLE = config.get('Credentials', 'REDIS_ENABLE')
             self.REDIS_URL = config.get('Credentials', 'REDIS_URL')
         else:
-            config.read_file(codecs.open('./'+self.Real_File, 'r', 'utf-8-sig'))
+            config.read_file(codecs.open(addpath+'./'+self.Real_File, 'r', 'utf-8-sig'))
             self.OPENAI_BASE_URL = config.get('Credentials', 'OPENAI_BASE_URL')
             self.OPENAI_API_KEY = config.get('Credentials', 'OPENAI_API_KEY')
             self.UNSPLASH_API_KEYS = config.get('Credentials', 'UNSPLASH_API_KEYS').split(',')

@@ -8,6 +8,12 @@
    python -m venv venv
 ```
 
+> 2. 设置环境变量
+```bash
+   setx OPENAI_API_BASE "your url"
+   setx OPENAI_API_KEY "your key"
+```
+
 > 2. 激活虚拟环境
 
 ```bash
