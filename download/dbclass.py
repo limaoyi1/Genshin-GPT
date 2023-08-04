@@ -204,15 +204,21 @@ class Constellation:
         self.c6 = c6 if c6 is not None else {}
 
     def get_message_chinese(self):
-        message = f"命座名称：{self.name}\n" \
+        message = f"命座主人：{self.name}\n" \
                   f"效果：{self.effect}\n" \
                   f"图片URL：{self.images.get(self.name.lower(), '')}\n" \
-                  f"c1效果：{self.c1.get('effect', '无')}\n" \
-                  f"c2效果：{self.c2.get('effect', '无')}\n" \
-                  f"c3效果：{self.c3.get('effect', '无')}\n" \
-                  f"c4效果：{self.c4.get('effect', '无')}\n" \
-                  f"c5效果：{self.c5.get('effect', '无')}\n" \
-                  f"c6效果：{self.c6.get('effect', '无')}\n"
+                  f"命之座1名称：{self.c1.get('name', '无')}\n" \
+                  f"命之座1效果：{self.c1.get('effect', '无')}\n" \
+                  f"命之座2名称：{self.c1.get('name', '无')}\n" \
+                  f"命之座2效果：{self.c2.get('effect', '无')}\n" \
+                  f"命之座3名称：{self.c1.get('name', '无')}\n" \
+                  f"命之座3效果：{self.c3.get('effect', '无')}\n" \
+                  f"命之座4名称：{self.c1.get('name', '无')}\n" \
+                  f"命之座4效果：{self.c4.get('effect', '无')}\n" \
+                  f"命之座5名称：{self.c1.get('name', '无')}\n" \
+                  f"命之座5效果：{self.c5.get('effect', '无')}\n" \
+                  f"命之座6名称：{self.c1.get('name', '无')}\n" \
+                  f"命之座6效果：{self.c6.get('effect', '无')}\n"
         return message
 
 
@@ -313,6 +319,7 @@ class Food:
         self.ingredients = data['ingredients']
         self.images = data['images']
         self.version = data['version']
+        self.character = data.get('character', "")
 
     def get_message_chinese(self):
         ingredients_str = ", ".join(

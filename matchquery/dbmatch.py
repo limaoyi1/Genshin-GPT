@@ -70,6 +70,16 @@ class AchievementgroupsWrapper:
             )
             self.groups.append(group)
 
+    def get_achievement_groups_info(self, name):
+        # 通过名字查询成就信息
+        for group in self.groups:
+            if group.name == name:
+                return group.get_message_chinese()
+        return f"未找到名为'{name}'的成就分组信息。"
+
+    def run(self, name):
+        return self.get_achievement_groups_info(name)
+
 
 class AchievementsWrapper:
     achievements: list[Achievements] = []
@@ -97,6 +107,9 @@ class AchievementsWrapper:
             if achievement.name == name:
                 return achievement.get_message_chinese()
         return f"未找到名为'{name}'的成就信息。"
+
+    def run(self, name):
+        return self.get_achievement_info(name)
 
 
 class AdventurerRankWrapper:
@@ -280,16 +293,14 @@ class FoodWrapper:
 
     def run(self, name):
         for food in self.foods:
-            if food.name == name:
+            if food.name == name or food.character == name:
                 return food.get_message_chinese()
         return f"未找到名为'{name}'的食物信息。"
 
-class GeographiesWrapper:
-    DEFAULT_PATH = "../resource/genshindb/geographies.json"
 
-    def __init__(self, path=None):
-        if path is None:
-            path = GeographiesWrapper.DEFAULT_PATH
+class GeographiesWrapper:
+
+    def __init__(self, path="../resource/genshindb/geographies.json"):
         # 将json实例化为list
         with open(path, 'r', encoding='utf-8') as file:
             data = json.load(file)
@@ -298,9 +309,10 @@ class GeographiesWrapper:
     def run(self, name):
         # 通过名字查询地理信息
         for geography in self.geographies:
-            if geography.name == name:
+            if geography.name == name or geography.area == name:
                 return geography.get_message_chinese()
         return f"未找到名为'{name}'的地理信息。"
+
 
 class MaterialsWrapper:
     def __init__(self, path="../resource/genshindb/materials.json"):
@@ -331,6 +343,7 @@ class NameCardsWrapper:
                 return namecard.get_message_chinese()
         return f"未找到名为'{name}'的名片信息。"
 
+
 class OutfitsWrapper:
     def __init__(self, path="../resource/genshindb/outfits.json"):
         self.path = path
@@ -347,13 +360,14 @@ class OutfitsWrapper:
 
     def get_outfit_by_name(self, name):
         for outfit in self.outfits:
-            if outfit.name == name:
+            if outfit.name == name or outfit.character == name:
                 return outfit
         return None
 
     def run(self, name):
         outfit_info = self.get_outfit_by_name(name)
         return outfit_info.get_message_chinese() if outfit_info else f"未找到名为'{name}'的装扮信息。"
+
 
 class TalentsWrapper:
     def __init__(self, path="../resource/genshindb/talents.json"):
@@ -372,6 +386,7 @@ class TalentsWrapper:
             if result:
                 return result
         return f"未找到名为'{name}'的天赋信息。"
+
 
 class WeaponWrapper:
     weapons: list[Weapon] = []
@@ -447,10 +462,6 @@ class WindgliderWrapper:
             if windglider.name == name:
                 return windglider.description
         print(f"未找到名为'{name}'的风之翼信息。")
-
-
-
-
 
 
 if __name__ == "__main__":
