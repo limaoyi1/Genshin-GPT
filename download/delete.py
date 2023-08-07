@@ -31,21 +31,42 @@ def process_md_files_in_directory(directory_path, start_string, end_string):
         # 检查是否为md文件
         if file_name.endswith(".md") and os.path.isfile(file_path):
             # 读取文件内容
-            with open(file_path, 'r') as file:
+            with open(file_path, 'r',encoding="utf-8") as file:
                 content = file.read()
 
             # 执行删除操作
             processed_content = delete_data_between_strings(content, start_string, end_string)
+            # processed_content = delete_data_between_strings(content, start_string1, end_string1)
 
             # 将处理后的内容写回文件
-            with open(file_path, 'w') as file:
+            with open(file_path, 'w', encoding="utf-8") as file:
                 file.write(processed_content)
 
 
 # 指定目录和删除字符串
-directory_path = "/path/to/your/directory"
-start_string = "aaa"
-end_string = "bbb"
+directory_path = "./../resource/bilibili"
+start_string = "全名/本名"
+end_string = "衣装"
+start_string1 = "点击对应条目可展开查看详细故事命之座名称"
+end_string1 = """等级
+所需材料
+1→2
+
+2→3
+
+3→4
+
+4→5
+
+5→6
+
+6→7
+
+7→8
+
+8→9
+
+9→10"""
 
 # 执行处理
 process_md_files_in_directory(directory_path, start_string, end_string)
