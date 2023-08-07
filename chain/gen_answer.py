@@ -70,7 +70,7 @@ class GenAnswerOfRole(Gen):
         wiki = ""
         for wiki_text in self.match_wiki:
             wiki += wiki_text + "\n" + "        "
-        db = self.match_db
+        db = self.match_db.replace("\n", "\n        ")
 
         template = f"""this is my (旅行者的) new question :{self.query}
 
@@ -78,7 +78,8 @@ Provide you with possible relevant wiki text from the vector database:
 ====
         db:
         {db}
-        wiki
+        ----------
+        wiki:
         {wiki}
 ====
 
@@ -87,7 +88,7 @@ Provide you with possible relevant words that {self.role_name} has said from the
         {text}
 ====
 
-Imitate {self.role_name}'s linguistic style and sentence structures.
+Imitate {self.role_name}'s linguistic style and sentence structures.Keep the conversation simple.
 question :{self.query}
 {self.role_name}:"""
         return self.GptChain.predict(template)

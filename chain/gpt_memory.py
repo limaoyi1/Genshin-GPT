@@ -3,6 +3,7 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.memory import RedisChatMessageHistory, ConversationBufferMemory
 
 from chain.custom_redis_messagehistory import MyRedisChatMessageHistory
+from matchquery.dbmatch import CharacterWrapper
 
 
 class GptChain:
@@ -22,7 +23,11 @@ class GptChain:
         self.redis_url = redis_url
         self.openai_base_url = openai_base_url
         self.npcName = npc_name
-        self.template: str = f"""You are playing a character({self.npcName}) in Genshin Impact and chatting with me ('旅行者').
+        # 根据角色查询
+        character_wrapper = CharacterWrapper()
+        npc_message = character_wrapper.query_character_info(npc_name)
+
+        self.template: str = f"""You are playing a character({self.npcName}  who is {npc_message}) in Genshin Impact and chatting with me (旅行者).
 Don't forget your mission and role.You may need to gather the character's personality, speaking style, and relevant information from the chat history, character dialogues, and wiki resources provided.
 Answer my questions using the character's first-person perspective.Maintain more imagination and creativity.
 

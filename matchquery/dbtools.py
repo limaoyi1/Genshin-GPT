@@ -1,5 +1,5 @@
 # Import things that are needed generically
-from langchain import LLMMathChain
+from langchain import LLMMathChain, WikipediaAPIWrapper
 from langchain.agents import AgentType, initialize_agent
 from langchain.chat_models import ChatOpenAI
 from langchain.tools import Tool
@@ -62,10 +62,13 @@ weapon_wrapper = WeaponWrapper()
 # 根据风之翼查询
 windglider_wrapper = WindgliderWrapper()
 
+# 维基百科
+wikipedia_wrapper = WikipediaAPIWrapper(lang='zh', top_k_results=1)
+
 tools = [
     Tool.from_function(
         func=character_wrapper.run,
-        name="角色查询",
+        name="角色信息查询",
         description="通过角色名称查询角色的基本信息,在和角色对话的时候很有用",
         # return_direct=True
     ),
@@ -120,7 +123,7 @@ tools = [
     Tool.from_function(
         func=food_wrapper.run,
         name="食物信息查询",
-        description="通过食物名称或者角色名称获取相关资料,需要知道食物信息时会很有用",
+        description="通过食物名称获取食物信息,或者通过角色名称获取角色最喜欢的食物",
         return_direct=True
     ),
     Tool.from_function(
@@ -144,27 +147,34 @@ tools = [
     Tool.from_function(
         func=outfits_wrapper.run,
         name="服饰信息查询",
-        description="通过服饰名称或者角色名称获取角色衣服信息,需要知道服饰信息时会很有用",
+        description="通过服饰名称或者角色名称获取角色衣服信息",
         return_direct=True
     ),
     Tool.from_function(
         func=talents_wrapper.run,
         name="角色战斗天赋查询",
-        description="通过角色名称获取角色战斗天赋信息,需要知道角色战斗天赋时会很有用",
+        description="通过角色名称获取角色战斗天赋信息",
         return_direct=True
     ),
     Tool.from_function(
         func=weapon_wrapper.run,
         name="武器信息查询",
-        description="通过武器名称获取武器详细信息,需要知道武器信息时会很有用",
+        description="通过武器名称获取武器详细信息",
         return_direct=True
     ),
     Tool.from_function(
         func=windglider_wrapper.run,
         name="风之翼查询",
-        description="通过风之翼名称获取风之翼详细信息,需要知道风之翼信息时会很有用",
+        description="通过风之翼名称获取风之翼详细信息",
+        return_direct=True
+    ),
+    Tool.from_function(
+        func=wikipedia_wrapper.run,
+        name="维基百科查询",
+        description="作为其他工具的补充,在使用其他工具没有查询到结果时作为补充使用",
         return_direct=True
     )
+
 ]
 
 if __name__ == '__main__':

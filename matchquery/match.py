@@ -5,7 +5,9 @@ import torch
 from langchain import OpenAI, LLMChain
 from langchain.agents import LLMSingleActionAgent, AgentOutputParser, AgentExecutor, initialize_agent, AgentType
 from langchain.chains.query_constructor.schema import AttributeInfo
+from langchain.chat_models import ChatOpenAI
 from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.experimental import load_chat_planner, load_agent_executor, PlanAndExecute
 from langchain.prompts import StringPromptTemplate
 from langchain.retrievers import SelfQueryRetriever
 from langchain.schema import Document, AgentAction, AgentFinish
@@ -139,11 +141,13 @@ class MatchAnswer:
             llm, vectordb_wiki, document_contents="Some wiki text", metadata_field_info=self.metadata_wiki_info,
             verbose=True, enable_limit=True
         )
-        querys = self.llm_questions
-        # querys =["two wiki about"+ raw_answer + f""" which theme is {self.role_name}""","two wiki about"+ raw_answer ,"two wiki about temperament of" + self.role_name ]
+        # retriever = vectordb_wiki.as_retriever(search_type="mmr",search_kwargs={"k": 1})
+        # querys = self.llm_questions
+        querys = ["two wiki about" + self.llm_questions[0] + f""" which theme is {self.role_name}""",
+                  "two wiki about" + self.llm_questions[0], "two wiki about " + self.role_name]
         contents = []
         for q in querys:
-            documents = retriever.get_relevant_documents("two wiki about" + q + f""" which theme is {self.role_name}""")
+            documents = retriever.get_relevant_documents(q)
             for doc in documents:
                 # 去重
                 if doc.page_content not in contents:
@@ -151,57 +155,68 @@ class MatchAnswer:
         return contents
 
     def matchTools(self, raw_answer):
-            llm = OpenAI(model_name="gpt-3.5-turbo", openai_api_key=config.OPENAI_API_KEY,
+        llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key=config.OPENAI_API_KEY,
                          openai_api_base=config.OPENAI_BASE_URL)
-            query = f"荧对{self.role_name}说:{raw_answer}"
-            template = f"""You are an artificial intelligence language model assistant. Your task is to generate 3
-            different perspectives of questions in Simplified Chinese based on the information contained in the
-            questions, in order to retrieve relevant background information and answer materials from vectors. Your goal
-            is to help users obtain the background of the chat, the identity and personality of the characters,
-            and the ideas for answering. Provide these alternative questions separated by line breaks.
-            My question: {query}"""
-            questions = llm.predict(template)
-            output_list = questions.split("\n")
-            contents = []
-            ALL_TOOLS = tools
-            retriever = vectordb_tools.as_retriever()
+        query = f"获取一些基础信息关于{self.role_name}的提问:{raw_answer}"
+        # template = f"""You are an artificial intelligence language model assistant. Your task is to generate 3
+        # different perspectives of questions in Simplified Chinese based on the information contained in the
+        # questions, in order to retrieve relevant background information and answer materials from vectors. Your goal
+        # is to help users obtain the background of the chat, the identity and personality of the characters,
+        # and the ideas for answering. Provide these alternative questions separated by line breaks.
+        # My question: {query}"""
+        # questions = llm.predict(template)
+        # output_list = questions.split("\n")
+        # contents = []
+        # ALL_TOOLS = tools
+        # retriever = vectordb_tools.as_retriever()
+        # def get_tools(raw_answer1):
+        #     docs = retriever.get_relevant_documents(raw_answer1)
+        #     return [ALL_TOOLS[d.metadata["index"]] for d in docs]
 
-            def get_tools(raw_answer1):
-                docs = retriever.get_relevant_documents(raw_answer1)
-                return [ALL_TOOLS[d.metadata["index"]] for d in docs]
+        # planner = load_chat_planner(llm)
+        # executor = load_agent_executor(llm, tools, verbose=True)
+        # agent = PlanAndExecute(planner=planner, executor=executor, verbose=True)
+        agent = initialize_agent(tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True,
+                                 handle_parsing_errors="Check your output and make sure it conforms!")
+        # agent = initialize_agent(
+        #     tools, llm, agent=AgentType.SELF_ASK_WITH_SEARCH, verbose=True
+        # )
+        try:
+            result = agent.run(query)
+            return result
+        except Exception as e:
+            print(f"链式分析异常: {e}")
+            return None
 
-            agent = initialize_agent(
-                tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True
-            )
-            for i in range(len(output_list)):
-                run = agent.run(output_list[i])
-                contents.append(run)
-            return contents
+        # for i in range(len(output_list)):
+        #     run = agent.run(output_list[i])
+        #     contents.append(run)
+        # return contents
 
-            # prompt = CustomPromptTemplate(
-            #     template=template,
-            #     tools_getter=get_tools,
-            #     # This omits the `agent_scratchpad`, `tools`, and `tool_names` variables because those are generated dynamically
-            #     # This includes the `intermediate_steps` variable because that is needed
-            #     input_variables=["input", "intermediate_steps"],
-            # )
-            # llm = OpenAI(temperature=0,openai_api_key=config.OPENAI_API_KEY,
-            #              openai_api_base=config.OPENAI_BASE_URL)
-            # output_parser = CustomOutputParser()
-            # # LLM chain consisting of the LLM and a prompt
-            # llm_chain = LLMChain(llm=llm, prompt=prompt)
-            # tool_names = [tool.name for tool in tools]
-            # agent = LLMSingleActionAgent(
-            #     llm_chain=llm_chain,
-            #     # output_parser=output_parser,
-            #     stop=["\nObservation:"],
-            #     allowed_tools=tool_names,
-            # )
-            # agent_executor = AgentExecutor.from_agent_and_tools(
-            #     agent=agent, tools=tools, verbose=True
-            # )
-            # run = agent_executor.run(query)
-            # return run
+        # prompt = CustomPromptTemplate(
+        #     template=template,
+        #     tools_getter=get_tools,
+        #     # This omits the `agent_scratchpad`, `tools`, and `tool_names` variables because those are generated dynamically
+        #     # This includes the `intermediate_steps` variable because that is needed
+        #     input_variables=["input", "intermediate_steps"],
+        # )
+        # llm = OpenAI(temperature=0,openai_api_key=config.OPENAI_API_KEY,
+        #              openai_api_base=config.OPENAI_BASE_URL)
+        # output_parser = CustomOutputParser()
+        # # LLM chain consisting of the LLM and a prompt
+        # llm_chain = LLMChain(llm=llm, prompt=prompt)
+        # tool_names = [tool.name for tool in tools]
+        # agent = LLMSingleActionAgent(
+        #     llm_chain=llm_chain,
+        #     # output_parser=output_parser,
+        #     stop=["\nObservation:"],
+        #     allowed_tools=tool_names,
+        # )
+        # agent_executor = AgentExecutor.from_agent_and_tools(
+        #     agent=agent, tools=tools, verbose=True
+        # )
+        # run = agent_executor.run(query)
+        # return run
 
 
 # Set up the base template
@@ -255,6 +270,7 @@ class CustomPromptTemplate(StringPromptTemplate):
         # Create a list of tool names for the tools provided
         kwargs["tool_names"] = ", ".join([tool.name for tool in tools])
         return self.template.format(**kwargs)
+
 
 class CustomOutputParser(AgentOutputParser):
     def parse(self, llm_output: str) -> Union[AgentAction, AgentFinish]:
