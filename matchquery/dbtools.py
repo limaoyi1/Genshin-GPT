@@ -69,22 +69,22 @@ tools = [
         description="通过角色名称查询角色的基本信息,在和角色对话的时候很有用",
         # return_direct=True
     ),
-    Tool.from_function(
-        func=achievement_groups_wrapper.run,
-        name="成就分组查询",
-        description="需要知道成就分组时会很有用",
-        return_direct=True
-    ),
-    Tool.from_function(
-        func=achievements_wrapper.run,
-        name="成就查询",
-        description="需要知道成就信息时会很有用",
-        return_direct=True
-    ),
+    # Tool.from_function(
+    #     func=achievement_groups_wrapper.run,
+    #     name="成就分组查询",
+    #     description="通过成就分组名称查询,需要知道成就分组时会很有用",
+    #     return_direct=True
+    # ),
+    # Tool.from_function(
+    #     func=achievements_wrapper.run,
+    #     name="成就查询",
+    #     description="通过成就名称查询,需要知道成就信息时会很有用",
+    #     return_direct=True
+    # ),
     Tool.from_function(
         func=adventurer_rank_wrapper.run,
         name="冒险等级查询",
-        description="需要知道冒险等级时会很有用",
+        description="通过等级获取冒险等级信息,传入1-60中的一个整数,需要知道冒险等级时会很有用",
         return_direct=True
     ),
     Tool.from_function(
@@ -135,12 +135,12 @@ tools = [
         description="通过材料名称获取详细信息,包含游戏中所有的素材,需要知道材料信息时会很有用",
         return_direct=True
     ),
-    Tool.from_function(
-        func=name_cards_wrapper.run,
-        name="名片信息查询",
-        description="通过游戏名片查询详细信息,需要知道名片信息时会很有用",
-        return_direct=True
-    ),
+    # Tool.from_function(
+    #     func=name_cards_wrapper.run,
+    #     name="名片信息查询",
+    #     description="通过游戏名片查询详细信息,需要知道名片信息时会很有用",
+    #     return_direct=True
+    # ),
     Tool.from_function(
         func=outfits_wrapper.run,
         name="服饰信息查询",
