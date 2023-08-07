@@ -40,6 +40,7 @@ class CharacterWrapper:
             self.characters.append(character)
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         # 通过名字查询角色信息
         for character in self.characters:
             if character.name == name:
@@ -78,6 +79,7 @@ class AchievementgroupsWrapper:
         return f"未找到名为'{name}'的成就分组信息。"
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         return self.get_achievement_groups_info(name)
 
 
@@ -109,6 +111,7 @@ class AchievementsWrapper:
         return f"未找到名为'{name}'的成就信息。"
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         return self.get_achievement_info(name)
 
 
@@ -138,6 +141,7 @@ class AdventurerRankWrapper:
         return f"未找到名为'{name}'的冒险等级信息。"
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         return self.get_adventurer_rank_info(name)
 
 
@@ -169,6 +173,7 @@ class AnimalsWrapper:
         return f"未找到名为'{name}'的动物信息。"
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         return self.get_animal_info(name)
 
 
@@ -197,6 +202,7 @@ class ArtifactsWrapper:
         return f"未找到名为'{name}'的圣遗物信息。"
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         return self.get_artifact_info(name)
 
 
@@ -230,6 +236,7 @@ class ConstellationsWrapper:
         return f"未找到名为'{name}'的命座信息。"
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         return self.get_constellation_info(name)
 
 
@@ -260,6 +267,7 @@ class DomainsWrapper:
             self.domains.append(domain)
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         for domain in self.domains:
             if domain.name == name:
                 return domain.get_message_chinese()
@@ -279,6 +287,7 @@ class EnemiesWrapper:
                 self.enemies.append(enemy)
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         for enemy in self.enemies:
             if enemy.name == name:
                 return enemy.get_message_chinese()
@@ -292,6 +301,8 @@ class FoodWrapper:
         self.foods = [Food(item) for item in data]
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         for food in self.foods:
             if food.name == name or food.character == name:
                 return food.get_message_chinese()
@@ -307,6 +318,7 @@ class GeographiesWrapper:
         self.geographies = [Geography(item) for item in data]
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         # 通过名字查询地理信息
         for geography in self.geographies:
             if geography.name == name or geography.area == name:
@@ -321,6 +333,7 @@ class MaterialsWrapper:
         self.materials = [Material(material_data) for material_data in data]
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         for material in self.materials:
             if material.name == name:
                 return material.get_message_chinese()
@@ -338,6 +351,7 @@ class NameCardsWrapper:
             self.namecards = [NameCard(namecard_data) for namecard_data in data]
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         for namecard in self.namecards:
             if namecard.name == name:
                 return namecard.get_message_chinese()
@@ -365,6 +379,7 @@ class OutfitsWrapper:
         return None
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         outfit_info = self.get_outfit_by_name(name)
         return outfit_info.get_message_chinese() if outfit_info else f"未找到名为'{name}'的装扮信息。"
 
@@ -381,6 +396,7 @@ class TalentsWrapper:
         self.talents = [Talent(talent_data) for talent_data in data]
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         for talent in self.talents:
             result = talent.run(name)
             if result:
@@ -422,6 +438,7 @@ class WeaponWrapper:
             self.weapons.append(weapon)
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         # 通过名字查询武器信息
         for weapon in self.weapons:
             if weapon.name == name:
@@ -451,6 +468,7 @@ class WindgliderWrapper:
             self.windgliders.append(windglider)
 
     def run(self, name):
+        name = name.replace("\n", "").replace("\"", "").replace("'", "")
         # 通过名字查询风之翼信息
         for windglider in self.windgliders:
             if windglider.name == name:

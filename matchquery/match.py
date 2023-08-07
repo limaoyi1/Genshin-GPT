@@ -3,11 +3,13 @@ import re
 
 import torch
 from langchain import OpenAI, LLMChain
-from langchain.agents import LLMSingleActionAgent, AgentOutputParser, AgentExecutor, initialize_agent, AgentType
+from langchain.agents import LLMSingleActionAgent, AgentOutputParser, AgentExecutor, initialize_agent, AgentType, \
+    ZeroShotAgent
 from langchain.chains.query_constructor.schema import AttributeInfo
 from langchain.chat_models import ChatOpenAI
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.experimental import load_chat_planner, load_agent_executor, PlanAndExecute
+from langchain.memory import ConversationBufferWindowMemory
 from langchain.prompts import StringPromptTemplate
 from langchain.retrievers import SelfQueryRetriever
 from langchain.schema import Document, AgentAction, AgentFinish
@@ -96,7 +98,7 @@ class MatchAnswer:
         for i in range(len(output_list)):
             print(output_list[i])
             # 本人看法
-            query = f"""whose npcName is {self.role_name} said :```{output_list[i]}```"""
+            query = f"""{self.role_name} said :```{output_list[i]}```"""
             documents = retriever.get_relevant_documents(query)
             for doc in documents:
                 # 去重
@@ -158,29 +160,9 @@ class MatchAnswer:
         llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key=config.OPENAI_API_KEY,
                          openai_api_base=config.OPENAI_BASE_URL)
         query = f"获取一些基础信息关于{self.role_name}的提问:{raw_answer}"
-        # template = f"""You are an artificial intelligence language model assistant. Your task is to generate 3
-        # different perspectives of questions in Simplified Chinese based on the information contained in the
-        # questions, in order to retrieve relevant background information and answer materials from vectors. Your goal
-        # is to help users obtain the background of the chat, the identity and personality of the characters,
-        # and the ideas for answering. Provide these alternative questions separated by line breaks.
-        # My question: {query}"""
-        # questions = llm.predict(template)
-        # output_list = questions.split("\n")
-        # contents = []
-        # ALL_TOOLS = tools
-        # retriever = vectordb_tools.as_retriever()
-        # def get_tools(raw_answer1):
-        #     docs = retriever.get_relevant_documents(raw_answer1)
-        #     return [ALL_TOOLS[d.metadata["index"]] for d in docs]
-
-        # planner = load_chat_planner(llm)
-        # executor = load_agent_executor(llm, tools, verbose=True)
-        # agent = PlanAndExecute(planner=planner, executor=executor, verbose=True)
-        agent = initialize_agent(tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True,
-                                 handle_parsing_errors="Check your output and make sure it conforms!")
-        # agent = initialize_agent(
-        #     tools, llm, agent=AgentType.SELF_ASK_WITH_SEARCH, verbose=True
-        # )
+        # agent = initialize_agent(tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True,
+        #                          handle_parsing_errors="Check your output and make sure it conforms!")
+        agent = self.get_agent()
         try:
             result = agent.run(query)
             return result
@@ -188,111 +170,77 @@ class MatchAnswer:
             print(f"链式分析异常: {e}")
             return None
 
-        # for i in range(len(output_list)):
-        #     run = agent.run(output_list[i])
-        #     contents.append(run)
-        # return contents
-
-        # prompt = CustomPromptTemplate(
-        #     template=template,
-        #     tools_getter=get_tools,
-        #     # This omits the `agent_scratchpad`, `tools`, and `tool_names` variables because those are generated dynamically
-        #     # This includes the `intermediate_steps` variable because that is needed
-        #     input_variables=["input", "intermediate_steps"],
-        # )
-        # llm = OpenAI(temperature=0,openai_api_key=config.OPENAI_API_KEY,
-        #              openai_api_base=config.OPENAI_BASE_URL)
-        # output_parser = CustomOutputParser()
-        # # LLM chain consisting of the LLM and a prompt
-        # llm_chain = LLMChain(llm=llm, prompt=prompt)
-        # tool_names = [tool.name for tool in tools]
-        # agent = LLMSingleActionAgent(
-        #     llm_chain=llm_chain,
-        #     # output_parser=output_parser,
-        #     stop=["\nObservation:"],
-        #     allowed_tools=tool_names,
-        # )
-        # agent_executor = AgentExecutor.from_agent_and_tools(
-        #     agent=agent, tools=tools, verbose=True
-        # )
-        # run = agent_executor.run(query)
-        # return run
-
-
-# Set up the base template
-template = """Answer the following questions as best you can, but speaking as a pirate might speak. You have access to the following tools:
-
-{tools}
-
-Use the following format:
-
-Question: the input question you must answer
-Thought: you should always think about what to do
-Action: the action to take, should be one of [{tool_names}]
-Action Input: the input to the action
-Observation: the result of the action
-... (this Thought/Action/Action Input/Observation can repeat N times)
-Thought: I now know the final answer
-Final Answer: the final answer to the original input question
-
-Begin! Remember to speak as a pirate when giving your final answer. Use lots of "Arg"s
-
-Question: {input}
-{agent_scratchpad}"""
-
-from typing import Callable, Union
-
-
-# Set up a prompt template
-class CustomPromptTemplate(StringPromptTemplate):
-    # The template to use
-    template: str
-    ############## NEW ######################
-    # The list of tools available
-    tools_getter: Callable
-
-    def format(self, **kwargs) -> str:
-        # Get the intermediate steps (AgentAction, Observation tuples)
-        # Format them in a particular way
-        intermediate_steps = kwargs.pop("intermediate_steps")
-        thoughts = ""
-        for action, observation in intermediate_steps:
-            thoughts += action.log
-            thoughts += f"\nObservation: {observation}\nThought: "
-        # Set the agent_scratchpad variable to that value
-        kwargs["agent_scratchpad"] = thoughts
-        ############## NEW ######################
-        tools = self.tools_getter(kwargs["input"])
-        # Create a tools variable from the list of tools provided
-        kwargs["tools"] = "\n".join(
-            [f"{tool.name}: {tool.description}" for tool in tools]
+    def get_agent(self):
+        chat_model = ChatOpenAI(
+            model_name="gpt-3.5-turbo",
+            temperature="0",
+            openai_api_key=config.OPENAI_API_KEY,
+            openai_api_base=config.OPENAI_BASE_URL,
+            streaming=True,
+            verbose=False
         )
-        # Create a list of tool names for the tools provided
-        kwargs["tool_names"] = ", ".join([tool.name for tool in tools])
-        return self.template.format(**kwargs)
 
+        prefix = """你是一个优秀的COSPALYER,之所以优秀在于你会利用从文档数据库中获得的知识，通过分析对象说的话来获取大量的信息.
+        你的目标是通过文本推理出的信息查询数据库,获得丰富背景信息和回答的建议,首先在我给你的数据库中搜索答案,如果失败可以尝试其他的可能有用的工具.
+        当你仍然缺乏必要的信息时，你才能使用维基百科搜索来查找网络文章的结果.
+        为了让用户更容易理解和阅读，你应该始终将最终答案作为要点提供。
+        
+        You have access to the following tools: """
 
-class CustomOutputParser(AgentOutputParser):
-    def parse(self, llm_output: str) -> Union[AgentAction, AgentFinish]:
-        # Check if agent should finish
-        if "Final Answer:" in llm_output:
-            return AgentFinish(
-                # Return values is generally always a dictionary with a single `output` key
-                # It is not recommended to try anything else at the moment :)
-                return_values={"output": llm_output.split("Final Answer:")[-1].strip()},
-                log=llm_output,
-            )
-        # Parse out the action and action input
-        regex = r"Action\s*\d*\s*:(.*?)\nAction\s*\d*\s*Input\s*\d*\s*:[\s]*(.*)"
-        match = re.search(regex, llm_output, re.DOTALL)
-        if not match:
-            raise ValueError(f"Could not parse LLM output: `{llm_output}`")
-        action = match.group(1).strip()
-        action_input = match.group(2)
-        # Return the action and action input
-        return AgentAction(
-            tool=action, tool_input=action_input.strip(" ").strip('"'), log=llm_output
+        FORMAT_INSTRUCTIONS = """Use the following format:
+        
+        Question: the input question you must answer
+        Thought: you should always think about what to do
+        Action: the action to take, should be one of [{tool_names}]
+        Action Input: the input to the action
+        Observation: the detailed,at most comprehensive result of the action
+        ... (this Thought/Action/Action Input/Observation can repeat N times)
+        Thought: I now know the final answer based on my observation
+        Final Answer: the final answer to the original input question is the full detailed explanation from the Observation provided as bullet points."""
+
+        suffix = """Begin!"
+
+                {chat_history}
+                Question: {input}
+                {agent_scratchpad}"""
+
+        prompt = ZeroShotAgent.create_prompt(
+            tools,
+            prefix=prefix,
+            suffix=suffix,
+            format_instructions=FORMAT_INSTRUCTIONS,
+            input_variables=["input", "chat_history", "agent_scratchpad"],
         )
+
+        def _handle_error(error) -> str:
+            INSTRUCTIONS = """Use the following format:
+
+                  Thought: you should always think about what to do
+                  Action: the action to take, should be one of [{tool_names}]
+                  Action Input: the input to the action  
+                  Observation: the detailed, comprehensive result of the action
+                  Thought: I now know the final answer based on my observation
+                  Final Answer: the final answer to the original input question is the full detailed explanation from the Observation provided as bullet points."""
+
+            ouput = str(error).removeprefix("Could not parse LLM output: `").removesuffix("`")
+
+            response = f"Thought: {ouput}\nThe above completion did not satisfy the Format Instructions given in the Prompt.\nFormat Instructions: {INSTRUCTIONS}\nPlease try again and conform to the format."
+            # print("error msg: ", response)
+            return response
+
+        memory = ConversationBufferWindowMemory(k=3, memory_key="chat_history")
+
+        llm_chain = LLMChain(llm=chat_model, prompt=prompt)
+
+        agent = ZeroShotAgent(llm_chain=llm_chain, tools=tools, verbose=True, handle_parsing_errors=_handle_error)
+        agent_chain = AgentExecutor.from_agent_and_tools(
+            agent=agent, tools=tools, verbose=True, memory=memory, handle_parsing_errors=_handle_error
+        )
+
+        return agent_chain
+
+
+
 
 
 if __name__ == "__main__":
@@ -300,7 +248,3 @@ if __name__ == "__main__":
     matchs = answer.match("早安")
     print(matchs)
 
-# 你是一个人工智能语言模型助理。你的任务是用简体中文针对提问中包含出的信息生成5个不同角度的提问，以从向量中检索相关背景信息和回答素材，您的目标是帮助用户获取聊天的背景,角色的身份和性格,回答的思路。提供这些用换行符分隔的备选问题。
-# 我的问题：
-# You are an artificial intelligence language model assistant. Your task is to generate 5 different perspectives of questions in Simplified Chinese based on the information contained in the questions, in order to retrieve relevant background information and answer materials from vectors. Your goal is to help users obtain the background of the chat, the identity and personality of the characters, and the ideas for answering. Provide these alternative questions separated by line breaks.
-# My question:
