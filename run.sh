@@ -1,3 +1,3 @@
 source ./my-virtualenv/bin/activate
 
-python application.py
+nohup python application.py > output.log 2>&1 &
