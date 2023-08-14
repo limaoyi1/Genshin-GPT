@@ -1,4 +1,4 @@
-# <p align="center">Genshin-GPT 官方</p>
+# <p align="center">Genshin-GPT</p>
 
 <p align="center"><i>现在开始和原神的角色们聊天吧！</i></p>
 
