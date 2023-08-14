@@ -42,7 +42,7 @@
 
 <br>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=limaoyi1/Genshin-GPT-Official&type=Timeline)](https://star-history.com/#limaoyi1/Genshin-GPT-Official&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=limaoyi1/Genshin-GPT&type=Timeline)](https://star-history.com/#limaoyi1/Genshin-GPT&Timeline)
 
 </br>
 
