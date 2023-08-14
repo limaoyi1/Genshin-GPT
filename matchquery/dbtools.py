@@ -84,12 +84,12 @@ tools = [
     #     description="通过成就名称查询,需要知道成就信息时会很有用",
     #     return_direct=True
     # ),
-    Tool.from_function(
-        func=adventurer_rank_wrapper.run,
-        name="冒险等级查询",
-        description="通过等级获取冒险等级信息,传入1-60中的一个整数,需要知道冒险等级时会很有用",
-        return_direct=True
-    ),
+    # Tool.from_function(
+    #     func=adventurer_rank_wrapper.run,
+    #     name="冒险等级查询",
+    #     description="通过等级获取冒险等级信息,传入1-60中的一个整数,需要知道冒险等级时会很有用",
+    #     return_direct=True
+    # ),
     Tool.from_function(
         func=animals_wrapper.run,
         name="动物查询",
@@ -162,12 +162,12 @@ tools = [
         description="通过武器名称获取武器详细信息",
         return_direct=True
     ),
-    Tool.from_function(
-        func=windglider_wrapper.run,
-        name="风之翼查询",
-        description="通过风之翼名称获取风之翼详细信息",
-        return_direct=True
-    ),
+    # Tool.from_function(
+    #     func=windglider_wrapper.run,
+    #     name="风之翼查询",
+    #     description="通过风之翼名称获取风之翼详细信息",
+    #     return_direct=True
+    # ),
     Tool.from_function(
         func=wikipedia_wrapper.run,
         name="维基百科查询",
