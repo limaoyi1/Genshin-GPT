@@ -3,11 +3,11 @@
 <p align="center"><i>现在开始和原神的角色们聊天吧！</i></p>
 
 <p align="center">
-<a href="https://github.com/limaoyi1/Genshin-GPT-Official/stargazers" target="blank">
-<img src="https://img.shields.io/github/stars/limaoyi1/Genshin-GPT-Official?style=for-the-badge" alt="Auto_PPT stars"/>
+<a href="https://github.com/limaoyi1/Genshin-GPT/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/limaoyi1/Genshin-GPT?style=for-the-badge" alt="Auto_PPT stars"/>
 </a>
-<a href='https://github.com/limaoyi1/Genshin-GPT-Official/blob/main/LICENSE'>
-<img src='https://img.shields.io/github/license/limaoyi1/Genshin-GPT-Official?&label=Latest&style=for-the-badge' alt="Auto_PPT LICENSE">
+<a href='https://github.com/limaoyi1/Genshin-GPT/blob/main/LICENSE'>
+<img src='https://img.shields.io/github/license/limaoyi1/Genshin-GPT?&label=Latest&style=for-the-badge' alt="Auto_PPT LICENSE">
 </a>
 </p>
 
