@@ -168,7 +168,7 @@ class MatchAnswer:
             return result
         except Exception as e:
             print(f"链式分析异常: {e}")
-            return None
+            return ""
 
     def get_agent(self):
         chat_model = ChatOpenAI(
@@ -183,7 +183,7 @@ class MatchAnswer:
         prefix = """你是一个优秀的COSPALYER,之所以优秀在于你会利用从文档数据库中获得的知识，通过分析对象说的话来获取大量的信息.
         你的目标是通过文本推理出的信息查询数据库,获得丰富背景信息和回答的建议,首先在我给你的数据库中搜索答案,如果失败可以尝试其他的可能有用的工具.
         当你仍然缺乏必要的信息时，你才能使用维基百科搜索来查找网络文章的结果.
-        为了让用户更容易理解和阅读，你应该始终将最终答案作为要点提供。
+        为了让用户更容易理解和阅读，你应该始终将最终答案作为要点提供。传入参数内容使用简体中文.
         
         You have access to the following tools: """
 

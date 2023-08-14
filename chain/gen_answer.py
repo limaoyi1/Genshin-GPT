@@ -58,8 +58,8 @@ class GenAnswerOfRole(Gen):
         # self.match_answers = answer.match(self.material)
         self.match_answers = answer.match(self.query)
         print(self.match_answers)
-        self.match_wiki = answer.matchWiki(self.query)
-        print(self.match_wiki)
+        # self.match_wiki = answer.matchWiki(self.query)
+        # print(self.match_wiki)
         self.match_db = answer.matchTools(self.query)
         print(self.match_db)
 
@@ -67,10 +67,13 @@ class GenAnswerOfRole(Gen):
         text = ""
         for answer1 in self.match_answers:
             text = text + answer1 + "\n" + "        "
-        wiki = ""
-        for wiki_text in self.match_wiki:
-            wiki += wiki_text + "\n" + "        "
+        # wiki = ""
+        # for wiki_text in self.match_wiki:
+        #     wiki += wiki_text + "\n" + "        "
         db = self.match_db.replace("\n", "\n        ")
+        # ----------
+        # wiki:
+        # {wiki}
 
         template = f"""this is my (旅行者的) new question :{self.query}
 
@@ -78,9 +81,6 @@ Provide you with possible relevant wiki text from the vector database:
 ====
         db:
         {db}
-        ----------
-        wiki:
-        {wiki}
 ====
 
 Provide you with possible relevant words that {self.role_name} has said from the vector database:
