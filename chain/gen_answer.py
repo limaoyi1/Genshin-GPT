@@ -87,7 +87,7 @@ Provide you with possible relevant words that {self.role_name} has said from the
 ====
         {text}
 ====
-
+You will use the tone of {self. role_name} to talk to me.
 Imitate {self.role_name}'s linguistic style and sentence structures.Keep the conversation simple.
 question :{self.query}
 {self.role_name}:"""
