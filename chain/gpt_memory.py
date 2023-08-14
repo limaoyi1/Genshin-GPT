@@ -54,7 +54,7 @@ This is your Conversation with '旅行者':
         prompt = PromptTemplate(
             input_variables=["chat_history", "human_input"], template=self.template)
         llm_chain = LLMChain(
-            llm=OpenAI(model_name="gpt-3.5-turbo-16k", openai_api_key=self.openai_api_key,
+            llm=OpenAI(model_name="gpt-3.5-turbo", openai_api_key=self.openai_api_key,
                        openai_api_base=self.openai_base_url, streaming=True, temperature=0.7,
                        callbacks=[StreamingStdOutCallbackHandler()]),
             prompt=prompt,
